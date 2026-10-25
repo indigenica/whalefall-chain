@@ -1,0 +1,64 @@
+{
+  "sigma_MPl": 3.7225882503359936e-10,
+  "lambda_visible_toy": 0.13,
+  "M_completion_MPl": 10.0,
+  "linear_portal_unbounded_below": true,
+  "linear_instability_scale_asymptotic": 25354.236569062767,
+  "bounded_completion": "f(chi)=M*tanh(chi/M), a new EFT hypothesis, not a UV derivation",
+  "negative_correction_bound": 2.6649352464499215e-17,
+  "first_level_lower_bound_coefficient": 1.7002942578805068e-10,
+  "nonnegative_total_toy_potential_proof": true,
+  "plateau": "pole",
+  "pole_lower_bound": {
+    "grid": "|chi| in [1e-6, 1e6] MPl, 200001 log points",
+    "grid_min_ratio": 1.7002942579070231e-10,
+    "chi_at_min": 41.26862507895217,
+    "refined_min": 1.7002942578805068e-10,
+    "chi_at_refined_min": 41.26962020206959,
+    "limit_chi_to_0": 6.928831640769793e-08,
+    "tail_bound": 1.7131192081489993e-10
+  },
+  "low_field_derivative_identity": true,
+  "caveats": [
+    "toy visible scalar with positive quartic, not an SM Higgs vacuum-stability analysis",
+    "Gamma is retained as phenomenological dissipative transfer; nonlinear preheating is not derived",
+    "This stabilizes the portal extrapolation, not the hierarchy at large chi"
+  ],
+  "rows": [
+    {
+      "chi": -1000.0,
+      "V_linear_minimized": 1.7098525423473404e-10,
+      "V_bounded_minimized": 1.7125172111002656e-10
+    },
+    {
+      "chi": -10000.0,
+      "V_linear_minimized": 1.4465660525444333e-10,
+      "V_bounded_minimized": 1.7130593106959007e-10
+    },
+    {
+      "chi": -100000.0,
+      "V_linear_minimized": -2.4936238677346546e-09,
+      "V_bounded_minimized": 1.7131135206591464e-10
+    },
+    {
+      "chi": -1000000.0,
+      "V_linear_minimized": -2.663222127241773e-07,
+      "V_bounded_minimized": 1.7131189416554745e-10
+    },
+    {
+      "chi": 0.0,
+      "V_linear_minimized": 0.0,
+      "V_bounded_minimized": 0.0
+    },
+    {
+      "chi": 1.0,
+      "V_linear_minimized": 1.1448869061989195e-10,
+      "V_bounded_minimized": 1.1448869061989195e-10
+    },
+    {
+      "chi": 1000.0,
+      "V_linear_minimized": 1.7125174775937903e-10,
+      "V_bounded_minimized": 1.7125174775937903e-10
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+__pycache__/
+*.pyc
+*.so
+_build/
+logs/
+**/mpl_config/
+action/results/
+action/logs/
+action/runtime/
+action/results_pole/
+action/logs_pole/
+results/cadena_rerun/
+.DS_Store
+# U4a/U5: CLASS cache and momentum-distribution files (regenerated on demand, machine specific)
+lya/results/u4a/cache/
+lya/results/u4a/psd/
+# LaTeX build products (paper/)
+paper/**/*.aux
+paper/**/*.log
+paper/**/*.fls
+paper/**/*.fdb_latexmk
+paper/**/*.out
+paper/**/*.toc
+paper/**/*.blg
+paper/**/*.bbl
+paper/**/*.synctex.gz
+# U12: plumbing check with the CLASS mock (--quick); numbers not valid, never versioned (ESPEC_U12, nota 1)
+lya/results/u12/U12_QUICK.json
+# U15: MontePython bin file of points failing sanity checks (scratch)
+lya/results/u15/mp_run/
+# U15b: plumbing-check tables (prepare_tables.py --quick)
+lya/u15b/tables_quick/
+paper/**/*Notes.bib

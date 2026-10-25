@@ -1,0 +1,92 @@
+{
+  "start_utc": "2026-10-04T19:49:01.817252+00:00",
+  "python": "3.11.5 (tags/v3.11.5:cce6ba9, Aug 24 2023, 14:38:34) [MSC v.1936 64 bit (AMD64)]",
+  "executable": "C:\\Python311\\python.exe",
+  "modules": [
+    {
+      "module": "thermal",
+      "returncode": 0,
+      "seconds": 16.01500000001397,
+      "code_sha256": "a269230a3482beada60d7e7007752cb0443e691b32ee551ff964d6d64d2b9594",
+      "thermal_input_sha256": null,
+      "log_sha256": "77877387d14d45ba00057b80926cbab937f73541cfd6c4ce9b47fc3405528a47"
+    },
+    {
+      "module": "bounce",
+      "returncode": 0,
+      "seconds": 29.01500000001397,
+      "code_sha256": "82607d04b084480615e8a7cd0a00ad29108ff25b2d009574ba24c5aadd642569",
+      "thermal_input_sha256": "01c1d94af33dffa3e5c79bace62b7b015c9a099417a5e23038e5186fe10d8789",
+      "log_sha256": "13006ab346f7c5b5c03fefdca1199b51e6b83eed1279dc80f429c7dc5604db91"
+    },
+    {
+      "module": "stochastic",
+      "returncode": 0,
+      "seconds": 1.6400000000139698,
+      "code_sha256": "d7e88f8c328f9a6065cf480ea8ff2a50dbd40fca882c1479952b50493b9be95c",
+      "thermal_input_sha256": "01c1d94af33dffa3e5c79bace62b7b015c9a099417a5e23038e5186fe10d8789",
+      "log_sha256": "4a143cd8b576c2684d02dad4b23f078e4f022d0e55074e5ba79ebb6e113d50ef"
+    },
+    {
+      "module": "double_null",
+      "returncode": 0,
+      "seconds": 16.81299999996554,
+      "code_sha256": "e6716f8d5b4a6a962447692fbc0c286b817df98c8ffeb511e29fe0b67775afa0",
+      "thermal_input_sha256": "01c1d94af33dffa3e5c79bace62b7b015c9a099417a5e23038e5186fe10d8789",
+      "log_sha256": "6a553082116147ac2a76582cd2ca8ec3547fd283186d29c5f6341f2ca305968e"
+    },
+    {
+      "module": "mass_bounce",
+      "returncode": 0,
+      "seconds": 80.0,
+      "code_sha256": "623a8e84de79b08f98a9a5798477153beaca7f1242f820578dfa4a0d825aba14",
+      "thermal_input_sha256": "01c1d94af33dffa3e5c79bace62b7b015c9a099417a5e23038e5186fe10d8789",
+      "log_sha256": "e7f299ac9827a0e12111540e42a3be84c128ea0dd341765a6be160a5ed067aa8"
+    },
+    {
+      "module": "q_bridge",
+      "returncode": 0,
+      "seconds": 597.7970000000205,
+      "code_sha256": "aa4c17d69de16986e106b46a97a0f2ced9337f9f7bac056d916711956c013567",
+      "thermal_input_sha256": "01c1d94af33dffa3e5c79bace62b7b015c9a099417a5e23038e5186fe10d8789",
+      "log_sha256": "1ea97e95c9f03110b98283c7ef9e4fd7f1665b48bdfc80768e7b7c1ae5a21cc0"
+    },
+    {
+      "module": "dark",
+      "returncode": 0,
+      "seconds": 9.5,
+      "code_sha256": "f241ddef4afe6eb2d8014b5a77e1acef81cb68a5c3292ab28e74a029a62a78a0",
+      "thermal_input_sha256": "01c1d94af33dffa3e5c79bace62b7b015c9a099417a5e23038e5186fe10d8789",
+      "log_sha256": "b6b53d6daccbf59e457cde914d12e5bbe0bd5dac7fecdaa7ce56f3c2624b8020"
+    },
+    {
+      "module": "contract",
+      "returncode": 0,
+      "seconds": 1.7820000000065193,
+      "code_sha256": "f4074bed997cefcf089c297baf523669db43577fcb2e84305c08c4e827d21cc7",
+      "thermal_input_sha256": "01c1d94af33dffa3e5c79bace62b7b015c9a099417a5e23038e5186fe10d8789",
+      "log_sha256": "8b5bd0e44a56a4a73286f4be89b9bcff0b5849d22794a4f241a4984e2ebc630e",
+      "log_file": "logs/contract_stage1.log",
+      "superseded_by": "contract_recheck"
+    },
+    {
+      "module": "plots",
+      "returncode": 0,
+      "seconds": 7.827999999979511,
+      "code_sha256": "190ee8cb04aac3aef736e6c387bb580bae87739d92f5b8fe2aaa81328872586a",
+      "thermal_input_sha256": "01c1d94af33dffa3e5c79bace62b7b015c9a099417a5e23038e5186fe10d8789",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "contract_recheck",
+      "source_file": "src/contract.py",
+      "log_file": "logs/contract.log",
+      "returncode": 0,
+      "seconds": 1.5160000000614673,
+      "code_sha256": "7b13f27467901167758a1c15b35c4a73ef1cb3da3166f86e8681c20f3562778d",
+      "log_sha256": "8b5bd0e44a56a4a73286f4be89b9bcff0b5849d22794a4f241a4984e2ebc630e",
+      "thermal_input_sha256": "01c1d94af33dffa3e5c79bace62b7b015c9a099417a5e23038e5186fe10d8789"
+    }
+  ],
+  "end_utc": "2026-10-04T20:04:39.793322+00:00"
+}

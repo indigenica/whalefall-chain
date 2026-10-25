@@ -1,0 +1,65 @@
+{
+  "box2_base32": {
+    "mean_orientation_length_proxy": 8.502582992808609e-05,
+    "standard_deviation": 5.910619257460485e-06,
+    "relative_scatter": 0.06951557264962449,
+    "confidence95_mean_halfwidth": 9.405114208921926e-06,
+    "mean_near_vacuum_fraction": 0.3655548095703125,
+    "seeds": [
+      3203,
+      3204,
+      3205,
+      3206
+    ],
+    "core_cells": [
+      0.035210678241851416,
+      0.035210678241851416,
+      0.035210678241851416,
+      0.035210678241851416
+    ]
+  },
+  "box3_base32": {
+    "mean_orientation_length_proxy": 8.783114600528639e-05,
+    "standard_deviation": 2.4607974031875837e-06,
+    "relative_scatter": 0.028017366448110252,
+    "confidence95_mean_halfwidth": 3.9156778019130345e-06,
+    "mean_near_vacuum_fraction": 0.3815460205078125,
+    "seeds": [
+      3203,
+      3204,
+      3205,
+      3206
+    ],
+    "core_cells": [
+      0.02347378549456761,
+      0.02347378549456761,
+      0.02347378549456761,
+      0.02347378549456761
+    ]
+  },
+  "box3_base48": {
+    "mean_orientation_length_proxy": 8.821618938843153e-05,
+    "standard_deviation": 2.448187789621329e-06,
+    "relative_scatter": 0.027752137182456657,
+    "confidence95_mean_halfwidth": 3.895613092860542e-06,
+    "mean_near_vacuum_fraction": 0.3810741283275463,
+    "seeds": [
+      3203,
+      3204,
+      3205,
+      3206
+    ],
+    "core_cells": [
+      0.035210678241851416,
+      0.035210678241851416,
+      0.035210678241851416,
+      0.035210678241851416
+    ]
+  },
+  "fixed_spacing_volume_shift": 0.03752223839560065,
+  "fixed_volume_resolution_shift": 0.004383904806638528,
+  "source_population_converged": false,
+  "reason": "Coarse geometry can be compared, but every uniform case has less than 0.06 cells per heavy core. These proxies are not physical string length or emissivity.",
+  "finite_seeds": 4,
+  "resolved_cosmic_source_available": false
+}

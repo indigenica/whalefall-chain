@@ -1,0 +1,2 @@
+N=576 l_G=3.318 threads=12: initial 189s, measure+spectra 57s, linear number 93s, kinetic 0.0s -> late snapshot 150s; ~3344 steps, 48 snapshots; peak RSS 24.9 GB
+N=768 l_G=3.605 threads=12: initial 460s, measure+spectra 142s, linear number 227s, kinetic 0.0s -> late snapshot 369s; ~4479 steps, 48 snapshots; peak RSS 58.9 GB

@@ -1,0 +1,22 @@
+name: reproducibility
+on: [push, pull_request]
+jobs:
+  quick:
+    runs-on: ubuntu-24.04          # as in whalefall: on 26.04, S1 reproduces the C45h grid to 6.5e-7 instead of 1e-8
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements-action.txt
+      - name: fast tests (a skipped test fails here)
+        run: REQUIRE_ALL=1 make test
+      - name: chain S1-S6 with both plateaus; both reproduce the stored results
+        run: make reproduce
+      - name: common action (symbolic residuals and decays)
+        run: make action
+      - name: every result number quoted in the preprint matches the stored results
+        run: make numbers
+      - name: figures from the stored results
+        run: make figures

@@ -1,0 +1,11 @@
+{
+  "Munit_GeV": 37832923907597.26,
+  "canonical_Q_prefactor_MPl": 0.00031074270149977214,
+  "F_derived_GeV": 1070076681887067.0,
+  "F_previous_GeV": 1070076182963697.9,
+  "F_fractional_difference": 4.6625032590341675e-07,
+  "U_coefficient_over_V0": 3.3954320703058996e-10,
+  "QT_alpha_V0": 0.0005261377146041897,
+  "gamma_over_sqrtV0": 8.511346491518126e-12,
+  "note": "Small difference in F reflects inherited rounded mass ratios; Q field action and force use unrounded code potential."
+}

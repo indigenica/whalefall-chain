@@ -1,0 +1,100 @@
+{
+  "shared_parameters": {
+    "V0": 1.7162822824352778e-10,
+    "chi_star": 3.977807320792787,
+    "chi_end": 0.4105042811792514,
+    "N_star": 51.551913242418976,
+    "n_s": 0.9728894973662086,
+    "r": 0.005024867741930497,
+    "F_GeV": 1070076182963697.9,
+    "mu_GeV": 5271689087116.617,
+    "xi": 0.25,
+    "Gamma_GeV": 271.51360486357726
+  },
+  "alpha_shared_example": 3065566.3114906666,
+  "chi_Pzeta_1": 415.5754114047661,
+  "connections": [
+    {
+      "connection": "semilla -> parche cerrado",
+      "state": "ASSUMED",
+      "evidence": "Turnaround and local characteristic data prescribed",
+      "remaining": "No formation mechanism or probability derived"
+    },
+    {
+      "connection": "QT -> lanzamiento homog\u00e9neo",
+      "state": "PASS_TOY",
+      "evidence": "11 deterministic cases, two tolerances, no relaxation",
+      "remaining": "Homogeneous initial closed seed; no 3D formation or finite-size island matching"
+    },
+    {
+      "connection": "rebote escalar -> estabilidad local moderada",
+      "state": "PASS_NUMERICS",
+      "evidence": "Full scalar and NPQT characteristic equations, exact FRW and two perturbations, three meshes",
+      "remaining": "Local annulus, not global seed"
+    },
+    {
+      "connection": "garganta fuerte -> coherencia del disparo",
+      "state": "INCONCLUSIVE_NUMERICS",
+      "evidence": "Mass formulation agrees with exact equations and evolves through |chi|>400 with shrinking residuals",
+      "remaining": "Geometric branch margin unresolved relative to the tiny saturation margin; global inhomogeneous launch remains open"
+    },
+    {
+      "connection": "lanzamiento -> difusi\u00f3n y ramificaci\u00f3n",
+      "state": "PASS_EFFECTIVE_TOY",
+      "evidence": "Finite UV-window drift-diffusion eigenvalues and binary branching BVP; analytic constant-coefficient check",
+      "remaining": "Canonical large-field potential, UV validity and effective branching assumed"
+    },
+    {
+      "connection": "inflaci\u00f3n -> recalentamiento -> pivote",
+      "state": "PASS_NUMERICS",
+      "evidence": "Exact epsilon_H endpoint; pivot residual 2.00e-09; conservative continuous reheating",
+      "remaining": "GR scalar background and first-order slow-roll spectra; averaged condensate after endpoint; no nonlinear preheating"
+    },
+    {
+      "connection": "\u03c7 -> curvatura -> ordenaci\u00f3n Q",
+      "state": "PASS_CONNECTION",
+      "evidence": "Same exact endpoint; ordering switch at 2.3727 e-folds",
+      "remaining": "Spectator Q, inherited fluctuation normalization; small lattice is smoke"
+    },
+    {
+      "connection": "Q -> cicatrices -> emisi\u00f3n",
+      "state": "OPEN_CALIBRATION",
+      "evidence": "3D lattice connection and restored/breathing controls; archived production evidence separate",
+      "remaining": "Scaling source, spectrum, wall collapse, energy transfer and backreaction not calibrated for RP3"
+    },
+    {
+      "connection": "emisi\u00f3n -> materia + radiaci\u00f3n",
+      "state": "PASS_LEDGER_OPEN_PHYSICS",
+      "evidence": "One emitted packet distribution; energy/pressure/number at BBN, CMB and today; independent time and momentum quadrature refinement",
+      "remaining": "Conditional U1 source, not RP3 calibration; nonlinear transient, collapse and observational Boltzmann likelihood absent"
+    },
+    {
+      "connection": "pares geom\u00e9tricos -> \u03c7 can\u00f3nico y V",
+      "state": "OPEN_ACTION",
+      "evidence": "Mechanical inverse-distance interaction alone does not define a homogeneous relativistic scalar",
+      "remaining": "Kinetic normalization, number-density dynamics, positive vacuum plateau and common stress tensor missing"
+    },
+    {
+      "connection": "regi\u00f3n eterna -> islas/agujeros negros -> descendencia",
+      "state": "OPEN_GEOMETRY",
+      "evidence": "Finite-window effective branching has positive survival solutions in selected windows",
+      "remaining": "No junction, critical island radius, mass function or past completion derived"
+    }
+  ],
+  "checks": {
+    "common_parameter_identity": true,
+    "endpoint_identity": true,
+    "local_moderate_mass_branch": true,
+    "high_density_branch_certified": false,
+    "qt_alpha_Hstar_squared": 0.000159650341352929,
+    "hierarchy_chi_end_V0_identity": true,
+    "physical_seed_derived": false,
+    "canonical_pair_action_derived": false,
+    "RP3_emission_calibrated": false,
+    "common_Q_backreaction_solved": false,
+    "full_chain_closed": false,
+    "pair_density_potential_coefficient_after_50_efolds": 1.921947727823849e-98
+  },
+  "publication_status": "RESEARCH_TOY_WITH_REPRODUCIBLE_PARTIAL_CONNECTIONS",
+  "verified_complete_cosmology": false
+}

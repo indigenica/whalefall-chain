@@ -1,0 +1,32 @@
+V1 2.507 {'RP3': {'omega2': np.float64(0.0015871488909019195), 'm_G2': 0.0015946255174011596, 'rel': np.float64(-0.0046886409490204395), 'PASS': True}, 'U1': {'omega2': np.float64(0.0015871488909019195), 'm_G2': 0.0015946255174011596, 'rel': np.float64(-0.0046886409490204395), 'PASS': True}}
+V2/V3 RP3 2.507 early {'R': 0.41353, 'R_ode': np.float64(0.4063), 'rel_vs_ode': np.float64(0.01778), 'late_number_drift': 0.00128} True
+V2/V3 RP3 2.507 dense {'R': 0.64938, 'R_ode': np.float64(0.62863), 'rel_vs_ode': np.float64(0.03302), 'late_number_drift': -0.00152} True
+V4/V5 RP3 2.507 {'k_mean': 0.5561887729323919, 'expected': 0.5561924775057978, 'rel': -6.660596027052712e-06, 'binned_total_rel': 2.220446049250313e-16, 'PASS': True} {'kappa': 0.24365922617290073, 'l_c_cells': 30.099000448131584, 'm_G_a1_lc': 3.721042037676253, 'N_lin': 0.010739095217508753, 'far_frac_end': 0.0}
+V2/V3 U1 2.507 early {'R': 0.41439, 'R_ode': np.float64(0.4063), 'rel_vs_ode': np.float64(0.0199), 'late_number_drift': -0.00094} True
+V2/V3 U1 2.507 dense {'R': 0.64057, 'R_ode': np.float64(0.62863), 'rel_vs_ode': np.float64(0.019), 'late_number_drift': -0.00308} True
+V4/V5 U1 2.507 {'k_mean': 0.5561924775058474, 'expected': 0.5561924775057978, 'rel': 8.926193117986259e-14, 'binned_total_rel': -2.220446049250313e-16, 'PASS': True} {'kappa': 0.24334745447389042, 'l_c_cells': 30.099000448131584, 'm_G_a1_lc': 3.721042037676253, 'N_lin': 0.010726023722405612, 'far_frac_end': 0.0}
+VALIDATION 256 2.507 PASS
+V1 2.912 {'RP3': {'omega2': np.float64(0.000708819620876857), 'm_G2': 0.0007093820240208368, 'rel': np.float64(-0.000792807154587849), 'PASS': True}, 'U1': {'omega2': np.float64(0.000708819620876857), 'm_G2': 0.0007093820240208368, 'rel': np.float64(-0.000792807154587849), 'PASS': True}}
+V2/V3 RP3 2.912 early {'R': 0.41056, 'R_ode': np.float64(0.40604), 'rel_vs_ode': np.float64(0.01113), 'late_number_drift': 0.00115} True
+V2/V3 RP3 2.912 dense {'R': 0.65118, 'R_ode': np.float64(0.62837), 'rel_vs_ode': np.float64(0.0363), 'late_number_drift': 0.00781} True
+V4/V5 RP3 2.912 {'k_mean': 0.5941053112207876, 'expected': 0.5941090530492806, 'rel': -6.2982182712501e-06, 'binned_total_rel': 0.0, 'PASS': True} {'kappa': 0.23074030859805092, 'l_c_cells': 36.85502465080376, 'm_G_a1_lc': 3.7210420376762547, 'N_lin': 0.014461328738119306, 'far_frac_end': 0.0}
+V2/V3 U1 2.912 early {'R': 0.4111, 'R_ode': np.float64(0.40604), 'rel_vs_ode': np.float64(0.01247), 'late_number_drift': -0.00053} True
+V2/V3 U1 2.912 dense {'R': 0.63933, 'R_ode': np.float64(0.62837), 'rel_vs_ode': np.float64(0.01743), 'late_number_drift': 0.00189} True
+V4/V5 U1 2.912 {'k_mean': 0.594109053049335, 'expected': 0.5941090530492806, 'rel': 9.14823772291129e-14, 'binned_total_rel': 2.220446049250313e-16, 'PASS': True} {'kappa': 0.23094980894529088, 'l_c_cells': 36.85502465080376, 'm_G_a1_lc': 3.7210420376762547, 'N_lin': 0.014448178867742686, 'far_frac_end': 0.0}
+VALIDATION 384 2.912 PASS
+V1 3.318 {'RP3': {'omega2': np.float64(0.000314523033073217), 'm_G2': 0.0003149437975164624, 'rel': np.float64(-0.0013359985069190117), 'PASS': True}, 'U1': {'omega2': np.float64(0.000314523033073217), 'm_G2': 0.0003149437975164624, 'rel': np.float64(-0.0013359985069190117), 'PASS': True}}
+V2/V3 RP3 3.318 early {'R': 0.40942, 'R_ode': np.float64(0.40634), 'rel_vs_ode': np.float64(0.00758), 'late_number_drift': -0.00033} True
+V2/V3 RP3 3.318 dense {'R': 0.65942, 'R_ode': np.float64(0.62866), 'rel_vs_ode': np.float64(0.04893), 'late_number_drift': 0.00232} True
+V4/V5 RP3 3.318 {'k_mean': 0.618434930518444, 'expected': 0.6184386608583629, 'rel': -6.031867273104119e-06, 'binned_total_rel': 0.0, 'PASS': True} {'kappa': 0.20572241821378784, 'l_c_cells': 45.15007601628258, 'm_G_a1_lc': 3.7210420376762534, 'N_lin': 0.02140660122759731, 'far_frac_end': 0.0}
+V2/V3 U1 3.318 early {'R': 0.40979, 'R_ode': np.float64(0.40634), 'rel_vs_ode': np.float64(0.0085), 'late_number_drift': -0.0002} True
+V2/V3 U1 3.318 dense {'R': 0.64025, 'R_ode': np.float64(0.62866), 'rel_vs_ode': np.float64(0.01843), 'late_number_drift': 0.00021} True
+V4/V5 U1 3.318 {'k_mean': 0.6184386608584203, 'expected': 0.6184386608583629, 'rel': 9.281464485866309e-14, 'binned_total_rel': 0.0, 'PASS': True} {'kappa': 0.205534776194205, 'l_c_cells': 45.15007601628258, 'm_G_a1_lc': 3.7210420376762534, 'N_lin': 0.02139752554814023, 'far_frac_end': 0.0}
+VALIDATION 576 3.318 PASS
+V1 3.423 {'RP3': {'omega2': np.float64(0.00025505153692252923), 'm_G2': 0.000255288480632869, 'rel': np.float64(-0.0009281410181626315), 'PASS': True}, 'U1': {'omega2': np.float64(0.00025505153692252923), 'm_G2': 0.000255288480632869, 'rel': np.float64(-0.0009281410181626315), 'PASS': True}}
+V2/V3 RP3 3.423 early {'R': 0.40929, 'R_ode': np.float64(0.40614), 'rel_vs_ode': np.float64(0.00777), 'late_number_drift': 0.00086} True
+V2/V3 RP3 3.423 dense {'R': 0.66248, 'R_ode': np.float64(0.62847), 'rel_vs_ode': np.float64(0.05413), 'late_number_drift': 0.00695} False
+V4/V5 RP3 3.423 {'k_mean': 0.6227522679803957, 'expected': 0.6227559933911447, 'rel': -5.98213552105431e-06, 'binned_total_rel': 0.0, 'PASS': True} {'kappa': 0.19539071352978507, 'l_c_cells': 47.583780791600944, 'm_G_a1_lc': 3.7210420376762556, 'N_lin': 0.024147430162043758, 'far_frac_end': 0.0}
+V2/V3 U1 3.423 early {'R': 0.40963, 'R_ode': np.float64(0.40614), 'rel_vs_ode': np.float64(0.0086), 'late_number_drift': -5e-05} True
+V2/V3 U1 3.423 dense {'R': 0.64144, 'R_ode': np.float64(0.62847), 'rel_vs_ode': np.float64(0.02064), 'late_number_drift': 0.0011} True
+V4/V5 U1 3.423 {'k_mean': 0.6227559933912027, 'expected': 0.6227559933911447, 'rel': 9.303668946358812e-14, 'binned_total_rel': 2.220446049250313e-16, 'PASS': True} {'kappa': 0.1952235674410212, 'l_c_cells': 47.583780791600944, 'm_G_a1_lc': 3.7210420376762556, 'N_lin': 0.02420909831765218, 'far_frac_end': 0.0}
+VALIDATION 640 3.423 FAIL

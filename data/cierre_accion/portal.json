@@ -1,0 +1,54 @@
+{
+  "sigma_MPl": 2.802415265344053e-10,
+  "lambda_visible_toy": 0.13,
+  "M_completion_MPl": 10.0,
+  "linear_portal_unbounded_below": true,
+  "linear_instability_scale_asymptotic": 33710.37171575826,
+  "bounded_completion": "f(chi)=M*tanh(chi/M), a new EFT hypothesis, not a UV derivation",
+  "negative_correction_bound": 1.5102944845064188e-17,
+  "first_level_lower_bound_coefficient": 8.58979988863013e-11,
+  "nonnegative_total_toy_potential_proof": true,
+  "low_field_derivative_identity": true,
+  "caveats": [
+    "toy visible scalar with positive quartic, not an SM Higgs vacuum-stability analysis",
+    "Gamma is retained as phenomenological dissipative transfer; nonlinear preheating is not derived",
+    "This stabilizes the portal extrapolation, not the hierarchy at large chi"
+  ],
+  "rows": [
+    {
+      "chi": -1000.0,
+      "V_linear_minimized": 1.7147692724642582e-10,
+      "V_bounded_minimized": 1.716279415919316e-10
+    },
+    {
+      "chi": -10000.0,
+      "V_linear_minimized": 1.565252833984636e-10,
+      "V_bounded_minimized": 1.7162821314058294e-10
+    },
+    {
+      "chi": -100000.0,
+      "V_linear_minimized": -1.338666256262891e-09,
+      "V_bounded_minimized": 1.7162821314058294e-10
+    },
+    {
+      "chi": -1000000.0,
+      "V_linear_minimized": -1.508578202223984e-07,
+      "V_bounded_minimized": 1.7162821314058294e-10
+    },
+    {
+      "chi": 0.0,
+      "V_linear_minimized": 0.0,
+      "V_bounded_minimized": 0.0
+    },
+    {
+      "chi": 1.0,
+      "V_linear_minimized": 1.1006573343101819e-10,
+      "V_bounded_minimized": 1.1006573343101819e-10
+    },
+    {
+      "chi": 1000.0,
+      "V_linear_minimized": 1.7162795669487645e-10,
+      "V_bounded_minimized": 1.7162795669487645e-10
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+ "spec": "docs/preregistros/ESPEC_U19c.md (enmienda 2)",
+ "tag": "RP3_N256_lG2.507_sparse_s91",
+ "backend_ref": "kern.c",
+ "backend_gpu": "jax 0.11.1 on NVIDIA A100-SXM4-40GB",
+ "n_snap": [
+  48,
+  48
+ ],
+ "max_rel_xi": 0.0,
+ "X_lat_ref": 6.430386870026544,
+ "X_lat_gpu": 6.430386893271557,
+ "rel_X_lat": 3.61486995892335e-09,
+ "identical": false,
+ "PASS": true
+}

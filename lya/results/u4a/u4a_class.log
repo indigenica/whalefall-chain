@@ -1,0 +1,226 @@
+classy v3.4.1 workers 16
+   [1/2] CLASS C0 analytic ok  (0.0 min)
+   [2/2] CLASS C0 file ok  (0.0 min)
+C0 {'max_rel': 0.0037275415276918356, 'passed': True}
+   [1/91] CLASS mixed_1keV_f0.140 ok  (0.0 min)
+   [2/91] CLASS mixed_3keV_f0.469 ok  (0.0 min)
+   [3/91] CLASS mixed_2keV_f0.300 ok  (0.0 min)
+   [4/91] CLASS thermal_5.3keV ok  (0.0 min)
+   [5/91] CLASS table_2keV_f0.35 ok  (0.0 min)
+   [6/91] CLASS mixed_4keV_f0.643 ok  (0.0 min)
+   [7/91] CLASS table_1keV_f0.16 ok  (0.0 min)
+   [8/91] CLASS table_3keV_f0.50 ok  (0.0 min)
+   [9/91] CLASS table_4keV_f0.67 ok  (0.0 min)
+   [10/91] CLASS family 0.5 keV f=0.75 ok  (5.0 min)
+   [11/91] CLASS family 0.75 keV f=0.55 ok  (5.3 min)
+   [12/91] CLASS family 0.5 keV f=0.55 ok  (5.3 min)
+   [13/91] CLASS family 0.75 keV f=0.05 ok  (5.5 min)
+   [14/91] CLASS family 1 keV f=0.1 ok  (5.5 min)
+   [15/91] CLASS family 0.5 keV f=0.15 ok  (5.5 min)
+   [16/91] CLASS family 0.75 keV f=0.1 ok  (5.5 min)
+   [17/91] CLASS family 0.5 keV f=0.05 ok  (5.6 min)
+   [18/91] CLASS family 0.5 keV f=0.3 ok  (5.6 min)
+   [19/91] CLASS family 0.75 keV f=0.15 ok  (5.6 min)
+   [20/91] CLASS family 0.75 keV f=0.4 ok  (5.6 min)
+   [21/91] CLASS family 1 keV f=1 ok  (5.6 min)
+   [22/91] CLASS family 0.5 keV f=0.2 ok  (5.6 min)
+   [23/91] CLASS family 0.5 keV f=0.4 ok  (5.7 min)
+   [24/91] CLASS family 0.5 keV f=0.1 ok  (5.8 min)
+   [25/91] CLASS family 0.75 keV f=0.3 ok  (5.8 min)
+   [26/91] CLASS family 0.75 keV f=0.2 ok  (5.8 min)
+   [27/91] CLASS family 0.5 keV f=1 ok  (5.8 min)
+   [28/91] CLASS family 0.75 keV f=0.75 ok  (10.2 min)
+   [29/91] CLASS family 1 keV f=0.75 ok  (10.8 min)
+   [30/91] CLASS family 1 keV f=0.55 ok  (11.0 min)
+   [31/91] CLASS family 1 keV f=0.2 ok  (11.1 min)
+   [32/91] CLASS family 0.75 keV f=1 ok  (11.1 min)
+   [33/91] CLASS family 1 keV f=0.05 ok  (11.2 min)
+   [34/91] CLASS family 1.5 keV f=0.55 ok  (11.3 min)
+   [35/91] CLASS family 1 keV f=0.15 ok  (11.3 min)
+   [36/91] CLASS family 1 keV f=0.3 ok  (11.3 min)
+   [37/91] CLASS family 1.5 keV f=0.4 ok  (11.4 min)
+   [38/91] CLASS family 1.5 keV f=0.1 ok  (11.4 min)
+   [39/91] CLASS family 2 keV f=1 ok  (11.4 min)
+   [40/91] CLASS family 1.5 keV f=0.05 ok  (11.4 min)
+   [41/91] CLASS family 3 keV f=0.1 ok  (11.4 min)
+   [42/91] CLASS family 1 keV f=0.4 ok  (11.5 min)
+   [43/91] CLASS family 1.5 keV f=0.15 ok  (11.5 min)
+   [44/91] CLASS family 1.5 keV f=0.2 ok  (11.6 min)
+   [45/91] CLASS family 1.5 keV f=0.3 ok  (11.7 min)
+   [46/91] CLASS family 1.5 keV f=0.75 ok  (15.4 min)
+   [47/91] CLASS family 2 keV f=0.75 ok  (16.5 min)
+   [48/91] CLASS family 3 keV f=1 ok  (16.5 min)
+   [49/91] CLASS family 1.5 keV f=1 ok  (16.5 min)
+   [50/91] CLASS family 2 keV f=0.15 ok  (16.7 min)
+   [51/91] CLASS family 2 keV f=0.05 ok  (16.8 min)
+   [52/91] CLASS family 2 keV f=0.1 ok  (16.8 min)
+   [53/91] CLASS family 2 keV f=0.55 ok  (16.9 min)
+   [54/91] CLASS family 2 keV f=0.4 ok  (16.9 min)
+   [55/91] CLASS family 2 keV f=0.2 ok  (17.0 min)
+   [56/91] CLASS family 2 keV f=0.3 ok  (17.0 min)
+   [57/91] CLASS family 3 keV f=0.05 ok  (17.1 min)
+   [58/91] CLASS family 3 keV f=0.55 ok  (17.2 min)
+   [59/91] CLASS family 6 keV f=0.1 ok  (17.2 min)
+   [60/91] CLASS family 3 keV f=0.3 ok  (17.3 min)
+   [61/91] CLASS family 3 keV f=0.15 ok  (17.3 min)
+   [62/91] CLASS family 3 keV f=0.4 ok  (17.3 min)
+   [63/91] CLASS family 3 keV f=0.2 ok  (17.3 min)
+   [64/91] CLASS family 3 keV f=0.75 ok  (20.5 min)
+   [65/91] CLASS family 4 keV f=0.75 ok  (22.3 min)
+   [66/91] CLASS family 6 keV f=1 ok  (22.3 min)
+   [67/91] CLASS family 4 keV f=0.05 ok  (22.3 min)
+   [68/91] CLASS family 4 keV f=0.1 ok  (22.3 min)
+   [69/91] CLASS family 4 keV f=0.15 ok  (22.5 min)
+   [70/91] CLASS family 4 keV f=0.55 ok  (22.5 min)
+   [71/91] CLASS family 4 keV f=0.2 ok  (22.5 min)
+   [72/91] CLASS family 4 keV f=0.3 ok  (22.5 min)
+   [73/91] CLASS family 6 keV f=0.55 ok  (22.8 min)
+   [74/91] CLASS family 4 keV f=0.4 ok  (22.8 min)
+   [75/91] CLASS family 6 keV f=0.3 ok  (22.8 min)
+   [76/91] CLASS C0b ok  (22.8 min)
+   [77/91] CLASS family 6 keV f=0.15 ok  (23.0 min)
+   [78/91] CLASS family 4 keV f=1 ok  (23.0 min)
+   [79/91] CLASS family 6 keV f=0.2 ok  (23.0 min)
+   [80/91] CLASS family 6 keV f=0.05 ok  (23.1 min)
+   [81/91] CLASS family 6 keV f=0.4 ok  (23.2 min)
+   [82/91] CLASS family 6 keV f=0.75 ok  (25.2 min)
+   [83/91] CLASS family 10 keV f=0.1 ok  (27.1 min)
+   [84/91] CLASS family 10 keV f=0.05 ok  (27.1 min)
+   [85/91] CLASS family 10 keV f=0.3 ok  (27.1 min)
+   [86/91] CLASS family 10 keV f=0.15 ok  (27.2 min)
+   [87/91] CLASS family 10 keV f=0.55 ok  (27.2 min)
+   [88/91] CLASS family 10 keV f=0.4 ok  (27.2 min)
+   [89/91] CLASS family 10 keV f=0.75 ok  (27.2 min)
+   [90/91] CLASS family 10 keV f=1 ok  (27.3 min)
+   [91/91] CLASS family 10 keV f=0.2 ok  (27.4 min)
+C0b {'nodes': 20, 'rel_deltaA': 5.515673633516016e-05, 'max_rel_T2_0p5_20': 0.0003742947637948024, 'max_rel_T2_0p5_50': 0.003970936068989239, 'passed': True}
+   [1/3] CLASS Viel 2 keV ok  (0.0 min)
+   [2/3] CLASS Viel 3.5 keV ok  (0.0 min)
+   [3/3] CLASS Viel 5.3 keV ok  (0.0 min)
+refs {'thermal_5.3keV': 0.33606674391968916, 'mixed_1keV_f0.140': 0.23408346011191306, 'mixed_2keV_f0.300': 0.289530456443554, 'mixed_3keV_f0.469': 0.3076237784895315, 'mixed_4keV_f0.643': 0.3114622617098102, 'table_1keV_f0.16': 0.26702436205722824, 'table_2keV_f0.35': 0.33288422672901274, 'table_3keV_f0.50': 0.324914610965338, 'table_4keV_f0.67': 0.32182797956496245} strict 0.23408346011191306 wide 0.33606674391968916
+62 CLASS row runs (45 momentum nodes in ln q, full hierarchy; ~20-40 min each, one core each)
+   [1/62] row B1_central_energy_x10_K0 ok  (0.0 min)
+   [2/62] row B1_central_energy_x30_K0 ok  (0.0 min)
+   [3/62] row B1_+1s_energy_x30_K1 ok  (51.0 min)
+   [4/62] row B1_-1s_energy_x30_K1 ok  (51.4 min)
+   [5/62] row B1_central_energy_x30_K1 ok  (51.6 min)
+   [6/62] row B1_-1s_energy_x30_K0 ok  (54.3 min)
+   [7/62] row B1_-1s_energy_x10_K1 ok  (54.4 min)
+   [8/62] row B2_central_ir_del_x10_K0 ok  (54.4 min)
+   [9/62] row B1_+1s_energy_x30_K0 ok  (54.9 min)
+   [10/62] row B2_central_ir_del_x30_K0 ok  (54.9 min)
+   [11/62] row B1_central_energy_x10_K1 ok  (55.6 min)
+   [12/62] row B2_central_energy_x10_K0 ok  (55.6 min)
+   [13/62] row B1_+1s_energy_x10_K1 ok  (56.4 min)
+   [14/62] row B2_central_energy_x30_K0 ok  (56.4 min)
+   [15/62] row B1_-1s_energy_x10_K0 ok  (60.9 min)
+   [16/62] row B1_+1s_energy_x10_K0 ok  (63.6 min)
+   [17/62] row B2_-1s_ir_del_x30_K1 ok  (66.8 min)
+   [18/62] row B2_-1s_ir_del_x30_K0 ok  (82.3 min)
+   [19/62] row B2_-1s_ir_del_x10_K1 ok  (96.9 min)
+   [20/62] row B2_-1s_energy_x10_K0 ok  (109.1 min)
+   [21/62] row B2_-1s_energy_x30_K1 ok  (109.1 min)
+   [22/62] row B2_-1s_energy_x10_K1 ok  (109.4 min)
+   [23/62] row B2_central_energy_x30_K1 ok  (109.9 min)
+   [24/62] row B2_-1s_energy_x30_K0 ok  (110.0 min)
+   [25/62] row B2_central_energy_x10_K1 ok  (112.1 min)
+   [26/62] row B2_central_ir_del_x30_K1 ok  (126.3 min)
+   [27/62] row B2_+1s_energy_x10_K0 ok  (153.8 min)
+   [28/62] row B2_+1s_ir_del_x30_K1 ok  (157.6 min)
+   [29/62] row B2_+1s_energy_x30_K1 ok  (164.8 min)
+   [30/62] row B2_+1s_energy_x30_K0 ok  (165.1 min)
+   [31/62] row B2_+1s_energy_x10_K1 ok  (165.7 min)
+   [32/62] row B3_central_ir_del_x10_K0 ok  (165.7 min)
+   [33/62] row B2_+1s_ir_del_x30_K0 ok  (166.6 min)
+   [34/62] row B3_central_ir_del_x30_K0 ok  (166.6 min)
+   [35/62] row B2_central_ir_del_x10_K1 ok  (170.3 min)
+   [36/62] row B3_central_energy_x10_K0 ok  (170.3 min)
+   [37/62] row B2_-1s_ir_del_x10_K0 ok  (177.1 min)
+   [38/62] row B3_central_energy_x30_K0 ok  (177.1 min)
+   [39/62] row B1_-1s_ir_del_x30_K1 ok  (178.5 min)
+   [40/62] row B3_-1s_ir_del_x30_K1 ok  (188.4 min)
+   [41/62] row B3_-1s_ir_del_x30_K0 ok  (189.9 min)
+   [42/62] row B2_+1s_ir_del_x10_K1 ok  (190.2 min)
+   [43/62] row B3_-1s_ir_del_x10_K1 ok  (200.0 min)
+   [44/62] row B3_-1s_energy_x10_K0 ok  (213.1 min)
+   [45/62] row B3_-1s_energy_x10_K1 ok  (214.4 min)
+   [46/62] row B3_-1s_energy_x30_K0 ok  (219.7 min)
+   [47/62] row B3_-1s_energy_x30_K1 ok  (220.2 min)
+   [48/62] row B3_-1s_ir_del_x10_K0 ok  (222.5 min)
+   [49/62] row B3_central_energy_x10_K1 ok  (228.1 min)
+   [50/62] row B3_central_ir_del_x30_K1 ok  (229.3 min)
+   [51/62] row B3_central_energy_x30_K1 ok  (230.4 min)
+   [52/62] row B3_+1s_ir_del_x30_K1 ok  (252.0 min)
+   [53/62] row B3_+1s_energy_x10_K0 ok  (252.5 min)
+   [54/62] row B3_central_ir_del_x10_K1 ok  (253.0 min)
+   [55/62] row B3_+1s_energy_x10_K1 ok  (262.6 min)
+   [56/62] row B3_+1s_ir_del_x30_K0 ok  (263.1 min)
+   [57/62] row B3_+1s_energy_x30_K0 ok  (263.4 min)
+   [58/62] row B1_-1s_ir_del_x30_K0 ok  (263.8 min)
+   [59/62] row B3_+1s_energy_x30_K1 ok  (264.9 min)
+   [60/62] row B3_+1s_ir_del_x10_K1 ok  (270.9 min)
+   [61/62] row B3_+1s_ir_del_x10_K0 ok  (300.2 min)
+   [62/62] row B2_+1s_ir_del_x10_K0 ok  (327.8 min)
+B1_-1s_ir_del_x30_K0               f_em=0.998 dA=0.995 fit m=0.50 keV f=1.00 rms=5.999 shape_strict=False dA_strict=False
+B1_-1s_ir_del_x30_K1               f_em=0.997 dA=0.995 fit m=0.50 keV f=1.00 rms=5.607 shape_strict=False dA_strict=False
+B1_-1s_energy_x10_K0               f_em=0.943 dA=0.686 fit m=0.50 keV f=0.28 rms=0.053 shape_strict=False dA_strict=False
+B1_-1s_energy_x10_K1               f_em=0.892 dA=0.682 fit m=0.50 keV f=0.28 rms=0.053 shape_strict=False dA_strict=False
+B1_-1s_energy_x30_K0               f_em=0.848 dA=0.667 fit m=0.50 keV f=0.27 rms=0.051 shape_strict=False dA_strict=False
+B1_-1s_energy_x30_K1               f_em=0.737 dA=0.654 fit m=0.50 keV f=0.26 rms=0.051 shape_strict=False dA_strict=False
+B1_central_energy_x10_K0           f_em=0.952 dA=0.726 fit m=0.50 keV f=0.32 rms=0.063 shape_strict=False dA_strict=False
+B1_central_energy_x10_K1           f_em=0.908 dA=0.722 fit m=0.50 keV f=0.32 rms=0.063 shape_strict=False dA_strict=False
+B1_central_energy_x30_K0           f_em=0.871 dA=0.707 fit m=0.50 keV f=0.31 rms=0.060 shape_strict=False dA_strict=False
+B1_central_energy_x30_K1           f_em=0.771 dA=0.696 fit m=0.50 keV f=0.30 rms=0.061 shape_strict=False dA_strict=False
+B1_+1s_energy_x10_K0               f_em=0.958 dA=0.758 fit m=0.50 keV f=0.36 rms=0.073 shape_strict=False dA_strict=False
+B1_+1s_energy_x10_K1               f_em=0.920 dA=0.755 fit m=0.50 keV f=0.35 rms=0.073 shape_strict=False dA_strict=False
+B1_+1s_energy_x30_K0               f_em=0.887 dA=0.740 fit m=0.50 keV f=0.34 rms=0.069 shape_strict=False dA_strict=False
+B1_+1s_energy_x30_K1               f_em=0.797 dA=0.730 fit m=0.50 keV f=0.33 rms=0.069 shape_strict=False dA_strict=False
+B2_-1s_ir_del_x10_K0               f_em=0.988 dA=0.780 fit m=0.72 keV f=0.48 rms=0.052 shape_strict=False dA_strict=False
+B2_-1s_ir_del_x10_K1               f_em=0.977 dA=0.780 fit m=0.72 keV f=0.48 rms=0.052 shape_strict=False dA_strict=False
+B2_-1s_ir_del_x30_K0               f_em=0.964 dA=0.758 fit m=0.70 keV f=0.43 rms=0.046 shape_strict=False dA_strict=False
+B2_-1s_ir_del_x30_K1               f_em=0.930 dA=0.758 fit m=0.70 keV f=0.43 rms=0.046 shape_strict=False dA_strict=False
+B2_-1s_energy_x10_K0               f_em=0.491 dA=0.156 fit m=0.63 keV f=0.05 rms=0.005 shape_strict=True dA_strict=True
+B2_-1s_energy_x10_K1               f_em=0.325 dA=0.144 fit m=0.64 keV f=0.05 rms=0.005 shape_strict=True dA_strict=True
+B2_-1s_energy_x30_K0               f_em=0.246 dA=0.134 fit m=0.66 keV f=0.05 rms=0.005 shape_strict=True dA_strict=True
+B2_-1s_energy_x30_K1               f_em=0.140 dA=0.114 fit m=0.67 keV f=0.05 rms=0.006 shape_strict=True dA_strict=True
+B2_central_ir_del_x10_K0           f_em=0.990 dA=0.817 fit m=0.73 keV f=0.56 rms=0.066 shape_strict=False dA_strict=False
+B2_central_ir_del_x10_K1           f_em=0.981 dA=0.817 fit m=0.73 keV f=0.56 rms=0.066 shape_strict=False dA_strict=False
+B2_central_ir_del_x30_K0           f_em=0.970 dA=0.799 fit m=0.72 keV f=0.51 rms=0.061 shape_strict=False dA_strict=False
+B2_central_ir_del_x30_K1           f_em=0.942 dA=0.799 fit m=0.71 keV f=0.51 rms=0.061 shape_strict=False dA_strict=False
+B2_central_energy_x10_K0           f_em=0.537 dA=0.179 fit m=0.50 keV f=0.05 rms=0.007 shape_strict=True dA_strict=True
+B2_central_energy_x10_K1           f_em=0.367 dA=0.165 fit m=0.50 keV f=0.05 rms=0.008 shape_strict=True dA_strict=True
+B2_central_energy_x30_K0           f_em=0.282 dA=0.155 fit m=0.59 keV f=0.05 rms=0.006 shape_strict=True dA_strict=True
+B2_central_energy_x30_K1           f_em=0.164 dA=0.133 fit m=0.61 keV f=0.05 rms=0.007 shape_strict=True dA_strict=True
+B2_+1s_ir_del_x10_K0               f_em=0.992 dA=0.845 fit m=0.80 keV f=0.67 rms=0.082 shape_strict=False dA_strict=False
+B2_+1s_ir_del_x10_K1               f_em=0.984 dA=0.845 fit m=0.73 keV f=0.62 rms=0.081 shape_strict=False dA_strict=False
+B2_+1s_ir_del_x30_K0               f_em=0.975 dA=0.830 fit m=0.79 keV f=0.62 rms=0.076 shape_strict=False dA_strict=False
+B2_+1s_ir_del_x30_K1               f_em=0.951 dA=0.830 fit m=0.79 keV f=0.62 rms=0.077 shape_strict=False dA_strict=False
+B2_+1s_energy_x10_K0               f_em=0.576 dA=0.200 fit m=0.50 keV f=0.05 rms=0.006 shape_strict=True dA_strict=True
+B2_+1s_energy_x10_K1               f_em=0.404 dA=0.187 fit m=0.50 keV f=0.05 rms=0.006 shape_strict=True dA_strict=True
+B2_+1s_energy_x30_K0               f_em=0.315 dA=0.174 fit m=0.50 keV f=0.05 rms=0.007 shape_strict=True dA_strict=True
+B2_+1s_energy_x30_K1               f_em=0.187 dA=0.152 fit m=0.50 keV f=0.05 rms=0.008 shape_strict=True dA_strict=True
+B3_-1s_ir_del_x10_K0               f_em=0.978 dA=0.635 fit m=0.67 keV f=0.27 rms=0.022 shape_strict=False dA_strict=False
+B3_-1s_ir_del_x10_K1               f_em=0.957 dA=0.635 fit m=0.67 keV f=0.27 rms=0.022 shape_strict=False dA_strict=False
+B3_-1s_ir_del_x30_K0               f_em=0.936 dA=0.613 fit m=0.65 keV f=0.24 rms=0.020 shape_strict=False dA_strict=False
+B3_-1s_ir_del_x30_K1               f_em=0.880 dA=0.613 fit m=0.64 keV f=0.24 rms=0.020 shape_strict=False dA_strict=False
+B3_-1s_energy_x10_K0               f_em=0.350 dA=0.101 fit m=0.88 keV f=0.05 rms=0.004 shape_strict=True dA_strict=True
+B3_-1s_energy_x10_K1               f_em=0.212 dA=0.091 fit m=0.88 keV f=0.05 rms=0.004 shape_strict=True dA_strict=True
+B3_-1s_energy_x30_K0               f_em=0.155 dA=0.082 fit m=1.03 keV f=0.06 rms=0.004 shape_strict=True dA_strict=True
+B3_-1s_energy_x30_K1               f_em=0.083 dA=0.070 fit m=0.93 keV f=0.05 rms=0.004 shape_strict=True dA_strict=True
+B3_central_ir_del_x10_K0           f_em=0.982 dA=0.682 fit m=0.68 keV f=0.32 rms=0.029 shape_strict=False dA_strict=False
+B3_central_ir_del_x10_K1           f_em=0.964 dA=0.682 fit m=0.68 keV f=0.32 rms=0.029 shape_strict=False dA_strict=False
+B3_central_ir_del_x30_K0           f_em=0.946 dA=0.660 fit m=0.66 keV f=0.29 rms=0.026 shape_strict=False dA_strict=False
+B3_central_ir_del_x30_K1           f_em=0.898 dA=0.659 fit m=0.66 keV f=0.29 rms=0.026 shape_strict=False dA_strict=False
+B3_central_energy_x10_K0           f_em=0.394 dA=0.117 fit m=0.79 keV f=0.05 rms=0.004 shape_strict=True dA_strict=True
+B3_central_energy_x10_K1           f_em=0.244 dA=0.106 fit m=0.80 keV f=0.05 rms=0.005 shape_strict=True dA_strict=True
+B3_central_energy_x30_K0           f_em=0.181 dA=0.096 fit m=0.82 keV f=0.05 rms=0.005 shape_strict=True dA_strict=True
+B3_central_energy_x30_K1           f_em=0.099 dA=0.081 fit m=0.85 keV f=0.05 rms=0.005 shape_strict=True dA_strict=True
+B3_+1s_ir_del_x10_K0               f_em=0.985 dA=0.720 fit m=0.70 keV f=0.37 rms=0.036 shape_strict=False dA_strict=False
+B3_+1s_ir_del_x10_K1               f_em=0.970 dA=0.720 fit m=0.70 keV f=0.37 rms=0.036 shape_strict=False dA_strict=False
+B3_+1s_ir_del_x30_K0               f_em=0.954 dA=0.698 fit m=0.67 keV f=0.34 rms=0.032 shape_strict=False dA_strict=False
+B3_+1s_ir_del_x30_K1               f_em=0.911 dA=0.698 fit m=0.67 keV f=0.33 rms=0.032 shape_strict=False dA_strict=False
+B3_+1s_energy_x10_K0               f_em=0.431 dA=0.133 fit m=0.71 keV f=0.05 rms=0.005 shape_strict=True dA_strict=True
+B3_+1s_energy_x10_K1               f_em=0.274 dA=0.120 fit m=0.72 keV f=0.05 rms=0.005 shape_strict=True dA_strict=True
+B3_+1s_energy_x30_K0               f_em=0.205 dA=0.111 fit m=0.73 keV f=0.05 rms=0.005 shape_strict=True dA_strict=True
+B3_+1s_energy_x30_K1               f_em=0.114 dA=0.093 fit m=0.77 keV f=0.05 rms=0.006 shape_strict=True dA_strict=True
+C1: 2 high-precision CLASS runs (90 nodes, l_max_ncdm 50, tolerances x0.1; the slowest step, ~6-12 h)

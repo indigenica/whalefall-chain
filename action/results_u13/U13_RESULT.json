@@ -1,0 +1,83 @@
+{
+ "spec": "docs/preregistros/ESPEC_U13.md",
+ "X0": 0.2357164622798044,
+ "symmetry_worst_rel": {
+  "U": 3.3248058178047027e-15,
+  "S": 1.5704097784260439e-15,
+  "kinetic": 1.534302740702159e-15
+ },
+ "tree_level": {
+  "U_min": 1.4874863987633275e-15,
+  "Q_eigenvalues": [
+   -4.092588920246857e-09,
+   -1.2962871484591228e-09,
+   1.8600324198124902e-09,
+   1.000000001502772
+  ],
+  "hessian_eigenvalues": [
+   -1.4419659899591686e-09,
+   2.9230485419171974e-07,
+   5.571310680904431e-07,
+   95.99999949026821,
+   95.99999986586806,
+   96.00000066335407,
+   96.00000083259944,
+   96.00000157264614,
+   96.00000193255872,
+   736.0000007629179
+  ],
+  "n_zero_modes": 3
+ },
+ "target": {
+  "m_G_eV": [
+   1e-15,
+   1e-14
+  ],
+  "Lambda_keV": [
+   23.13089041696944,
+   73.1462980253853
+  ],
+  "V_over_f4": [
+   3.4932574622883333e-78,
+   3.4932574622883337e-76
+  ]
+ },
+ "quantum_gravity": {
+  "M_Pl_over_f": 4551.077836824649,
+  "by_c": {
+   "0.5": {
+    "log10_V_GeV4": -922.0242282869311,
+    "log10_m_G_eV": -466.74049884573253
+   },
+   "1": {
+    "log10_V_GeV4": -1910.2782239094977,
+    "log10_m_G_eV": -960.8674966570159
+   },
+   "2": {
+    "log10_V_GeV4": -3886.7862151546306,
+    "log10_m_G_eV": -1949.1214922795823
+   },
+   "3": {
+    "log10_V_GeV4": -5863.294206399763,
+    "log10_m_G_eV": -2937.3754879021485
+   }
+  },
+  "c_needed": {
+   "1e-15": 0.04289028848180734,
+   "1e-14": 0.041878402868969496
+  }
+ },
+ "discrete_ZN_operator_order": {
+  "1e-15": 25.173961180481506,
+  "1e-14": 24.627231402225554
+ },
+ "anomaly": "la acción declarada no tiene fermiones ni campos gauge acoplados a Q: O(4) no es anómala",
+ "routes": {
+  "1 radiativas de xi R S": "NO_SALE",
+  "2 acoplamiento sigma de chi": "NO_SALE (no contiene Q)",
+  "3 instantones del sector Q": "NO_SALE",
+  "4 U(q) y cinético (control)": "NO_SALE (masa cero a nivel árbol)",
+  "5 gravedad cuántica (control)": "NO_SALE"
+ },
+ "verdict_U13": "M_G_REQUIERE_RUPTURA_NUEVA"
+}

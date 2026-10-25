@@ -1,0 +1,31 @@
+W1 {"2keV": {"k_half": 22.985890737474, "k_half_Viel": 20.629118324971365, "rel": 0.11424494131917329, "max_rel_T": 0.2020650927789147, "deltaA": 0.675752154134627}, "3.5keV": {"k_half": 44.06942361526003, "k_half_Viel": 38.435628676530484, "rel": 0.1465774109262754, "max_rel_T": 0.27988745649574587, "deltaA": 0.4800000141515809}, "5.3keV": {"k_half": 71.8272955482064, "k_half_Viel": 60.88365376355937, "rel": 0.17974679750900746, "max_rel_T": 0.3109458281997155, "deltaA": 0.3510390760933755}, "passed": false, "prime_withdrawn_Dienes_fit": {"2keV": {"deltaA": 0.675752154134627, "deltaA_CLASS_fit": 0.706881808479614, "rel": 0.044037990469639854}, "3.5keV": {"deltaA": 0.4800000141515809, "deltaA_CLASS_fit": 0.5084521825980319, "rel": 0.055958395735601574}, "5.3keV": {"deltaA": 0.3510390760933755, "deltaA_CLASS_fit": 0.3617551641476541, "rel": 0.029622488125434776}, "passed": true}}
+W2 {'max_rel': 1.770870117212553e-10, 'passed': True}
+refs {'thermal_5.3keV': 0.3510390760933755, 'mixed_1keV_f0.140': 0.24072213691086397, 'mixed_2keV_f0.300': 0.3000846264202395, 'mixed_3keV_f0.469': 0.32052376998797505, 'mixed_4keV_f0.643': 0.32595338910738325}
+B2     -1s energy x0=10 K=0 m=2.49e-15 f_em=0.491 dA=0.174 strict=True wide=True (115s)
+B2     -1s energy x0=10 K=1 m=1.09e-15 f_em=0.325 dA=0.159 strict=True wide=True (163s)
+B2     -1s energy x0=30 K=0 m=5.48e-15 f_em=0.246 dA=0.147 strict=True wide=True (222s)
+B2     -1s energy x0=30 K=1 m=1.77e-15 f_em=0.140 dA=0.124 strict=True wide=True (317s)
+B2 central energy x0=10 K=0 m=2.06e-15 f_em=0.537 dA=0.197 strict=True wide=True (355s)
+B2 central energy x0=10 K=1 m=9.55e-16 f_em=0.367 dA=0.182 strict=True wide=True (406s)
+B2 central energy x0=30 K=0 m=4.96e-15 f_em=0.282 dA=0.169 strict=True wide=True (467s)
+B2 central energy x0=30 K=1 m=1.67e-15 f_em=0.164 dA=0.144 strict=True wide=True (565s)
+B2     +1s energy x0=10 K=0 m=1.73e-15 f_em=0.576 dA=0.218 strict=True wide=True (605s)
+B2     +1s energy x0=10 K=1 m=8.45e-16 f_em=0.404 dA=0.203 strict=True wide=True (660s)
+B2     +1s energy x0=30 K=0 m=4.52e-15 f_em=0.315 dA=0.189 strict=True wide=True (724s)
+B2     +1s energy x0=30 K=1 m=1.58e-15 f_em=0.187 dA=0.163 strict=True wide=True (824s)
+B3     -1s energy x0=10 K=0 m=4.06e-15 f_em=0.350 dA=0.115 strict=True wide=True (854s)
+B3     -1s energy x0=10 K=1 m=1.49e-15 f_em=0.212 dA=0.102 strict=True wide=True (899s)
+B3     -1s energy x0=30 K=0 m=6.88e-15 f_em=0.155 dA=0.092 strict=True wide=True (954s)
+B3     -1s energy x0=30 K=1 m=2.01e-15 f_em=0.083 dA=0.075 strict=True wide=True (1047s)
+B3 central energy x0=10 K=0 m=3.54e-15 f_em=0.394 dA=0.133 strict=True wide=True (1079s)
+B3 central energy x0=10 K=1 m=1.37e-15 f_em=0.244 dA=0.118 strict=True wide=True (1123s)
+B3 central energy x0=30 K=0 m=6.47e-15 f_em=0.181 dA=0.108 strict=True wide=True (1180s)
+B3 central energy x0=30 K=1 m=1.95e-15 f_em=0.099 dA=0.088 strict=True wide=True (1272s)
+B3     +1s energy x0=10 K=0 m=3.11e-15 f_em=0.431 dA=0.149 strict=True wide=True (1312s)
+B3     +1s energy x0=10 K=1 m=1.26e-15 f_em=0.274 dA=0.134 strict=True wide=True (1359s)
+B3     +1s energy x0=30 K=0 m=6.09e-15 f_em=0.205 dA=0.123 strict=True wide=True (1418s)
+B3     +1s energy x0=30 K=1 m=1.88e-15 f_em=0.114 dA=0.101 strict=True wide=True (1513s)
+W3 {'cases': [{'branch': 'B3_trend_1_over_ell', 'R_label': '-1s', 'spectrum': 'energy_logflat', 'x0': 30, 'deltaA': 0.09233041812437537, 'deltaA_hi': 0.0922279999647253, 'deltaA_kmax1500': 0.09337329886520374, 'rel': 0.011168939659440547}, {'branch': 'B2_standard_scaling', 'R_label': '+1s', 'spectrum': 'energy_logflat', 'x0': 10, 'deltaA': 0.2176482997542002, 'deltaA_hi': 0.2174568685162409, 'deltaA_kmax1500': 0.21820039348170295, 'rel': 0.0025302141700722647}], 'passed': True, 'note': 'amendment 4: on the decisive rows; tolerance 3 % (2 % preregistered, evaluated on saturated rows)'}
+VERDICT strict {'verdict': 'CIERRE_SEGUN_RAMA', 'plus1s': {'B1_GHN': False, 'B2_standard_scaling': True, 'B3_trend_1_over_ell': True}, 'central': {'B1_GHN': False, 'B2_standard_scaling': True, 'B3_trend_1_over_ell': True}, 'minus1s': {'B1_GHN': False, 'B2_standard_scaling': True, 'B3_trend_1_over_ell': True}}
+VERDICT wide {'verdict': 'CIERRE_SEGUN_RAMA', 'plus1s': {'B1_GHN': False, 'B2_standard_scaling': True, 'B3_trend_1_over_ell': True}, 'central': {'B1_GHN': False, 'B2_standard_scaling': True, 'B3_trend_1_over_ell': True}, 'minus1s': {'B1_GHN': False, 'B2_standard_scaling': True, 'B3_trend_1_over_ell': True}}
+validated (prereg) False | verdict prereg: INCONCLUSO (control U(1) de la red fuera de rango; ESPEC_U2 §6)

@@ -1,0 +1,205 @@
+{
+  "cases": [
+    {
+      "label": "slow_envelope",
+      "runs": [
+        {
+          "Gamma_Q_GeV": 110520964.71474592,
+          "rtol": 1e-09,
+          "matching_tau": 350.0,
+          "matching_Q_fraction": 4.110415203843236e-06,
+          "H_matching_relative": 3.839378306391694e-07,
+          "Q_gone_N_since_matching": 6.817249281211304,
+          "final_N_since_matching": 14.592786580299837,
+          "total_N_since_inflation_end": 18.105860409053466,
+          "final_visible_T_GeV": 2285988868.8165817,
+          "Goldstone_to_visible_radiation_ratio": 9.851210004616966e-10,
+          "Delta_Neff_massless_homogeneous_Goldstones": 2.8154005193526917e-09,
+          "discarded_comoving_Q_fraction": 1.0000000000000076e-20,
+          "energy_balance_relative": 1.5696037002147624e-16,
+          "min_component": 0.0,
+          "approximations": [
+            "chi and heavy Q averaged as pressureless fluids",
+            "Q cascade compressed into one decay rate; relativistic intermediate daughters omitted",
+            "massless collisionless Goldstones, fixed g*=g*s=106.75 during reheating",
+            "no strings, misalignment, baryogenesis, dark matter, or late massive-Goldstone evolution"
+          ],
+          "label": "slow_envelope"
+        },
+        {
+          "Gamma_Q_GeV": 110520964.71474592,
+          "rtol": 1e-11,
+          "matching_tau": 350.0,
+          "matching_Q_fraction": 4.110415203843236e-06,
+          "H_matching_relative": 3.839378306391694e-07,
+          "Q_gone_N_since_matching": 6.817249311129218,
+          "final_N_since_matching": 14.592786407318656,
+          "total_N_since_inflation_end": 18.105860236072285,
+          "final_visible_T_GeV": 2285989264.249673,
+          "Goldstone_to_visible_radiation_ratio": 9.851210004619007e-10,
+          "Delta_Neff_massless_homogeneous_Goldstones": 2.8154005193532753e-09,
+          "discarded_comoving_Q_fraction": 9.999999999999483e-21,
+          "energy_balance_relative": 4.708811100644287e-16,
+          "min_component": 0.0,
+          "approximations": [
+            "chi and heavy Q averaged as pressureless fluids",
+            "Q cascade compressed into one decay rate; relativistic intermediate daughters omitted",
+            "massless collisionless Goldstones, fixed g*=g*s=106.75 during reheating",
+            "no strings, misalignment, baryogenesis, dark matter, or late massive-Goldstone evolution"
+          ],
+          "label": "slow_envelope"
+        }
+      ],
+      "T_convergence_relative": 1.7298116716801815e-07,
+      "pass_numerics": true
+    },
+    {
+      "label": "fast_envelope",
+      "runs": [
+        {
+          "Gamma_Q_GeV": 1304294352.725861,
+          "rtol": 1e-09,
+          "matching_tau": 350.0,
+          "matching_Q_fraction": 4.110415203843236e-06,
+          "H_matching_relative": 3.839378306391694e-07,
+          "Q_gone_N_since_matching": 5.172041286048258,
+          "final_N_since_matching": 14.592786598254087,
+          "total_N_since_inflation_end": 18.105860427007716,
+          "final_visible_T_GeV": 2285988827.2449355,
+          "Goldstone_to_visible_radiation_ratio": 1.924629998652812e-10,
+          "Delta_Neff_massless_homogeneous_Goldstones": 5.500445422673318e-10,
+          "discarded_comoving_Q_fraction": 1.0000000000000055e-20,
+          "energy_balance_relative": 1.5696037002147624e-16,
+          "min_component": 0.0,
+          "approximations": [
+            "chi and heavy Q averaged as pressureless fluids",
+            "Q cascade compressed into one decay rate; relativistic intermediate daughters omitted",
+            "massless collisionless Goldstones, fixed g*=g*s=106.75 during reheating",
+            "no strings, misalignment, baryogenesis, dark matter, or late massive-Goldstone evolution"
+          ],
+          "label": "fast_envelope"
+        },
+        {
+          "Gamma_Q_GeV": 1304294352.725861,
+          "rtol": 1e-11,
+          "matching_tau": 350.0,
+          "matching_Q_fraction": 4.110415203843236e-06,
+          "H_matching_relative": 3.839378306391694e-07,
+          "Q_gone_N_since_matching": 5.172041984156215,
+          "final_N_since_matching": 14.592786673053821,
+          "total_N_since_inflation_end": 18.105860501807452,
+          "final_visible_T_GeV": 2285988656.253586,
+          "Goldstone_to_visible_radiation_ratio": 1.9246299986532065e-10,
+          "Delta_Neff_massless_homogeneous_Goldstones": 5.500445422674445e-10,
+          "discarded_comoving_Q_fraction": 1.0000000000000163e-20,
+          "energy_balance_relative": 1.5696037002147624e-16,
+          "min_component": 0.0,
+          "approximations": [
+            "chi and heavy Q averaged as pressureless fluids",
+            "Q cascade compressed into one decay rate; relativistic intermediate daughters omitted",
+            "massless collisionless Goldstones, fixed g*=g*s=106.75 during reheating",
+            "no strings, misalignment, baryogenesis, dark matter, or late massive-Goldstone evolution"
+          ],
+          "label": "fast_envelope"
+        }
+      ],
+      "T_convergence_relative": 7.479973684887398e-08,
+      "pass_numerics": true
+    }
+  ],
+  "matching_scan": [
+    {
+      "Gamma_Q_GeV": 110520964.71474592,
+      "rtol": 1e-11,
+      "matching_tau": 200.0,
+      "matching_Q_fraction": 4.991333672178757e-06,
+      "H_matching_relative": 1.2678300964630296e-07,
+      "Q_gone_N_since_matching": 7.191464587689949,
+      "final_N_since_matching": 14.96317652041936,
+      "total_N_since_inflation_end": 18.10550893521669,
+      "final_visible_T_GeV": 2285988106.4327717,
+      "Goldstone_to_visible_radiation_ratio": 1.1956326132254454e-09,
+      "Delta_Neff_massless_homogeneous_Goldstones": 3.41702661769702e-09,
+      "discarded_comoving_Q_fraction": 1.0000000000000175e-20,
+      "energy_balance_relative": 2.066689035808246e-16,
+      "min_component": 0.0,
+      "approximations": [
+        "chi and heavy Q averaged as pressureless fluids",
+        "Q cascade compressed into one decay rate; relativistic intermediate daughters omitted",
+        "massless collisionless Goldstones, fixed g*=g*s=106.75 during reheating",
+        "no strings, misalignment, baryogenesis, dark matter, or late massive-Goldstone evolution"
+      ],
+      "label": "slow_envelope"
+    },
+    {
+      "Gamma_Q_GeV": 1304294352.725861,
+      "rtol": 1e-11,
+      "matching_tau": 200.0,
+      "matching_Q_fraction": 4.991333672178757e-06,
+      "H_matching_relative": 1.2678300964630296e-07,
+      "Q_gone_N_since_matching": 5.5461452868482715,
+      "final_N_since_matching": 14.9631761720614,
+      "total_N_since_inflation_end": 18.105508586858733,
+      "final_visible_T_GeV": 2285988902.1328826,
+      "Goldstone_to_visible_radiation_ratio": 2.323605820691466e-10,
+      "Delta_Neff_massless_homogeneous_Goldstones": 6.640687825434347e-10,
+      "discarded_comoving_Q_fraction": 9.999999999999906e-21,
+      "energy_balance_relative": 8.266756143232984e-16,
+      "min_component": 0.0,
+      "approximations": [
+        "chi and heavy Q averaged as pressureless fluids",
+        "Q cascade compressed into one decay rate; relativistic intermediate daughters omitted",
+        "massless collisionless Goldstones, fixed g*=g*s=106.75 during reheating",
+        "no strings, misalignment, baryogenesis, dark matter, or late massive-Goldstone evolution"
+      ],
+      "label": "fast_envelope"
+    },
+    {
+      "Gamma_Q_GeV": 110520964.71474592,
+      "rtol": 1e-11,
+      "matching_tau": 275.0,
+      "matching_Q_fraction": 4.4843380338249845e-06,
+      "H_matching_relative": 2.3770740775752586e-07,
+      "Q_gone_N_since_matching": 6.978811523222848,
+      "final_N_since_matching": 14.752631294094757,
+      "total_N_since_inflation_end": 18.105780511206437,
+      "final_visible_T_GeV": 2285988728.202137,
+      "Goldstone_to_visible_radiation_ratio": 1.074461609322695e-09,
+      "Delta_Neff_massless_homogeneous_Goldstones": 3.070729150524554e-09,
+      "discarded_comoving_Q_fraction": 1.0000000000000198e-20,
+      "energy_balance_relative": 0.0,
+      "min_component": 0.0,
+      "approximations": [
+        "chi and heavy Q averaged as pressureless fluids",
+        "Q cascade compressed into one decay rate; relativistic intermediate daughters omitted",
+        "massless collisionless Goldstones, fixed g*=g*s=106.75 during reheating",
+        "no strings, misalignment, baryogenesis, dark matter, or late massive-Goldstone evolution"
+      ],
+      "label": "slow_envelope"
+    },
+    {
+      "Gamma_Q_GeV": 1304294352.725861,
+      "rtol": 1e-11,
+      "matching_tau": 275.0,
+      "matching_Q_fraction": 4.4843380338249845e-06,
+      "H_matching_relative": 2.3770740775752586e-07,
+      "Q_gone_N_since_matching": 5.333548089228364,
+      "final_N_since_matching": 14.752631216897079,
+      "total_N_since_inflation_end": 18.10578043400876,
+      "final_visible_T_GeV": 2285988904.098437,
+      "Goldstone_to_visible_radiation_ratio": 2.0936699762158455e-10,
+      "Delta_Neff_massless_homogeneous_Goldstones": 5.983548757592869e-10,
+      "discarded_comoving_Q_fraction": 9.999999999999869e-21,
+      "energy_balance_relative": 1.94339417049158e-16,
+      "min_component": 0.0,
+      "approximations": [
+        "chi and heavy Q averaged as pressureless fluids",
+        "Q cascade compressed into one decay rate; relativistic intermediate daughters omitted",
+        "massless collisionless Goldstones, fixed g*=g*s=106.75 during reheating",
+        "no strings, misalignment, baryogenesis, dark matter, or late massive-Goldstone evolution"
+      ],
+      "label": "fast_envelope"
+    }
+  ],
+  "scope": "Conservative effective envelope; not a rigorous bound or a full Q cascade Boltzmann calculation."
+}

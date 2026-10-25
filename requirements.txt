@@ -1,0 +1,4 @@
+# Minimum tested versions (cloud: Python 3.11, numpy 2.x, scipy 1.1x, matplotlib 3.x; device: numpy 2.4.6, scipy 1.17.1, matplotlib 3.11.2)
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8

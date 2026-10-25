@@ -1,0 +1,8 @@
+V1 3.605 {'RP3': {'omega2': np.float64(0.00017720490521921426), 'm_G2': 0.00017739771731107673, 'rel': np.float64(-0.0010868916172374066), 'PASS': True}, 'U1': {'omega2': np.float64(0.00017720490521921426), 'm_G2': 0.00017739771731107673, 'rel': np.float64(-0.0010868916172374066), 'PASS': True}}
+V2/V3 RP3 3.605 early {'R': 0.4092, 'R_ode': np.float64(0.40596), 'rel_vs_ode': np.float64(0.00797), 'late_number_drift': 0.00067} True
+V2/V3 RP3 3.605 dense {'R': 0.66908, 'R_ode': np.float64(0.62829), 'rel_vs_ode': np.float64(0.06493), 'late_number_drift': -0.0023} False
+V4/V5 RP3 3.605 {'k_mean': 0.6287075683803661, 'expected': 0.6287112855620959, 'rel': -5.912382702755181e-06, 'binned_total_rel': 0.0, 'PASS': True} {'kappa': 0.17190916216184102, 'l_c_cells': 52.11704025405363, 'm_G_a1_lc': 3.7210420376762534, 'N_lin': 0.03065423041591566, 'far_frac_end': 0.0}
+V2/V3 U1 3.605 early {'R': 0.40941, 'R_ode': np.float64(0.40596), 'rel_vs_ode': np.float64(0.00849), 'late_number_drift': -2e-05} True
+V2/V3 U1 3.605 dense {'R': 0.64328, 'R_ode': np.float64(0.62829), 'rel_vs_ode': np.float64(0.02386), 'late_number_drift': 0.0011} True
+V4/V5 U1 3.605 {'k_mean': 0.6287112855621545, 'expected': 0.6287112855620959, 'rel': 9.325873406851315e-14, 'binned_total_rel': 2.220446049250313e-16, 'PASS': True} {'kappa': 0.17214599916746526, 'l_c_cells': 52.11704025405363, 'm_G_a1_lc': 3.7210420376762534, 'N_lin': 0.03097038006143077, 'far_frac_end': 0.0}
+VALIDATION 768 3.605 FAIL

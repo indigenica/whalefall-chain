@@ -1,0 +1,9 @@
+Initializing Lya_abgd likelihood
+Initialization of Lya_abgd likelihood done
+V WDM 2 keV          dchi2 = -2.3564704388443616
+V WDM 3.5 keV        dchi2 = -3.879508298479891
+V WDM 5.3 keV        dchi2 = -1.3803370283150116
+V WDM 10 keV         dchi2 = -0.11318835558083862
+V mix 1 keV f=0.5    dchi2 = -4.464540618588359
+V mix 2 keV f=0.2    dchi2 = -2.090726264145573
+validation passed: False

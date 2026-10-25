@@ -1,0 +1,57 @@
+{
+  "start_utc": "2026-10-04T21:31:01.577490+00:00",
+  "python": "3.11.5 (tags/v3.11.5:cce6ba9, Aug 24 2023, 14:38:34) [MSC v.1936 64 bit (AMD64)]",
+  "executable": "C:\\Python311\\python.exe",
+  "modules": [
+    {
+      "module": "symbolic",
+      "returncode": 0,
+      "seconds": 2.468999999924563,
+      "code_sha256": "cab091bdddedfc4e1d6513ed645f18e98695f8489825a97f8a311574e20c13ab",
+      "log_sha256": "f90bc2d2389683d2907f5364a2fd7e2d3deaabebe11bb597f668a7d4190ef956"
+    },
+    {
+      "module": "portal",
+      "returncode": 0,
+      "seconds": 1.422000000020489,
+      "code_sha256": "beb982dcd359e0c75b860a5b3854b8fec03a92b07b5fce1e12a8092e75fb70d5",
+      "log_sha256": "1c70f7592c656b516fbcbc489766637857e13ac60de61562a71dc6b28781362f"
+    },
+    {
+      "module": "experiments",
+      "returncode": 0,
+      "seconds": 96.95299999997951,
+      "code_sha256": "6ecd6c892a435a93609ca4bb6cb9d2d9650335b6d8412672c3853d96179a9039",
+      "log_sha256": "9756b626ff0945300f1661cc9b0eb835313672c74efc24b4d3f222da3e4dbb05"
+    },
+    {
+      "module": "decays",
+      "returncode": 0,
+      "seconds": 3.156000000075437,
+      "code_sha256": "36781700e6fa8c4c46cd25a3df6dada7c1ae065457b396e9abae80dddd10936f",
+      "log_sha256": "7a3b96d4575b583bd6e1cfdedbcdf005d6bf8a7236e1cdfd9c75b522900174d3"
+    },
+    {
+      "module": "late_fluid",
+      "returncode": 0,
+      "seconds": 13.796999999904074,
+      "code_sha256": "8c2d2f103a6b8a0e515c5248cf6bb1333964b19f46bd4df47b8936f1d8364f88",
+      "log_sha256": "2615ed9524102a45f9ff1fb40de5ec4fe86b7f36e58a98c2cc8ce7b8a518109f"
+    },
+    {
+      "module": "plots",
+      "returncode": 0,
+      "seconds": 3.969000000040978,
+      "code_sha256": "92c90adb1fc4c1d3956707f938ac5444cf94427ce2f71f593d8a96188267d1f5",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "checks": {
+    "symbolic_exact": true,
+    "early_numerics": true,
+    "late_numerics": true,
+    "heavy_decay_channels": true
+  },
+  "pass_execution": true,
+  "end_utc": "2026-10-04T21:33:03.456406+00:00"
+}

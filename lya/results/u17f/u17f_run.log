@@ -1,0 +1,860 @@
+shape: xbar=5.826 K_lattice=1.115
+U17f_Y1.05_F1      K=  28.83 X= 168.0 m_G=7.50e-18 T_osc=0.0971 MeV lam/WDM=1.06 f_iso=1.02e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.05_F0.85   K=  28.54 X= 166.3 m_G=1.62e-17 T_osc=0.136 MeV lam/WDM=0.732 f_iso=3.38e-04 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.05_F0.7    K=  28.19 X= 164.2 m_G=4.02e-17 T_osc=0.204 MeV lam/WDM=0.475 f_iso=9.14e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.05_F0.5    K=  27.62 X= 160.9 m_G=1.78e-16 T_osc=0.392 MeV lam/WDM=0.235 f_iso=1.04e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.05_F0.35   K=  27.03 X= 157.5 m_G=8.06e-16 T_osc=0.789 MeV lam/WDM=0.116 f_iso=1.09e-06 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.05_F0.25   K=  26.49 X= 154.3 m_G=3.26e-15 T_osc=1.56 MeV lam/WDM=0.0604 f_iso=1.36e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.05_F0.18   K=  25.96 X= 151.2 m_G=1.26e-14 T_osc=3.07 MeV lam/WDM=0.032 f_iso=1.78e-08 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.05_F0.125  K=  25.38 X= 147.8 m_G=5.67e-14 T_osc=6.51 MeV lam/WDM=0.0158 f_iso=1.87e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.05_F0.09   K=  24.84 X= 144.7 m_G=2.22e-13 T_osc=12.8 MeV lam/WDM=0.00834 f_iso=2.42e-10 estelar=frontera  SMBH=ok   -> frio_trivial
+U17f_Y1.05_F0.0625 K=  24.25 X= 141.3 m_G=1.03e-12 T_osc=27.2 MeV lam/WDM=0.00403 f_iso=2.47e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.05_F0.045  K=  23.71 X= 138.1 m_G=4.16e-12 T_osc=53.6 MeV lam/WDM=0.00207 f_iso=3.09e-12 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.05_F0.03   K=  22.99 X= 133.9 m_G=2.73e-11 T_osc=124 MeV lam/WDM=0.000822 f_iso=2.03e-13 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.20_F1      K=  33.05 X= 192.5 m_G=5.79e-18 T_osc=0.0855 MeV lam/WDM=1.19 f_iso=1.51e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.20_F0.85   K=  32.73 X= 190.7 m_G=1.19e-17 T_osc=0.119 MeV lam/WDM=0.848 f_iso=5.24e-04 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.20_F0.7    K=  32.33 X= 188.3 m_G=2.99e-17 T_osc=0.179 MeV lam/WDM=0.546 f_iso=1.40e-04 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.20_F0.5    K=  31.67 X= 184.5 m_G=1.34e-16 T_osc=0.345 MeV lam/WDM=0.269 f_iso=1.57e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.20_F0.35   K=  30.99 X= 180.5 m_G=6.17e-16 T_osc=0.696 MeV lam/WDM=0.131 f_iso=1.63e-06 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.20_F0.25   K=  30.37 X= 176.9 m_G=2.50e-15 T_osc=1.37 MeV lam/WDM=0.0684 f_iso=2.02e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.20_F0.18   K=  29.77 X= 173.4 m_G=9.70e-15 T_osc=2.69 MeV lam/WDM=0.0363 f_iso=2.64e-08 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.20_F0.125  K=  29.09 X= 169.5 m_G=4.36e-14 T_osc=5.71 MeV lam/WDM=0.0179 f_iso=2.77e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.20_F0.09   K=  28.49 X= 166.0 m_G=1.70e-13 T_osc=11.2 MeV lam/WDM=0.00947 f_iso=3.62e-10 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.20_F0.0625 K=  27.81 X= 162.0 m_G=7.84e-13 T_osc=23.8 MeV lam/WDM=0.00458 f_iso=3.69e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.20_F0.045  K=  27.20 X= 158.4 m_G=3.12e-12 T_osc=47 MeV lam/WDM=0.00238 f_iso=4.71e-12 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.20_F0.03   K=  26.37 X= 153.6 m_G=2.04e-11 T_osc=109 MeV lam/WDM=0.000947 f_iso=3.10e-13 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.36_F1      K=  37.55 X= 218.8 m_G=4.53e-18 T_osc=0.0758 MeV lam/WDM=1.33 f_iso=2.19e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.36_F0.85   K=  37.21 X= 216.8 m_G=8.91e-18 T_osc=0.105 MeV lam/WDM=0.977 f_iso=7.96e-04 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.36_F0.7    K=  36.75 X= 214.1 m_G=2.25e-17 T_osc=0.158 MeV lam/WDM=0.626 f_iso=2.11e-04 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.36_F0.5    K=  36.00 X= 209.7 m_G=1.02e-16 T_osc=0.307 MeV lam/WDM=0.305 f_iso=2.32e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.36_F0.35   K=  35.23 X= 205.2 m_G=4.80e-16 T_osc=0.618 MeV lam/WDM=0.148 f_iso=2.38e-06 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.36_F0.25   K=  34.52 X= 201.1 m_G=1.94e-15 T_osc=1.21 MeV lam/WDM=0.0768 f_iso=2.93e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.36_F0.18   K=  33.83 X= 197.1 m_G=7.56e-15 T_osc=2.38 MeV lam/WDM=0.0407 f_iso=3.83e-08 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.36_F0.125  K=  33.08 X= 192.7 m_G=3.40e-14 T_osc=5.04 MeV lam/WDM=0.0202 f_iso=4.03e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.36_F0.09   K=  32.39 X= 188.7 m_G=1.32e-13 T_osc=9.92 MeV lam/WDM=0.0107 f_iso=5.28e-10 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.36_F0.0625 K=  31.62 X= 184.2 m_G=6.09e-13 T_osc=21.1 MeV lam/WDM=0.00517 f_iso=5.37e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.36_F0.045  K=  30.92 X= 180.2 m_G=2.42e-12 T_osc=41.5 MeV lam/WDM=0.00268 f_iso=6.86e-12 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.36_F0.03   K=  30.00 X= 174.8 m_G=1.55e-11 T_osc=96.2 MeV lam/WDM=0.00108 f_iso=4.61e-13 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.70_F1      K=  47.16 X= 274.7 m_G=2.93e-18 T_osc=0.061 MeV lam/WDM=1.62 f_iso=4.23e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.70_F0.85   K=  46.74 X= 272.3 m_G=5.64e-18 T_osc=0.0844 MeV lam/WDM=1.21 f_iso=1.57e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.70_F0.7    K=  46.20 X= 269.2 m_G=1.35e-17 T_osc=0.126 MeV lam/WDM=0.8 f_iso=4.41e-04 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.70_F0.5    K=  45.24 X= 263.6 m_G=6.35e-17 T_osc=0.249 MeV lam/WDM=0.383 f_iso=4.68e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.70_F0.35   K=  44.26 X= 257.9 m_G=3.06e-16 T_osc=0.5 MeV lam/WDM=0.182 f_iso=4.65e-06 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.70_F0.25   K=  43.38 X= 252.7 m_G=1.24e-15 T_osc=0.969 MeV lam/WDM=0.0947 f_iso=5.74e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.70_F0.18   K=  42.52 X= 247.7 m_G=4.84e-15 T_osc=1.9 MeV lam/WDM=0.0502 f_iso=7.48e-08 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.70_F0.125  K=  41.57 X= 242.2 m_G=2.18e-14 T_osc=4.03 MeV lam/WDM=0.0248 f_iso=7.85e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.70_F0.09   K=  40.71 X= 237.2 m_G=8.44e-14 T_osc=7.94 MeV lam/WDM=0.0132 f_iso=1.03e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.70_F0.0625 K=  39.75 X= 231.6 m_G=3.87e-13 T_osc=16.9 MeV lam/WDM=0.0064 f_iso=1.06e-10 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.70_F0.045  K=  38.89 X= 226.5 m_G=1.54e-12 T_osc=33.2 MeV lam/WDM=0.00333 f_iso=1.35e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.70_F0.03   K=  37.76 X= 220.0 m_G=9.44e-12 T_osc=76.9 MeV lam/WDM=0.00138 f_iso=9.50e-13 estelar=probable  SMBH=ok   -> frio_trivial
+U17f_Y1.98_F1      K=  55.11 X= 321.0 m_G=2.17e-18 T_osc=0.0526 MeV lam/WDM=1.86 f_iso=6.65e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.98_F0.85   K=  54.62 X= 318.2 m_G=4.18e-18 T_osc=0.0728 MeV lam/WDM=1.38 f_iso=2.47e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.98_F0.7    K=  54.03 X= 314.7 m_G=9.42e-18 T_osc=0.108 MeV lam/WDM=0.951 f_iso=7.36e-04 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.98_F0.5    K=  52.89 X= 308.1 m_G=4.57e-17 T_osc=0.216 MeV lam/WDM=0.447 f_iso=7.57e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.98_F0.35   K=  51.75 X= 301.5 m_G=2.21e-16 T_osc=0.432 MeV lam/WDM=0.212 f_iso=7.52e-06 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.98_F0.25   K=  50.71 X= 295.4 m_G=9.12e-16 T_osc=0.837 MeV lam/WDM=0.109 f_iso=9.11e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.98_F0.18   K=  49.71 X= 289.6 m_G=3.56e-15 T_osc=1.63 MeV lam/WDM=0.0579 f_iso=1.18e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.98_F0.125  K=  48.60 X= 283.1 m_G=1.60e-14 T_osc=3.46 MeV lam/WDM=0.0286 f_iso=1.24e-08 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.98_F0.09   K=  47.60 X= 277.3 m_G=6.22e-14 T_osc=6.82 MeV lam/WDM=0.0152 f_iso=1.63e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.98_F0.0625 K=  46.49 X= 270.8 m_G=2.84e-13 T_osc=14.5 MeV lam/WDM=0.00742 f_iso=1.68e-10 estelar=frontera  SMBH=ok   -> frio_trivial
+U17f_Y1.98_F0.045  K=  45.47 X= 264.9 m_G=1.13e-12 T_osc=28.5 MeV lam/WDM=0.00386 f_iso=2.14e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.98_F0.03   K=  44.18 X= 257.4 m_G=6.67e-12 T_osc=66 MeV lam/WDM=0.00164 f_iso=1.57e-12 estelar=probable  SMBH=ok   -> frio_trivial
+U17f_Y1.00_F1      K=  27.43 X= 159.8 m_G=8.31e-18 T_osc=0.102 MeV lam/WDM=1.01 f_iso=8.79e-04 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.00_F0.85   K=  27.15 X= 158.1 m_G=1.81e-17 T_osc=0.143 MeV lam/WDM=0.694 f_iso=2.88e-04 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.00_F0.7    K=  26.82 X= 156.2 m_G=4.46e-17 T_osc=0.214 MeV lam/WDM=0.452 f_iso=7.85e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.00_F0.5    K=  26.28 X= 153.1 m_G=1.97e-16 T_osc=0.41 MeV lam/WDM=0.224 f_iso=8.90e-06 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.00_F0.35   K=  25.72 X= 149.8 m_G=8.89e-16 T_osc=0.827 MeV lam/WDM=0.111 f_iso=9.46e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.00_F0.25   K=  25.20 X= 146.8 m_G=3.59e-15 T_osc=1.64 MeV lam/WDM=0.0577 f_iso=1.17e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.00_F0.18   K=  24.70 X= 143.9 m_G=1.39e-14 T_osc=3.22 MeV lam/WDM=0.0306 f_iso=1.54e-08 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.00_F0.125  K=  24.14 X= 140.6 m_G=6.25e-14 T_osc=6.83 MeV lam/WDM=0.0151 f_iso=1.62e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.00_F0.09   K=  23.63 X= 137.7 m_G=2.45e-13 T_osc=13.5 MeV lam/WDM=0.00796 f_iso=2.10e-10 estelar=frontera  SMBH=ok   -> frio_trivial
+U17f_Y1.00_F0.0625 K=  23.06 X= 134.4 m_G=1.13e-12 T_osc=28.5 MeV lam/WDM=0.00385 f_iso=2.14e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.00_F0.045  K=  22.54 X= 131.3 m_G=4.64e-12 T_osc=56.3 MeV lam/WDM=0.00196 f_iso=2.64e-12 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.00_F0.03   K=  21.86 X= 127.4 m_G=3.03e-11 T_osc=130 MeV lam/WDM=0.000781 f_iso=1.75e-13 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y0.50_F1      K=  13.48 X=  78.5 m_G=3.92e-17 T_osc=0.202 MeV lam/WDM=0.481 f_iso=9.50e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y0.50_F0.85   K=  13.35 X=  77.8 m_G=8.02e-17 T_osc=0.275 MeV lam/WDM=0.343 f_iso=3.32e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y0.50_F0.7    K=  13.19 X=  76.9 m_G=1.89e-16 T_osc=0.402 MeV lam/WDM=0.229 f_iso=9.47e-06 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y0.50_F0.5    K=  12.93 X=  75.3 m_G=7.84e-16 T_osc=0.779 MeV lam/WDM=0.117 f_iso=1.14e-06 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y0.50_F0.35   K=  12.66 X=  73.7 m_G=3.43e-15 T_osc=1.6 MeV lam/WDM=0.0589 f_iso=1.25e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y0.50_F0.25   K=  12.40 X=  72.2 m_G=1.37e-14 T_osc=3.2 MeV lam/WDM=0.0308 f_iso=1.57e-08 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y0.50_F0.18   K=  12.15 X=  70.8 m_G=5.31e-14 T_osc=6.3 MeV lam/WDM=0.0163 f_iso=2.06e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y0.50_F0.125  K=  11.87 X=  69.1 m_G=2.41e-13 T_osc=13.3 MeV lam/WDM=0.00802 f_iso=2.15e-10 estelar=frontera  SMBH=ok   -> frio_trivial
+U17f_Y0.50_F0.09   K=  11.61 X=  67.6 m_G=9.55e-13 T_osc=26.3 MeV lam/WDM=0.00417 f_iso=2.75e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y0.50_F0.0625 K=  11.32 X=  66.0 m_G=4.54e-12 T_osc=55.7 MeV lam/WDM=0.00198 f_iso=2.72e-12 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y0.50_F0.045  K=  11.05 X=  64.4 m_G=2.09e-11 T_osc=110 MeV lam/WDM=0.000937 f_iso=3.00e-13 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y0.50_F0.03   K=  10.65 X=  62.1 m_G=1.94e-10 T_osc=256 MeV lam/WDM=0.000298 f_iso=1.39e-14 estelar=libre     SMBH=ok   -> frio_trivial
+29 CLASS rows
+   [1/149] thermal (cache) mixed_1keV_f0.140 ok  (0.0 min)
+   [2/149] thermal (cache) mixed_4keV_f0.643 ok  (0.0 min)
+   [3/149] thermal (cache) family 0.2 keV f=0.01 ok  (0.0 min)
+   [4/149] thermal (cache) family 0.2 keV f=0.02 ok  (0.0 min)
+   [5/149] thermal (cache) family 0.2 keV f=0.03 ok  (0.0 min)
+   [6/149] thermal (cache) thermal_5.3keV ok  (0.0 min)
+   [7/149] thermal (cache) family 0.2 keV f=0.05 ok  (0.0 min)
+   [8/149] thermal (cache) family 0.2 keV f=0.1 ok  (0.0 min)
+   [9/149] thermal (cache) family 0.2 keV f=0.2 ok  (0.0 min)
+   [10/149] thermal (cache) family 0.2 keV f=0.15 ok  (0.0 min)
+   [11/149] thermal (cache) family 0.2 keV f=0.3 ok  (0.0 min)
+   [12/149] thermal (cache) family 0.2 keV f=0.4 ok  (0.0 min)
+   [13/149] thermal (cache) family 0.2 keV f=0.55 ok  (0.0 min)
+   [14/149] thermal (cache) family 0.2 keV f=0.75 ok  (0.0 min)
+   [15/149] thermal (cache) family 0.2 keV f=1 ok  (0.0 min)
+   [16/149] thermal (cache) family 0.3 keV f=0.02 ok  (0.0 min)
+   [17/149] thermal (cache) family 0.3 keV f=0.01 ok  (0.0 min)
+   [18/149] thermal (cache) family 0.3 keV f=0.03 ok  (0.0 min)
+   [19/149] thermal (cache) family 0.3 keV f=0.05 ok  (0.0 min)
+   [20/149] thermal (cache) family 0.3 keV f=0.1 ok  (0.0 min)
+   [21/149] thermal (cache) family 0.3 keV f=0.2 ok  (0.0 min)
+   [22/149] thermal (cache) family 0.3 keV f=0.15 ok  (0.0 min)
+   [23/149] thermal (cache) family 0.3 keV f=0.4 ok  (0.0 min)
+   [24/149] thermal (cache) family 0.3 keV f=0.55 ok  (0.0 min)
+   [25/149] thermal (cache) family 0.3 keV f=0.75 ok  (0.0 min)
+   [26/149] thermal (cache) family 0.3 keV f=0.3 ok  (0.0 min)
+   [27/149] thermal (cache) family 0.3 keV f=1 ok  (0.0 min)
+   [28/149] thermal (cache) family 0.4 keV f=0.01 ok  (0.0 min)
+   [29/149] thermal (cache) family 0.4 keV f=0.02 ok  (0.0 min)
+   [30/149] thermal (cache) family 0.4 keV f=0.03 ok  (0.0 min)
+   [31/149] thermal (cache) family 0.4 keV f=0.05 ok  (0.0 min)
+   [32/149] thermal (cache) family 0.4 keV f=0.1 ok  (0.0 min)
+   [33/149] thermal (cache) family 0.4 keV f=0.15 ok  (0.0 min)
+   [34/149] thermal (cache) family 0.4 keV f=0.2 ok  (0.0 min)
+   [35/149] thermal (cache) family 0.4 keV f=0.3 ok  (0.0 min)
+   [36/149] thermal (cache) family 0.4 keV f=0.4 ok  (0.0 min)
+   [37/149] thermal (cache) family 0.4 keV f=0.55 ok  (0.0 min)
+   [38/149] thermal (cache) family 0.4 keV f=0.75 ok  (0.0 min)
+   [39/149] thermal (cache) family 0.4 keV f=1 ok  (0.0 min)
+   [40/149] thermal (cache) family 0.5 keV f=0.01 ok  (0.0 min)
+   [41/149] thermal (cache) family 0.5 keV f=0.02 ok  (0.0 min)
+   [42/149] thermal (cache) family 0.5 keV f=0.03 ok  (0.0 min)
+   [43/149] thermal (cache) family 0.5 keV f=0.05 ok  (0.0 min)
+   [44/149] thermal (cache) family 0.5 keV f=0.15 ok  (0.0 min)
+   [45/149] thermal (cache) family 0.5 keV f=0.1 ok  (0.0 min)
+   [46/149] thermal (cache) family 0.5 keV f=0.2 ok  (0.0 min)
+   [47/149] thermal (cache) family 0.5 keV f=0.4 ok  (0.0 min)
+   [48/149] thermal (cache) family 0.5 keV f=0.3 ok  (0.0 min)
+   [49/149] thermal (cache) family 0.5 keV f=0.55 ok  (0.0 min)
+   [50/149] thermal (cache) family 0.5 keV f=0.75 ok  (0.0 min)
+   [51/149] thermal (cache) family 0.75 keV f=0.01 ok  (0.0 min)
+   [52/149] thermal (cache) family 0.5 keV f=1 ok  (0.0 min)
+   [53/149] thermal (cache) family 0.75 keV f=0.02 ok  (0.0 min)
+   [54/149] thermal (cache) family 0.75 keV f=0.03 ok  (0.0 min)
+   [55/149] thermal (cache) family 0.75 keV f=0.1 ok  (0.0 min)
+   [56/149] thermal (cache) family 0.75 keV f=0.05 ok  (0.0 min)
+   [57/149] thermal (cache) family 0.75 keV f=0.2 ok  (0.0 min)
+   [58/149] thermal (cache) family 0.75 keV f=0.15 ok  (0.0 min)
+   [59/149] thermal (cache) family 0.75 keV f=0.4 ok  (0.0 min)
+   [60/149] thermal (cache) family 0.75 keV f=0.3 ok  (0.0 min)
+   [61/149] thermal (cache) family 0.75 keV f=0.55 ok  (0.0 min)
+   [62/149] thermal (cache) family 0.75 keV f=0.75 ok  (0.0 min)
+   [63/149] thermal (cache) family 0.75 keV f=1 ok  (0.0 min)
+   [64/149] thermal (cache) family 1 keV f=0.01 ok  (0.0 min)
+   [65/149] thermal (cache) family 1 keV f=0.02 ok  (0.0 min)
+   [66/149] thermal (cache) family 1 keV f=0.03 ok  (0.0 min)
+   [67/149] thermal (cache) family 1 keV f=0.05 ok  (0.0 min)
+   [68/149] thermal (cache) family 1 keV f=0.1 ok  (0.0 min)
+   [69/149] thermal (cache) family 1 keV f=0.15 ok  (0.0 min)
+   [70/149] thermal (cache) family 1 keV f=0.2 ok  (0.0 min)
+   [71/149] thermal (cache) family 1 keV f=0.3 ok  (0.0 min)
+   [72/149] thermal (cache) family 1 keV f=0.4 ok  (0.0 min)
+   [73/149] thermal (cache) mixed_3keV_f0.469 ok  (0.0 min)
+   [74/149] thermal (cache) family 1 keV f=0.55 ok  (0.0 min)
+   [75/149] thermal (cache) family 1 keV f=0.75 ok  (0.0 min)
+   [76/149] thermal (cache) family 1 keV f=1 ok  (0.0 min)
+   [77/149] thermal (cache) family 1.5 keV f=0.01 ok  (0.0 min)
+   [78/149] thermal (cache) family 1.5 keV f=0.03 ok  (0.0 min)
+   [79/149] thermal (cache) family 1.5 keV f=0.02 ok  (0.0 min)
+   [80/149] thermal (cache) family 1.5 keV f=0.1 ok  (0.0 min)
+   [81/149] thermal (cache) family 1.5 keV f=0.05 ok  (0.0 min)
+   [82/149] thermal (cache) family 1.5 keV f=0.15 ok  (0.0 min)
+   [83/149] thermal (cache) family 1.5 keV f=0.2 ok  (0.0 min)
+   [84/149] thermal (cache) family 1.5 keV f=0.55 ok  (0.0 min)
+   [85/149] thermal (cache) family 1.5 keV f=0.4 ok  (0.0 min)
+   [86/149] thermal (cache) family 1.5 keV f=0.3 ok  (0.0 min)
+   [87/149] thermal (cache) family 1.5 keV f=0.75 ok  (0.0 min)
+   [88/149] thermal (cache) family 2 keV f=0.01 ok  (0.0 min)
+   [89/149] thermal (cache) family 2 keV f=0.02 ok  (0.0 min)
+   [90/149] thermal (cache) family 1.5 keV f=1 ok  (0.0 min)
+   [91/149] thermal (cache) family 2 keV f=0.03 ok  (0.0 min)
+   [92/149] thermal (cache) family 2 keV f=0.05 ok  (0.0 min)
+   [93/149] thermal (cache) family 2 keV f=0.1 ok  (0.0 min)
+   [94/149] thermal (cache) family 2 keV f=0.2 ok  (0.0 min)
+   [95/149] thermal (cache) family 2 keV f=0.15 ok  (0.0 min)
+   [96/149] thermal (cache) family 2 keV f=0.4 ok  (0.0 min)
+   [97/149] thermal (cache) family 2 keV f=0.3 ok  (0.0 min)
+   [98/149] thermal (cache) family 2 keV f=0.75 ok  (0.0 min)
+   [99/149] thermal (cache) family 3 keV f=0.01 ok  (0.0 min)
+   [100/149] thermal (cache) family 2 keV f=0.55 ok  (0.0 min)
+   [101/149] thermal (cache) family 3 keV f=0.02 ok  (0.0 min)
+   [102/149] thermal (cache) family 2 keV f=1 ok  (0.0 min)
+   [103/149] thermal (cache) family 3 keV f=0.05 ok  (0.0 min)
+   [104/149] thermal (cache) family 3 keV f=0.1 ok  (0.0 min)
+   [105/149] thermal (cache) family 3 keV f=0.03 ok  (0.0 min)
+   [106/149] thermal (cache) family 3 keV f=0.15 ok  (0.0 min)
+   [107/149] thermal (cache) family 3 keV f=0.2 ok  (0.0 min)
+   [108/149] thermal (cache) family 3 keV f=0.4 ok  (0.0 min)
+   [109/149] thermal (cache) family 3 keV f=0.3 ok  (0.0 min)
+   [110/149] thermal (cache) family 3 keV f=0.75 ok  (0.0 min)
+   [111/149] thermal (cache) family 3 keV f=0.55 ok  (0.0 min)
+   [112/149] thermal (cache) family 4 keV f=0.01 ok  (0.0 min)
+   [113/149] thermal (cache) family 3 keV f=1 ok  (0.0 min)
+   [114/149] thermal (cache) family 4 keV f=0.02 ok  (0.0 min)
+   [115/149] thermal (cache) family 4 keV f=0.05 ok  (0.0 min)
+   [116/149] thermal (cache) family 4 keV f=0.03 ok  (0.0 min)
+   [117/149] thermal (cache) family 4 keV f=0.1 ok  (0.0 min)
+   [118/149] thermal (cache) family 4 keV f=0.2 ok  (0.0 min)
+   [119/149] thermal (cache) family 4 keV f=0.15 ok  (0.0 min)
+   [120/149] thermal (cache) family 4 keV f=0.3 ok  (0.0 min)
+   [121/149] thermal (cache) family 4 keV f=0.55 ok  (0.0 min)
+   [122/149] thermal (cache) family 4 keV f=0.4 ok  (0.0 min)
+   [123/149] thermal (cache) family 4 keV f=0.75 ok  (0.0 min)
+   [124/149] thermal (cache) family 6 keV f=0.01 ok  (0.0 min)
+   [125/149] thermal (cache) family 4 keV f=1 ok  (0.0 min)
+   [126/149] thermal (cache) family 6 keV f=0.03 ok  (0.0 min)
+   [127/149] thermal (cache) family 6 keV f=0.02 ok  (0.0 min)
+   [128/149] thermal (cache) family 6 keV f=0.1 ok  (0.0 min)
+   [129/149] thermal (cache) family 6 keV f=0.05 ok  (0.0 min)
+   [130/149] thermal (cache) family 6 keV f=0.2 ok  (0.0 min)
+   [131/149] thermal (cache) family 6 keV f=0.15 ok  (0.0 min)
+   [132/149] thermal (cache) family 6 keV f=0.3 ok  (0.0 min)
+   [133/149] thermal (cache) family 6 keV f=0.4 ok  (0.0 min)
+   [134/149] thermal (cache) family 6 keV f=0.55 ok  (0.0 min)
+   [135/149] thermal (cache) family 6 keV f=0.75 ok  (0.0 min)
+   [136/149] thermal (cache) family 10 keV f=0.01 ok  (0.0 min)
+   [137/149] thermal (cache) family 6 keV f=1 ok  (0.0 min)
+   [138/149] thermal (cache) family 10 keV f=0.02 ok  (0.0 min)
+   [139/149] thermal (cache) family 10 keV f=0.03 ok  (0.0 min)
+   [140/149] thermal (cache) family 10 keV f=0.05 ok  (0.0 min)
+   [141/149] thermal (cache) family 10 keV f=0.1 ok  (0.0 min)
+   [142/149] thermal (cache) family 10 keV f=0.15 ok  (0.0 min)
+   [143/149] thermal (cache) family 10 keV f=0.2 ok  (0.0 min)
+   [144/149] thermal (cache) family 10 keV f=0.3 ok  (0.0 min)
+   [145/149] thermal (cache) family 10 keV f=0.4 ok  (0.0 min)
+   [146/149] thermal (cache) family 10 keV f=0.55 ok  (0.0 min)
+   [147/149] thermal (cache) family 10 keV f=0.75 ok  (0.0 min)
+   [148/149] thermal (cache) family 10 keV f=1 ok  (0.0 min)
+   [149/149] thermal (cache) mixed_2keV_f0.300 ok  (0.0 min)
+   [1/29] row U17f_Y1.05_F1 ok  (28.7 min)
+   [2/29] row U17f_Y1.05_F0.85 ok  (30.1 min)
+   [3/29] row U17f_Y1.05_F0.7 ok  (30.9 min)
+   [4/29] row U17f_Y1.05_F0.5 ok  (34.0 min)
+   [5/29] row U17f_Y1.20_F1 ok  (57.1 min)
+   [6/29] row U17f_Y1.20_F0.85 ok  (57.9 min)
+   [7/29] row U17f_Y1.20_F0.7 ok  (58.5 min)
+   [8/29] row U17f_Y1.20_F0.5 ok  (63.9 min)
+   [9/29] row U17f_Y1.36_F1 ok  (83.4 min)
+   [10/29] row U17f_Y1.36_F0.7 ok  (86.2 min)
+   [11/29] row U17f_Y1.36_F0.85 ok  (86.7 min)
+   [12/29] row U17f_Y1.36_F0.5 ok  (94.0 min)
+   [13/29] row U17f_Y1.70_F1 ok  (111.8 min)
+   [14/29] row U17f_Y1.70_F0.7 ok  (113.1 min)
+   [15/29] row U17f_Y1.70_F0.85 ok  (113.5 min)
+   [16/29] row U17f_Y1.70_F0.5 ok  (121.8 min)
+   [17/29] row U17f_Y1.98_F1 ok  (139.1 min)
+   [18/29] row U17f_Y1.98_F0.7 ok  (141.9 min)
+   [19/29] row U17f_Y1.98_F0.85 ok  (142.2 min)
+RESTART 2026-10-19 18:50 UTC: container restart killed the run at 19/29 CLASS rows; relaunched (finished rows come from the CLASS cache)
+shape: xbar=5.826 K_lattice=1.115
+U17f_Y1.05_F1      K=  28.83 X= 168.0 m_G=7.50e-18 T_osc=0.0971 MeV lam/WDM=1.06 f_iso=1.02e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.05_F0.85   K=  28.54 X= 166.3 m_G=1.62e-17 T_osc=0.136 MeV lam/WDM=0.732 f_iso=3.38e-04 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.05_F0.7    K=  28.19 X= 164.2 m_G=4.02e-17 T_osc=0.204 MeV lam/WDM=0.475 f_iso=9.14e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.05_F0.5    K=  27.62 X= 160.9 m_G=1.78e-16 T_osc=0.392 MeV lam/WDM=0.235 f_iso=1.04e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.05_F0.35   K=  27.03 X= 157.5 m_G=8.06e-16 T_osc=0.789 MeV lam/WDM=0.116 f_iso=1.09e-06 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.05_F0.25   K=  26.49 X= 154.3 m_G=3.26e-15 T_osc=1.56 MeV lam/WDM=0.0604 f_iso=1.36e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.05_F0.18   K=  25.96 X= 151.2 m_G=1.26e-14 T_osc=3.07 MeV lam/WDM=0.032 f_iso=1.78e-08 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.05_F0.125  K=  25.38 X= 147.8 m_G=5.67e-14 T_osc=6.51 MeV lam/WDM=0.0158 f_iso=1.87e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.05_F0.09   K=  24.84 X= 144.7 m_G=2.22e-13 T_osc=12.8 MeV lam/WDM=0.00834 f_iso=2.42e-10 estelar=frontera  SMBH=ok   -> frio_trivial
+U17f_Y1.05_F0.0625 K=  24.25 X= 141.3 m_G=1.03e-12 T_osc=27.2 MeV lam/WDM=0.00403 f_iso=2.47e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.05_F0.045  K=  23.71 X= 138.1 m_G=4.16e-12 T_osc=53.6 MeV lam/WDM=0.00207 f_iso=3.09e-12 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.05_F0.03   K=  22.99 X= 133.9 m_G=2.73e-11 T_osc=124 MeV lam/WDM=0.000822 f_iso=2.03e-13 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.20_F1      K=  33.05 X= 192.5 m_G=5.79e-18 T_osc=0.0855 MeV lam/WDM=1.19 f_iso=1.51e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.20_F0.85   K=  32.73 X= 190.7 m_G=1.19e-17 T_osc=0.119 MeV lam/WDM=0.848 f_iso=5.24e-04 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.20_F0.7    K=  32.33 X= 188.3 m_G=2.99e-17 T_osc=0.179 MeV lam/WDM=0.546 f_iso=1.40e-04 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.20_F0.5    K=  31.67 X= 184.5 m_G=1.34e-16 T_osc=0.345 MeV lam/WDM=0.269 f_iso=1.57e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.20_F0.35   K=  30.99 X= 180.5 m_G=6.17e-16 T_osc=0.696 MeV lam/WDM=0.131 f_iso=1.63e-06 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.20_F0.25   K=  30.37 X= 176.9 m_G=2.50e-15 T_osc=1.37 MeV lam/WDM=0.0684 f_iso=2.02e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.20_F0.18   K=  29.77 X= 173.4 m_G=9.70e-15 T_osc=2.69 MeV lam/WDM=0.0363 f_iso=2.64e-08 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.20_F0.125  K=  29.09 X= 169.5 m_G=4.36e-14 T_osc=5.71 MeV lam/WDM=0.0179 f_iso=2.77e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.20_F0.09   K=  28.49 X= 166.0 m_G=1.70e-13 T_osc=11.2 MeV lam/WDM=0.00947 f_iso=3.62e-10 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.20_F0.0625 K=  27.81 X= 162.0 m_G=7.84e-13 T_osc=23.8 MeV lam/WDM=0.00458 f_iso=3.69e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.20_F0.045  K=  27.20 X= 158.4 m_G=3.12e-12 T_osc=47 MeV lam/WDM=0.00238 f_iso=4.71e-12 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.20_F0.03   K=  26.37 X= 153.6 m_G=2.04e-11 T_osc=109 MeV lam/WDM=0.000947 f_iso=3.10e-13 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.36_F1      K=  37.55 X= 218.8 m_G=4.53e-18 T_osc=0.0758 MeV lam/WDM=1.33 f_iso=2.19e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.36_F0.85   K=  37.21 X= 216.8 m_G=8.91e-18 T_osc=0.105 MeV lam/WDM=0.977 f_iso=7.96e-04 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.36_F0.7    K=  36.75 X= 214.1 m_G=2.25e-17 T_osc=0.158 MeV lam/WDM=0.626 f_iso=2.11e-04 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.36_F0.5    K=  36.00 X= 209.7 m_G=1.02e-16 T_osc=0.307 MeV lam/WDM=0.305 f_iso=2.32e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.36_F0.35   K=  35.23 X= 205.2 m_G=4.80e-16 T_osc=0.618 MeV lam/WDM=0.148 f_iso=2.38e-06 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.36_F0.25   K=  34.52 X= 201.1 m_G=1.94e-15 T_osc=1.21 MeV lam/WDM=0.0768 f_iso=2.93e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.36_F0.18   K=  33.83 X= 197.1 m_G=7.56e-15 T_osc=2.38 MeV lam/WDM=0.0407 f_iso=3.83e-08 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.36_F0.125  K=  33.08 X= 192.7 m_G=3.40e-14 T_osc=5.04 MeV lam/WDM=0.0202 f_iso=4.03e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.36_F0.09   K=  32.39 X= 188.7 m_G=1.32e-13 T_osc=9.92 MeV lam/WDM=0.0107 f_iso=5.28e-10 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.36_F0.0625 K=  31.62 X= 184.2 m_G=6.09e-13 T_osc=21.1 MeV lam/WDM=0.00517 f_iso=5.37e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.36_F0.045  K=  30.92 X= 180.2 m_G=2.42e-12 T_osc=41.5 MeV lam/WDM=0.00268 f_iso=6.86e-12 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.36_F0.03   K=  30.00 X= 174.8 m_G=1.55e-11 T_osc=96.2 MeV lam/WDM=0.00108 f_iso=4.61e-13 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.70_F1      K=  47.16 X= 274.7 m_G=2.93e-18 T_osc=0.061 MeV lam/WDM=1.62 f_iso=4.23e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.70_F0.85   K=  46.74 X= 272.3 m_G=5.64e-18 T_osc=0.0844 MeV lam/WDM=1.21 f_iso=1.57e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.70_F0.7    K=  46.20 X= 269.2 m_G=1.35e-17 T_osc=0.126 MeV lam/WDM=0.8 f_iso=4.41e-04 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.70_F0.5    K=  45.24 X= 263.6 m_G=6.35e-17 T_osc=0.249 MeV lam/WDM=0.383 f_iso=4.68e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.70_F0.35   K=  44.26 X= 257.9 m_G=3.06e-16 T_osc=0.5 MeV lam/WDM=0.182 f_iso=4.65e-06 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.70_F0.25   K=  43.38 X= 252.7 m_G=1.24e-15 T_osc=0.969 MeV lam/WDM=0.0947 f_iso=5.74e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.70_F0.18   K=  42.52 X= 247.7 m_G=4.84e-15 T_osc=1.9 MeV lam/WDM=0.0502 f_iso=7.48e-08 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.70_F0.125  K=  41.57 X= 242.2 m_G=2.18e-14 T_osc=4.03 MeV lam/WDM=0.0248 f_iso=7.85e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.70_F0.09   K=  40.71 X= 237.2 m_G=8.44e-14 T_osc=7.94 MeV lam/WDM=0.0132 f_iso=1.03e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.70_F0.0625 K=  39.75 X= 231.6 m_G=3.87e-13 T_osc=16.9 MeV lam/WDM=0.0064 f_iso=1.06e-10 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.70_F0.045  K=  38.89 X= 226.5 m_G=1.54e-12 T_osc=33.2 MeV lam/WDM=0.00333 f_iso=1.35e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.70_F0.03   K=  37.76 X= 220.0 m_G=9.44e-12 T_osc=76.9 MeV lam/WDM=0.00138 f_iso=9.50e-13 estelar=probable  SMBH=ok   -> frio_trivial
+U17f_Y1.98_F1      K=  55.11 X= 321.0 m_G=2.17e-18 T_osc=0.0526 MeV lam/WDM=1.86 f_iso=6.65e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.98_F0.85   K=  54.62 X= 318.2 m_G=4.18e-18 T_osc=0.0728 MeV lam/WDM=1.38 f_iso=2.47e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.98_F0.7    K=  54.03 X= 314.7 m_G=9.42e-18 T_osc=0.108 MeV lam/WDM=0.951 f_iso=7.36e-04 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.98_F0.5    K=  52.89 X= 308.1 m_G=4.57e-17 T_osc=0.216 MeV lam/WDM=0.447 f_iso=7.57e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.98_F0.35   K=  51.75 X= 301.5 m_G=2.21e-16 T_osc=0.432 MeV lam/WDM=0.212 f_iso=7.52e-06 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.98_F0.25   K=  50.71 X= 295.4 m_G=9.12e-16 T_osc=0.837 MeV lam/WDM=0.109 f_iso=9.11e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.98_F0.18   K=  49.71 X= 289.6 m_G=3.56e-15 T_osc=1.63 MeV lam/WDM=0.0579 f_iso=1.18e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.98_F0.125  K=  48.60 X= 283.1 m_G=1.60e-14 T_osc=3.46 MeV lam/WDM=0.0286 f_iso=1.24e-08 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.98_F0.09   K=  47.60 X= 277.3 m_G=6.22e-14 T_osc=6.82 MeV lam/WDM=0.0152 f_iso=1.63e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.98_F0.0625 K=  46.49 X= 270.8 m_G=2.84e-13 T_osc=14.5 MeV lam/WDM=0.00742 f_iso=1.68e-10 estelar=frontera  SMBH=ok   -> frio_trivial
+U17f_Y1.98_F0.045  K=  45.47 X= 264.9 m_G=1.13e-12 T_osc=28.5 MeV lam/WDM=0.00386 f_iso=2.14e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.98_F0.03   K=  44.18 X= 257.4 m_G=6.67e-12 T_osc=66 MeV lam/WDM=0.00164 f_iso=1.57e-12 estelar=probable  SMBH=ok   -> frio_trivial
+U17f_Y1.00_F1      K=  27.43 X= 159.8 m_G=8.31e-18 T_osc=0.102 MeV lam/WDM=1.01 f_iso=8.79e-04 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.00_F0.85   K=  27.15 X= 158.1 m_G=1.81e-17 T_osc=0.143 MeV lam/WDM=0.694 f_iso=2.88e-04 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.00_F0.7    K=  26.82 X= 156.2 m_G=4.46e-17 T_osc=0.214 MeV lam/WDM=0.452 f_iso=7.85e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.00_F0.5    K=  26.28 X= 153.1 m_G=1.97e-16 T_osc=0.41 MeV lam/WDM=0.224 f_iso=8.90e-06 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.00_F0.35   K=  25.72 X= 149.8 m_G=8.89e-16 T_osc=0.827 MeV lam/WDM=0.111 f_iso=9.46e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.00_F0.25   K=  25.20 X= 146.8 m_G=3.59e-15 T_osc=1.64 MeV lam/WDM=0.0577 f_iso=1.17e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.00_F0.18   K=  24.70 X= 143.9 m_G=1.39e-14 T_osc=3.22 MeV lam/WDM=0.0306 f_iso=1.54e-08 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.00_F0.125  K=  24.14 X= 140.6 m_G=6.25e-14 T_osc=6.83 MeV lam/WDM=0.0151 f_iso=1.62e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.00_F0.09   K=  23.63 X= 137.7 m_G=2.45e-13 T_osc=13.5 MeV lam/WDM=0.00796 f_iso=2.10e-10 estelar=frontera  SMBH=ok   -> frio_trivial
+U17f_Y1.00_F0.0625 K=  23.06 X= 134.4 m_G=1.13e-12 T_osc=28.5 MeV lam/WDM=0.00385 f_iso=2.14e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.00_F0.045  K=  22.54 X= 131.3 m_G=4.64e-12 T_osc=56.3 MeV lam/WDM=0.00196 f_iso=2.64e-12 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.00_F0.03   K=  21.86 X= 127.4 m_G=3.03e-11 T_osc=130 MeV lam/WDM=0.000781 f_iso=1.75e-13 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y0.50_F1      K=  13.48 X=  78.5 m_G=3.92e-17 T_osc=0.202 MeV lam/WDM=0.481 f_iso=9.50e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y0.50_F0.85   K=  13.35 X=  77.8 m_G=8.02e-17 T_osc=0.275 MeV lam/WDM=0.343 f_iso=3.32e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y0.50_F0.7    K=  13.19 X=  76.9 m_G=1.89e-16 T_osc=0.402 MeV lam/WDM=0.229 f_iso=9.47e-06 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y0.50_F0.5    K=  12.93 X=  75.3 m_G=7.84e-16 T_osc=0.779 MeV lam/WDM=0.117 f_iso=1.14e-06 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y0.50_F0.35   K=  12.66 X=  73.7 m_G=3.43e-15 T_osc=1.6 MeV lam/WDM=0.0589 f_iso=1.25e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y0.50_F0.25   K=  12.40 X=  72.2 m_G=1.37e-14 T_osc=3.2 MeV lam/WDM=0.0308 f_iso=1.57e-08 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y0.50_F0.18   K=  12.15 X=  70.8 m_G=5.31e-14 T_osc=6.3 MeV lam/WDM=0.0163 f_iso=2.06e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y0.50_F0.125  K=  11.87 X=  69.1 m_G=2.41e-13 T_osc=13.3 MeV lam/WDM=0.00802 f_iso=2.15e-10 estelar=frontera  SMBH=ok   -> frio_trivial
+U17f_Y0.50_F0.09   K=  11.61 X=  67.6 m_G=9.55e-13 T_osc=26.3 MeV lam/WDM=0.00417 f_iso=2.75e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y0.50_F0.0625 K=  11.32 X=  66.0 m_G=4.54e-12 T_osc=55.7 MeV lam/WDM=0.00198 f_iso=2.72e-12 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y0.50_F0.045  K=  11.05 X=  64.4 m_G=2.09e-11 T_osc=110 MeV lam/WDM=0.000937 f_iso=3.00e-13 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y0.50_F0.03   K=  10.65 X=  62.1 m_G=1.94e-10 T_osc=256 MeV lam/WDM=0.000298 f_iso=1.39e-14 estelar=libre     SMBH=ok   -> frio_trivial
+29 CLASS rows
+   [1/149] thermal (cache) mixed_1keV_f0.140 ok  (0.0 min)
+   [2/149] thermal (cache) mixed_4keV_f0.643 ok  (0.0 min)
+   [3/149] thermal (cache) mixed_3keV_f0.469 ok  (0.0 min)
+   [4/149] thermal (cache) family 0.2 keV f=0.01 ok  (0.0 min)
+   [5/149] thermal (cache) family 0.2 keV f=0.03 ok  (0.0 min)
+   [6/149] thermal (cache) family 0.2 keV f=0.02 ok  (0.0 min)
+   [7/149] thermal (cache) family 0.2 keV f=0.05 ok  (0.0 min)
+   [8/149] thermal (cache) family 0.2 keV f=0.1 ok  (0.0 min)
+   [9/149] thermal (cache) family 0.2 keV f=0.15 ok  (0.0 min)
+   [10/149] thermal (cache) family 0.2 keV f=0.2 ok  (0.0 min)
+   [11/149] thermal (cache) family 0.2 keV f=0.3 ok  (0.0 min)
+   [12/149] thermal (cache) family 0.2 keV f=0.4 ok  (0.0 min)
+   [13/149] thermal (cache) family 0.2 keV f=0.55 ok  (0.0 min)
+   [14/149] thermal (cache) family 0.2 keV f=0.75 ok  (0.0 min)
+   [15/149] thermal (cache) family 0.2 keV f=1 ok  (0.0 min)
+   [16/149] thermal (cache) family 0.3 keV f=0.01 ok  (0.0 min)
+   [17/149] thermal (cache) family 0.3 keV f=0.02 ok  (0.0 min)
+   [18/149] thermal (cache) family 0.3 keV f=0.03 ok  (0.0 min)
+   [19/149] thermal (cache) family 0.3 keV f=0.05 ok  (0.0 min)
+   [20/149] thermal (cache) family 0.3 keV f=0.1 ok  (0.0 min)
+   [21/149] thermal (cache) family 0.3 keV f=0.15 ok  (0.0 min)
+   [22/149] thermal (cache) family 0.3 keV f=0.2 ok  (0.0 min)
+   [23/149] thermal (cache) family 0.3 keV f=0.3 ok  (0.0 min)
+   [24/149] thermal (cache) family 0.3 keV f=0.4 ok  (0.0 min)
+   [25/149] thermal (cache) family 0.3 keV f=0.75 ok  (0.0 min)
+   [26/149] thermal (cache) family 0.3 keV f=0.55 ok  (0.0 min)
+   [27/149] thermal (cache) family 0.4 keV f=0.01 ok  (0.0 min)
+   [28/149] thermal (cache) family 0.3 keV f=1 ok  (0.0 min)
+   [29/149] thermal (cache) family 0.4 keV f=0.02 ok  (0.0 min)
+   [30/149] thermal (cache) family 0.4 keV f=0.03 ok  (0.0 min)
+   [31/149] thermal (cache) family 0.4 keV f=0.05 ok  (0.0 min)
+   [32/149] thermal (cache) family 0.4 keV f=0.1 ok  (0.0 min)
+   [33/149] thermal (cache) family 0.4 keV f=0.15 ok  (0.0 min)
+   [34/149] thermal (cache) family 0.4 keV f=0.2 ok  (0.0 min)
+   [35/149] thermal (cache) family 0.4 keV f=0.4 ok  (0.0 min)
+   [36/149] thermal (cache) family 0.4 keV f=0.55 ok  (0.0 min)
+   [37/149] thermal (cache) family 0.4 keV f=0.3 ok  (0.0 min)
+   [38/149] thermal (cache) family 0.4 keV f=0.75 ok  (0.0 min)
+   [39/149] thermal (cache) family 0.4 keV f=1 ok  (0.0 min)
+   [40/149] thermal (cache) family 0.5 keV f=0.02 ok  (0.0 min)
+   [41/149] thermal (cache) family 0.5 keV f=0.03 ok  (0.0 min)
+   [42/149] thermal (cache) family 0.5 keV f=0.05 ok  (0.0 min)
+   [43/149] thermal (cache) family 0.5 keV f=0.01 ok  (0.0 min)
+   [44/149] thermal (cache) family 0.5 keV f=0.1 ok  (0.0 min)
+   [45/149] thermal (cache) family 0.5 keV f=0.15 ok  (0.0 min)
+   [46/149] thermal (cache) family 0.5 keV f=0.3 ok  (0.0 min)
+   [47/149] thermal (cache) family 0.5 keV f=0.2 ok  (0.0 min)
+   [48/149] thermal (cache) family 0.5 keV f=0.4 ok  (0.0 min)
+   [49/149] thermal (cache) family 0.5 keV f=0.55 ok  (0.0 min)
+   [50/149] thermal (cache) family 0.5 keV f=0.75 ok  (0.0 min)
+   [51/149] thermal (cache) family 0.5 keV f=1 ok  (0.0 min)
+   [52/149] thermal (cache) family 0.75 keV f=0.01 ok  (0.0 min)
+   [53/149] thermal (cache) family 0.75 keV f=0.02 ok  (0.0 min)
+   [54/149] thermal (cache) family 0.75 keV f=0.03 ok  (0.0 min)
+   [55/149] thermal (cache) family 0.75 keV f=0.1 ok  (0.0 min)
+   [56/149] thermal (cache) family 0.75 keV f=0.05 ok  (0.0 min)
+   [57/149] thermal (cache) thermal_5.3keV ok  (0.0 min)
+   [58/149] thermal (cache) family 0.75 keV f=0.2 ok  (0.0 min)
+   [59/149] thermal (cache) family 0.75 keV f=0.15 ok  (0.0 min)
+   [60/149] thermal (cache) family 0.75 keV f=0.3 ok  (0.0 min)
+   [61/149] thermal (cache) family 0.75 keV f=0.4 ok  (0.0 min)
+   [62/149] thermal (cache) family 0.75 keV f=0.75 ok  (0.0 min)
+   [63/149] thermal (cache) family 0.75 keV f=0.55 ok  (0.0 min)
+   [64/149] thermal (cache) family 1 keV f=0.01 ok  (0.0 min)
+   [65/149] thermal (cache) family 0.75 keV f=1 ok  (0.0 min)
+   [66/149] thermal (cache) family 1 keV f=0.03 ok  (0.0 min)
+   [67/149] thermal (cache) family 1 keV f=0.02 ok  (0.0 min)
+   [68/149] thermal (cache) family 1 keV f=0.1 ok  (0.0 min)
+   [69/149] thermal (cache) family 1 keV f=0.05 ok  (0.0 min)
+   [70/149] thermal (cache) family 1 keV f=0.2 ok  (0.0 min)
+   [71/149] thermal (cache) family 1 keV f=0.3 ok  (0.0 min)
+   [72/149] thermal (cache) family 1 keV f=0.15 ok  (0.0 min)
+   [73/149] thermal (cache) family 1 keV f=0.4 ok  (0.0 min)
+   [74/149] thermal (cache) family 1 keV f=0.75 ok  (0.0 min)
+   [75/149] thermal (cache) family 1 keV f=1 ok  (0.0 min)
+   [76/149] thermal (cache) family 1 keV f=0.55 ok  (0.0 min)
+   [77/149] thermal (cache) family 1.5 keV f=0.01 ok  (0.0 min)
+   [78/149] thermal (cache) family 1.5 keV f=0.03 ok  (0.0 min)
+   [79/149] thermal (cache) family 1.5 keV f=0.02 ok  (0.0 min)
+   [80/149] thermal (cache) family 1.5 keV f=0.1 ok  (0.0 min)
+   [81/149] thermal (cache) family 1.5 keV f=0.05 ok  (0.0 min)
+   [82/149] thermal (cache) family 1.5 keV f=0.2 ok  (0.0 min)
+   [83/149] thermal (cache) family 1.5 keV f=0.4 ok  (0.0 min)
+   [84/149] thermal (cache) family 1.5 keV f=0.15 ok  (0.0 min)
+   [85/149] thermal (cache) family 1.5 keV f=0.3 ok  (0.0 min)
+   [86/149] thermal (cache) family 1.5 keV f=0.55 ok  (0.0 min)
+   [87/149] thermal (cache) family 1.5 keV f=1 ok  (0.0 min)
+   [88/149] thermal (cache) family 1.5 keV f=0.75 ok  (0.0 min)
+   [89/149] thermal (cache) family 2 keV f=0.02 ok  (0.0 min)
+   [90/149] thermal (cache) family 2 keV f=0.03 ok  (0.0 min)
+   [91/149] thermal (cache) family 2 keV f=0.05 ok  (0.0 min)
+   [92/149] thermal (cache) family 2 keV f=0.01 ok  (0.0 min)
+   [93/149] thermal (cache) family 2 keV f=0.15 ok  (0.0 min)
+   [94/149] thermal (cache) family 2 keV f=0.1 ok  (0.0 min)
+   [95/149] thermal (cache) family 2 keV f=0.3 ok  (0.0 min)
+   [96/149] thermal (cache) family 2 keV f=0.2 ok  (0.0 min)
+   [97/149] thermal (cache) family 2 keV f=0.55 ok  (0.0 min)
+   [98/149] thermal (cache) family 2 keV f=0.75 ok  (0.0 min)
+   [99/149] thermal (cache) family 2 keV f=1 ok  (0.0 min)
+   [100/149] thermal (cache) family 2 keV f=0.4 ok  (0.0 min)
+   [101/149] thermal (cache) family 3 keV f=0.02 ok  (0.0 min)
+   [102/149] thermal (cache) family 3 keV f=0.01 ok  (0.0 min)
+   [103/149] thermal (cache) family 3 keV f=0.05 ok  (0.0 min)
+   [104/149] thermal (cache) family 3 keV f=0.03 ok  (0.0 min)
+   [105/149] thermal (cache) family 3 keV f=0.1 ok  (0.0 min)
+   [106/149] thermal (cache) family 3 keV f=0.15 ok  (0.0 min)
+   [107/149] thermal (cache) family 3 keV f=0.2 ok  (0.0 min)
+   [108/149] thermal (cache) mixed_2keV_f0.300 ok  (0.0 min)
+   [109/149] thermal (cache) family 3 keV f=0.3 ok  (0.0 min)
+   [110/149] thermal (cache) family 3 keV f=0.55 ok  (0.0 min)
+   [111/149] thermal (cache) family 3 keV f=0.4 ok  (0.0 min)
+   [112/149] thermal (cache) family 3 keV f=1 ok  (0.0 min)
+   [113/149] thermal (cache) family 4 keV f=0.02 ok  (0.0 min)
+   [114/149] thermal (cache) family 4 keV f=0.01 ok  (0.0 min)
+   [115/149] thermal (cache) family 3 keV f=0.75 ok  (0.0 min)
+   [116/149] thermal (cache) family 4 keV f=0.05 ok  (0.0 min)
+   [117/149] thermal (cache) family 4 keV f=0.15 ok  (0.0 min)
+   [118/149] thermal (cache) family 4 keV f=0.2 ok  (0.0 min)
+   [119/149] thermal (cache) family 4 keV f=0.1 ok  (0.0 min)
+   [120/149] thermal (cache) family 4 keV f=0.03 ok  (0.0 min)
+   [121/149] thermal (cache) family 4 keV f=0.3 ok  (0.0 min)
+   [122/149] thermal (cache) family 4 keV f=0.4 ok  (0.0 min)
+   [123/149] thermal (cache) family 4 keV f=0.55 ok  (0.0 min)
+   [124/149] thermal (cache) family 4 keV f=1 ok  (0.0 min)
+   [125/149] thermal (cache) family 6 keV f=0.01 ok  (0.0 min)
+   [126/149] thermal (cache) family 4 keV f=0.75 ok  (0.0 min)
+   [127/149] thermal (cache) family 6 keV f=0.03 ok  (0.0 min)
+   [128/149] thermal (cache) family 6 keV f=0.05 ok  (0.0 min)
+   [129/149] thermal (cache) family 6 keV f=0.02 ok  (0.0 min)
+   [130/149] thermal (cache) family 6 keV f=0.15 ok  (0.0 min)
+   [131/149] thermal (cache) family 6 keV f=0.2 ok  (0.0 min)
+   [132/149] thermal (cache) family 6 keV f=0.3 ok  (0.0 min)
+   [133/149] thermal (cache) family 6 keV f=0.4 ok  (0.0 min)
+   [134/149] thermal (cache) family 6 keV f=0.1 ok  (0.0 min)
+   [135/149] thermal (cache) family 6 keV f=0.55 ok  (0.0 min)
+   [136/149] thermal (cache) family 6 keV f=1 ok  (0.0 min)
+   [137/149] thermal (cache) family 6 keV f=0.75 ok  (0.0 min)
+   [138/149] thermal (cache) family 10 keV f=0.01 ok  (0.0 min)
+   [139/149] thermal (cache) family 10 keV f=0.02 ok  (0.0 min)
+   [140/149] thermal (cache) family 10 keV f=0.03 ok  (0.0 min)
+   [141/149] thermal (cache) family 10 keV f=0.05 ok  (0.0 min)
+   [142/149] thermal (cache) family 10 keV f=0.15 ok  (0.0 min)
+   [143/149] thermal (cache) family 10 keV f=0.2 ok  (0.0 min)
+   [144/149] thermal (cache) family 10 keV f=0.1 ok  (0.0 min)
+   [145/149] thermal (cache) family 10 keV f=0.4 ok  (0.0 min)
+   [146/149] thermal (cache) family 10 keV f=0.3 ok  (0.0 min)
+   [147/149] thermal (cache) family 10 keV f=0.75 ok  (0.0 min)
+   [148/149] thermal (cache) family 10 keV f=1 ok  (0.0 min)
+   [149/149] thermal (cache) family 10 keV f=0.55 ok  (0.0 min)
+   [1/29] row U17f_Y1.05_F0.85 ok  (0.0 min)
+   [2/29] row U17f_Y1.20_F1 ok  (0.0 min)
+   [3/29] row U17f_Y1.20_F0.85 ok  (0.0 min)
+   [4/29] row U17f_Y1.05_F0.7 ok  (0.0 min)
+   [5/29] row U17f_Y1.20_F0.7 ok  (0.0 min)
+   [6/29] row U17f_Y1.36_F1 ok  (0.0 min)
+   [7/29] row U17f_Y1.36_F0.85 ok  (0.0 min)
+   [8/29] row U17f_Y1.20_F0.5 ok  (0.0 min)
+   [9/29] row U17f_Y1.36_F0.7 ok  (0.0 min)
+   [10/29] row U17f_Y1.36_F0.5 ok  (0.0 min)
+   [11/29] row U17f_Y1.70_F1 ok  (0.0 min)
+   [12/29] row U17f_Y1.70_F0.85 ok  (0.0 min)
+   [13/29] row U17f_Y1.70_F0.7 ok  (0.0 min)
+   [14/29] row U17f_Y1.70_F0.5 ok  (0.0 min)
+   [15/29] row U17f_Y1.98_F1 ok  (0.0 min)
+   [16/29] row U17f_Y1.98_F0.85 ok  (0.0 min)
+   [17/29] row U17f_Y1.98_F0.7 ok  (0.0 min)
+   [18/29] row U17f_Y1.05_F1 ok  (0.0 min)
+   [19/29] row U17f_Y1.05_F0.5 ok  (0.0 min)
+   [20/29] row U17f_Y1.00_F1 ok  (26.1 min)
+   [21/29] row U17f_Y1.98_F0.5 ok  (26.8 min)
+   [22/29] row U17f_Y1.00_F0.85 ok  (27.1 min)
+   [23/29] row U17f_Y1.98_F0.35 ok  (27.8 min)
+   [24/29] row U17f_Y0.50_F1 ok  (53.7 min)
+   [25/29] row U17f_Y0.50_F0.85 ok  (54.4 min)
+   [26/29] row U17f_Y1.00_F0.7 ok  (54.6 min)
+   [27/29] row U17f_Y1.00_F0.5 ok  (56.5 min)
+   [28/29] row U17f_Y0.50_F0.7 ok  (81.8 min)
+   [29/29] row U17f_Y0.50_F0.5 ok  (82.1 min)
+U17f_Y1.05_F1      dA=0.347 fit m=1.52 f=0.150 primary=True
+U17f_Y1.05_F0.85   dA=0.262 fit m=1.39 f=0.076 primary=True
+U17f_Y1.05_F0.7    dA=0.185 fit m=0.66 f=0.016 primary=True
+U17f_Y1.05_F0.5    dA=0.098 fit m=0.72 f=0.010 primary=True
+U17f_Y1.20_F1      dA=0.378 fit m=2.88 f=0.443 primary=True
+U17f_Y1.20_F0.85   dA=0.295 fit m=1.50 f=0.110 primary=True
+U17f_Y1.20_F0.7    dA=0.208 fit m=2.52 f=0.131 primary=True
+U17f_Y1.20_F0.5    dA=0.112 fit m=1.19 f=0.021 primary=True
+U17f_Y1.36_F1      dA=0.409 fit m=2.96 f=0.549 primary=False
+U17f_Y1.36_F0.85   dA=0.328 fit m=1.90 f=0.185 primary=True
+U17f_Y1.36_F0.7    dA=0.233 fit m=0.75 f=0.028 primary=True
+U17f_Y1.36_F0.5    dA=0.126 fit m=1.14 f=0.023 primary=True
+U17f_Y1.70_F1      dA=0.468 fit m=3.32 f=0.824 primary=False
+U17f_Y1.70_F0.85   dA=0.383 fit m=2.81 f=0.431 primary=True
+U17f_Y1.70_F0.7    dA=0.283 fit m=1.48 f=0.100 primary=True
+U17f_Y1.70_F0.5    dA=0.154 fit m=0.53 f=0.010 primary=True
+U17f_Y1.98_F1      dA=0.510 fit m=3.34 f=1.000 primary=False
+U17f_Y1.98_F0.85   dA=0.421 fit m=2.95 f=0.573 primary=False
+U17f_Y1.98_F0.7    dA=0.323 fit m=1.92 f=0.183 primary=True
+U17f_Y1.98_F0.5    dA=0.177 fit m=1.08 f=0.031 primary=True
+U17f_Y1.98_F0.35   dA=0.090 fit m=0.74 f=0.010 primary=True
+U17f_Y1.00_F1      dA=0.335 fit m=2.00 f=0.212 primary=True
+U17f_Y1.00_F0.85   dA=0.252 fit m=6.15 f=0.762 primary=True
+U17f_Y1.00_F0.7    dA=0.177 fit m=1.01 f=0.028 primary=True
+U17f_Y1.00_F0.5    dA=0.093 fit m=0.73 f=0.010 primary=True
+U17f_Y0.50_F1      dA=0.183 fit m=0.64 f=0.015 primary=True
+U17f_Y0.50_F0.85   dA=0.136 fit m=0.64 f=0.011 primary=True
+U17f_Y0.50_F0.7    dA=0.094 fit m=0.74 f=0.010 primary=True
+U17f_Y0.50_F0.5    dA=0.047 fit m=1.43 f=0.019 primary=True
+pipeline control (Y = 1.70 vs U17e): {'F1': {'U17e': 0.4678202767566122, 'U17f': 0.4678202767566122, 'ok': True}, 'F0.7': {'U17e': 0.2831670843420401, 'U17f': 0.2831670843420401, 'ok': True}, 'F0.5': {'U17e': 0.15397761813142752, 'U17f': 0.15397761813142752, 'ok': True}}
+Traceback (most recent call last):
+  File "/home/user/whalefall/lya/u17f_class.py", line 147, in <module>
+    main(sys.argv)
+    ~~~~^^^^^^^^^^
+  File "/home/user/whalefall/lya/u17f_class.py", line 142, in main
+    (OUT / "U17F_RESULT.json").write_text(json.dumps(out, indent=1, default=float, allow_nan=False))
+                                          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/json/__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "/usr/lib/python3.13/json/encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.13/json/encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+ValueError: Out of range float values are not JSON compliant: inf
+RERUN 2026-10-19 20:42 UTC: the first complete run failed when writing the JSON (inf from U23 f_cd, SMBH 211 not superradiant); fixed (inf -> null) and rerun from the CLASS cache
+shape: xbar=5.826 K_lattice=1.115
+U17f_Y1.05_F1      K=  28.83 X= 168.0 m_G=7.50e-18 T_osc=0.0971 MeV lam/WDM=1.06 f_iso=1.02e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.05_F0.85   K=  28.54 X= 166.3 m_G=1.62e-17 T_osc=0.136 MeV lam/WDM=0.732 f_iso=3.38e-04 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.05_F0.7    K=  28.19 X= 164.2 m_G=4.02e-17 T_osc=0.204 MeV lam/WDM=0.475 f_iso=9.14e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.05_F0.5    K=  27.62 X= 160.9 m_G=1.78e-16 T_osc=0.392 MeV lam/WDM=0.235 f_iso=1.04e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.05_F0.35   K=  27.03 X= 157.5 m_G=8.06e-16 T_osc=0.789 MeV lam/WDM=0.116 f_iso=1.09e-06 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.05_F0.25   K=  26.49 X= 154.3 m_G=3.26e-15 T_osc=1.56 MeV lam/WDM=0.0604 f_iso=1.36e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.05_F0.18   K=  25.96 X= 151.2 m_G=1.26e-14 T_osc=3.07 MeV lam/WDM=0.032 f_iso=1.78e-08 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.05_F0.125  K=  25.38 X= 147.8 m_G=5.67e-14 T_osc=6.51 MeV lam/WDM=0.0158 f_iso=1.87e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.05_F0.09   K=  24.84 X= 144.7 m_G=2.22e-13 T_osc=12.8 MeV lam/WDM=0.00834 f_iso=2.42e-10 estelar=frontera  SMBH=ok   -> frio_trivial
+U17f_Y1.05_F0.0625 K=  24.25 X= 141.3 m_G=1.03e-12 T_osc=27.2 MeV lam/WDM=0.00403 f_iso=2.47e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.05_F0.045  K=  23.71 X= 138.1 m_G=4.16e-12 T_osc=53.6 MeV lam/WDM=0.00207 f_iso=3.09e-12 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.05_F0.03   K=  22.99 X= 133.9 m_G=2.73e-11 T_osc=124 MeV lam/WDM=0.000822 f_iso=2.03e-13 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.20_F1      K=  33.05 X= 192.5 m_G=5.79e-18 T_osc=0.0855 MeV lam/WDM=1.19 f_iso=1.51e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.20_F0.85   K=  32.73 X= 190.7 m_G=1.19e-17 T_osc=0.119 MeV lam/WDM=0.848 f_iso=5.24e-04 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.20_F0.7    K=  32.33 X= 188.3 m_G=2.99e-17 T_osc=0.179 MeV lam/WDM=0.546 f_iso=1.40e-04 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.20_F0.5    K=  31.67 X= 184.5 m_G=1.34e-16 T_osc=0.345 MeV lam/WDM=0.269 f_iso=1.57e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.20_F0.35   K=  30.99 X= 180.5 m_G=6.17e-16 T_osc=0.696 MeV lam/WDM=0.131 f_iso=1.63e-06 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.20_F0.25   K=  30.37 X= 176.9 m_G=2.50e-15 T_osc=1.37 MeV lam/WDM=0.0684 f_iso=2.02e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.20_F0.18   K=  29.77 X= 173.4 m_G=9.70e-15 T_osc=2.69 MeV lam/WDM=0.0363 f_iso=2.64e-08 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.20_F0.125  K=  29.09 X= 169.5 m_G=4.36e-14 T_osc=5.71 MeV lam/WDM=0.0179 f_iso=2.77e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.20_F0.09   K=  28.49 X= 166.0 m_G=1.70e-13 T_osc=11.2 MeV lam/WDM=0.00947 f_iso=3.62e-10 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.20_F0.0625 K=  27.81 X= 162.0 m_G=7.84e-13 T_osc=23.8 MeV lam/WDM=0.00458 f_iso=3.69e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.20_F0.045  K=  27.20 X= 158.4 m_G=3.12e-12 T_osc=47 MeV lam/WDM=0.00238 f_iso=4.71e-12 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.20_F0.03   K=  26.37 X= 153.6 m_G=2.04e-11 T_osc=109 MeV lam/WDM=0.000947 f_iso=3.10e-13 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.36_F1      K=  37.55 X= 218.8 m_G=4.53e-18 T_osc=0.0758 MeV lam/WDM=1.33 f_iso=2.19e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.36_F0.85   K=  37.21 X= 216.8 m_G=8.91e-18 T_osc=0.105 MeV lam/WDM=0.977 f_iso=7.96e-04 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.36_F0.7    K=  36.75 X= 214.1 m_G=2.25e-17 T_osc=0.158 MeV lam/WDM=0.626 f_iso=2.11e-04 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.36_F0.5    K=  36.00 X= 209.7 m_G=1.02e-16 T_osc=0.307 MeV lam/WDM=0.305 f_iso=2.32e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.36_F0.35   K=  35.23 X= 205.2 m_G=4.80e-16 T_osc=0.618 MeV lam/WDM=0.148 f_iso=2.38e-06 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.36_F0.25   K=  34.52 X= 201.1 m_G=1.94e-15 T_osc=1.21 MeV lam/WDM=0.0768 f_iso=2.93e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.36_F0.18   K=  33.83 X= 197.1 m_G=7.56e-15 T_osc=2.38 MeV lam/WDM=0.0407 f_iso=3.83e-08 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.36_F0.125  K=  33.08 X= 192.7 m_G=3.40e-14 T_osc=5.04 MeV lam/WDM=0.0202 f_iso=4.03e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.36_F0.09   K=  32.39 X= 188.7 m_G=1.32e-13 T_osc=9.92 MeV lam/WDM=0.0107 f_iso=5.28e-10 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.36_F0.0625 K=  31.62 X= 184.2 m_G=6.09e-13 T_osc=21.1 MeV lam/WDM=0.00517 f_iso=5.37e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.36_F0.045  K=  30.92 X= 180.2 m_G=2.42e-12 T_osc=41.5 MeV lam/WDM=0.00268 f_iso=6.86e-12 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.36_F0.03   K=  30.00 X= 174.8 m_G=1.55e-11 T_osc=96.2 MeV lam/WDM=0.00108 f_iso=4.61e-13 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.70_F1      K=  47.16 X= 274.7 m_G=2.93e-18 T_osc=0.061 MeV lam/WDM=1.62 f_iso=4.23e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.70_F0.85   K=  46.74 X= 272.3 m_G=5.64e-18 T_osc=0.0844 MeV lam/WDM=1.21 f_iso=1.57e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.70_F0.7    K=  46.20 X= 269.2 m_G=1.35e-17 T_osc=0.126 MeV lam/WDM=0.8 f_iso=4.41e-04 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.70_F0.5    K=  45.24 X= 263.6 m_G=6.35e-17 T_osc=0.249 MeV lam/WDM=0.383 f_iso=4.68e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.70_F0.35   K=  44.26 X= 257.9 m_G=3.06e-16 T_osc=0.5 MeV lam/WDM=0.182 f_iso=4.65e-06 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.70_F0.25   K=  43.38 X= 252.7 m_G=1.24e-15 T_osc=0.969 MeV lam/WDM=0.0947 f_iso=5.74e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.70_F0.18   K=  42.52 X= 247.7 m_G=4.84e-15 T_osc=1.9 MeV lam/WDM=0.0502 f_iso=7.48e-08 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.70_F0.125  K=  41.57 X= 242.2 m_G=2.18e-14 T_osc=4.03 MeV lam/WDM=0.0248 f_iso=7.85e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.70_F0.09   K=  40.71 X= 237.2 m_G=8.44e-14 T_osc=7.94 MeV lam/WDM=0.0132 f_iso=1.03e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.70_F0.0625 K=  39.75 X= 231.6 m_G=3.87e-13 T_osc=16.9 MeV lam/WDM=0.0064 f_iso=1.06e-10 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.70_F0.045  K=  38.89 X= 226.5 m_G=1.54e-12 T_osc=33.2 MeV lam/WDM=0.00333 f_iso=1.35e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.70_F0.03   K=  37.76 X= 220.0 m_G=9.44e-12 T_osc=76.9 MeV lam/WDM=0.00138 f_iso=9.50e-13 estelar=probable  SMBH=ok   -> frio_trivial
+U17f_Y1.98_F1      K=  55.11 X= 321.0 m_G=2.17e-18 T_osc=0.0526 MeV lam/WDM=1.86 f_iso=6.65e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.98_F0.85   K=  54.62 X= 318.2 m_G=4.18e-18 T_osc=0.0728 MeV lam/WDM=1.38 f_iso=2.47e-03 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.98_F0.7    K=  54.03 X= 314.7 m_G=9.42e-18 T_osc=0.108 MeV lam/WDM=0.951 f_iso=7.36e-04 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.98_F0.5    K=  52.89 X= 308.1 m_G=4.57e-17 T_osc=0.216 MeV lam/WDM=0.447 f_iso=7.57e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.98_F0.35   K=  51.75 X= 301.5 m_G=2.21e-16 T_osc=0.432 MeV lam/WDM=0.212 f_iso=7.52e-06 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.98_F0.25   K=  50.71 X= 295.4 m_G=9.12e-16 T_osc=0.837 MeV lam/WDM=0.109 f_iso=9.11e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.98_F0.18   K=  49.71 X= 289.6 m_G=3.56e-15 T_osc=1.63 MeV lam/WDM=0.0579 f_iso=1.18e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.98_F0.125  K=  48.60 X= 283.1 m_G=1.60e-14 T_osc=3.46 MeV lam/WDM=0.0286 f_iso=1.24e-08 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.98_F0.09   K=  47.60 X= 277.3 m_G=6.22e-14 T_osc=6.82 MeV lam/WDM=0.0152 f_iso=1.63e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.98_F0.0625 K=  46.49 X= 270.8 m_G=2.84e-13 T_osc=14.5 MeV lam/WDM=0.00742 f_iso=1.68e-10 estelar=frontera  SMBH=ok   -> frio_trivial
+U17f_Y1.98_F0.045  K=  45.47 X= 264.9 m_G=1.13e-12 T_osc=28.5 MeV lam/WDM=0.00386 f_iso=2.14e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.98_F0.03   K=  44.18 X= 257.4 m_G=6.67e-12 T_osc=66 MeV lam/WDM=0.00164 f_iso=1.57e-12 estelar=probable  SMBH=ok   -> frio_trivial
+U17f_Y1.00_F1      K=  27.43 X= 159.8 m_G=8.31e-18 T_osc=0.102 MeV lam/WDM=1.01 f_iso=8.79e-04 estelar=libre     SMBH=excl -> CLASS
+U17f_Y1.00_F0.85   K=  27.15 X= 158.1 m_G=1.81e-17 T_osc=0.143 MeV lam/WDM=0.694 f_iso=2.88e-04 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.00_F0.7    K=  26.82 X= 156.2 m_G=4.46e-17 T_osc=0.214 MeV lam/WDM=0.452 f_iso=7.85e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.00_F0.5    K=  26.28 X= 153.1 m_G=1.97e-16 T_osc=0.41 MeV lam/WDM=0.224 f_iso=8.90e-06 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y1.00_F0.35   K=  25.72 X= 149.8 m_G=8.89e-16 T_osc=0.827 MeV lam/WDM=0.111 f_iso=9.46e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.00_F0.25   K=  25.20 X= 146.8 m_G=3.59e-15 T_osc=1.64 MeV lam/WDM=0.0577 f_iso=1.17e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y1.00_F0.18   K=  24.70 X= 143.9 m_G=1.39e-14 T_osc=3.22 MeV lam/WDM=0.0306 f_iso=1.54e-08 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.00_F0.125  K=  24.14 X= 140.6 m_G=6.25e-14 T_osc=6.83 MeV lam/WDM=0.0151 f_iso=1.62e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y1.00_F0.09   K=  23.63 X= 137.7 m_G=2.45e-13 T_osc=13.5 MeV lam/WDM=0.00796 f_iso=2.10e-10 estelar=frontera  SMBH=ok   -> frio_trivial
+U17f_Y1.00_F0.0625 K=  23.06 X= 134.4 m_G=1.13e-12 T_osc=28.5 MeV lam/WDM=0.00385 f_iso=2.14e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.00_F0.045  K=  22.54 X= 131.3 m_G=4.64e-12 T_osc=56.3 MeV lam/WDM=0.00196 f_iso=2.64e-12 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y1.00_F0.03   K=  21.86 X= 127.4 m_G=3.03e-11 T_osc=130 MeV lam/WDM=0.000781 f_iso=1.75e-13 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y0.50_F1      K=  13.48 X=  78.5 m_G=3.92e-17 T_osc=0.202 MeV lam/WDM=0.481 f_iso=9.50e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y0.50_F0.85   K=  13.35 X=  77.8 m_G=8.02e-17 T_osc=0.275 MeV lam/WDM=0.343 f_iso=3.32e-05 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y0.50_F0.7    K=  13.19 X=  76.9 m_G=1.89e-16 T_osc=0.402 MeV lam/WDM=0.229 f_iso=9.47e-06 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y0.50_F0.5    K=  12.93 X=  75.3 m_G=7.84e-16 T_osc=0.779 MeV lam/WDM=0.117 f_iso=1.14e-06 estelar=libre     SMBH=ok   -> CLASS
+U17f_Y0.50_F0.35   K=  12.66 X=  73.7 m_G=3.43e-15 T_osc=1.6 MeV lam/WDM=0.0589 f_iso=1.25e-07 estelar=libre     SMBH=ok   -> dominancia_U17e_Y+
+U17f_Y0.50_F0.25   K=  12.40 X=  72.2 m_G=1.37e-14 T_osc=3.2 MeV lam/WDM=0.0308 f_iso=1.57e-08 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y0.50_F0.18   K=  12.15 X=  70.8 m_G=5.31e-14 T_osc=6.3 MeV lam/WDM=0.0163 f_iso=2.06e-09 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y0.50_F0.125  K=  11.87 X=  69.1 m_G=2.41e-13 T_osc=13.3 MeV lam/WDM=0.00802 f_iso=2.15e-10 estelar=frontera  SMBH=ok   -> frio_trivial
+U17f_Y0.50_F0.09   K=  11.61 X=  67.6 m_G=9.55e-13 T_osc=26.3 MeV lam/WDM=0.00417 f_iso=2.75e-11 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y0.50_F0.0625 K=  11.32 X=  66.0 m_G=4.54e-12 T_osc=55.7 MeV lam/WDM=0.00198 f_iso=2.72e-12 estelar=excluida  SMBH=ok   -> frio_trivial
+U17f_Y0.50_F0.045  K=  11.05 X=  64.4 m_G=2.09e-11 T_osc=110 MeV lam/WDM=0.000937 f_iso=3.00e-13 estelar=libre     SMBH=ok   -> frio_trivial
+U17f_Y0.50_F0.03   K=  10.65 X=  62.1 m_G=1.94e-10 T_osc=256 MeV lam/WDM=0.000298 f_iso=1.39e-14 estelar=libre     SMBH=ok   -> frio_trivial
+29 CLASS rows
+   [1/149] thermal (cache) thermal_5.3keV ok  (0.0 min)
+   [2/149] thermal (cache) mixed_4keV_f0.643 ok  (0.0 min)
+   [3/149] thermal (cache) family 0.2 keV f=0.01 ok  (0.0 min)
+   [4/149] thermal (cache) family 0.2 keV f=0.02 ok  (0.0 min)
+   [5/149] thermal (cache) family 0.2 keV f=0.03 ok  (0.0 min)
+   [6/149] thermal (cache) family 0.2 keV f=0.05 ok  (0.0 min)
+   [7/149] thermal (cache) family 0.2 keV f=0.1 ok  (0.0 min)
+   [8/149] thermal (cache) family 0.2 keV f=0.15 ok  (0.0 min)
+   [9/149] thermal (cache) family 0.2 keV f=0.2 ok  (0.0 min)
+   [10/149] thermal (cache) family 0.2 keV f=0.3 ok  (0.0 min)
+   [11/149] thermal (cache) family 0.2 keV f=0.4 ok  (0.0 min)
+   [12/149] thermal (cache) family 0.2 keV f=0.55 ok  (0.0 min)
+   [13/149] thermal (cache) family 0.2 keV f=0.75 ok  (0.0 min)
+   [14/149] thermal (cache) family 0.2 keV f=1 ok  (0.0 min)
+   [15/149] thermal (cache) family 0.3 keV f=0.01 ok  (0.0 min)
+   [16/149] thermal (cache) family 0.3 keV f=0.02 ok  (0.0 min)
+   [17/149] thermal (cache) mixed_1keV_f0.140 ok  (0.0 min)
+   [18/149] thermal (cache) family 0.3 keV f=0.03 ok  (0.0 min)
+   [19/149] thermal (cache) family 0.3 keV f=0.05 ok  (0.0 min)
+   [20/149] thermal (cache) family 0.3 keV f=0.1 ok  (0.0 min)
+   [21/149] thermal (cache) family 0.3 keV f=0.15 ok  (0.0 min)
+   [22/149] thermal (cache) family 0.3 keV f=0.2 ok  (0.0 min)
+   [23/149] thermal (cache) family 0.3 keV f=0.3 ok  (0.0 min)
+   [24/149] thermal (cache) family 0.3 keV f=0.4 ok  (0.0 min)
+   [25/149] thermal (cache) family 0.3 keV f=0.55 ok  (0.0 min)
+   [26/149] thermal (cache) family 0.3 keV f=1 ok  (0.0 min)
+   [27/149] thermal (cache) family 0.3 keV f=0.75 ok  (0.0 min)
+   [28/149] thermal (cache) family 0.4 keV f=0.01 ok  (0.0 min)
+   [29/149] thermal (cache) family 0.4 keV f=0.02 ok  (0.0 min)
+   [30/149] thermal (cache) family 0.4 keV f=0.05 ok  (0.0 min)
+   [31/149] thermal (cache) family 0.4 keV f=0.03 ok  (0.0 min)
+   [32/149] thermal (cache) mixed_2keV_f0.300 ok  (0.0 min)
+   [33/149] thermal (cache) family 0.4 keV f=0.1 ok  (0.0 min)
+   [34/149] thermal (cache) family 0.4 keV f=0.15 ok  (0.0 min)
+   [35/149] thermal (cache) family 0.4 keV f=0.2 ok  (0.0 min)
+   [36/149] thermal (cache) family 0.4 keV f=0.3 ok  (0.0 min)
+   [37/149] thermal (cache) family 0.4 keV f=0.4 ok  (0.0 min)
+   [38/149] thermal (cache) family 0.4 keV f=0.55 ok  (0.0 min)
+   [39/149] thermal (cache) family 0.4 keV f=0.75 ok  (0.0 min)
+   [40/149] thermal (cache) family 0.4 keV f=1 ok  (0.0 min)
+   [41/149] thermal (cache) family 0.5 keV f=0.01 ok  (0.0 min)
+   [42/149] thermal (cache) family 0.5 keV f=0.02 ok  (0.0 min)
+   [43/149] thermal (cache) family 0.5 keV f=0.03 ok  (0.0 min)
+   [44/149] thermal (cache) family 0.5 keV f=0.05 ok  (0.0 min)
+   [45/149] thermal (cache) family 0.5 keV f=0.1 ok  (0.0 min)
+   [46/149] thermal (cache) family 0.5 keV f=0.2 ok  (0.0 min)
+   [47/149] thermal (cache) family 0.5 keV f=0.15 ok  (0.0 min)
+   [48/149] thermal (cache) family 0.5 keV f=0.3 ok  (0.0 min)
+   [49/149] thermal (cache) family 0.5 keV f=0.4 ok  (0.0 min)
+   [50/149] thermal (cache) family 0.5 keV f=0.55 ok  (0.0 min)
+   [51/149] thermal (cache) family 0.5 keV f=0.75 ok  (0.0 min)
+   [52/149] thermal (cache) family 0.5 keV f=1 ok  (0.0 min)
+   [53/149] thermal (cache) family 0.75 keV f=0.01 ok  (0.0 min)
+   [54/149] thermal (cache) family 0.75 keV f=0.02 ok  (0.0 min)
+   [55/149] thermal (cache) family 0.75 keV f=0.05 ok  (0.0 min)
+   [56/149] thermal (cache) family 0.75 keV f=0.03 ok  (0.0 min)
+   [57/149] thermal (cache) family 0.75 keV f=0.1 ok  (0.0 min)
+   [58/149] thermal (cache) family 0.75 keV f=0.15 ok  (0.0 min)
+   [59/149] thermal (cache) family 0.75 keV f=0.2 ok  (0.0 min)
+   [60/149] thermal (cache) family 0.75 keV f=0.4 ok  (0.0 min)
+   [61/149] thermal (cache) family 0.75 keV f=0.3 ok  (0.0 min)
+   [62/149] thermal (cache) family 0.75 keV f=0.55 ok  (0.0 min)
+   [63/149] thermal (cache) family 0.75 keV f=1 ok  (0.0 min)
+   [64/149] thermal (cache) family 0.75 keV f=0.75 ok  (0.0 min)
+   [65/149] thermal (cache) family 1 keV f=0.01 ok  (0.0 min)
+   [66/149] thermal (cache) family 1 keV f=0.02 ok  (0.0 min)
+   [67/149] thermal (cache) family 1 keV f=0.03 ok  (0.0 min)
+   [68/149] thermal (cache) family 1 keV f=0.1 ok  (0.0 min)
+   [69/149] thermal (cache) family 1 keV f=0.05 ok  (0.0 min)
+   [70/149] thermal (cache) family 1 keV f=0.15 ok  (0.0 min)
+   [71/149] thermal (cache) family 1 keV f=0.2 ok  (0.0 min)
+   [72/149] thermal (cache) family 1 keV f=0.55 ok  (0.0 min)
+   [73/149] thermal (cache) family 1 keV f=0.4 ok  (0.0 min)
+   [74/149] thermal (cache) family 1 keV f=0.75 ok  (0.0 min)
+   [75/149] thermal (cache) family 1 keV f=0.3 ok  (0.0 min)
+   [76/149] thermal (cache) family 1.5 keV f=0.01 ok  (0.0 min)
+   [77/149] thermal (cache) family 1 keV f=1 ok  (0.0 min)
+   [78/149] thermal (cache) family 1.5 keV f=0.03 ok  (0.0 min)
+   [79/149] thermal (cache) family 1.5 keV f=0.02 ok  (0.0 min)
+   [80/149] thermal (cache) family 1.5 keV f=0.05 ok  (0.0 min)
+   [81/149] thermal (cache) family 1.5 keV f=0.1 ok  (0.0 min)
+   [82/149] thermal (cache) family 1.5 keV f=0.3 ok  (0.0 min)
+   [83/149] thermal (cache) family 1.5 keV f=0.2 ok  (0.0 min)
+   [84/149] thermal (cache) family 1.5 keV f=0.4 ok  (0.0 min)
+   [85/149] thermal (cache) family 1.5 keV f=0.75 ok  (0.0 min)
+   [86/149] thermal (cache) family 1.5 keV f=0.15 ok  (0.0 min)
+   [87/149] thermal (cache) family 1.5 keV f=0.55 ok  (0.0 min)
+   [88/149] thermal (cache) family 1.5 keV f=1 ok  (0.0 min)
+   [89/149] thermal (cache) family 2 keV f=0.02 ok  (0.0 min)
+   [90/149] thermal (cache) family 2 keV f=0.01 ok  (0.0 min)
+   [91/149] thermal (cache) family 2 keV f=0.03 ok  (0.0 min)
+   [92/149] thermal (cache) family 2 keV f=0.05 ok  (0.0 min)
+   [93/149] thermal (cache) family 2 keV f=0.1 ok  (0.0 min)
+   [94/149] thermal (cache) family 2 keV f=0.15 ok  (0.0 min)
+   [95/149] thermal (cache) family 2 keV f=0.2 ok  (0.0 min)
+   [96/149] thermal (cache) family 2 keV f=0.3 ok  (0.0 min)
+   [97/149] thermal (cache) family 2 keV f=0.55 ok  (0.0 min)
+   [98/149] thermal (cache) family 2 keV f=0.75 ok  (0.0 min)
+   [99/149] thermal (cache) family 2 keV f=1 ok  (0.0 min)
+   [100/149] thermal (cache) family 3 keV f=0.01 ok  (0.0 min)
+   [101/149] thermal (cache) family 3 keV f=0.02 ok  (0.0 min)
+   [102/149] thermal (cache) family 3 keV f=0.03 ok  (0.0 min)
+   [103/149] thermal (cache) family 3 keV f=0.05 ok  (0.0 min)
+   [104/149] thermal (cache) family 3 keV f=0.1 ok  (0.0 min)
+   [105/149] thermal (cache) family 3 keV f=0.2 ok  (0.0 min)
+   [106/149] thermal (cache) family 3 keV f=0.15 ok  (0.0 min)
+   [107/149] thermal (cache) family 2 keV f=0.4 ok  (0.0 min)
+   [108/149] thermal (cache) family 3 keV f=0.3 ok  (0.0 min)
+   [109/149] thermal (cache) family 3 keV f=0.4 ok  (0.0 min)
+   [110/149] thermal (cache) family 3 keV f=0.55 ok  (0.0 min)
+   [111/149] thermal (cache) family 3 keV f=0.75 ok  (0.0 min)
+   [112/149] thermal (cache) family 3 keV f=1 ok  (0.0 min)
+   [113/149] thermal (cache) family 4 keV f=0.01 ok  (0.0 min)
+   [114/149] thermal (cache) family 4 keV f=0.05 ok  (0.0 min)
+   [115/149] thermal (cache) family 4 keV f=0.02 ok  (0.0 min)
+   [116/149] thermal (cache) family 4 keV f=0.03 ok  (0.0 min)
+   [117/149] thermal (cache) family 4 keV f=0.1 ok  (0.0 min)
+   [118/149] thermal (cache) family 4 keV f=0.3 ok  (0.0 min)
+   [119/149] thermal (cache) family 4 keV f=0.15 ok  (0.0 min)
+   [120/149] thermal (cache) family 4 keV f=0.2 ok  (0.0 min)
+   [121/149] thermal (cache) family 4 keV f=0.4 ok  (0.0 min)
+   [122/149] thermal (cache) family 4 keV f=0.55 ok  (0.0 min)
+   [123/149] thermal (cache) family 4 keV f=0.75 ok  (0.0 min)
+   [124/149] thermal (cache) family 4 keV f=1 ok  (0.0 min)
+   [125/149] thermal (cache) family 6 keV f=0.02 ok  (0.0 min)
+   [126/149] thermal (cache) family 6 keV f=0.01 ok  (0.0 min)
+   [127/149] thermal (cache) family 6 keV f=0.1 ok  (0.0 min)
+   [128/149] thermal (cache) family 6 keV f=0.05 ok  (0.0 min)
+   [129/149] thermal (cache) family 6 keV f=0.03 ok  (0.0 min)
+   [130/149] thermal (cache) family 6 keV f=0.15 ok  (0.0 min)
+   [131/149] thermal (cache) family 6 keV f=0.2 ok  (0.0 min)
+   [132/149] thermal (cache) family 6 keV f=0.3 ok  (0.0 min)
+   [133/149] thermal (cache) family 6 keV f=0.4 ok  (0.0 min)
+   [134/149] thermal (cache) family 6 keV f=1 ok  (0.0 min)
+   [135/149] thermal (cache) family 6 keV f=0.75 ok  (0.0 min)
+   [136/149] thermal (cache) family 10 keV f=0.02 ok  (0.0 min)
+   [137/149] thermal (cache) family 10 keV f=0.01 ok  (0.0 min)
+   [138/149] thermal (cache) family 6 keV f=0.55 ok  (0.0 min)
+   [139/149] thermal (cache) family 10 keV f=0.05 ok  (0.0 min)
+   [140/149] thermal (cache) family 10 keV f=0.03 ok  (0.0 min)
+   [141/149] thermal (cache) family 10 keV f=0.1 ok  (0.0 min)
+   [142/149] thermal (cache) family 10 keV f=0.2 ok  (0.0 min)
+   [143/149] thermal (cache) family 10 keV f=0.4 ok  (0.0 min)
+   [144/149] thermal (cache) family 10 keV f=0.3 ok  (0.0 min)
+   [145/149] thermal (cache) family 10 keV f=0.15 ok  (0.0 min)
+   [146/149] thermal (cache) family 10 keV f=0.55 ok  (0.0 min)
+   [147/149] thermal (cache) family 10 keV f=0.75 ok  (0.0 min)
+   [148/149] thermal (cache) family 10 keV f=1 ok  (0.0 min)
+   [149/149] thermal (cache) mixed_3keV_f0.469 ok  (0.0 min)
+   [1/29] row U17f_Y1.05_F0.85 ok  (0.0 min)
+   [2/29] row U17f_Y1.20_F1 ok  (0.0 min)
+   [3/29] row U17f_Y1.20_F0.85 ok  (0.0 min)
+   [4/29] row U17f_Y1.20_F0.7 ok  (0.0 min)
+   [5/29] row U17f_Y1.20_F0.5 ok  (0.0 min)
+   [6/29] row U17f_Y1.36_F1 ok  (0.0 min)
+   [7/29] row U17f_Y1.36_F0.85 ok  (0.0 min)
+   [8/29] row U17f_Y1.36_F0.7 ok  (0.0 min)
+   [9/29] row U17f_Y1.36_F0.5 ok  (0.0 min)
+   [10/29] row U17f_Y1.70_F1 ok  (0.0 min)
+   [11/29] row U17f_Y1.70_F0.85 ok  (0.0 min)
+   [12/29] row U17f_Y1.70_F0.7 ok  (0.0 min)
+   [13/29] row U17f_Y1.70_F0.5 ok  (0.0 min)
+   [14/29] row U17f_Y1.98_F1 ok  (0.0 min)
+   [15/29] row U17f_Y1.98_F0.85 ok  (0.0 min)
+   [16/29] row U17f_Y1.98_F0.7 ok  (0.0 min)
+   [17/29] row U17f_Y1.98_F0.5 ok  (0.0 min)
+   [18/29] row U17f_Y1.98_F0.35 ok  (0.0 min)
+   [19/29] row U17f_Y1.00_F1 ok  (0.0 min)
+   [20/29] row U17f_Y1.00_F0.85 ok  (0.0 min)
+   [21/29] row U17f_Y1.00_F0.7 ok  (0.0 min)
+   [22/29] row U17f_Y1.00_F0.5 ok  (0.0 min)
+   [23/29] row U17f_Y0.50_F1 ok  (0.0 min)
+   [24/29] row U17f_Y0.50_F0.85 ok  (0.0 min)
+   [25/29] row U17f_Y0.50_F0.7 ok  (0.0 min)
+   [26/29] row U17f_Y0.50_F0.5 ok  (0.0 min)
+   [27/29] row U17f_Y1.05_F1 ok  (0.0 min)
+   [28/29] row U17f_Y1.05_F0.5 ok  (0.0 min)
+   [29/29] row U17f_Y1.05_F0.7 ok  (0.0 min)
+U17f_Y1.05_F1      dA=0.347 fit m=1.52 f=0.150 primary=True
+U17f_Y1.05_F0.85   dA=0.262 fit m=1.39 f=0.076 primary=True
+U17f_Y1.05_F0.7    dA=0.185 fit m=0.66 f=0.016 primary=True
+U17f_Y1.05_F0.5    dA=0.098 fit m=0.72 f=0.010 primary=True
+U17f_Y1.20_F1      dA=0.378 fit m=2.88 f=0.443 primary=True
+U17f_Y1.20_F0.85   dA=0.295 fit m=1.50 f=0.110 primary=True
+U17f_Y1.20_F0.7    dA=0.208 fit m=2.52 f=0.131 primary=True
+U17f_Y1.20_F0.5    dA=0.112 fit m=1.19 f=0.021 primary=True
+U17f_Y1.36_F1      dA=0.409 fit m=2.96 f=0.549 primary=False
+U17f_Y1.36_F0.85   dA=0.328 fit m=1.90 f=0.185 primary=True
+U17f_Y1.36_F0.7    dA=0.233 fit m=0.75 f=0.028 primary=True
+U17f_Y1.36_F0.5    dA=0.126 fit m=1.14 f=0.023 primary=True
+U17f_Y1.70_F1      dA=0.468 fit m=3.32 f=0.824 primary=False
+U17f_Y1.70_F0.85   dA=0.383 fit m=2.81 f=0.431 primary=True
+U17f_Y1.70_F0.7    dA=0.283 fit m=1.48 f=0.100 primary=True
+U17f_Y1.70_F0.5    dA=0.154 fit m=0.53 f=0.010 primary=True
+U17f_Y1.98_F1      dA=0.510 fit m=3.34 f=1.000 primary=False
+U17f_Y1.98_F0.85   dA=0.421 fit m=2.95 f=0.573 primary=False
+U17f_Y1.98_F0.7    dA=0.323 fit m=1.92 f=0.183 primary=True
+U17f_Y1.98_F0.5    dA=0.177 fit m=1.08 f=0.031 primary=True
+U17f_Y1.98_F0.35   dA=0.090 fit m=0.74 f=0.010 primary=True
+U17f_Y1.00_F1      dA=0.335 fit m=2.00 f=0.212 primary=True
+U17f_Y1.00_F0.85   dA=0.252 fit m=6.15 f=0.762 primary=True
+U17f_Y1.00_F0.7    dA=0.177 fit m=1.01 f=0.028 primary=True
+U17f_Y1.00_F0.5    dA=0.093 fit m=0.73 f=0.010 primary=True
+U17f_Y0.50_F1      dA=0.183 fit m=0.64 f=0.015 primary=True
+U17f_Y0.50_F0.85   dA=0.136 fit m=0.64 f=0.011 primary=True
+U17f_Y0.50_F0.7    dA=0.094 fit m=0.74 f=0.010 primary=True
+U17f_Y0.50_F0.5    dA=0.047 fit m=1.43 f=0.019 primary=True
+pipeline control (Y = 1.70 vs U17e): {'F1': {'U17e': 0.4678202767566122, 'U17f': 0.4678202767566122, 'ok': True}, 'F0.7': {'U17e': 0.2831670843420401, 'U17f': 0.2831670843420401, 'ok': True}, 'F0.5': {'U17e': 0.15397761813142752, 'U17f': 0.15397761813142752, 'ok': True}}
+U17f: BORDE_0.7_CONFIRMADO; F0 PERMITIDO CON X <= 194 {'Y1.98': (0.0625, 0.7), 'Y1.70': (0.09, 0.85), 'Y1.36': (0.09, 0.85), 'Y1.20': (0.09, 1.0), 'Y1.05': (0.09, 1.0), 'Y1.00': (0.09, 1.0), 'Y0.50': (0.125, 1.0)}

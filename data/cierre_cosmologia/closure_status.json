@@ -1,0 +1,92 @@
+{
+  "cosmology_closed": false,
+  "ready_to_announce_closed_cosmology": false,
+  "scope": "Attempted physical closure; locally resolved conditional 3D defect and verified downstream controls",
+  "hypotheses_preserved": [
+    "origin_of_seed",
+    "microscopic_completion",
+    "reproduction_of_cycle"
+  ],
+  "numerical_controls": {
+    "fem_validation.json": true,
+    "topology_validation.json": true,
+    "tree_count_validation.json": true,
+    "species.json": true,
+    "bound_gradient_check.json": true,
+    "free_mode_controls.json": true,
+    "kinetic_independent_checks.json": true,
+    "nonlinear_goldstone_control.json": true,
+    "source_bridge_controls.json": true,
+    "coupled3d_n32.json": true,
+    "numerical_free_field_checks.json": true
+  },
+  "actual_3d_local_evolution": true,
+  "primordial_defect_profile_imposed": false,
+  "local_certified_perimeters": 159,
+  "local_uncertified_negative_faces": 2,
+  "local_scale_definition": "1/m_heavy, not a fitted physical core radius",
+  "local_cells_per_shortest_reference_scale": {
+    "minimum": 6.009289086609311,
+    "median": 6.009289086609311,
+    "maximum": 6.009289086609311,
+    "fraction_with_six_cells": 1.0
+  },
+  "local_refinement_comparison": {
+    "a": "candidate3d_w12",
+    "b": "candidate3d_nested",
+    "common_point_field_L2": {
+      "R3": 0.00019005576447585917,
+      "R4": 0.00016956444349565668
+    },
+    "integrated_net_flux_a": [
+      -3.6552817276920937,
+      -12.44448688559996,
+      -24.921366498721298
+    ],
+    "integrated_net_flux_b": [
+      -3.6564442848362924,
+      -12.446580570380913,
+      -24.922423771626292
+    ],
+    "relative_net_flux_change": [
+      0.0003179474521244379,
+      0.0001682136526665502,
+      4.242255547382624e-05
+    ],
+    "physical_radii_initial": [
+      3,
+      5,
+      8
+    ],
+    "source_emission_interpretation": false
+  },
+  "representative_core_resolved_network": false,
+  "complete_bound_free_split": false,
+  "actual_species_resolved_free_emission_measured": false,
+  "actual_network_source_calibrated": false,
+  "source_to_observables_control_verified": true,
+  "source_controls_all_passed": true,
+  "numerical_field_to_observables_verified": true,
+  "actual_cosmological_abundances_predicted": false,
+  "actual_cosmological_observables_predicted": false,
+  "stable_massive_free_particle_species": 0,
+  "bound_network_late_abundance": "unmeasured",
+  "averaged_metric_self_consistent": true,
+  "local_metric_resolved": false,
+  "retained_failed_or_unresolved_checks": [
+    "Six coarse mesh-interface wave tests fail; six finer tests pass only their declared regime",
+    "Actual fixed-vacuum free-mode windows fail physical calibration; energy remains unclassified",
+    "Selected old patch buffer comparison changes R5 net transport by about 9 percent",
+    "Controlled spectral quantiles at 256 to 512 bins still fail the five-percent gate",
+    "Global coarse orientations do not resolve cores or establish a calibrated representative source",
+    "Earlier RK4 averaged metric and linear matching diagnostics retained; final adaptive cubic run passes"
+  ],
+  "local_topology_scope": "A local eigenline-degeneracy curve crossing the analysis region; no global closed-loop/network inference",
+  "next_physical_target": "Representative core/wave-resolved network plus covariant radiation extraction and late bound/source histories",
+  "documents": [
+    "INFORME.md",
+    "METODO.md",
+    "CADENA_DIVULGATIVA.md",
+    "SIGUIENTE_PASO.md"
+  ]
+}

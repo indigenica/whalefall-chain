@@ -1,0 +1,67 @@
+{
+ "spec": "docs/preregistros/ESPEC_U22b.md",
+ "chi_et_sum": 415.5754116290197,
+ "chi_et_pole": 540.9528146719773,
+ "mode0_max_rel_diff": 0.0,
+ "sum": {
+  "n": 1100,
+  "n_fertile": 900,
+  "f_ES": 0.16337522441651706,
+  "n_window_fertile": 557,
+  "by_sep": {
+   "1e-07": {
+    "n_fertile": 205,
+    "n_eternal": 6
+   },
+   "1e-06": {
+    "n_fertile": 190,
+    "n_eternal": 19
+   },
+   "1e-05": {
+    "n_fertile": 187,
+    "n_eternal": 34
+   },
+   "0.0001": {
+    "n_fertile": 180,
+    "n_eternal": 38
+   },
+   "0.001": {
+    "n_fertile": 138,
+    "n_eternal": 24
+   }
+  },
+  "median_chi_land_fertile": 340.7415051528339
+ },
+ "pole": {
+  "n": 1100,
+  "n_fertile": 886,
+  "f_ES": 0.1528776978417266,
+  "n_window_fertile": 556,
+  "by_sep": {
+   "1e-07": {
+    "n_fertile": 203,
+    "n_eternal": 5
+   },
+   "1e-06": {
+    "n_fertile": 194,
+    "n_eternal": 17
+   },
+   "1e-05": {
+    "n_fertile": 188,
+    "n_eternal": 33
+   },
+   "0.0001": {
+    "n_fertile": 174,
+    "n_eternal": 35
+   },
+   "0.001": {
+    "n_fertile": 127,
+    "n_eternal": 17
+   }
+  },
+  "median_chi_land_fertile": 284.24545079657327
+ },
+ "R": 0.9357459087674914,
+ "verdict_U22b": "NACIMIENTO_ROBUSTO",
+ "runtime_s": 50.25012469291687
+}

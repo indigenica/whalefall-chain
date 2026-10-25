@@ -1,0 +1,908 @@
+{
+ "spec": "docs/preregistros/ESPEC_U23.md",
+ "figure": "data/literatura/witte_mummery_2412.03655_fig1.json",
+ "dark_mass_range_eV": [
+  1.8365383433483436e-13,
+  5.780960474057187e-12
+ ],
+ "light_mass_range_eV": [
+  1.7823787674480873e-13,
+  1.0939563662720931e-11
+ ],
+ "rows": [
+  {
+   "source": "U17e",
+   "kind": "Y",
+   "F_over_F0": 1.0,
+   "F_GeV": 1070076182963697.9,
+   "m_G_eV": 2.9265661101903403e-18,
+   "passes": false,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    267519045740924.47,
+    1070076182963697.9
+   ],
+   "SMBH_CS_excluded": true,
+   "SMBH_alpha": 0.1,
+   "SMBH_M_Msun": 4562047.923664915,
+   "SMBH_f_CD_GeV": 876823315346729.0,
+   "SMBH_possible": false,
+   "SMBH_possible_fF": true
+  },
+  {
+   "source": "U17e",
+   "kind": "Y",
+   "F_over_F0": 0.7,
+   "F_GeV": 749053328074588.5,
+   "m_G_eV": 1.3480167781989499e-17,
+   "passes": false,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    187263332018647.12,
+    749053328074588.5
+   ],
+   "SMBH_CS_excluded": true,
+   "SMBH_alpha": 0.10096645668710134,
+   "SMBH_M_Msun": 1000000.0,
+   "SMBH_f_CD_GeV": 398841941498672.1,
+   "SMBH_possible": false,
+   "SMBH_possible_fF": true
+  },
+  {
+   "source": "U17e",
+   "kind": "Y",
+   "F_over_F0": 0.5,
+   "F_GeV": 535038091481848.94,
+   "m_G_eV": 6.351911476192683e-17,
+   "passes": false,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    133759522870462.23,
+    535038091481848.94
+   ],
+   "SMBH_CS_excluded": false,
+   "SMBH_alpha": 0.4757581695668319,
+   "SMBH_M_Msun": 1000000.0,
+   "SMBH_f_CD_GeV": Infinity,
+   "SMBH_possible": false,
+   "SMBH_possible_fF": false
+  },
+  {
+   "source": "U17e",
+   "kind": "Y",
+   "F_over_F0": 0.35,
+   "F_GeV": 374526664037294.25,
+   "m_G_eV": 3.062027350442004e-16,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    93631666009323.56,
+    374526664037294.25
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "Y",
+   "F_over_F0": 0.25,
+   "F_GeV": 267519045740924.47,
+   "m_G_eV": 1.242552404409935e-15,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    66879761435231.12,
+    267519045740924.47
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "Y",
+   "F_over_F0": 0.18,
+   "F_GeV": 192613712933465.62,
+   "m_G_eV": 4.8435539249894e-15,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    48153428233366.41,
+    192613712933465.62
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "Y",
+   "F_over_F0": 0.125,
+   "F_GeV": 133759522870462.23,
+   "m_G_eV": 2.1776836999332596e-14,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    33439880717615.56,
+    133759522870462.23
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "Y",
+   "F_over_F0": 0.09,
+   "F_GeV": 96306856466732.81,
+   "m_G_eV": 8.43923746624431e-14,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    24076714116683.203,
+    96306856466732.81
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "Y",
+   "F_over_F0": 0.0625,
+   "F_GeV": 66879761435231.12,
+   "m_G_eV": 3.872751575530399e-13,
+   "passes": true,
+   "stellar": "excluida",
+   "f_eff_range_GeV": [
+    16719940358807.78,
+    66879761435231.12
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "Y",
+   "F_over_F0": 0.045,
+   "F_GeV": 48153428233366.41,
+   "m_G_eV": 1.5396712330429022e-12,
+   "passes": true,
+   "stellar": "excluida",
+   "f_eff_range_GeV": [
+    12038357058341.602,
+    48153428233366.41
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "Y",
+   "F_over_F0": 0.03,
+   "F_GeV": 32102285488910.934,
+   "m_G_eV": 9.435732481568565e-12,
+   "passes": true,
+   "stellar": "probable",
+   "f_eff_range_GeV": [
+    8025571372227.733,
+    32102285488910.934
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "Y+",
+   "F_over_F0": 1.0,
+   "F_GeV": 1070076182963697.9,
+   "m_G_eV": 1.700003989050697e-18,
+   "passes": false,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    267519045740924.47,
+    1070076182963697.9
+   ],
+   "SMBH_CS_excluded": true,
+   "SMBH_alpha": 0.09999999999999999,
+   "SMBH_M_Msun": 7853590.304760041,
+   "SMBH_f_CD_GeV": 1150446133510685.8,
+   "SMBH_possible": false,
+   "SMBH_possible_fF": false
+  },
+  {
+   "source": "U17e",
+   "kind": "Y+",
+   "F_over_F0": 0.7,
+   "F_GeV": 749053328074588.5,
+   "m_G_eV": 7.168571048410846e-18,
+   "passes": false,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    187263332018647.12,
+    749053328074588.5
+   ],
+   "SMBH_CS_excluded": true,
+   "SMBH_alpha": 0.1,
+   "SMBH_M_Msun": 1862454.142715329,
+   "SMBH_f_CD_GeV": 560241094887817.56,
+   "SMBH_possible": false,
+   "SMBH_possible_fF": true
+  },
+  {
+   "source": "U17e",
+   "kind": "Y+",
+   "F_over_F0": 0.5,
+   "F_GeV": 535038091481848.94,
+   "m_G_eV": 3.488714489640331e-17,
+   "passes": false,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    133759522870462.23,
+    535038091481848.94
+   ],
+   "SMBH_CS_excluded": false,
+   "SMBH_alpha": 0.2613047152740608,
+   "SMBH_M_Msun": 1000000.0,
+   "SMBH_f_CD_GeV": 23008612386050.824,
+   "SMBH_possible": true,
+   "SMBH_possible_fF": true
+  },
+  {
+   "source": "U17e",
+   "kind": "Y+",
+   "F_over_F0": 0.35,
+   "F_GeV": 374526664037294.25,
+   "m_G_eV": 1.6938980493419693e-16,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    93631666009323.56,
+    374526664037294.25
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "Y+",
+   "F_over_F0": 0.25,
+   "F_GeV": 267519045740924.47,
+   "m_G_eV": 7.094186167405003e-16,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    66879761435231.12,
+    267519045740924.47
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "Y+",
+   "F_over_F0": 0.18,
+   "F_GeV": 192613712933465.62,
+   "m_G_eV": 2.776634700883571e-15,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    48153428233366.41,
+    192613712933465.62
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "Y+",
+   "F_over_F0": 0.125,
+   "F_GeV": 133759522870462.23,
+   "m_G_eV": 1.2519162145375012e-14,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    33439880717615.56,
+    133759522870462.23
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "Y+",
+   "F_over_F0": 0.09,
+   "F_GeV": 96306856466732.81,
+   "m_G_eV": 4.8513993803279554e-14,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    24076714116683.203,
+    96306856466732.81
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "Y+",
+   "F_over_F0": 0.0625,
+   "F_GeV": 66879761435231.12,
+   "m_G_eV": 2.2040833975794555e-13,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    16719940358807.78,
+    66879761435231.12
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "Y+",
+   "F_over_F0": 0.045,
+   "F_GeV": 48153428233366.41,
+   "m_G_eV": 8.766230476935872e-13,
+   "passes": true,
+   "stellar": "excluida",
+   "f_eff_range_GeV": [
+    12038357058341.602,
+    48153428233366.41
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "Y+",
+   "F_over_F0": 0.03,
+   "F_GeV": 32102285488910.934,
+   "m_G_eV": 5.0256616416685205e-12,
+   "passes": true,
+   "stellar": "excluida",
+   "f_eff_range_GeV": [
+    8025571372227.733,
+    32102285488910.934
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "X",
+   "F_over_F0": 1.0,
+   "F_GeV": 1070076182963697.9,
+   "m_G_eV": 2.1437835950483864e-15,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    267519045740924.47,
+    1070076182963697.9
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "X",
+   "F_over_F0": 0.7,
+   "F_GeV": 749053328074588.5,
+   "m_G_eV": 8.969265782980405e-15,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    187263332018647.12,
+    749053328074588.5
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "X",
+   "F_over_F0": 0.5,
+   "F_GeV": 535038091481848.94,
+   "m_G_eV": 3.4453681528734414e-14,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    133759522870462.23,
+    535038091481848.94
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "X",
+   "F_over_F0": 0.35,
+   "F_GeV": 374526664037294.25,
+   "m_G_eV": 1.4366523550584408e-13,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    93631666009323.56,
+    374526664037294.25
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "X",
+   "F_over_F0": 0.25,
+   "F_GeV": 267519045740924.47,
+   "m_G_eV": 5.650671105565145e-13,
+   "passes": true,
+   "stellar": "excluida",
+   "f_eff_range_GeV": [
+    66879761435231.12,
+    267519045740924.47
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "X",
+   "F_over_F0": 0.18,
+   "F_GeV": 192613712933465.62,
+   "m_G_eV": 2.1493712002246604e-12,
+   "passes": true,
+   "stellar": "excluida",
+   "f_eff_range_GeV": [
+    48153428233366.41,
+    192613712933465.62
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "X",
+   "F_over_F0": 0.125,
+   "F_GeV": 133759522870462.23,
+   "m_G_eV": 1.064406382750079e-11,
+   "passes": true,
+   "stellar": "probable",
+   "f_eff_range_GeV": [
+    33439880717615.56,
+    133759522870462.23
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "X",
+   "F_over_F0": 0.09,
+   "F_GeV": 96306856466732.81,
+   "m_G_eV": 4.7960186729304e-11,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    24076714116683.203,
+    96306856466732.81
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "X",
+   "F_over_F0": 0.0625,
+   "F_GeV": 66879761435231.12,
+   "m_G_eV": 3.395605829249589e-10,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    16719940358807.78,
+    66879761435231.12
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "X",
+   "F_over_F0": 0.045,
+   "F_GeV": 48153428233366.41,
+   "m_G_eV": 1.3555717513482972e-09,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    12038357058341.602,
+    48153428233366.41
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U17e",
+   "kind": "X",
+   "F_over_F0": 0.03,
+   "F_GeV": 32102285488910.934,
+   "m_G_eV": 7.113884534712074e-09,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    8025571372227.733,
+    32102285488910.934
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U21",
+   "kind": "P",
+   "F_over_F0": 1.0,
+   "F_GeV": 1070076182963697.9,
+   "m_G_eV": 2.555942406988745e-18,
+   "passes": false,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    267519045740924.47,
+    1070076182963697.9
+   ],
+   "SMBH_CS_excluded": true,
+   "SMBH_alpha": 0.1,
+   "SMBH_M_Msun": 5223566.387863739,
+   "SMBH_f_CD_GeV": 938243851839561.0,
+   "SMBH_possible": false,
+   "SMBH_possible_fF": true
+  },
+  {
+   "source": "U21",
+   "kind": "P",
+   "F_over_F0": 0.7,
+   "F_GeV": 749053328074588.5,
+   "m_G_eV": 1.147308936861718e-17,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    187263332018647.12,
+    749053328074588.5
+   ],
+   "SMBH_CS_excluded": true,
+   "SMBH_alpha": 0.1,
+   "SMBH_M_Msun": 1163691.3491654538,
+   "SMBH_f_CD_GeV": 442844311940560.0,
+   "SMBH_possible": false,
+   "SMBH_possible_fF": true
+  },
+  {
+   "source": "U21",
+   "kind": "P",
+   "F_over_F0": 0.5,
+   "F_GeV": 535038091481848.94,
+   "m_G_eV": 5.4766404799289886e-17,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    133759522870462.23,
+    535038091481848.94
+   ],
+   "SMBH_CS_excluded": false,
+   "SMBH_alpha": 0.41020037194668124,
+   "SMBH_M_Msun": 1000000.0,
+   "SMBH_f_CD_GeV": 5947631027737.204,
+   "SMBH_possible": true,
+   "SMBH_possible_fF": true
+  },
+  {
+   "source": "U21",
+   "kind": "P",
+   "F_over_F0": 0.35,
+   "F_GeV": 374526664037294.25,
+   "m_G_eV": 2.6425258305016213e-16,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    93631666009323.56,
+    374526664037294.25
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U21",
+   "kind": "P",
+   "F_over_F0": 0.25,
+   "F_GeV": 267519045740924.47,
+   "m_G_eV": 1.0805046321113697e-15,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    66879761435231.12,
+    267519045740924.47
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U21",
+   "kind": "P",
+   "F_over_F0": 0.18,
+   "F_GeV": 192613712933465.62,
+   "m_G_eV": 4.216477549802339e-15,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    48153428233366.41,
+    192613712933465.62
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U21",
+   "kind": "P",
+   "F_over_F0": 0.125,
+   "F_GeV": 133759522870462.23,
+   "m_G_eV": 1.8970913947431193e-14,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    33439880717615.56,
+    133759522870462.23
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U21",
+   "kind": "P",
+   "F_over_F0": 0.09,
+   "F_GeV": 96306856466732.81,
+   "m_G_eV": 7.351827667833336e-14,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    24076714116683.203,
+    96306856466732.81
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U21",
+   "kind": "P",
+   "F_over_F0": 0.0625,
+   "F_GeV": 66879761435231.12,
+   "m_G_eV": 3.365408122037718e-13,
+   "passes": true,
+   "stellar": "excluida",
+   "f_eff_range_GeV": [
+    16719940358807.78,
+    66879761435231.12
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U21",
+   "kind": "P",
+   "F_over_F0": 0.045,
+   "F_GeV": 48153428233366.41,
+   "m_G_eV": 1.3381122482398355e-12,
+   "passes": true,
+   "stellar": "excluida",
+   "f_eff_range_GeV": [
+    12038357058341.602,
+    48153428233366.41
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U21",
+   "kind": "P",
+   "F_over_F0": 0.03,
+   "F_GeV": 32102285488910.934,
+   "m_G_eV": 8.073650547066262e-12,
+   "passes": true,
+   "stellar": "probable",
+   "f_eff_range_GeV": [
+    8025571372227.733,
+    32102285488910.934
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U21",
+   "kind": "H",
+   "F_over_F0": 1.0,
+   "F_GeV": 1070076182963697.9,
+   "m_G_eV": 2.555942406988745e-18,
+   "passes": false,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    267519045740924.47,
+    1070076182963697.9
+   ],
+   "SMBH_CS_excluded": true,
+   "SMBH_alpha": 0.1,
+   "SMBH_M_Msun": 5223566.387863739,
+   "SMBH_f_CD_GeV": 938243851839561.0,
+   "SMBH_possible": false,
+   "SMBH_possible_fF": true
+  },
+  {
+   "source": "U21",
+   "kind": "H",
+   "F_over_F0": 0.7,
+   "F_GeV": 749053328074588.5,
+   "m_G_eV": 1.147308936861718e-17,
+   "passes": false,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    187263332018647.12,
+    749053328074588.5
+   ],
+   "SMBH_CS_excluded": true,
+   "SMBH_alpha": 0.1,
+   "SMBH_M_Msun": 1163691.3491654538,
+   "SMBH_f_CD_GeV": 442844311940560.0,
+   "SMBH_possible": false,
+   "SMBH_possible_fF": true
+  },
+  {
+   "source": "U21",
+   "kind": "H",
+   "F_over_F0": 0.5,
+   "F_GeV": 535038091481848.94,
+   "m_G_eV": 5.4766404799289886e-17,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    133759522870462.23,
+    535038091481848.94
+   ],
+   "SMBH_CS_excluded": false,
+   "SMBH_alpha": 0.41020037194668124,
+   "SMBH_M_Msun": 1000000.0,
+   "SMBH_f_CD_GeV": 5947631027737.204,
+   "SMBH_possible": true,
+   "SMBH_possible_fF": true
+  },
+  {
+   "source": "U21",
+   "kind": "H",
+   "F_over_F0": 0.35,
+   "F_GeV": 374526664037294.25,
+   "m_G_eV": 2.6425258305016213e-16,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    93631666009323.56,
+    374526664037294.25
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U21",
+   "kind": "H",
+   "F_over_F0": 0.25,
+   "F_GeV": 267519045740924.47,
+   "m_G_eV": 1.0805046321113697e-15,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    66879761435231.12,
+    267519045740924.47
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U21",
+   "kind": "H",
+   "F_over_F0": 0.18,
+   "F_GeV": 192613712933465.62,
+   "m_G_eV": 4.216477549802339e-15,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    48153428233366.41,
+    192613712933465.62
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U21",
+   "kind": "H",
+   "F_over_F0": 0.125,
+   "F_GeV": 133759522870462.23,
+   "m_G_eV": 1.8970913947431193e-14,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    33439880717615.56,
+    133759522870462.23
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U21",
+   "kind": "H",
+   "F_over_F0": 0.09,
+   "F_GeV": 96306856466732.81,
+   "m_G_eV": 7.351827667833336e-14,
+   "passes": true,
+   "stellar": "libre",
+   "f_eff_range_GeV": [
+    24076714116683.203,
+    96306856466732.81
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U21",
+   "kind": "H",
+   "F_over_F0": 0.0625,
+   "F_GeV": 66879761435231.12,
+   "m_G_eV": 3.365408122037718e-13,
+   "passes": true,
+   "stellar": "excluida",
+   "f_eff_range_GeV": [
+    16719940358807.78,
+    66879761435231.12
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U21",
+   "kind": "H",
+   "F_over_F0": 0.045,
+   "F_GeV": 48153428233366.41,
+   "m_G_eV": 1.3381122482398355e-12,
+   "passes": true,
+   "stellar": "excluida",
+   "f_eff_range_GeV": [
+    12038357058341.602,
+    48153428233366.41
+   ],
+   "SMBH_CS_excluded": false
+  },
+  {
+   "source": "U21",
+   "kind": "H",
+   "F_over_F0": 0.03,
+   "F_GeV": 32102285488910.934,
+   "m_G_eV": 8.073650547066262e-12,
+   "passes": true,
+   "stellar": "probable",
+   "f_eff_range_GeV": [
+    8025571372227.733,
+    32102285488910.934
+   ],
+   "SMBH_CS_excluded": false
+  }
+ ],
+ "verdicts": {
+  "U17e_Y": {
+   "verdict": "SUPERRADIANCIA_PARTE_LA_BANDA",
+   "band_after": [
+    0.03,
+    0.35
+   ],
+   "verdict_with_SMBH": "SUPERRADIANCIA_PARTE_LA_BANDA",
+   "band_after_with_SMBH": [
+    0.03,
+    0.35
+   ]
+  },
+  "U17e_Y+": {
+   "verdict": "SUPERRADIANCIA_RECORTA_EL_BORDE_INFERIOR",
+   "band_after": [
+    0.0625,
+    0.35
+   ],
+   "verdict_with_SMBH": "SUPERRADIANCIA_RECORTA_EL_BORDE_INFERIOR",
+   "band_after_with_SMBH": [
+    0.0625,
+    0.35
+   ]
+  },
+  "U17e_X": {
+   "verdict": "SUPERRADIANCIA_PARTE_LA_BANDA",
+   "band_after": [
+    0.03,
+    1.0
+   ],
+   "verdict_with_SMBH": "SUPERRADIANCIA_PARTE_LA_BANDA",
+   "band_after_with_SMBH": [
+    0.03,
+    1.0
+   ]
+  },
+  "U21_P": {
+   "verdict": "SUPERRADIANCIA_PARTE_LA_BANDA",
+   "band_after": [
+    0.03,
+    0.7
+   ],
+   "verdict_with_SMBH": "SUPERRADIANCIA_PARTE_LA_BANDA",
+   "band_after_with_SMBH": [
+    0.03,
+    0.5
+   ]
+  },
+  "U21_H": {
+   "verdict": "SUPERRADIANCIA_PARTE_LA_BANDA",
+   "band_after": [
+    0.03,
+    0.5
+   ],
+   "verdict_with_SMBH": "SUPERRADIANCIA_PARTE_LA_BANDA",
+   "band_after_with_SMBH": [
+    0.03,
+    0.5
+   ]
+  }
+ },
+ "verdict_U23": "SUPERRADIANCIA_PARTE_LA_BANDA",
+ "verdict_U23_with_SMBH": "SUPERRADIANCIA_PARTE_LA_BANDA"
+}

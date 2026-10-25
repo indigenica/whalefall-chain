@@ -1,0 +1,143 @@
+{
+ "spec": "docs/preregistros/ESPEC_U26.md",
+ "rows": {
+  "C1_pivot": {
+   "pivot_status": "PASS",
+   "pivot_max_rel": 1.108947955685835e-08,
+   "dn_s": -0.00011813571611429818,
+   "dr_rel": -0.0017586401886323655,
+   "cmb_equivalent": true,
+   "rel_change": {
+    "V0": -0.001842629260159101,
+    "T_rh_GeV": 0.15254067395884108,
+    "F_GeV": -0.0008797989781199611,
+    "H_star_GeV": -0.0008797989781200721,
+    "m_chi_GeV": 0.3283499759555104,
+    "Gamma_GeV": 0.3283499759555102,
+    "chi_end": -0.18080328569957516
+   },
+   "sum_control": "PASS",
+   "passed": true
+  },
+  "C2_births": {
+   "control_sum_mode0": "PASS",
+   "f_ES_pole": 0.1528776978417266,
+   "f_ES_sum": 0.16337522441651706,
+   "R": 0.9357459087674914,
+   "chi_et_pole": 540.9528146719773,
+   "chi_et_sum": 415.5754116290197,
+   "viable_C45j_eternal_pole": 10,
+   "n_viable_C45j": 20,
+   "grid_mode0_max_rel_diff": 0.0,
+   "passed": true
+  },
+  "C3_eternal": {
+   "chi_et": 540.9528146719773,
+   "chi_vol": 345.7331425901764,
+   "flatness_bound_per_MPl": 1.2026890943463803e-06,
+   "max_ratio_above_threshold": 1.2022981784198097e-06,
+   "C45i_carried": "FRAGIL",
+   "passed": true
+  },
+  "C4_action": {
+   "checks": {
+    "symbolic_exact": true,
+    "early_numerics": true,
+    "late_numerics": true,
+    "heavy_decay_channels": true
+   },
+   "min_Q_width_over_Gamma_chi": 306436.54633714055,
+   "portal_negative_correction": 2.6649352464499215e-17,
+   "portal_lower_bound": 1.7002942578805068e-10,
+   "portal_proof": true,
+   "S3_status": "PASS",
+   "T_late_over_T_rh_minus_1": 4.147279751842703e-07,
+   "F_identity_rel": 0.0,
+   "archive_agrees_with_fresh_run": {
+    "agrees": true,
+    "rtol": 1e-06
+   },
+   "passed": true
+  },
+  "C5_dark": {
+   "labels_pole_vs_sum": {
+    "S4": [
+     "PASS",
+     "PASS"
+    ],
+    "S5": [
+     "CIERRE_ESTRECHO",
+     "CIERRE_ESTRECHO"
+    ],
+    "S5_nodes": [
+     309,
+     309
+    ],
+    "S6": [
+     "FALSADA_EN_FORMA_ACTUAL",
+     "FALSADA_EN_FORMA_ACTUAL"
+    ],
+    "U17": [
+     "K_SW_FUERA_DEL_RANGO_TIBIA",
+     "K_SW_FUERA_DEL_RANGO_TIBIA"
+    ]
+   },
+   "labels_kept": true,
+   "pole_roots_vs_sum_dlog10": {
+    "max_abs": 0.0017038907092157348,
+    "min": 0.0015290400886644883,
+    "max": 0.0017038907092157348,
+    "n": 10
+   },
+   "m_G_shift": {
+    "s5_closure.json": {
+     "n": 373,
+     "n_sum": 373,
+     "n_pole": 373,
+     "not_comparable": [],
+     "same_keys": true,
+     "max_abs_rel": 0.004243987472513755
+    },
+    "s6_measured_closure.json": {
+     "n": 72,
+     "n_sum": 72,
+     "n_pole": 72,
+     "not_comparable": [],
+     "same_keys": true,
+     "max_abs_rel": 0.004132198517182717
+    },
+    "u17_ksw.json": {
+     "n": 98,
+     "n_sum": 98,
+     "n_pole": 98,
+     "not_comparable": [],
+     "same_keys": true,
+     "max_abs_rel": 0.00402085490598969
+    }
+   },
+   "m_G_max_abs_rel": 0.004243987472513755,
+   "class_verdicts_carried": true,
+   "class_verdicts": [
+    "U3a",
+    "U4a",
+    "U5a",
+    "U5f",
+    "U7",
+    "U7c",
+    "U12",
+    "U15",
+    "U17b",
+    "U17c",
+    "U17d",
+    "U17e",
+    "U21",
+    "U20b",
+    "U23"
+   ],
+   "same_m_G_keys": true,
+   "passed": true
+  }
+ },
+ "verdict_U26": "POLO_ADOPTADO",
+ "failed_rows": []
+}

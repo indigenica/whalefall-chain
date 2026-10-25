@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "kind": "measured_local_transport_bundle",
+  "inputs_measured": {
+    "canonical_complex_modes": "canonical_modes.npz and earlier_modes.npz",
+    "formation_statistics": "summary.json: network",
+    "same_realization_zoom": "summary.json: zoom",
+    "local_pair_transport": "summary.json: emission",
+    "signed_frequency_budget": "pair192_half_spectrum.json"
+  },
+  "required_cosmological_source_fields": [
+    "time",
+    "physical_wavenumber",
+    "species",
+    "energy_per_physical_volume_per_time_per_log_wavenumber",
+    "particle_number_if_defined",
+    "network_bound_energy",
+    "resolved_core_and_volume_convergence",
+    "initial_state_and_matching_covariance",
+    "no_double_count_ledger"
+  ],
+  "status": "NOT_CALIBRATED",
+  "calibrated_for_Delta_Neff_or_dark_matter_prediction": false,
+  "blockers": [
+    "No representative physical-core-resolved 3D network with two-way refinement",
+    "Local zoom has prescribed one-way boundaries and omits z gradients",
+    "Local net current includes incoming transport and cosmological work",
+    "Pair emission depends strongly on initial preparation and finite window",
+    "Boundary frequency cross spectra are signed energy budgets, not particle occupation spectra"
+  ],
+  "chain_gates": {
+    "canonical_modes_to_same_spatial_field": true,
+    "selected_primordial_patch_to_certified_gapped_local_Q_core": true,
+    "selected_primordial_patch_to_relaxed_vacuum_string": false,
+    "measured_local_energy_transport": true,
+    "unbiased_core_resolved_3D_network": false,
+    "two_way_AMR": false,
+    "universal_emission_efficiency": false,
+    "cosmological_free_particle_source": false,
+    "closed_cosmology": false
+  },
+  "note": "No local per-length energy or orientation graph length is multiplied into an invented cosmic emission rate."
+}

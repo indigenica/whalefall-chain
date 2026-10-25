@@ -1,0 +1,41 @@
+diff --git a/include/quadrature.h b/include/quadrature.h
+index 19aed33..4e709b6 100644
+--- a/include/quadrature.h
++++ b/include/quadrature.h
+@@ -10,7 +10,7 @@
+ /******************************************/
+ #include "common.h"
+ 
+-enum ncdm_quadrature_method {qm_auto, qm_Laguerre, qm_trapz_indefinite, qm_trapz};
++enum ncdm_quadrature_method {qm_auto, qm_Laguerre, qm_trapz_indefinite, qm_trapz, qm_trapz_log};
+ 
+ /* Structures for QSS */
+ 
+diff --git a/tools/quadrature.c b/tools/quadrature.c
+index 41921e4..c62be1b 100644
+--- a/tools/quadrature.c
++++ b/tools/quadrature.c
+@@ -45,6 +45,23 @@ int get_qsampling_manual(double *x,
+ 	w[i] *=0.5;
+     }
+     return _SUCCESS_;
++  case (qm_trapz_log) :
++    /** WHALEFALL patch (strategy 4): trapezoidal rule uniform in ln q over the range of the tabulated psd file
++        (or [1e-3, qmax] for an analytic distribution). For broad, non-thermal distributions spanning decades in q. */
++    {
++      double lqa, lqb, du;
++      if ((qvec != NULL) && (qsiz > 1)) { lqa = log(qvec[0]); lqb = log(qvec[qsiz-1]); }
++      else { lqa = log(1e-3); lqb = log(qmax); }
++      class_test(N < 2, errmsg, "qm_trapz_log needs at least 2 momentum bins");
++      du = (lqb - lqa)/(N - 1.0);
++      for (i=0; i<N; i++){
++        x[i] = exp(lqa + i*du);
++        (*function)(params_for_function,x[i],&y);
++        w[i] = y*x[i]*du;
++        if ((i==0) || (i==N-1)) w[i] *= 0.5;
++      }
++    }
++    return _SUCCESS_;
+   case (qm_trapz_indefinite) :
+     /** We do the variable transformation q = 1/t-1. The trapezoidal rule is closed, but since the distribution function
+ 	goes to zero in both limits, we can use an effectively N+2 rule simply by not using the exterior points. */

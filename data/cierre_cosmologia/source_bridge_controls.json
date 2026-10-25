@@ -1,0 +1,22 @@
+{
+  "ledger": {
+    "energy_transferred_code": 1.4498771806449404,
+    "relative_ledger_error": 1.5314718231944342e-16
+  },
+  "reservoir_after": 8.55012281935506,
+  "rejected_cases": [
+    "validation_fixture_cannot_enter_production",
+    "free_waves_separated",
+    "core_resolution_converged",
+    "volume_and_ensemble_converged",
+    "no_double_count_ledger",
+    "unknown_late_network_source",
+    "actual_local_candidate_is_not_emission",
+    "reservoir_overdraw",
+    "nonfinite_time",
+    "nonfinite_physical_wavenumber"
+  ],
+  "passed": true,
+  "actual_network_source_admitted": false,
+  "scope": "Unit-conversion and conservation fixtures, plus refusal of uncalibrated real candidates"
+}

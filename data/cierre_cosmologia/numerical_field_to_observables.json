@@ -1,0 +1,37 @@
+{
+  "label": "numerical_field_to_observables",
+  "scope": "Controlled population fixture, not an abundance inferred from the simulated network",
+  "dN": 0.01,
+  "bins": 160,
+  "injected_test_energy_fraction": 3.704970520405407e-09,
+  "kind": "mixture",
+  "initial_background": {
+    "time_code": 108.67705434142559,
+    "chi_rho_code": 451280.1585604622,
+    "visible_rho_code": 0.0002134443791146954,
+    "H_code": 0.006026103105115958,
+    "a": 13.358469856451165
+  },
+  "N_final": 15.66999999999971,
+  "number_error": 1.5795302416083107e-16,
+  "reaction_energy_error": 2.3686180543659437e-16,
+  "expansion_energy_ledger_error": 3.8695027622722525e-16,
+  "min_population": 0.0,
+  "heavy_energy_fraction": 0.0,
+  "initial_free_energy_code": 0.0016719796839103902,
+  "Goldstone_to_visible_ratio": 2.522254534377024e-13,
+  "conditional_Delta_Neff": 7.208410664980909e-13,
+  "visible_temperature_GeV": 1977581541.1760094,
+  "stable_massive_free_particle_species": 0,
+  "Omega_CDM_from_surviving_free_particles": 0.0,
+  "cosmological_network_prediction": false,
+  "matched_numerical_wave_fixture": true,
+  "approximations": [
+    "Dilute collisionless tree-level decays; no scattering, inverse decay or Bose enhancement",
+    "Isotropic unpolarized two-body daughter angular distribution",
+    "Chi averaged as dust from the declared matching background; prescribed early nonlinear metric",
+    "Goldstones exactly massless and collisionless; g*=g*s=106.75 during reheating",
+    "No future network emission or bound-defect abundance is guessed"
+  ],
+  "passed": true
+}

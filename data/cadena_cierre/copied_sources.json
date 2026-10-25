@@ -1,0 +1,67 @@
+[
+  {
+    "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude\\tools\\c44i_hierarchy_universality.py",
+    "copy": "vendor\\c44i_hierarchy_universality.py",
+    "sha256": "5178673470e0eb4e15bd56d3f6ee94eb701d88a172b9346ca3c4487c4e88b7dc"
+  },
+  {
+    "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude\\tools\\c46_chi_reheating_relic.py",
+    "copy": "vendor\\c46_chi_reheating_relic.py",
+    "sha256": "cb4b4e199baf40b71b5b009c235cf156ccbd20db3de16cecb6bb44595ec6c25f"
+  },
+  {
+    "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude\\tools\\c35b_pseudo_goldstone_dm_rp3.py",
+    "copy": "vendor\\c35b_pseudo_goldstone_dm_rp3.py",
+    "sha256": "263c05cb4194485cd3a2d928c8ae5d089c483f2533c7ec4f5781ac65fc5f532a"
+  },
+  {
+    "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude\\tools\\c38_dneff_budget.py",
+    "copy": "vendor\\c38_dneff_budget.py",
+    "sha256": "c1153c33d11e2b72b5781c1010dbd8825a846ef2cbc61bac664fb310ad122dd7"
+  },
+  {
+    "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude\\tools\\c50_ficha3.py",
+    "copy": "vendor\\c50_ficha3.py",
+    "sha256": "dbba6c5ee09233aaee9e2a4ed70ddd3672e57b1472d7e29b86725230e011dc68"
+  },
+  {
+    "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude\\tools\\c32d_scars_chi_background.py",
+    "copy": "vendor\\c32d_scars_chi_background.py",
+    "sha256": "1f3f35b9dcf539f900a5380c1a9820eade2f346e95335a076ba61593738c0437"
+  },
+  {
+    "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude\\tools\\c40d_ksw_chi.py",
+    "copy": "vendor\\c40d_ksw_chi.py",
+    "sha256": "dab729f30977d8f97a8341bc623076a906e1bb6361379c1ad4087679caa5c77e"
+  },
+  {
+    "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude\\tools\\c40b_ramp_collapse.py",
+    "copy": "vendor\\c40b_ramp_collapse.py",
+    "sha256": "f26130358551cb570024ac67656745b56b341d03ce38539f485c76462a70768e"
+  },
+  {
+    "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude_dual\\c45b\\audit_c45g\\indep.py",
+    "copy": "vendor\\indep.py",
+    "sha256": "6e86d2884f1e320891604297d800f2bd0545005c298ff66e83641b509724d7d7"
+  },
+  {
+    "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude_dual\\c45b\\dn\\equations.py",
+    "copy": "vendor\\equations.py",
+    "sha256": "a998e988beaa60417c284abe7cfb9646cf4ed1f52de5f397a7bad7376cb7ef6e"
+  },
+  {
+    "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude_dual\\c45b\\dn\\solver.py",
+    "copy": "vendor\\solver.py",
+    "sha256": "ebae6fd808376127c2a04ecec90eb96d32a0419b462d3094b52215da730a55a1"
+  },
+  {
+    "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude_dual\\c45b\\hom\\frw_core.c",
+    "copy": "vendor\\frw_core.c",
+    "sha256": "0fff7f7bf569a91cec9ea633aa9b66df77f0f5a7c131a56849ca852e83c87ad1"
+  },
+  {
+    "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude_dual\\c45b\\results\\c45h_content_20261004T153219Z\\results.json",
+    "copy": "vendor\\c45h_results.json",
+    "sha256": "7843e07f357c2c5da3bf4bad70feb379092d8270706f4aaf077e10a260010dae"
+  }
+]

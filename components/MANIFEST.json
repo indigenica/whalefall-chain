@@ -1,0 +1,67 @@
+{
+ "files": {
+  "c35b_pseudo_goldstone_dm_rp3.py": {
+   "origin": "claude_dual/cadena_cierre_20261004/vendor/c35b_pseudo_goldstone_dm_rp3.py",
+   "sha256": "263c05cb4194485cd3a2d928c8ae5d089c483f2533c7ec4f5781ac65fc5f532a",
+   "adapted": "unchanged copy"
+  },
+  "c44i_hierarchy_universality.py": {
+   "origin": "claude_dual/cadena_cierre_20261004/vendor/c44i_hierarchy_universality.py",
+   "sha256": "5178673470e0eb4e15bd56d3f6ee94eb701d88a172b9346ca3c4487c4e88b7dc",
+   "adapted": "unchanged copy"
+  },
+  "c45b_hom/frw.py": {
+   "origin": "claude_dual/c45b/hom/frw.py",
+   "sha256": "573b2e217fc0854be99acb811e29a716be01a760b8c6ed1692efaaf0b6401952",
+   "adapted": "unchanged copy"
+  },
+  "c45b_hom/frw_c.py": {
+   "origin": "claude_dual/c45b/hom/frw_c.py",
+   "sha256": "736a4f165cd9b58d17a2696a654a33c6e956b18fd447ae1181a7788bbbce44a4",
+   "adapted": "import \"from hom.frw\" -> \"from frw\" (1 line, marked)"
+  },
+  "c45b_hom/frw_core.c": {
+   "origin": "claude_dual/c45b/hom/frw_core.c",
+   "sha256": "44043fb4da26b7652c0b2e35276acb177f9d8fdf7340cac4c03c3e415e9c5f56",
+   "adapted": "unchanged copy; U22 (15 Oct 2026): set_deform mode 4 = regularized pole potential 1 - C/sqrt(chi^2+C^2); modes 0-3 unchanged (S1 reproduces bit for bit)",
+   "sha256_before_U22": "0fff7f7bf569a91cec9ea633aa9b66df77f0f5a7c131a56849ca852e83c87ad1"
+  },
+  "c46_chi_reheating_relic.py": {
+   "origin": "claude_dual/cadena_cierre_20261004/vendor/c46_chi_reheating_relic.py",
+   "sha256": "cb4b4e199baf40b71b5b009c235cf156ccbd20db3de16cecb6bb44595ec6c25f",
+   "adapted": "unchanged copy"
+  },
+  "cadena_cierre/common.py": {
+   "origin": "claude_dual/cadena_cierre_20261004/src/common.py",
+   "sha256": "ed7de6351e738eb9fdef918c22c4a52efe8e7d1fc41e2d44d7b16a5c93ccaddb",
+   "adapted": "ROOT, sys.path, MPLCONFIGDIR and save() redirected into unification/ (4 lines, marked \"adapted\")",
+   "sha256_listed_in_1.0.0": "295af8fb29eb7fa12567b03ec1cc96a05f4bb5e2f1e1ef5a434eae0a2fdc58b6",
+   "note": "14 Oct 2026 (codex audit): the 1.0.0 manifest listed a hash (sha256_listed_in_1.0.0) that matches neither the origin (b002414…, data/cierre_accion/integrity.json) nor the committed file; the committed file has not changed since 5cbb963 (git history), so the listed hash was of an intermediate adapted version. sha256 is now the committed file."
+  },
+  "cadena_cierre/contract.py": {
+   "origin": "claude_dual/cadena_cierre_20261004/src/contract.py",
+   "sha256": "7b13f27467901167758a1c15b35c4a73ef1cb3da3166f86e8681c20f3562778d",
+   "adapted": "unchanged copy"
+  },
+  "cadena_cierre/dark.py": {
+   "origin": "claude_dual/cadena_cierre_20261004/src/dark.py",
+   "sha256": "f241ddef4afe6eb2d8014b5a77e1acef81cb68a5c3292ab28e74a029a62a78a0",
+   "adapted": "unchanged copy"
+  },
+  "cadena_cierre/scalar_end.py": {
+   "origin": "claude_dual/cadena_cierre_20261004/src/scalar_end.py",
+   "sha256": "72a341341a759ca51daba31e14e90690ed17f6bfbf709e9d63fced8a9920aa40",
+   "adapted": "unchanged copy"
+  },
+  "cadena_cierre/stochastic.py": {
+   "origin": "claude_dual/cadena_cierre_20261004/src/stochastic.py",
+   "sha256": "d7e88f8c328f9a6065cf480ea8ff2a50dbd40fca882c1479952b50493b9be95c",
+   "adapted": "unchanged copy"
+  },
+  "cadena_cierre/thermal.py": {
+   "origin": "claude_dual/cadena_cierre_20261004/src/thermal.py",
+   "sha256": "a269230a3482beada60d7e7007752cb0443e691b32ee551ff964d6d64d2b9594",
+   "adapted": "unchanged copy"
+  }
+ }
+}

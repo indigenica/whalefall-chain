@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "checks": {
+    "paired_phase_nested_grid_error": 5.551115123125783e-17,
+    "paired_velocity_nested_grid_error": 4.336808689942018e-18,
+    "traceless_error": 2.7755575615628914e-17,
+    "sparse_flux_vs_full_divergence_absolute_error": 3.552713678800501e-14,
+    "unit_conversion_relative_error": 0.0,
+    "hessian_masses_squared_code": [
+      2.4000000992884452e-11,
+      2.4000000992884452e-11,
+      2.4000000992884452e-11,
+      0.240000000024,
+      0.240000000024,
+      0.240000000024,
+      0.24000000004824007,
+      0.2400000000482403,
+      0.2400000000499054,
+      1.8400000000548369
+    ],
+    "synthetic_straight_pair_graph": {
+      "dual_edges": 64,
+      "components": 2,
+      "largest_component_edges": 32,
+      "component_edge_counts": [
+        32,
+        32
+      ],
+      "ambiguous_degree4plus_nodes": 0,
+      "odd_degree_nodes": 0
+    },
+    "rotation_graph_equal": true,
+    "finite_box_ic_statistics": {
+      "expected_finite_box_variance": 0.006930400901088749,
+      "realized_variance": 0.006975275398973837,
+      "expected_velocity_variance": 9.086717791351765e-05,
+      "expected_field_velocity_covariance": 0.0007926729309990093,
+      "realized_velocity_variance": 9.154942039400377e-05,
+      "realized_field_velocity_covariance": 0.0007982260985408358,
+      "homogeneous_mode": "excluded as a finite-volume state choice",
+      "nmax_common_phases": 64
+    }
+  }
+}

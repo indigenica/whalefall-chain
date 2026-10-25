@@ -1,0 +1,60 @@
+# U15b (docs/preregistros/ESPEC_U15b.md): Planck 2018 lite + BAO + Lyman-ABGD with a WHALEFALL transfer function.
+# Generated from lya/u15b/params/template.param by lya/u15b/run_wsl.sh: @TABLE@, @SMAX@ and @PLANCK@ are filled in there.
+
+data.experiments=['Planck_highl_TTTEEE_lite', 'Planck_lowl_TT', 'Planck_lowl_EE', 'bao_boss_dr12', 'bao_smallz_2014', 'Lya_abgd_whale']
+# data.over_sampling is left to MontePython (its default, one per block) at launch; run_wsl.sh boost sets it in log.param
+# (ESPEC_U15b Nota 8: [1, 1, 1, 1, 10], tested). Planck 2018 lite, low-l TT and low-l EE share A_planck,
+# which makes the block count depend on how MontePython groups shared nuisances
+
+# Cosmological parameters (priors and steps as in input/base2018TTTEEE_lya_abgd.param of MontePython)
+data.parameters['omega_b']      = [  2.2377,   None, None,      0.015, 0.01, 'cosmo']
+data.parameters['omega_cdm']    = [ 0.12010,   None, None,     0.0013,    1, 'cosmo']
+data.parameters['H0']           = [    67.8,     55,   80,        0.5,    1, 'cosmo']
+data.parameters['ln10^{10}A_s'] = [  3.0447,   None, None,      0.015,    1, 'cosmo']
+data.parameters['n_s']          = [  0.9659,   None, None,     0.0042,    1, 'cosmo']
+data.parameters['tau_reio']     = [  0.0543,  0.004, None,      0.008,    1, 'cosmo']
+
+# Planck lite nuisance
+data.parameters['A_planck']     = [ 1.00061,    0.9,  1.1,     0.0025,    1, 'nuisance']
+
+# Lyman-alpha astrophysical nuisances (ranges of the MontePython example; the likelihood adds its own grid checks)
+data.parameters['T0a']          = [   0.74,  0.0,  2.0,   0.5,    1, 'nuisance']
+data.parameters['T0s']          = [  -4.38, -5.0,  5.0,    1.,    1, 'nuisance']
+data.parameters['gamma_a']      = [   1.45,  1.0,  1.7,   0.1,    1, 'nuisance']
+data.parameters['gamma_s']      = [  -1.93, -5.0,  5.0,    1.,    1, 'nuisance']
+data.parameters['Fz1']          = [   0.35, 0.22, 0.54,  0.05,    1, 'nuisance']
+data.parameters['Fz2']          = [   0.26, 0.15, 0.43,  0.05,    1, 'nuisance']
+data.parameters['Fz3']          = [   0.18, 0.07, 0.31,  0.05,    1, 'nuisance']
+data.parameters['Fz4']          = [   0.07, 0.024, 0.2,  0.05,    1, 'nuisance']
+data.parameters['F_UV']         = [    0.0,  0.0,  1.0,    1.,    1, 'nuisance']
+
+# WHALEFALL amplitude: s = 0 is LCDM, s = 1 the whale row (validation: s = f, the thermal fraction)
+data.parameters['s_tail']       = [    0.3,  0.0, @SMAX@,  0.15,    1, 'nuisance']
+
+# Derived
+data.parameters['z_reio']       = [1, None, None, 0, 1, 'derived']
+data.parameters['sigma8']       = [0, None, None, 0, 1, 'derived']
+data.parameters['lya_neff']               = [0, None, None, 0, 1, 'derived_lkl']
+data.parameters['area_criterion']         = [0, None, None, 0, 1, 'derived_lkl']
+data.parameters['self_distance_weighted'] = [0, None, None, 0, 1, 'derived_lkl']
+data.parameters['weight_largest']         = [0, None, None, 0, 1, 'derived_lkl']
+data.parameters['weightsum_2']            = [0, None, None, 0, 1, 'derived_lkl']
+data.parameters['weightsum_4']            = [0, None, None, 0, 1, 'derived_lkl']
+
+# CLASS: same neutrino content as the T^2 tables (lya/u4a_class.py: N_ur = 3.044, no massive neutrinos)
+data.cosmo_arguments['N_ur'] = 3.044
+data.cosmo_arguments['k_pivot'] = 0.05
+data.cosmo_arguments['output'] = 'tCl,pCl,lCl,mPk'
+data.cosmo_arguments['lensing'] = 'yes'
+data.cosmo_arguments['P_k_max_h/Mpc'] = 300.
+data.cosmo_arguments['z_max_pk'] = 3.0
+
+# Likelihood options
+Lya_abgd_whale.table_file = '@TABLE@'
+Lya_abgd_whale.amp_name = 's_tail'
+Planck_highl_TTTEEE_lite.path_clik = '@PLANCK@/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik'
+Planck_lowl_TT.path_clik = '@PLANCK@/low_l/commander/commander_dx12_v3_2_29.clik'
+Planck_lowl_EE.path_clik = '@PLANCK@/low_l/simall/simall_100x143_offlike5_EE_Aplanck_B.clik'
+
+data.N=10
+data.write_step=5

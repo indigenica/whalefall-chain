@@ -1,0 +1,518 @@
+{
+  "network": [
+    {
+      "name": "red32_packed",
+      "Lambda_orientation_proxy": 8.703703703703704,
+      "ordered_fraction": 0.2767333984375,
+      "max_perimeter_confirmed_faces": 25,
+      "initial_finite_box_variance": 0.006930400901088773,
+      "max_Q_balance_relative": 4.898543583452705e-09,
+      "max_Q_fraction_over_chi": 4.878550227933512e-06,
+      "final_heavy_core_cells": 0.025329579046603597
+    },
+    {
+      "name": "red48",
+      "Lambda_orientation_proxy": 8.570987654320987,
+      "ordered_fraction": 0.29304108796296297,
+      "max_perimeter_confirmed_faces": 88,
+      "initial_finite_box_variance": 0.006930400901088773,
+      "max_Q_balance_relative": 4.880542320780204e-09,
+      "max_Q_fraction_over_chi": 4.878898077504636e-06,
+      "final_heavy_core_cells": 0.0379943685699054
+    },
+    {
+      "name": "red64",
+      "Lambda_orientation_proxy": 8.50925925925926,
+      "ordered_fraction": 0.2988090515136719,
+      "max_perimeter_confirmed_faces": 261,
+      "initial_finite_box_variance": 0.006930400901088773,
+      "max_Q_balance_relative": 4.874725400312386e-09,
+      "max_Q_fraction_over_chi": 4.8790199615228236e-06,
+      "final_heavy_core_cells": 0.050659158093207195
+    },
+    {
+      "name": "red32_half",
+      "Lambda_orientation_proxy": 8.703703703703704,
+      "ordered_fraction": 0.2767333984375,
+      "max_perimeter_confirmed_faces": 25,
+      "initial_finite_box_variance": 0.006930400901088773,
+      "max_Q_balance_relative": 3.291779502507292e-10,
+      "max_Q_fraction_over_chi": 4.87855022050134e-06,
+      "final_heavy_core_cells": 0.025329579046603597
+    },
+    {
+      "name": "red32_seed",
+      "Lambda_orientation_proxy": 9.078703703703704,
+      "ordered_fraction": 0.27459716796875,
+      "max_perimeter_confirmed_faces": 28,
+      "initial_finite_box_variance": 0.006930400901088773,
+      "max_Q_balance_relative": 6.521552807195386e-08,
+      "max_Q_fraction_over_chi": 4.8755919805745235e-06,
+      "final_heavy_core_cells": 0.025329579046603597
+    },
+    {
+      "name": "ordered32",
+      "Lambda_orientation_proxy": 0.0,
+      "ordered_fraction": 1.0,
+      "max_perimeter_confirmed_faces": 0,
+      "initial_finite_box_variance": 0.006930400901088773,
+      "max_Q_balance_relative": 1.3744326411609482e-08,
+      "max_Q_fraction_over_chi": 1.4586810460804517e-07,
+      "final_heavy_core_cells": 0.025329579046603597
+    },
+    {
+      "name": "box64",
+      "Lambda_orientation_proxy": 8.77025462962963,
+      "ordered_fraction": 0.2741737365722656,
+      "max_perimeter_confirmed_faces": 193,
+      "initial_finite_box_variance": 0.006862654483495522,
+      "max_Q_balance_relative": 6.653537688737974e-08,
+      "max_Q_fraction_over_chi": 4.882949834905024e-06,
+      "final_heavy_core_cells": 0.025329579046603597
+    },
+    {
+      "name": "red32_earlier",
+      "Lambda_orientation_proxy": 8.671296296296296,
+      "ordered_fraction": 0.469451904296875,
+      "max_perimeter_confirmed_faces": 18,
+      "initial_finite_box_variance": 0.0006904626149883281,
+      "max_Q_balance_relative": 4.548974172107888e-09,
+      "max_Q_fraction_over_chi": 4.715177560991902e-06,
+      "final_heavy_core_cells": 0.025329579046603597
+    },
+    {
+      "name": "red32_dt1",
+      "Lambda_orientation_proxy": 8.703703703703704,
+      "ordered_fraction": 0.2767333984375,
+      "max_perimeter_confirmed_faces": 25,
+      "initial_finite_box_variance": 0.006930400901088773,
+      "max_Q_balance_relative": 6.655150707806928e-08,
+      "max_Q_fraction_over_chi": 4.8785503422890956e-06,
+      "final_heavy_core_cells": 0.025329579046603597
+    }
+  ],
+  "emission": [
+    {
+      "name": "pair192",
+      "initial_energy": 3924.696595787158,
+      "canonical_energy_crossed_R16": 2828.026185202519,
+      "reporting_window_end_code": 28.0,
+      "linear_Goldstone_flux_R16": 1671.7001548983244,
+      "light_flux_R16": 1147.889407074444,
+      "heavy_flux_R16": 8.43662322975048,
+      "flux_over_initial_energy_R16": 0.7205719260536406,
+      "max_control_volume_balance": 3.6682263284839308e-06,
+      "far_zone_final": {
+        "ordered_fraction": 1.0,
+        "max_vacuum_amplitude": 0.08709289738974275,
+        "relative_integrated_nonlinear_potential": 0.0022756455448179644
+      }
+    },
+    {
+      "name": "pair256",
+      "initial_energy": 3938.3092452453584,
+      "canonical_energy_crossed_R16": 2861.0745742836157,
+      "reporting_window_end_code": 28.0,
+      "linear_Goldstone_flux_R16": 1685.7315051187218,
+      "light_flux_R16": 1166.8661629198148,
+      "heavy_flux_R16": 8.476906245079181,
+      "flux_over_initial_energy_R16": 0.7264728075220943,
+      "max_control_volume_balance": 8.491956317801302e-06,
+      "far_zone_final": {
+        "ordered_fraction": 1.0,
+        "max_vacuum_amplitude": 0.08876243832149865,
+        "relative_integrated_nonlinear_potential": 0.002106697444654024
+      }
+    },
+    {
+      "name": "control192",
+      "initial_energy": 653.8314182858646,
+      "canonical_energy_crossed_R16": 586.3302804357915,
+      "reporting_window_end_code": 28.0,
+      "linear_Goldstone_flux_R16": 0.0,
+      "light_flux_R16": 584.0059910057364,
+      "heavy_flux_R16": 2.3242894300550785,
+      "flux_over_initial_energy_R16": 0.8967606389625029,
+      "max_control_volume_balance": 9.2885696176076e-06,
+      "far_zone_final": {
+        "ordered_fraction": 1.0,
+        "max_vacuum_amplitude": 0.0544643722403377,
+        "relative_integrated_nonlinear_potential": 0.024371884562308148
+      }
+    },
+    {
+      "name": "pair192_half",
+      "initial_energy": 3924.696595787158,
+      "canonical_energy_crossed_R16": 2828.036382775248,
+      "reporting_window_end_code": 28.0,
+      "linear_Goldstone_flux_R16": 1671.7039625412747,
+      "light_flux_R16": 1147.8957593084738,
+      "heavy_flux_R16": 8.43666092549934,
+      "flux_over_initial_energy_R16": 0.7205745243621926,
+      "max_control_volume_balance": 1.0979404941175949e-07,
+      "far_zone_final": {
+        "ordered_fraction": 1.0,
+        "max_vacuum_amplitude": 0.08709250417051716,
+        "relative_integrated_nonlinear_potential": 0.0022756392910218163
+      }
+    },
+    {
+      "name": "pulse128",
+      "initial_energy": 0.0006234354097823741,
+      "canonical_energy_crossed_R16": 0.0006233030339627675,
+      "reporting_window_end_code": 28.0,
+      "linear_Goldstone_flux_R16": 0.0006233029503940965,
+      "light_flux_R16": 8.356867101262698e-11,
+      "heavy_flux_R16": 5.873393790750347e-26,
+      "flux_over_initial_energy_R16": 0.9997876671463802,
+      "max_control_volume_balance": 4.328003153397105e-08,
+      "far_zone_final": {
+        "ordered_fraction": 1.0,
+        "max_vacuum_amplitude": 1.0829113874818845e-05,
+        "relative_integrated_nonlinear_potential": 1.1677955770614075e-07
+      }
+    },
+    {
+      "name": "pulse192",
+      "initial_energy": 0.0006261420613364795,
+      "canonical_energy_crossed_R16": 0.0006260110251477479,
+      "reporting_window_end_code": 28.0,
+      "linear_Goldstone_flux_R16": 0.0006260109412726982,
+      "light_flux_R16": 8.38750497447754e-11,
+      "heavy_flux_R16": 1.3745176416671621e-25,
+      "flux_over_initial_energy_R16": 0.9997907245067487,
+      "max_control_volume_balance": 2.661651340528122e-08,
+      "far_zone_final": {
+        "ordered_fraction": 1.0,
+        "max_vacuum_amplitude": 1.0848850976927908e-05,
+        "relative_integrated_nonlinear_potential": 1.1592327775762623e-07
+      }
+    },
+    {
+      "name": "pair192_prepared",
+      "initial_energy": 2094.9401097825785,
+      "canonical_energy_crossed_R16": 964.5362409904428,
+      "reporting_window_end_code": 22.0,
+      "linear_Goldstone_flux_R16": 435.4333774892464,
+      "light_flux_R16": 528.4198366808221,
+      "heavy_flux_R16": 0.6830268203743664,
+      "flux_over_initial_energy_R16": 0.4604123222837842,
+      "max_control_volume_balance": 4.441680186224317e-05,
+      "far_zone_final": {
+        "ordered_fraction": 1.0,
+        "max_vacuum_amplitude": 0.1074056834037854,
+        "relative_integrated_nonlinear_potential": 0.02122535992934967
+      }
+    }
+  ],
+  "zoom": [
+    {
+      "name": "zoom128",
+      "first_perimeter_certification_code": null,
+      "times_with_certified_loop": 0,
+      "max_control_volume_balance_relative": 1.9805685930019473e-09,
+      "final_core_cells": 1.7495940306226394,
+      "final_ordered_fraction": 0.7196279916753382,
+      "final_outward_R12": -13.177836740788848,
+      "final_energy_R12": 40.81418273312004,
+      "final_gapped_RP3_core_certified": true,
+      "final_near_vacuum_core_certified": false,
+      "certificates": [
+        {
+          "face": [
+            82,
+            25
+          ],
+          "initial_physical_position": [
+            4.75,
+            -9.5
+          ],
+          "radius_cells": 4,
+          "minimum_gap": 0.3039759758373773,
+          "min_link_fidelity": 0.9856337218957567,
+          "continuous_perimeter_gap_lower_bound": 0.18901096033259313,
+          "subcell_eigenvalue_gap_minimum": 3.5083047578154947e-14,
+          "subcell_search_success": true,
+          "subcell_core_initial_physical_position": [
+            4.6624273061792305,
+            -9.470064402967282
+          ],
+          "core_Q_eigenvalues": [
+            -0.04768108196913422,
+            -0.04458309352676622,
+            0.5653928583326401,
+            0.5653928583326752
+          ],
+          "core_Q_trace": 1.0385215411694146,
+          "near_vacuum_everywhere": false
+        }
+      ]
+    },
+    {
+      "name": "zoom192",
+      "first_perimeter_certification_code": null,
+      "times_with_certified_loop": 0,
+      "max_control_volume_balance_relative": 1.9818113546739744e-09,
+      "final_core_cells": 2.624391045933959,
+      "final_ordered_fraction": 0.7160479855138071,
+      "final_outward_R12": -13.145694304110673,
+      "final_energy_R12": 40.78671708835294,
+      "final_gapped_RP3_core_certified": true,
+      "final_near_vacuum_core_certified": false,
+      "certificates": [
+        {
+          "face": [
+            123,
+            38
+          ],
+          "initial_physical_position": [
+            4.666666666666665,
+            -9.5
+          ],
+          "radius_cells": 4,
+          "minimum_gap": 0.20896432940294957,
+          "min_link_fidelity": 0.9856203723841754,
+          "continuous_perimeter_gap_lower_bound": 0.13222401770381395,
+          "subcell_eigenvalue_gap_minimum": 1.8984813721090177e-14,
+          "subcell_search_success": true,
+          "subcell_core_initial_physical_position": [
+            4.605700582219237,
+            -9.51390038279544
+          ],
+          "core_Q_eigenvalues": [
+            -0.04713347342562091,
+            -0.044196366390566365,
+            0.5648830853701148,
+            0.5648830853701338
+          ],
+          "core_Q_trace": 1.0384363309240612,
+          "near_vacuum_everywhere": false
+        }
+      ]
+    },
+    {
+      "name": "zoom128_half",
+      "first_perimeter_certification_code": null,
+      "times_with_certified_loop": 0,
+      "max_control_volume_balance_relative": 1.3091490627709472e-10,
+      "final_core_cells": 1.7495940306226394,
+      "final_ordered_fraction": 0.7196279916753382,
+      "final_outward_R12": -13.177836792680573,
+      "final_energy_R12": 40.81418264681747,
+      "final_gapped_RP3_core_certified": true,
+      "final_near_vacuum_core_certified": false,
+      "certificates": [
+        {
+          "face": [
+            82,
+            25
+          ],
+          "initial_physical_position": [
+            4.75,
+            -9.5
+          ],
+          "radius_cells": 4,
+          "minimum_gap": 0.30397597853326086,
+          "min_link_fidelity": 0.9856337221127562,
+          "continuous_perimeter_gap_lower_bound": 0.1890109617760381,
+          "subcell_eigenvalue_gap_minimum": 3.2085445411667024e-14,
+          "subcell_search_success": true,
+          "subcell_core_initial_physical_position": [
+            4.662427314293761,
+            -9.470064387569126
+          ],
+          "core_Q_eigenvalues": [
+            -0.04768107907153338,
+            -0.0445830910425836,
+            0.5653928610329136,
+            0.5653928610329457
+          ],
+          "core_Q_trace": 1.0385215519517423,
+          "near_vacuum_everywhere": false
+        }
+      ]
+    },
+    {
+      "name": "zoom192_wider",
+      "first_perimeter_certification_code": null,
+      "times_with_certified_loop": 0,
+      "max_control_volume_balance_relative": 2.0245419002863918e-09,
+      "final_core_cells": 1.7495940306226394,
+      "final_ordered_fraction": 0.6079391127206881,
+      "final_outward_R12": -11.926668728751018,
+      "final_energy_R12": 39.079402371384404,
+      "final_gapped_RP3_core_certified": true,
+      "final_near_vacuum_core_certified": false,
+      "certificates": [
+        {
+          "face": [
+            111,
+            52
+          ],
+          "initial_physical_position": [
+            4.0,
+            -10.75
+          ],
+          "radius_cells": 4,
+          "minimum_gap": 0.24534024116177094,
+          "min_link_fidelity": 0.9845781315899251,
+          "continuous_perimeter_gap_lower_bound": 0.14835088904975136,
+          "subcell_eigenvalue_gap_minimum": 1.0325074129013956e-14,
+          "subcell_search_success": true,
+          "subcell_core_initial_physical_position": [
+            3.887891813116691,
+            -10.658631727701477
+          ],
+          "core_Q_eigenvalues": [
+            -0.03327656292073156,
+            -0.029561590456786378,
+            0.5466546673650017,
+            0.546654667365012
+          ],
+          "core_Q_trace": 1.0304711813524956,
+          "near_vacuum_everywhere": false
+        },
+        {
+          "face": [
+            134,
+            68
+          ],
+          "initial_physical_position": [
+            9.75,
+            -6.75
+          ],
+          "radius_cells": 32,
+          "minimum_gap": 0.5125874025674255,
+          "min_link_fidelity": 0.9965571846451358,
+          "continuous_perimeter_gap_lower_bound": 0.42468771875808864,
+          "subcell_eigenvalue_gap_minimum": 2.731148640577885e-14,
+          "subcell_search_success": true,
+          "subcell_core_initial_physical_position": [
+            9.803803532990786,
+            -6.79763373883583
+          ],
+          "core_Q_eigenvalues": [
+            -0.08975187340248325,
+            -0.07696816182247157,
+            0.6042038458656322,
+            0.6042038458656596
+          ],
+          "core_Q_trace": 1.0416876565063369,
+          "near_vacuum_everywhere": false
+        }
+      ]
+    },
+    {
+      "name": "zoom128_control",
+      "first_perimeter_certification_code": null,
+      "times_with_certified_loop": 0,
+      "max_control_volume_balance_relative": 2.4568247245946878e-09,
+      "final_core_cells": 1.7495940306226394,
+      "final_ordered_fraction": 0.801378772112383,
+      "final_outward_R12": -6.7154654332809685,
+      "final_energy_R12": 32.83234187638493,
+      "final_gapped_RP3_core_certified": false,
+      "final_near_vacuum_core_certified": false,
+      "certificates": []
+    },
+    {
+      "name": "zoom256",
+      "first_perimeter_certification_code": null,
+      "times_with_certified_loop": 0,
+      "max_control_volume_balance_relative": 1.982506122959794e-09,
+      "final_core_cells": 3.499188061245279,
+      "final_ordered_fraction": 0.7146006550768456,
+      "final_outward_R12": -13.116578746660494,
+      "final_energy_R12": 40.747322373569915,
+      "final_gapped_RP3_core_certified": true,
+      "final_near_vacuum_core_certified": false,
+      "certificates": [
+        {
+          "face": [
+            164,
+            51
+          ],
+          "initial_physical_position": [
+            4.625,
+            -9.5
+          ],
+          "radius_cells": 8,
+          "minimum_gap": 0.2976925662174388,
+          "min_link_fidelity": 0.9962065144834729,
+          "continuous_perimeter_gap_lower_bound": 0.24133140145280876,
+          "subcell_eigenvalue_gap_minimum": 1.3100631690576847e-14,
+          "subcell_search_success": true,
+          "subcell_core_initial_physical_position": [
+            4.578550676431917,
+            -9.535673782141258
+          ],
+          "core_Q_eigenvalues": [
+            -0.04685108131367893,
+            -0.043984760216350484,
+            0.5646034973748121,
+            0.5646034973748252
+          ],
+          "core_Q_trace": 1.0383711532196078,
+          "near_vacuum_everywhere": false
+        }
+      ]
+    }
+  ],
+  "matching": {
+    "relative_Q_field_L2": 0.22399959055993746,
+    "mean_projector_orientation_mismatch": 0.0010507855365463948,
+    "orientation_proxy_relative_change": 0.0037373198077950876
+  },
+  "emission_checks": {
+    "spatial_Gold_flux_192_vs256_relative": 0.008323597309412081,
+    "temporal_Gold_flux_dt04_vs02_relative": 2.27770169575345e-06,
+    "preparation_comparison_end_code": 22.0,
+    "prepared_Gold_flux_ratio": 0.3619740172500561,
+    "prepared_to_original_initial_energy_ratio": 0.5337839648627427,
+    "prepared_to_original_Gold_fraction_of_initial_energy_ratio": 0.67812830859978,
+    "control_Gold_flux": 0.0
+  },
+  "formation_checks": {
+    "spatial_orientation48_vs64_relative": 0.007254261878853754,
+    "temporal_orientation32_vs_half_relative": 0.0,
+    "seed_orientation_relative_change": 0.04308510638297872,
+    "box_orientation_relative_change": 0.0076462765957446424,
+    "volume_test_has_identical_physical_mode_phases": false,
+    "ordered_control_final_edges": 0
+  },
+  "spectrum_checks": {
+    "pair192_half": {
+      "Parseval_error": 2.846152181628288e-14,
+      "RK_vs_trapezoid_flux_relative": 9.750945950685916e-07
+    },
+    "pulse192": {
+      "Parseval_error": 9.69876221814654e-15,
+      "RK_vs_trapezoid_flux_relative": 1.4340952669711128e-08
+    }
+  },
+  "numerical_quality_criteria": {
+    "bridge_checks": true,
+    "zoom_bridge_checks": true,
+    "fast_step_check": true,
+    "analytic_mass_and_flux_check": true,
+    "packed_matrix_force_check": true,
+    "all_network_balances": true,
+    "all_emission_balances": true,
+    "all_zoom_balances": true,
+    "spectral_Parseval": true,
+    "local_emission_temporal_convergence": true,
+    "local_emission_spatial_convergence": true
+  },
+  "numerical_quality_passed": true,
+  "chain_gates": {
+    "canonical_modes_to_same_spatial_field": true,
+    "selected_primordial_patch_to_certified_gapped_local_Q_core": true,
+    "selected_primordial_patch_to_relaxed_vacuum_string": false,
+    "measured_local_energy_transport": true,
+    "unbiased_core_resolved_3D_network": false,
+    "two_way_AMR": false,
+    "universal_emission_efficiency": false,
+    "cosmological_free_particle_source": false,
+    "closed_cosmology": false
+  }
+}

@@ -1,0 +1,214 @@
+{
+ "kind": "unified_closure_contract",
+ "plateau": "pole",
+ "cosmology_closed": false,
+ "conditional_closure": "CIERRE_ESTRECHO",
+ "stage_status": {
+  "S1": "PASS",
+  "S2": "PASS",
+  "S3": "PASS",
+  "S4": "PASS",
+  "S5": "CIERRE_ESTRECHO",
+  "S6": "FALSADA_EN_FORMA_ACTUAL",
+  "U3a": "INCONCLUSO (control U(1) de la red fuera de rango; ESPEC_U2 \u00a76)",
+  "U4a": "CIERRE_SEGUN_RAMA",
+  "U4b": "GATES_PASSED, R_\u0393 en el atractor",
+  "U5a": "DEPENDE_DEL_ESCALADO",
+  "U5f": "DEPENDE_DE_q",
+  "U6": "SIN_TENDENCIA_SIGNIFICATIVA",
+  "U7": "CALIBRADA_PERMITIDA",
+  "U7c": "CALIBRADA_SENSIBLE_A_R",
+  "U10a": "INDETERMINADO",
+  "U11": "LIMPIA_ZONA_PERMITIDA, Q_MENOR_QUE_1 (q dependiente del convenio, auditor\u00eda)",
+  "U12": "FRIA_SOBREVIVE_AL_CRECIMIENTO",
+  "U13": "M_G_REQUIERE_RUPTURA_NUEVA",
+  "U14": "MICROLENTE_ACOTA_f_MC",
+  "U15": "INCONCLUSO (arn\u00e9s no validado)",
+  "U15b": "DETENIDO (filas f\u00edsicas superadas por U17-U21; validaci\u00f3n PASA)",
+  "U15c": "RAMA_VIVA_PERMITIDA_LYA_COMPLETO (Planck + BAO + Lyman-ABGD, MCMC; bordes F = 0.5 F\u2080 (r = 1) y 0.35 F\u2080 (r = 3) con la poblaci\u00f3n de U17d: p(s=1)/p_max = 0.87, p(s=1)/p_max = 0.91; posterior de s plana: la supresi\u00f3n en k = 10 h/Mpc es < 0.15 %, indistinguible de CDM; el borde 0.7\u20131 F\u2080 lo prueba U15d)",
+  "U15d": "F0_EXCLUIDO_LYA_COMPLETO; BORDE_0.7_SOSTENIDO (Planck + BAO + Lyman-ABGD, MCMC, 4 cadenas por caso; borde superior con la poblaci\u00f3n medida de U19b: 1 F\u2080 con X \u2248 193: p(s=1)/p_max = 0.111 (EXCLUIDA), 1 F\u2080 con X \u2248 275: p(s=1)/p_max = 0.047 (EXCLUIDA), 0.85 F\u2080 con X \u2248 318: p(s=1)/p_max = 0.114 (EXCLUIDA), 0.7 F\u2080 con X \u2248 315: p(s=1)/p_max = 0.238 (PERMITIDA); umbral e\u207b\u00b2 = 0.135; la puerta de cribado dejaba pasar F\u2080 con X \u2248 193 solo por forma (\u03b4A 0.378) y Ly\u03b1 completo lo excluye; informativo: Ly\u03b1 completo corta entre \u03b4A = 0.32 y 0.38)",
+  "U16": "resoluci\u00f3n: R_\u03be RESOLUCION_ROBUSTA, R_\u0393 RESOLUCION_ROBUSTA; volumen: R_\u03be INDETERMINADO, R_\u0393 VOLUMEN_ROBUSTO",
+  "U17": "K_SW_FUERA_DEL_RANGO_TIBIA",
+  "U17b": "SOLO_XI_CONSTANTE_VIVE",
+  "U17c": "RAMA_COMODA_FORZADA (\u03b7_crit B4a = 0.1, B1 \u2248 0.048; Ly\u03b1 depende de \u03be\u2113\u03b7, no de c: la rama con \u03be creciente exige que \u2265 90 % de la energ\u00eda del colapso vaya a cuantos con p \u2273 10\u00b3 m_G)",
+  "U17d": "RAMA_VIVA_CON_COLAPSO_TIPO_U1 (balance corregido y R_\u03c1 = 1.56: B2 con \u03b7 = 1 pasa solo por forma, \u03b4A = 0.32 > 0.234; falla con r = a_decay/a_osc \u2265 2; \u03b7 \u2264 0.3 pasa en todas las variantes)",
+  "U21": "BANDA_BAJO_EL_BENCHMARK (rama viva fr\u00eda con F \u2264 0.7 F\u2080; rama c\u00f3moda con F \u2264 0.18 F\u2080; isocurvatura de la literatura; superradiancia con autointeracci\u00f3n por calcular; con F < F\u2080 se pierde la se\u00f1al de cuerdas en LISA)",
+  "U22": "POLO_CAMBIA_NACIMIENTO (inflaci\u00f3n de polo: CMB equivalente, \u0394n_s = \u22121.2e-4; cambian los hijos concretos, no la estad\u00edstica: ver U22b)",
+  "U20": "ISOCURVATURA_RECORTA_BANDA (estimaci\u00f3n propia de ruido blanco, C = 1: F \u2264 0.5 F\u2080; m_min \u2248 2.1e-17 eV, como la literatura)",
+  "U22b": "NACIMIENTO_ROBUSTO (f_ES polo/suma = 0.94: el parche D2 se puede sustituir por inflaci\u00f3n de polo de orden 4)",
+  "U24": "DRENAJE_ROBUSTO (drenaje a 384\u00b3, 3 semillas: max |\u03b4R_\u0393| = 1.9%; R_\u03be cambia -5.6% con el doble de drenaje)",
+  "U25": "PASO_ROBUSTO (d\u03c4/2 a 384\u00b3, 3 semillas: \u0394R_\u0393 = -0.10%, \u0394R_\u03be = -0.16%; sesgo del paso de producci\u00f3n < 1 %)",
+  "U26": "POLO_ADOPTADO (la meseta de la cadena es la inflaci\u00f3n de polo de orden 4; la suma de 10 niveles queda como opci\u00f3n, WHALEFALL_PLATEAU=sum; \u0394m_G \u2264 0.4%, los veredictos de CLASS se arrastran)",
+  "U18": "INDETERMINADO (con instant\u00e1neas densas los estimadores local e integral de R_\u0393 coinciden a < 1 %; el efecto de resoluci\u00f3n de U16 era de muestreo)",
+  "U19": "INDETERMINADO (contador no v\u00e1lido)",
+  "U17e": "BANDA_RECORTADA (poblaci\u00f3n del colapso medida en U19b: Ly\u03b1 solo deja hasta 0.7 F\u2080; el corte en 0.35 F\u2080 es del criterio de isocurvatura de U20; filas X (lectura (b)) pasan toda la rejilla, F\u2080 incluido)",
+  "U17f": "BORDE_0.7_CONFIRMADO; F0 PERMITIDO CON X <= 194 (borde superior de la banda en todo el intervalo del colapso de U19b: 0.7 F\u2080 con X \u2248 320, 0.85 F\u2080 con X \u2248 220\u2013275, F\u2080 con X \u2272 194, este solo por forma (\u03b4A 0.35\u20130.38, sobre la referencia ancha); con la cota secundaria de supermasivos, 0.5 F\u2080 (X \u2273 275) a 0.7 F\u2080 (X \u2272 220); borde inferior 0.09 F\u2080 sin cambios)",
+  "U23": "SUPERRADIANCIA_PARTE_LA_BANDA (agujeros estelares excluyen 0.0625 y 0.045 F\u2080; 0.03 F\u2080 en la regi\u00f3n menos robusta; supermasivos (\u00dcnal et al., secundaria) excluyen m_G < 1.7e-17 eV, F \u2265 0.7 F\u2080)",
+  "U20b": "ISOCURVATURA_NO_LIMITA (con la cota observacional f_iso < 0.0084 de Ly\u03b1 la isocurvatura no recorta; el criterio de U20 era ~500 veces m\u00e1s estricto)",
+  "U19b": "COLAPSO_BLANDO (RP\u00b3 \u2113_G = 3.2, 4 redes: Y = 1.70 \u00b1 0.55, Y \u2212 \u03c3 = 1.15 frente a 1.14, en la frontera; colapso tard\u00edo r_W \u2248 1.8, c_p \u2248 4.3; control U(1) de la misma red (4 redes): Y = 1.58 \u00b1 0.50, c_p \u2248 5.8: RP\u00b3 rinde como U(1) por energ\u00eda de cuerdas (Y_RP\u00b3/Y_U(1) \u2248 1.07) y no es m\u00e1s caliente; el momento blando X es casi el mismo con los dos protocolos aunque \u03be\u2081 var\u00ede \u00d73; el veredicto es fr\u00e1gil: con el desalineamiento a\u00fan congelado o restando el sesgo de anarmonicidad ser\u00eda INTERMEDIO; con \u2113_G = 2.4 (4 redes m\u00e1s), enmienda 4: lectura (c) mixta: X depende poco de \u03be y m\u00e1s de \u2113 (X\u2080 crece con \u2113\u2081 a \u2248 2\u03c3; dos masas no separan las extrapolaciones); X del universo \u2248 170\u2013320 si crece con \u2113 (U17: 275), 31 si X\u2080 fuera constante; \u03b3 \u2212 1 = \u22121.2 \u00b1 2.4)",
+  "U19c": "INDETERMINADO (sigma_p > 0.5) (X\u2080(\u2113\u2081) con el protocolo de \u2113_G = 3.2 en 4 masas v\u00e1lidas (N = 256, 384, 512, 576; la de 576\u00b3 en una A100 con JAX): X\u2080 = 6.1, 6.0, 8.2, 7.7 en \u2113\u2081 = 3.6, 4.0, 4.3, 4.4; potencia p = 1.49 \u00b1 0.76 con \u03c7\u00b2/\u03bd = 7.2; X del universo seg\u00fan el modelo, informativo: X0_constante 55, X0_proporcional_a_l1 201, X0_lineal_en_l1 261, potencia_libre 766; 640\u00b3 y 768\u00b3 no validan (V2, RP\u00b3 denso > 5 %))",
+  "U19d": "X_UNIV_INDECISO (entre 244 y 1367) (U19c con 12 redes por masa, semillas 91\u201396: X\u2080 = 6.5, 7.5, 8.2, 8.6 en \u2113\u2081 = 3.6\u20134.4; p = 1.35 \u00b1 0.31; X del universo seg\u00fan el modelo, informativo: X0_constante 56, X0_proporcional_a_l1 218, X0_lineal_en_l1 273, potencia_libre 556; los modelos que ajustan (\u03c7\u00b2/\u03bd \u2264 2) dan X \u2265 218; X > 320 queda fuera de las filas de U17f)",
+  "U17g": "BORDE_BAJA_A_0.35 (borde superior sobre el intervalo de X de U19d, con la tuber\u00eda de U17f: X \u2248 405: 0.6 F\u2080, X \u2248 486: 0.6 F\u2080, X \u2248 556: 0.5 F\u2080, X \u2248 688: 0.5 F\u2080, X \u2248 891: 0.35 F\u2080, X \u2248 1367: 0.35 F\u2080; en el X central de U19d, 0.5 F\u2080; lo pone Ly\u03b1 en todas; borde inferior 0.03\u20130.0625 F\u2080 (superradiancia estelar))",
+  "U10b": "RP3 ATRACTOR_ACOTADO, U1 ATRACTOR_ACOTADO",
+  "U9": "CRECIMIENTO_GENUINO (dentro de la ventana \u2113 \u2264 5.66)"
+ },
+ "decisive_open_link": "10e: banda combinada preregistrada (U17e + U20b + U23 + U17f): rama viva con F \u2248 0.09\u20130.7 F\u2080 en todo el intervalo del colapso (X del universo \u2248 170\u2013320); hasta 0.85 F\u2080 con X \u2272 275 y hasta F\u2080 con X \u2272 194, este solo por forma; la extrapolaci\u00f3n \u221d \u2113 (X \u2248 195) cae en la frontera. Con la cota secundaria de supermasivos, 0.09\u20130.5 F\u2080 (0.7 F\u2080 con X \u2272 220). Materia oscura fr\u00eda dominada por el colapso; LISA solo si F\u2080 y sin la cota de supermasivos. La verosimilitud completa de Ly\u03b1 (U15c) permite los bordes 0.35\u20130.5 F\u2080, indistinguibles de CDM; con la poblaci\u00f3n medida, U15d: F0_EXCLUIDO_LYA_COMPLETO; BORDE_0.7_SOSTENIDO (F\u2080 excluido tambi\u00e9n con X \u2248 193; con X \u2248 320, 0.85 F\u2080 excluido y 0.7 F\u2080 permitido); las filas que pasan la puerta de cribado solo por forma (\u03b4A \u2273 0.34) quedan dudosas, no el X central (0.5 F\u2080, \u03b4A 0.29). La extrapolaci\u00f3n del colapso a \u2113 \u2248 90 (U19d, cuatro masas con 12 redes cada una): X_UNIV_INDECISO (entre 244 y 1367); con X\u2080 \u221d \u2113\u2081, lineal o en potencia, X \u2248 218, 273 y 556, todos > 194: F\u2080 queda fuera; el borde superior es 0.85 F\u2080 (X \u2272 275), 0.7 F\u2080 (X \u2248 320); U17g: BORDE_BAJA_A_0.35, 0.6 F\u2080 con X \u2248 400\u2013490, 0.5 F\u2080 en el X central (556) y 0.35 F\u2080 con X \u2248 900\u20131370. Abiertos: C de la isocurvatura; la meseta es la inflaci\u00f3n de polo (U26)",
+ "measured_closure": "FALSADA_EN_FORMA_ACTUAL",
+ "note_historical_labels": "S6 = FALSADA_EN_FORMA_ACTUAL es la puerta proxy antigua (antes de CLASS); el estado actual de la inferencia, con su grado de certeza, est\u00e1 en docs/ESTADO_ACTUAL.md",
+ "requirement_on_source": {
+  "eps_max_K0": [
+   0.001,
+   0.056234132519034905
+  ],
+  "eps_max_by_config": {
+   "ir_delta|x0=10|K_sw=0": 0.005623413251903491,
+   "ir_delta|x0=10|K_sw=1": 0.005623413251903491,
+   "ir_delta|x0=10|K_sw=10": 0.001,
+   "ir_delta|x0=30|K_sw=0": 0.005623413251903491,
+   "ir_delta|x0=30|K_sw=1": 0.0031622776601683794,
+   "ir_delta|x0=30|K_sw=10": 0.0031622776601683794,
+   "ir_delta|x0=100|K_sw=0": 0.001,
+   "ir_delta|x0=100|K_sw=1": 0.0017782794100389228,
+   "ir_delta|x0=100|K_sw=10": 0.01,
+   "energy_logflat|x0=10|K_sw=0": 0.01778279410038923,
+   "energy_logflat|x0=10|K_sw=1": 0.01778279410038923,
+   "energy_logflat|x0=10|K_sw=10": 0.1,
+   "energy_logflat|x0=30|K_sw=0": 0.01778279410038923,
+   "energy_logflat|x0=30|K_sw=1": 0.056234132519034905,
+   "energy_logflat|x0=30|K_sw=10": 0.1778279410038923,
+   "energy_logflat|x0=100|K_sw=0": 0.056234132519034905,
+   "energy_logflat|x0=100|K_sw=1": 0.1778279410038923,
+   "energy_logflat|x0=100|K_sw=10": 1.0
+  }
+ },
+ "predictions_K_sw_0_1": {
+  "m_G_eV": [
+   1.5934185311664269e-16,
+   9.669142398583759e-15
+  ],
+  "DeltaNeff_CMB": [
+   3.41702661769702e-09,
+   0.0066963458171339025
+  ],
+  "f_em": [
+   0.0,
+   0.8467624442378336
+  ],
+  "lambda_em_Mpc": [
+   0.0,
+   0.7574139225112055
+  ],
+  "M_minicluster_Msun": [
+   0.24190558860990727,
+   114.34917630341577
+  ],
+  "T_osc_GeV": [
+   0.0003729919126259757,
+   0.002688539419191827
+  ]
+ },
+ "links": [
+  {
+   "link": "1 semilla cerrada en contracci\u00f3n",
+   "status": "ASSUMED",
+   "evidence": "docs/evidencia/nacimiento_c45/NOTA_C45F_SEMILLAS.md; data/cadena_cierre/contract.json",
+   "open": "origen y probabilidad de la semilla (D1); tama\u00f1o A\u00b7H \u2248 0.5\u20131.4 requerido por C45j"
+  },
+  {
+   "link": "2 rebote(s) NPQT coherente(s) en el padre que se contrae",
+   "status": "PASS_TOY / MARGINAL (D11)",
+   "evidence": "U26-S1 (meseta de polo): f_ES = 0.153 frente a 0.163 con la suma (R = 0.94) en las 1100 filas de C45h; 10 de los 20 hijos viables de C45j son eternos con el polo; el puerto C (suma, modo 0) reproduce bit a bit; el filtro \u03b6\u2080 de C45j (f_viable = 0.036) es de la suma",
+   "open": "coherencia con \u03c7 inhomog\u00e9neo (C45k montado, sin ejecutar)"
+  },
+  {
+   "link": "3 bomba \u03c7 + disparo por la garganta \u2192 aterrizaje \u03c7_land",
+   "status": "PASS_NUMERICS (homog\u00e9neo)",
+   "evidence": "C45g/C45h (R_throat \u2248 1); cadena_cierre 'garganta fuerte' = INCONCLUSIVE_NUMERICS",
+   "open": "lanzamiento global inhomog\u00e9neo"
+  },
+  {
+   "link": "4 fase eterna (P_\u03b6 > 1) en la misma meseta",
+   "status": "PASS_EFFECTIVE_TOY \u00b7 D3 FR\u00c1GIL \u00b7 UV (b)",
+   "evidence": "U1-S2 (polo): \u03c7_et = 541.0 con el V0 com\u00fan; cota de planitud 1.20e-06/M_Pl; C45i FR\u00c1GIL (calculado con la suma); docs/literatura/NOTA_D3_UV.md",
+   "open": "protecci\u00f3n UV de la meseta (incompatible con las conjeturas de la ci\u00e9naga); medida (D9); islas (D12)"
+  },
+  {
+   "link": "5 bolsillo: inflaci\u00f3n observable, fin, recalentamiento \u03c3, pivote",
+   "status": "PASS_NUMERICS",
+   "evidence": "U1-S2 rehace el pivote (m\u00e1x. rel. 1.1e-08): n_s = 0.9728, r = 0.0050; meseta de polo (U26): \u0394n_s = -1.2e-04 y \u0394r/r = -0.2% frente a la suma",
+   "open": "precalentamiento no lineal; espectros a primer orden"
+  },
+  {
+   "link": "6 \u03c7 \u2192 curvatura \u2192 ordenaci\u00f3n Q en RP\u00b3",
+   "status": "PASS_CONNECTION",
+   "evidence": "data/cadena_cierre/contract.json (q_bridge); action/ (acci\u00f3n com\u00fan, residuos simb\u00f3licos nulos)",
+   "open": "Q espectador; normalizaci\u00f3n heredada"
+  },
+  {
+   "link": "7 red de cuerdas \u2124\u2082 (cicatrices)",
+   "status": "LOCAL_3D_RESOLVED \u00b7 RED_REPRESENTATIVA_ABIERTA",
+   "evidence": "docs/evidencia/cierre_*; data/cierre_cosmologia/closure_status.json: 159 per\u00edmetros certificados en el octree 3D",
+   "open": "red representativa con n\u00facleos resueltos y AMR bidireccional"
+  },
+  {
+   "link": "8 red \u2192 fuente de Goldstones libres S(t,p)",
+   "status": "MEDIDO_EN_EL_ATRACTOR (U4b, N = 576): R_\u0393 = 1.40 \u00b1 0.13 (U2: 1.69 \u00b1 0.29); R_\u03be = 1.65; U6 (6 RP\u00b3 + 4 U(1)): R_\u0393 = 1.389 \u00b1 0.062, R_\u03be = 1.62, q_RP3(\u2113=5) = 1.03 \u00b1 0.12; U9 (redes densas, \u03be_i = 2): R_\u0393 = 1.69, R_\u03be = 1.58, q_RP3 = 0.74: R_\u03be robusto, R_\u0393 y q dependen de la densidad inicial; U10a (radiaci\u00f3n masiva inicial drenada, 512\u00b3): R_\u0393 = 1.76 (densas) / 1.63 (poco densas), brecha 0.074; q \u2248 0.6\u20130.7; INDETERMINADO; la conversi\u00f3n del ba\u00f1o era el 25\u201360 % de la emisi\u00f3n medida; U11 (U6 drenado, 6 RP\u00b3 + 4 U(1), 576\u00b3): R_\u0393 limpia = 1.56 \u00b1 0.09 (LIMPIA_ZONA_PERMITIDA), R_\u03be = 1.61, q_RP3(\u2113=5) = 0.87 \u00b1 0.06 (Q_MENOR_QUE_1); U10b (desde arriba): atractor acotado en \u2113 = 5.61: RP\u00b3 \u2208 [1.12, 1.73] (ATRACTOR_ACOTADO), U(1) \u2208 [0.66, 1.10] (ATRACTOR_ACOTADO); R_\u03be observado 1.57 (desde arriba) y 1.68 (desde abajo), no una cota",
+   "evidence": "docs/informes/INFORME_U4.md, network/results/u4/U4B_RESULT.json; antes U2/U3 (network/results/u2, u3); data/cierre_red/source_contract.json",
+   "open": "q_RP3 < 1 en \u2113 \u2248 5 por muy poco (q + 2\u03c3 = 0.99) y bajando con \u2113; el estimador de q es el menos robusto (0.59 a 512\u00b3 con 2 semillas). Auditor\u00eda U4\u2013U11 (audit/u4_u11): todo se reproduce, pero q depende del convenio de la ventana en k (0.87\u20130.91; con media geom\u00e9trica o inicio del par, Q_COMPATIBLE_CON_1): Q_MENOR_QUE_1 no es robusto. Extrapolaci\u00f3n al \u2113 f\u00edsico \u2248 25\u201387 (U5): con q < 1 la materia oscura ser\u00eda fr\u00eda y sin firma tibia"
+  },
+  {
+   "link": "9 especies, desintegraciones, fluido tard\u00edo",
+   "status": "PASS (vac\u00edo, nivel \u00e1rbol)",
+   "evidence": "U1-S3: T_tard\u00eda/T_rh \u2212 1 = 4.1e-07; \u0394N_eff homog\u00e9neo 3.4e-09",
+   "open": "emisi\u00f3n por defectos, tasas t\u00e9rmicas"
+  },
+  {
+   "link": "10 materia oscura pseudo-Goldstone (desalineamiento + emisi\u00f3n)",
+   "status": "U1: CIERRE_ESTRECHO",
+   "evidence": "U1-S4 (libro verificado, PASS) + U1-S5 (178/309 nodos permitidos)",
+   "open": "m_G es ruptura expl\u00edcita a\u00f1adida (no est\u00e1 en la acci\u00f3n com\u00fan); U13: M_G_REQUIERE_RUPTURA_NUEVA (acci\u00f3n exactamente O(4), sin anomal\u00eda; \u2124_N con n \u2248 25 dar\u00eda m_G \u2248 10\u207b\u00b9\u2075 eV); Boltzmann completo con CLASS en U4a\u2013U17e; isocurvatura en U20 y U20b (no limita)"
+  },
+  {
+   "link": "10b cierre con \u03b5 medida (S6, puerta P5 = proxy de free-streaming, superada por 10c/10d)",
+   "status": "S6: FALSADA_EN_FORMA_ACTUAL (R_\u0393 de U4b N=576)",
+   "evidence": "results/s6_measured_closure.json; docs/informes/INFORME_U2.md \u00a74",
+   "open": "con las puertas de U1, B1/B2/B3 quedan excluidas incluso a \u22121\u03c3; con la cota Ly\u03b1 mixta (exploratoria) sobreviven B2 y B3 con el espectro log-plano"
+  },
+  {
+   "link": "10c Lyman-\u03b1 con transferencia de Boltzmann (U3a)",
+   "status": "U3a: INCONCLUSO (control U(1) de la red fuera de rango; ESPEC_U2 \u00a76); condicional a la red: CIERRE_SEGUN_RAMA (estricto) / CIERRE_SEGUN_RAMA (amplio); validaci\u00f3n preregistrada: NO",
+   "evidence": "lya/results/U3A_RESULT.json; docs/informes/INFORME_U3.md; audit/u3/AUDIT_U3.md",
+   "open": "superada por 10d (CLASS)"
+  },
+  {
+   "link": "10d Lyman-\u03b1 con CLASS (U4a)",
+   "status": "U4a: CIERRE_SEGUN_RAMA; validada (C0, C0b, C1): S\u00cd; permitidas 24/62 filas (B2 y B3 con espectro log-plano)",
+   "evidence": "lya/results/u4a/U4A_RESULT.json; docs/informes/INFORME_U4.md; docs/preregistros/ESPEC_U4.md (enmienda 1)",
+   "open": "filas calculadas con R_\u0393 de U2 (1.69 \u00b1 0.29); con el del atractor (|\u0394R_\u0393| = 0.30, en el l\u00edmite de ESPEC_U4) solo baja la emisi\u00f3n. Simulaciones de Ly\u03b1 para la distribuci\u00f3n; ramas con \u03be creciente y q > 1 (U5)"
+  },
+  {
+   "link": "10e extrapolaci\u00f3n al \u2113 f\u00edsico: \u03be creciente y pendiente espectral q (U5)",
+   "status": "U5a: DEPENDE_DEL_ESCALADO; U5f: DEPENDE_DE_q (q_crit = 1.025); U5c isocurvatura: PASA; d\u03be/d\u2113 (U(1), 768\u00b3) = 0.133 \u00b1 0.030",
+   "evidence": "lya/results/u5/U5_RESULT.json; docs/informes/INFORME_U5.md; docs/preregistros/ESPEC_U5.md; lya/results/u12/U12_RESULT.json; docs/informes/INFORME_U12.md",
+   "open": "U12 (FRIA_SOBREVIVE_AL_CRECIMIENTO): con q \u2264 0.87 la rama fr\u00eda sobrevive aunque \u03be crezca (B4a, B4b y B1/GHV; q_crit \u2248 0.91\u20130.92), con \u0394N_eff hasta \u2248 0.07; con q = 1 solo sobrevive \u03be constante (q_crit = 1.025, U5f). Decide q a \u2113 \u2248 70; la medida a \u2113 = 5 (0.87\u20130.94 seg\u00fan el convenio, auditor\u00eda) est\u00e1 en la frontera. U17 (K_SW_FUERA_DEL_RANGO_TIBIA): U12 supone K_sw \u2264 1, pero la red guarda en H = m_G/3 entre 100 y 2000 veces la energ\u00eda del desalineamiento (K_eff \u2248 3\u2013770 seg\u00fan c/\u03b7 \u2208 [3, 30]); con \u03be creciente, m_G cae a 10\u207b\u00b2\u2070\u20135\u00d710\u207b\u00b9\u2078 eV y los cuantos del colapso son m\u00e1s tibios que la WDM de 5.3 keV, as\u00ed que la rama fr\u00eda con \u03be creciente no est\u00e1 asegurada; con \u03be constante sigue fr\u00eda, con m_G \u2248 5\u00d710\u207b\u00b9\u2078\u20135\u00d710\u207b\u00b9\u2076 eV"
+  },
+  {
+   "link": "10f emisi\u00f3n calibrada con arXiv:2512.13653 (U7)",
+   "status": "U7: CALIBRADA_PERMITIDA; \u03ba(x\u2080=10) = 0.54, \u03ba(x\u2080=30) = 1.60; 24/24 filas permitidas; U7c (R_\u0393 = 1.39/1.69/2.09): CALIBRADA_SENSIBLE_A_R, 18/24 (solo \u03b4A: 22/24)",
+   "evidence": "lya/results/u7/U7_RESULT.json; docs/informes/INFORME_U6_U7.md; docs/preregistros/ESPEC_U7.md",
+   "open": "con R_\u0393 = 2.09 y x\u2080 = 30 falla (U7c): el margen depende de la R_\u0393 sin relajaci\u00f3n inicial (U10a) y de x\u2080; la puerta de forma est\u00e1 extrapolada por debajo de 1 keV; U15 (Lyman-ABGD): INCONCLUSO (arn\u00e9s no validado); la puerta \u03b4A se reproduce en la auditor\u00eda U4\u2013U11"
+  },
+  {
+   "link": "11 observables: n_s, r, \u0394N_eff, ondas, minic\u00famulos",
+   "status": "PREDICCIONES CONDICIONALES",
+   "evidence": "docs/informes/INFORME_U1_CIERRE.md \u00a73; docs/PREDICCIONES.md; docs/informes/INFORME_U14.md",
+   "open": "SNR de LISA; verosimilitud CMB; minic\u00famulos (U14): MICROLENTE_ACOTA_f_MC, f_MC \u2272 0.55 con EROS-2 estricta"
+  },
+  {
+   "link": "12 islas \u2192 agujeros negros \u2192 descendencia (cierre del ciclo)",
+   "status": "OPEN_GEOMETRY",
+   "evidence": "D12 (argumento, docs/evidencia/nacimiento_c45/INFORME_C45IJ.md \u00a74); data/cadena_cierre/contract.json",
+   "open": "uni\u00f3n, radio cr\u00edtico, funci\u00f3n de masas"
+  }
+ ]
+}

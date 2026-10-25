@@ -1,0 +1,17 @@
+# conda env for the whole repository (WSL/Linux). Compilers: system gcc (sudo apt install build-essential).  conda env create -f env/environment.yml && conda activate whalefall
+name: whalefall
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.26
+  - scipy>=1.11
+  - matplotlib>=3.8
+  - sympy>=1.12          # action/ (symbolic residuals, tree-level decays)
+  - cython>=3.0          # CLASS python wrapper
+  - setuptools
+  - wheel
+  - pip
+  - make
+  - git
+  - psutil

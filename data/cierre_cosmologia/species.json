@@ -1,0 +1,43 @@
+{
+  "species": [
+    {
+      "name": "Goldstone_3",
+      "mass_squared_code": 0.0,
+      "mass_code": 0.0,
+      "multiplicity": 3,
+      "width_code": 0.0
+    },
+    {
+      "name": "normal_quintet_5",
+      "mass_squared_code": 0.24,
+      "mass_code": 0.4898979485566356,
+      "multiplicity": 5,
+      "width_code": 2.9238630046262836e-06
+    },
+    {
+      "name": "normal_singlet_1",
+      "mass_squared_code": 0.24,
+      "mass_code": 0.4898979485566356,
+      "multiplicity": 1,
+      "width_code": 1.1695452018505134e-05
+    },
+    {
+      "name": "trace_heavy_1",
+      "mass_squared_code": 1.84,
+      "mass_code": 1.3564659966250536,
+      "multiplicity": 1,
+      "width_code": 3.45054715629831e-05
+    }
+  ],
+  "heavy_pair_branching_to_quintet_and_singlet": [
+    0.9523809523809524,
+    0.04761904761904758
+  ],
+  "orthonormal_basis_error": 4.440892098500626e-16,
+  "hessian_error": 1.1102230246251565e-16,
+  "Goldstone_mass_exactly_zero": true,
+  "stable_massive_particle_species": 0,
+  "population_statement": "The free sector of the fixed model has massless stable Goldstones and unstable massive modes. A massive stable dark-matter particle is not supplied by these species.",
+  "tree_widths_scope": "Vacuum tree widths. Does not give defect emission, thermal rates, or an inhomogeneous reheating simulation.",
+  "passed": true
+}

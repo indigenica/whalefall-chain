@@ -1,0 +1,255 @@
+(lighthouse-sage) indigenica@INDI-XEON:/mnt/f/Proyectos/Cencia/Akashic alpha engine/whalefall/WHALEFALL/claude_dual/unification$ python -B lya/u12_class.py --workers 32
+classy v3.4.1 workers 32
+   [1/2] CLASS C0b ok  (0.1 min)
+   [2/2] CLASS C0 analytic ok  (0.1 min)
+   [1/149] thermal (cache) thermal_5.3keV ok  (0.1 min)
+   [2/149] thermal (cache) mixed_1keV_f0.140 ok  (0.1 min)
+   [3/149] thermal (cache) family 0.2 keV f=0.03 ok  (0.1 min)
+   [4/149] thermal (cache) family 0.4 keV f=0.1 ok  (0.1 min)
+   [5/149] thermal (cache) family 0.4 keV f=0.05 ok  (0.1 min)
+   [6/149] thermal (cache) family 0.2 keV f=0.02 ok  (0.1 min)
+   [7/149] thermal (cache) family 0.2 keV f=0.01 ok  (0.1 min)
+   [8/149] thermal (cache) mixed_2keV_f0.300 ok  (0.1 min)
+   [9/149] thermal (cache) family 0.4 keV f=0.2 ok  (0.1 min)
+   [10/149] thermal (cache) family 0.4 keV f=0.15 ok  (0.1 min)
+   [11/149] thermal (cache) mixed_4keV_f0.643 ok  (0.1 min)
+   [12/149] thermal (cache) family 0.4 keV f=0.3 ok  (0.1 min)
+   [13/149] thermal (cache) mixed_3keV_f0.469 ok  (0.1 min)
+   [14/149] thermal (cache) family 0.2 keV f=0.05 ok  (0.1 min)
+   [15/149] thermal (cache) family 0.4 keV f=0.4 ok  (0.1 min)
+   [16/149] thermal (cache) family 0.4 keV f=0.55 ok  (0.1 min)
+   [17/149] thermal (cache) family 0.4 keV f=0.75 ok  (0.1 min)
+   [18/149] thermal (cache) family 0.4 keV f=1 ok  (0.1 min)
+   [19/149] thermal (cache) family 0.5 keV f=0.01 ok  (0.1 min)
+   [20/149] thermal (cache) family 0.5 keV f=0.02 ok  (0.1 min)
+   [21/149] thermal (cache) family 0.5 keV f=0.03 ok  (0.1 min)
+   [22/149] thermal (cache) family 0.5 keV f=0.05 ok  (0.1 min)
+   [23/149] thermal (cache) family 0.2 keV f=0.2 ok  (0.1 min)
+   [24/149] thermal (cache) family 0.2 keV f=0.3 ok  (0.1 min)
+   [25/149] thermal (cache) family 0.2 keV f=0.1 ok  (0.1 min)
+   [26/149] thermal (cache) family 0.5 keV f=0.1 ok  (0.1 min)
+   [27/149] thermal (cache) family 0.5 keV f=0.15 ok  (0.1 min)
+   [28/149] thermal (cache) family 0.5 keV f=0.2 ok  (0.1 min)
+   [29/149] thermal (cache) family 0.5 keV f=0.4 ok  (0.1 min)
+   [30/149] thermal (cache) family 0.5 keV f=0.3 ok  (0.1 min)
+   [31/149] thermal (cache) family 0.5 keV f=0.55 ok  (0.1 min)
+   [32/149] thermal (cache) family 0.5 keV f=0.75 ok  (0.1 min)
+   [33/149] thermal (cache) family 0.5 keV f=1 ok  (0.1 min)
+   [34/149] thermal (cache) family 0.75 keV f=0.02 ok  (0.1 min)
+   [35/149] thermal (cache) family 0.75 keV f=0.01 ok  (0.1 min)
+   [36/149] thermal (cache) family 0.75 keV f=0.03 ok  (0.1 min)
+   [37/149] thermal (cache) family 0.75 keV f=0.05 ok  (0.1 min)
+   [38/149] thermal (cache) family 0.75 keV f=0.1 ok  (0.1 min)
+   [39/149] thermal (cache) family 0.75 keV f=0.15 ok  (0.1 min)
+   [40/149] thermal (cache) family 0.75 keV f=0.2 ok  (0.1 min)
+   [41/149] thermal (cache) family 0.75 keV f=0.4 ok  (0.1 min)
+   [42/149] thermal (cache) family 0.2 keV f=0.4 ok  (0.1 min)
+   [43/149] thermal (cache) family 0.75 keV f=0.55 ok  (0.1 min)
+   [44/149] thermal (cache) family 0.75 keV f=0.3 ok  (0.1 min)
+   [45/149] thermal (cache) family 0.3 keV f=0.01 ok  (0.1 min)
+   [46/149] thermal (cache) family 0.3 keV f=0.55 ok  (0.1 min)
+   [47/149] thermal (cache) family 0.2 keV f=0.15 ok  (0.1 min)
+   [48/149] thermal (cache) family 0.75 keV f=0.75 ok  (0.1 min)
+   [49/149] thermal (cache) family 0.3 keV f=0.02 ok  (0.1 min)
+   [50/149] thermal (cache) family 0.3 keV f=0.3 ok  (0.1 min)
+   [51/149] thermal (cache) family 0.75 keV f=1 ok  (0.1 min)
+   [52/149] thermal (cache) family 1 keV f=0.02 ok  (0.1 min)
+   [53/149] thermal (cache) family 1 keV f=0.01 ok  (0.1 min)
+   [54/149] thermal (cache) family 1 keV f=0.03 ok  (0.1 min)
+   [55/149] thermal (cache) family 1 keV f=0.1 ok  (0.1 min)
+   [56/149] thermal (cache) family 1 keV f=0.05 ok  (0.1 min)
+   [57/149] thermal (cache) family 1 keV f=0.15 ok  (0.1 min)
+   [58/149] thermal (cache) family 0.2 keV f=0.55 ok  (0.1 min)
+   [59/149] thermal (cache) family 0.3 keV f=0.4 ok  (0.1 min)
+   [60/149] thermal (cache) family 1 keV f=0.2 ok  (0.1 min)
+   [61/149] thermal (cache) family 0.3 keV f=0.03 ok  (0.1 min)
+   [62/149] thermal (cache) family 0.2 keV f=1 ok  (0.1 min)
+   [63/149] thermal (cache) family 1 keV f=0.3 ok  (0.1 min)
+   [64/149] thermal (cache) family 1 keV f=0.75 ok  (0.1 min)
+   [65/149] thermal (cache) family 1 keV f=0.4 ok  (0.1 min)
+   [66/149] thermal (cache) family 1 keV f=1 ok  (0.1 min)
+   [67/149] thermal (cache) family 1 keV f=0.55 ok  (0.1 min)
+   [68/149] thermal (cache) family 1.5 keV f=0.01 ok  (0.1 min)
+   [69/149] thermal (cache) family 0.3 keV f=0.2 ok  (0.1 min)
+   [70/149] thermal (cache) family 1.5 keV f=0.02 ok  (0.1 min)
+   [71/149] thermal (cache) family 1.5 keV f=0.03 ok  (0.1 min)
+   [72/149] thermal (cache) family 1.5 keV f=0.05 ok  (0.1 min)
+   [73/149] thermal (cache) family 1.5 keV f=0.1 ok  (0.1 min)
+   [74/149] thermal (cache) family 0.3 keV f=0.15 ok  (0.1 min)
+   [75/149] thermal (cache) family 1.5 keV f=0.15 ok  (0.1 min)
+   [76/149] thermal (cache) family 1.5 keV f=0.2 ok  (0.1 min)
+   [77/149] thermal (cache) family 1.5 keV f=0.3 ok  (0.1 min)
+   [78/149] thermal (cache) family 1.5 keV f=0.4 ok  (0.1 min)
+   [79/149] thermal (cache) family 1.5 keV f=0.55 ok  (0.1 min)
+   [80/149] thermal (cache) family 1.5 keV f=0.75 ok  (0.1 min)
+   [81/149] thermal (cache) family 1.5 keV f=1 ok  (0.1 min)
+   [82/149] thermal (cache) family 2 keV f=0.01 ok  (0.1 min)
+   [83/149] thermal (cache) family 2 keV f=0.03 ok  (0.1 min)
+   [84/149] thermal (cache) family 2 keV f=0.02 ok  (0.1 min)
+   [85/149] thermal (cache) family 0.3 keV f=0.75 ok  (0.1 min)
+   [86/149] thermal (cache) family 0.4 keV f=0.02 ok  (0.1 min)
+   [87/149] thermal (cache) family 2 keV f=0.1 ok  (0.1 min)
+   [88/149] thermal (cache) family 2 keV f=0.05 ok  (0.1 min)
+   [89/149] thermal (cache) family 2 keV f=0.15 ok  (0.1 min)
+   [90/149] thermal (cache) family 0.3 keV f=1 ok  (0.1 min)
+   [91/149] thermal (cache) family 2 keV f=0.2 ok  (0.1 min)
+   [92/149] thermal (cache) family 0.2 keV f=0.75 ok  (0.1 min)
+   [93/149] thermal (cache) family 2 keV f=0.55 ok  (0.1 min)
+   [94/149] thermal (cache) family 2 keV f=0.4 ok  (0.1 min)
+   [95/149] thermal (cache) family 2 keV f=0.3 ok  (0.1 min)
+   [96/149] thermal (cache) family 2 keV f=1 ok  (0.1 min)
+   [97/149] thermal (cache) family 2 keV f=0.75 ok  (0.1 min)
+   [98/149] thermal (cache) family 3 keV f=0.01 ok  (0.1 min)
+   [99/149] thermal (cache) family 3 keV f=0.05 ok  (0.1 min)
+   [100/149] thermal (cache) family 3 keV f=0.03 ok  (0.1 min)
+   [101/149] thermal (cache) family 0.4 keV f=0.01 ok  (0.1 min)
+   [102/149] thermal (cache) family 3 keV f=0.02 ok  (0.1 min)
+   [103/149] thermal (cache) family 3 keV f=0.1 ok  (0.1 min)
+   [104/149] thermal (cache) family 3 keV f=0.15 ok  (0.1 min)
+   [105/149] thermal (cache) family 3 keV f=0.2 ok  (0.1 min)
+   [106/149] thermal (cache) family 3 keV f=0.3 ok  (0.1 min)
+   [107/149] thermal (cache) family 3 keV f=0.4 ok  (0.1 min)
+   [108/149] thermal (cache) family 3 keV f=0.55 ok  (0.1 min)
+   [109/149] thermal (cache) family 3 keV f=0.75 ok  (0.1 min)
+   [110/149] thermal (cache) family 3 keV f=1 ok  (0.1 min)
+   [111/149] thermal (cache) family 4 keV f=0.01 ok  (0.1 min)
+   [112/149] thermal (cache) family 4 keV f=0.02 ok  (0.1 min)
+   [113/149] thermal (cache) family 4 keV f=0.03 ok  (0.1 min)
+   [114/149] thermal (cache) family 4 keV f=0.1 ok  (0.1 min)
+   [115/149] thermal (cache) family 4 keV f=0.15 ok  (0.1 min)
+   [116/149] thermal (cache) family 4 keV f=0.05 ok  (0.1 min)
+   [117/149] thermal (cache) family 4 keV f=0.2 ok  (0.1 min)
+   [118/149] thermal (cache) family 0.3 keV f=0.05 ok  (0.1 min)
+   [119/149] thermal (cache) family 4 keV f=0.3 ok  (0.1 min)
+   [120/149] thermal (cache) family 4 keV f=0.4 ok  (0.1 min)
+   [121/149] thermal (cache) family 4 keV f=0.55 ok  (0.1 min)
+   [122/149] thermal (cache) family 4 keV f=0.75 ok  (0.1 min)
+   [123/149] thermal (cache) family 4 keV f=1 ok  (0.1 min)
+   [124/149] thermal (cache) family 6 keV f=0.01 ok  (0.1 min)
+   [125/149] thermal (cache) family 6 keV f=0.02 ok  (0.1 min)
+   [126/149] thermal (cache) family 6 keV f=0.03 ok  (0.1 min)
+   [127/149] thermal (cache) family 6 keV f=0.05 ok  (0.1 min)
+   [128/149] thermal (cache) family 6 keV f=0.1 ok  (0.1 min)
+   [129/149] thermal (cache) family 6 keV f=0.15 ok  (0.1 min)
+   [130/149] thermal (cache) family 6 keV f=0.55 ok  (0.1 min)
+   [131/149] thermal (cache) family 6 keV f=0.2 ok  (0.1 min)
+   [132/149] thermal (cache) family 6 keV f=0.4 ok  (0.1 min)
+   [133/149] thermal (cache) family 6 keV f=0.75 ok  (0.1 min)
+   [134/149] thermal (cache) family 6 keV f=1 ok  (0.1 min)
+   [135/149] thermal (cache) family 6 keV f=0.3 ok  (0.1 min)
+   [136/149] thermal (cache) family 10 keV f=0.01 ok  (0.1 min)
+   [137/149] thermal (cache) family 10 keV f=0.02 ok  (0.1 min)
+   [138/149] thermal (cache) family 10 keV f=0.03 ok  (0.1 min)
+   [139/149] thermal (cache) family 10 keV f=0.05 ok  (0.1 min)
+   [140/149] thermal (cache) family 10 keV f=0.1 ok  (0.1 min)
+   [141/149] thermal (cache) family 10 keV f=0.4 ok  (0.1 min)
+   [142/149] thermal (cache) family 10 keV f=0.2 ok  (0.1 min)
+   [143/149] thermal (cache) family 10 keV f=0.3 ok  (0.1 min)
+   [144/149] thermal (cache) family 10 keV f=0.15 ok  (0.1 min)
+   [145/149] thermal (cache) family 10 keV f=1 ok  (0.1 min)
+   [146/149] thermal (cache) family 10 keV f=0.55 ok  (0.1 min)
+   [147/149] thermal (cache) family 10 keV f=0.75 ok  (0.1 min)
+   [148/149] thermal (cache) family 0.4 keV f=0.03 ok  (0.1 min)
+   [149/149] thermal (cache) family 0.3 keV f=0.1 ok  (0.1 min)
+refs {'thermal_5.3keV': 0.33606674391968916, 'mixed_1keV_f0.140': 0.23408346011191306, 'mixed_2keV_f0.300': 0.289530456443554, 'mixed_3keV_f0.469': 0.3076237784895315, 'mixed_4keV_f0.643': 0.3114622617098102} strict 0.23408346011191306
+31 CLASS row runs (of 64 rows)
+   [1/31] row U12_B4b_q0.87_x30_K1 ok  (58.7 min)
+   [2/31] row U12_B2_q0.87_x30_K0 ok  (59.1 min)
+   [3/31] row U12_B1_q0.87_x30_K1 ok  (59.5 min)
+   [4/31] row U12_B4a_q0.87_x30_K1 ok  (59.8 min)
+   [5/31] row U12_B2_q0.87_x10_K1 ok  (60.9 min)
+   [6/31] row U12_B1_q0.87_x30_K0 ok  (61.4 min)
+   [7/31] row U12_B4a_q0.87_x30_K0 ok  (61.5 min)
+   [8/31] row U12_B4b_q0.87_x30_K0 ok  (62.9 min)
+   [9/31] row U12_B4b_q0.87_x10_K1 ok  (63.9 min)
+   [10/31] row U12_B1_q0.87_x10_K1 ok  (65.3 min)
+   [11/31] row U12_B2_q0.87_x10_K0 ok  (65.4 min)
+   [12/31] row U12_B4b_q1_x30_K1 ok  (65.4 min)
+   [13/31] row U12_B1_q1_x30_K1 ok  (65.8 min)
+   [14/31] row U12_B4a_q1_x30_K1 ok  (66.3 min)
+   [15/31] row U12_B4a_q0.87_x10_K1 ok  (66.6 min)
+   [16/31] row U12_B1_q1_x30_K0 ok  (67.3 min)
+   [17/31] row U12_B4b_q1_x30_K0 ok  (67.3 min)
+   [18/31] row U12_B4a_q1_x30_K0 ok  (67.3 min)
+   [19/31] row U12_B4a_q0.87_x10_K0 ok  (68.0 min)
+   [20/31] row U12_B2_q1_x30_K1 ok  (68.0 min)
+   [21/31] row U12_B4a_q1_x10_K1 ok  (69.1 min)
+   [22/31] row U12_B4b_q0.87_x10_K0 ok  (69.2 min)
+   [23/31] row U12_B2_q1_x30_K0 ok  (69.3 min)
+   [24/31] row U12_B1_q1_x10_K1 ok  (69.5 min)
+   [25/31] row U12_B4b_q1_x10_K1 ok  (69.6 min)
+   [26/31] row U12_B1_q0.87_x10_K0 ok  (69.9 min)
+   [27/31] row U12_B2_q1_x10_K1 ok  (69.9 min)
+   [28/31] row U12_B4a_q1_x10_K0 ok  (70.7 min)
+   [29/31] row U12_B2_q1_x10_K0 ok  (71.1 min)
+   [30/31] row U12_B1_q1_x10_K0 ok  (73.6 min)
+   [31/31] row U12_B4b_q1_x10_K0 ok  (73.9 min)
+U12_B2_q0.6_x10_K0       f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B2_q0.6_x10_K1       f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B2_q0.6_x30_K0       f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B2_q0.6_x30_K1       f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B2_q0.75_x10_K0      f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B2_q0.75_x10_K1      f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B2_q0.75_x30_K0      f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B2_q0.75_x30_K1      f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B2_q0.87_x10_K0      f_em=0.0004 dA=0.000 fit m=7.28 f=0.020 primary=True dA_only=True
+U12_B2_q0.87_x10_K1      f_em=0.0002 dA=-0.001 fit m=10.00 f=0.039 primary=True dA_only=True
+U12_B2_q0.87_x30_K0      f_em=0.0001 dA=-0.000 fit m=6.00 f=0.022 primary=True dA_only=True
+U12_B2_q0.87_x30_K1      f_em=0.0001 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B2_q1_x10_K0         f_em=0.5164 dA=0.169 fit m=0.33 f=0.028 primary=True dA_only=True
+U12_B2_q1_x10_K1         f_em=0.3479 dA=0.157 fit m=0.27 f=0.024 primary=True dA_only=True
+U12_B2_q1_x30_K0         f_em=0.2656 dA=0.144 fit m=0.27 f=0.022 primary=True dA_only=True
+U12_B2_q1_x30_K1         f_em=0.1531 dA=0.124 fit m=0.24 f=0.020 primary=True dA_only=True
+U12_B4a_q0.6_x10_K0      f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B4a_q0.6_x10_K1      f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B4a_q0.6_x30_K0      f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B4a_q0.6_x30_K1      f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B4a_q0.75_x10_K0     f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B4a_q0.75_x10_K1     f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B4a_q0.75_x30_K0     f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B4a_q0.75_x30_K1     f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B4a_q0.87_x10_K0     f_em=0.0034 dA=0.001 fit m=3.63 f=0.031 primary=True dA_only=True
+U12_B4a_q0.87_x10_K1     f_em=0.0015 dA=0.002 fit m=5.98 f=0.050 primary=True dA_only=True
+U12_B4a_q0.87_x30_K0     f_em=0.0013 dA=0.001 fit m=2.92 f=0.026 primary=True dA_only=True
+U12_B4a_q0.87_x30_K1     f_em=0.0006 dA=0.001 fit m=2.63 f=0.014 primary=True dA_only=True
+U12_B4a_q1_x10_K0        f_em=0.9093 dA=0.574 fit m=0.37 f=0.162 primary=False dA_only=False
+U12_B4a_q1_x10_K1        f_em=0.8337 dA=0.568 fit m=0.36 f=0.159 primary=False dA_only=False
+U12_B4a_q1_x30_K0        f_em=0.7720 dA=0.554 fit m=0.36 f=0.153 primary=False dA_only=False
+U12_B4a_q1_x30_K1        f_em=0.6297 dA=0.535 fit m=0.35 f=0.145 primary=False dA_only=False
+U12_B4b_q0.6_x10_K0      f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B4b_q0.6_x10_K1      f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B4b_q0.6_x30_K0      f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B4b_q0.6_x30_K1      f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B4b_q0.75_x10_K0     f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B4b_q0.75_x10_K1     f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B4b_q0.75_x30_K0     f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B4b_q0.75_x30_K1     f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B4b_q0.87_x10_K0     f_em=0.0066 dA=0.002 fit m=2.11 f=0.021 primary=True dA_only=True
+U12_B4b_q0.87_x10_K1     f_em=0.0029 dA=0.002 fit m=1.57 f=0.010 primary=True dA_only=True
+U12_B4b_q0.87_x30_K0     f_em=0.0026 dA=0.003 fit m=2.23 f=0.022 primary=True dA_only=True
+U12_B4b_q0.87_x30_K1     f_em=0.0011 dA=0.001 fit m=6.25 f=0.103 primary=True dA_only=True
+U12_B4b_q1_x10_K0        f_em=0.9511 dA=0.722 fit m=0.42 f=0.283 primary=False dA_only=False
+U12_B4b_q1_x10_K1        f_em=0.9066 dA=0.719 fit m=0.38 f=0.260 primary=False dA_only=False
+U12_B4b_q1_x30_K0        f_em=0.8686 dA=0.703 fit m=0.37 f=0.248 primary=False dA_only=False
+U12_B4b_q1_x30_K1        f_em=0.7677 dA=0.692 fit m=0.37 f=0.239 primary=False dA_only=False
+U12_B1_q0.6_x10_K0       f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B1_q0.6_x10_K1       f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B1_q0.6_x30_K0       f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B1_q0.6_x30_K1       f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B1_q0.75_x10_K0      f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B1_q0.75_x10_K1      f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B1_q0.75_x30_K0      f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B1_q0.75_x30_K1      f_em=0.0000 dA=0.000 fit m=7.43 f=0.014 primary=True dA_only=True
+U12_B1_q0.87_x10_K0      f_em=0.0062 dA=0.001 fit m=2.16 f=0.020 primary=True dA_only=True
+U12_B1_q0.87_x10_K1      f_em=0.0027 dA=0.003 fit m=6.43 f=0.100 primary=True dA_only=True
+U12_B1_q0.87_x30_K0      f_em=0.0024 dA=0.003 fit m=1.64 f=0.012 primary=True dA_only=True
+U12_B1_q0.87_x30_K1      f_em=0.0010 dA=0.001 fit m=6.05 f=0.100 primary=True dA_only=True
+U12_B1_q1_x10_K0         f_em=0.9480 dA=0.708 fit m=0.42 f=0.269 primary=False dA_only=False
+U12_B1_q1_x10_K1         f_em=0.9011 dA=0.704 fit m=0.38 f=0.248 primary=False dA_only=False
+U12_B1_q1_x30_K0         f_em=0.8611 dA=0.690 fit m=0.37 f=0.237 primary=False dA_only=False
+U12_B1_q1_x30_K1         f_em=0.7559 dA=0.678 fit m=0.36 f=0.228 primary=False dA_only=False
+U12: FRIA_SOBREVIVE_AL_CRECIMIENTO
+  B2   q=0.6: 4/4 (dA 4)  q=0.75: 4/4 (dA 4)  q=0.87: 4/4 (dA 4)  q=1: 4/4 (dA 4) q_crit None
+  B4a  q=0.6: 4/4 (dA 4)  q=0.75: 4/4 (dA 4)  q=0.87: 4/4 (dA 4)  q=1: 0/4 (dA 0) q_crit 0.9229011148532156
+  B4b  q=0.6: 4/4 (dA 4)  q=0.75: 4/4 (dA 4)  q=0.87: 4/4 (dA 4)  q=1: 0/4 (dA 0) q_crit 0.9119553225585169
+  B1   q=0.6: 4/4 (dA 4)  q=0.75: 4/4 (dA 4)  q=0.87: 4/4 (dA 4)  q=1: 0/4 (dA 0) q_crit 0.9128808471503082

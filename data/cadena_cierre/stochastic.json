@@ -1,0 +1,253 @@
+{
+  "V0": 1.7162822824352778e-10,
+  "chi_Pzeta_1": 415.5754114047661,
+  "chi_local_volume_critical_Pzeta_1_over_6": 307.23956590516667,
+  "constant_drift_analytic": 2.498026079119782,
+  "constant_drift_numeric": 2.4980261038920686,
+  "constant_drift_error": 2.477228644437446e-08,
+  "windows": [
+    {
+      "P_zeta": 0.1,
+      "center": 278.4791582251343,
+      "width": 1e-05,
+      "lambda_volume": [
+        -2.071475375322989,
+        -2.071478066405726,
+        -2.0714787391883664
+      ],
+      "positive": false,
+      "grid_difference": 6.727826402652681e-07
+    },
+    {
+      "P_zeta": 0.1,
+      "center": 278.4791582251343,
+      "width": 0.0001,
+      "lambda_volume": [
+        -2.0007147696328267,
+        -2.0007147965438925,
+        -2.0007148032717796
+      ],
+      "positive": false,
+      "grid_difference": 6.72788713629302e-09,
+      "binary_branching_survival": [
+        {
+          "lambda_volume": -2.0007148032717796,
+          "prob_center": 0.0,
+          "residual": 0.0,
+          "n": 512
+        },
+        {
+          "lambda_volume": -2.000714804953782,
+          "prob_center": 0.0,
+          "residual": 0.0,
+          "n": 1024
+        }
+      ]
+    },
+    {
+      "P_zeta": 0.1,
+      "center": 278.4791582251343,
+      "width": 0.001,
+      "lambda_volume": [
+        -1.9999970267053797,
+        -1.999997028604004,
+        -1.999997029078645
+      ],
+      "positive": false,
+      "grid_difference": 4.746409931755124e-10
+    },
+    {
+      "P_zeta": 0.16666666666666666,
+      "center": 307.2395659051667,
+      "width": 1e-05,
+      "lambda_volume": [
+        -0.07148226907820461,
+        -0.0714849604208418,
+        -0.07148563326930926
+      ],
+      "positive": false,
+      "grid_difference": 6.728484674561885e-07
+    },
+    {
+      "P_zeta": 0.16666666666666666,
+      "center": 307.2395659051667,
+      "width": 0.0001,
+      "lambda_volume": [
+        -0.0007148349652291372,
+        -0.0007148618787327519,
+        -0.000714868607230891
+      ],
+      "positive": false,
+      "grid_difference": 6.728498139077846e-09
+    },
+    {
+      "P_zeta": 0.16666666666666666,
+      "center": 307.2395659051667,
+      "width": 0.001,
+      "lambda_volume": [
+        -3.3887645888320527e-06,
+        -3.3896897198225744e-06,
+        -3.389920996833305e-06
+      ],
+      "positive": false,
+      "grid_difference": 2.3127701073050075e-10
+    },
+    {
+      "P_zeta": 0.3,
+      "center": 341.7517827001007,
+      "width": 1e-05,
+      "lambda_volume": [
+        1.2618447715955043,
+        1.261842080015906,
+        1.2618414071080906
+      ],
+      "positive": true,
+      "grid_difference": 6.72907815468804e-07
+    },
+    {
+      "P_zeta": 0.3,
+      "center": 341.7517827001007,
+      "width": 0.0001,
+      "lambda_volume": [
+        1.3326184387354933,
+        1.3326184118196749,
+        1.332618405090597
+      ],
+      "positive": true,
+      "grid_difference": 6.729077961509233e-09,
+      "binary_branching_survival": [
+        {
+          "lambda_volume": 1.332618405090597,
+          "prob_center": 1.0000000000000007,
+          "residual": 1.27675647831893e-14,
+          "n": 512,
+          "iterations": 9,
+          "lower_boundary": 341.7517327001007,
+          "upper_boundary": 341.7518327001007
+        },
+        {
+          "lambda_volume": 1.3326184034082966,
+          "prob_center": 1.0,
+          "residual": 3.9389037821344064e-14,
+          "n": 1024,
+          "iterations": 9,
+          "lower_boundary": 341.7517327001007,
+          "upper_boundary": 341.7518327001007
+        }
+      ]
+    },
+    {
+      "P_zeta": 0.3,
+      "center": 341.7517827001007,
+      "width": 0.001,
+      "lambda_volume": [
+        1.333327319744185,
+        1.3333273192651542,
+        1.333327319145398
+      ],
+      "positive": true,
+      "grid_difference": 1.1975620495263684e-10
+    },
+    {
+      "P_zeta": 1.0,
+      "center": 415.57541140476616,
+      "width": 1e-05,
+      "lambda_volume": [
+        2.4285027475012937,
+        2.428500055594271,
+        2.4284993826046497
+      ],
+      "positive": true,
+      "grid_difference": 6.72989621364195e-07
+    },
+    {
+      "P_zeta": 1.0,
+      "center": 415.57541140476616,
+      "width": 0.0001,
+      "lambda_volume": [
+        2.499285022715022,
+        2.499284995795951,
+        2.4992849890660533
+      ],
+      "positive": true,
+      "grid_difference": 6.729897528146012e-09,
+      "binary_branching_survival": [
+        {
+          "lambda_volume": 2.4992849890660533,
+          "prob_center": 1.0,
+          "residual": 9.47544676616433e-15,
+          "n": 512,
+          "iterations": 7,
+          "lower_boundary": 415.57536140476617,
+          "upper_boundary": 415.57546140476614
+        },
+        {
+          "lambda_volume": 2.4992849873835636,
+          "prob_center": 1.0,
+          "residual": 4.9788882089711e-14,
+          "n": 1024,
+          "iterations": 7,
+          "lower_boundary": 415.57536140476617,
+          "upper_boundary": 415.57546140476614
+        }
+      ]
+    },
+    {
+      "P_zeta": 1.0,
+      "center": 415.57541140476616,
+      "width": 0.001,
+      "lambda_volume": [
+        2.4999929422831273,
+        2.499992941995699,
+        2.4999929419238405
+      ],
+      "positive": true,
+      "grid_difference": 7.185851913504848e-11
+    },
+    {
+      "P_zeta": 3.0,
+      "center": 484.8210432538327,
+      "width": 1e-05,
+      "lambda_volume": [
+        2.7618315006060605,
+        2.7618288085265252,
+        2.761828135494066
+      ],
+      "positive": true,
+      "grid_difference": 6.730324590975556e-07
+    },
+    {
+      "P_zeta": 3.0,
+      "center": 484.8210432538327,
+      "width": 0.0001,
+      "lambda_volume": [
+        2.832618312295709,
+        2.832618285374914,
+        2.8326182786445884
+      ],
+      "positive": true,
+      "grid_difference": 6.730325630144307e-09
+    },
+    {
+      "P_zeta": 3.0,
+      "center": 484.8210432538327,
+      "width": 0.001,
+      "lambda_volume": [
+        2.8333261908631218,
+        2.83332619059194,
+        2.8333261905241436
+      ],
+      "positive": true,
+      "grid_difference": 6.779643513254996e-11
+    }
+  ],
+  "pass_numerics": true,
+  "assumptions": [
+    "GR slow-roll stochastic description after QT throat; Planck reduced units",
+    "Absorbing lower and upper boundaries discard descendants leaving each small window",
+    "Survival is for a binary Poisson branching diffusion rate 3, not exact quantum-gravity genealogy",
+    "Canonical kinetic term and potential validity assumed at the window field value",
+    "A positive eigenvalue demonstrates growth of expected inflating volume for this effective process",
+    "Does not prove that the model produces a global closed seed or an eternal controlled cosmology"
+  ]
+}

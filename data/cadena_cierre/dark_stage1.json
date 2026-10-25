@@ -1,0 +1,594 @@
+{
+  "shared_F_GeV": 1054692594748554.1,
+  "f_eff_GeV": 527346297374277.06,
+  "original_misalignment_only_mass_eV": 1.020972679613913e-14,
+  "original_mass_with_emission": [
+    {
+      "spectrum": "ir_delta",
+      "x0": 10,
+      "m_G_eV": 1.020972679613913e-14,
+      "Omega_misalignment_h2": 0.12000000000000263,
+      "Omega_emission_rest_mass_h2": 108.18522515266443,
+      "Omega_total_rest_mass_h2": 108.30522515266443,
+      "maximum_efficiency_at_original_mass": 0.0,
+      "convergence_relative": 2.464386229361626e-05,
+      "BBN": {
+        "T_GeV": 0.001,
+        "rho": 2.0624443765576356e-14,
+        "pressure": 6.648702843125737e-15,
+        "radiation_moment_3P": 1.994610852937721e-14,
+        "nonradiation_moment_rho_minus_3P": 6.783352361991451e-16,
+        "DeltaNeff_radiation_moment": 0.03464508557580048,
+        "number_comoving": 8.576369081885235e-22,
+        "fraction_energy_p_gt_m": 1.0
+      },
+      "CMB": {
+        "T_GeV": 2.6e-10,
+        "rho": 1.1879018328973043e-35,
+        "pressure": 1.5498759773453856e-42,
+        "radiation_moment_3P": 4.649627932036157e-42,
+        "nonradiation_moment_rho_minus_3P": 1.187901367934511e-35,
+        "DeltaNeff_radiation_moment": 0.006809029181834747,
+        "number_comoving": 8.576369081885235e-22,
+        "fraction_energy_p_gt_m": 3.6624341267139994e-07
+      },
+      "today": {
+        "T_GeV": 2.3486541805581e-13,
+        "rho": 8.756238523804154e-45,
+        "pressure": 3.6698021277818846e-55,
+        "radiation_moment_3P": 1.1009406383345654e-54,
+        "nonradiation_moment_rho_minus_3P": 8.756238522703213e-45,
+        "DeltaNeff_radiation_moment": 0.0024212965733715576,
+        "number_comoving": 8.576369081885235e-22,
+        "fraction_energy_p_gt_m": 1.1284381589978357e-10
+      }
+    },
+    {
+      "spectrum": "ir_delta",
+      "x0": 30,
+      "m_G_eV": 1.020972679613913e-14,
+      "Omega_misalignment_h2": 0.12000000000000263,
+      "Omega_emission_rest_mass_h2": 36.353652370492334,
+      "Omega_total_rest_mass_h2": 36.47365237049234,
+      "maximum_efficiency_at_original_mass": 0.0,
+      "convergence_relative": 2.9706332149714854e-05,
+      "BBN": {
+        "T_GeV": 0.001,
+        "rho": 2.0327759423996858e-14,
+        "pressure": 6.747160197906947e-15,
+        "radiation_moment_3P": 2.024148059372084e-14,
+        "nonradiation_moment_rho_minus_3P": 8.62788302760182e-17,
+        "DeltaNeff_radiation_moment": 0.03515812752735781,
+        "number_comoving": 2.8819308714653594e-22,
+        "fraction_energy_p_gt_m": 1.0
+      },
+      "CMB": {
+        "T_GeV": 2.6e-10,
+        "rho": 3.9917286597499016e-36,
+        "pressure": 1.762462574619845e-42,
+        "radiation_moment_3P": 5.287387723859535e-42,
+        "nonradiation_moment_rho_minus_3P": 3.991723372362178e-36,
+        "DeltaNeff_radiation_moment": 0.007742980262867712,
+        "number_comoving": 2.8819308714653594e-22,
+        "fraction_energy_p_gt_m": 1.2459388324693342e-06
+      },
+      "today": {
+        "T_GeV": 2.3486541805581e-13,
+        "rho": 2.9423726854331934e-45,
+        "pressure": 4.46604252214318e-55,
+        "radiation_moment_3P": 1.3398127566429542e-54,
+        "nonradiation_moment_rho_minus_3P": 2.942372684093381e-45,
+        "DeltaNeff_radiation_moment": 0.002946647551794014,
+        "number_comoving": 2.8819308714653594e-22,
+        "fraction_energy_p_gt_m": 4.126940896505384e-10
+      }
+    },
+    {
+      "spectrum": "ir_delta",
+      "x0": 100,
+      "m_G_eV": 1.020972679613913e-14,
+      "Omega_misalignment_h2": 0.12000000000000263,
+      "Omega_emission_rest_mass_h2": 10.916422474490208,
+      "Omega_total_rest_mass_h2": 11.03642247449021,
+      "maximum_efficiency_at_original_mass": 0.0,
+      "convergence_relative": 3.034842962768014e-05,
+      "BBN": {
+        "T_GeV": 0.001,
+        "rho": 2.0290792941716243e-14,
+        "pressure": 6.76096038038502e-15,
+        "radiation_moment_3P": 2.028288114115506e-14,
+        "nonradiation_moment_rho_minus_3P": 7.911800561181681e-18,
+        "DeltaNeff_radiation_moment": 0.03523003756969168,
+        "number_comoving": 8.65397914205932e-23,
+        "fraction_energy_p_gt_m": 1.0
+      },
+      "CMB": {
+        "T_GeV": 2.6e-10,
+        "rho": 1.1986565182646977e-36,
+        "pressure": 2.0156397837342744e-42,
+        "radiation_moment_3P": 6.046919351202823e-42,
+        "nonradiation_moment_rho_minus_3P": 1.1986504713453466e-36,
+        "DeltaNeff_radiation_moment": 0.008855257006448378,
+        "number_comoving": 8.65397914205932e-23,
+        "fraction_energy_p_gt_m": 4.755826325591279e-06
+      },
+      "today": {
+        "T_GeV": 2.3486541805581e-13,
+        "rho": 8.835476287964071e-46,
+        "pressure": 5.43652381988736e-55,
+        "radiation_moment_3P": 1.630957145966208e-54,
+        "nonradiation_moment_rho_minus_3P": 8.8354762716545e-46,
+        "DeltaNeff_radiation_moment": 0.0035869608327090945,
+        "number_comoving": 8.65397914205932e-23,
+        "fraction_energy_p_gt_m": 1.68710205904109e-09
+      }
+    },
+    {
+      "spectrum": "energy_logflat",
+      "x0": 10,
+      "m_G_eV": 1.020972679613913e-14,
+      "Omega_misalignment_h2": 0.12000000000000263,
+      "Omega_emission_rest_mass_h2": 3.1031747340038445,
+      "Omega_total_rest_mass_h2": 3.2231747340038472,
+      "maximum_efficiency_at_original_mass": 0.0,
+      "convergence_relative": 2.494442155498433e-05,
+      "BBN": {
+        "T_GeV": 0.001,
+        "rho": 2.029567318460377e-14,
+        "pressure": 6.759467961951213e-15,
+        "radiation_moment_3P": 2.0278403885853638e-14,
+        "nonradiation_moment_rho_minus_3P": 1.7269298750130863e-17,
+        "DeltaNeff_radiation_moment": 0.03522226087014981,
+        "number_comoving": 2.460037570457702e-23,
+        "fraction_energy_p_gt_m": 1.0
+      },
+      "CMB": {
+        "T_GeV": 2.6e-10,
+        "rho": 3.4075801046937606e-37,
+        "pressure": 7.261323353521913e-42,
+        "radiation_moment_3P": 2.178397006056574e-41,
+        "nonradiation_moment_rho_minus_3P": 3.407362264993155e-37,
+        "DeltaNeff_radiation_moment": 0.031900980036837306,
+        "number_comoving": 2.460037570457702e-23,
+        "fraction_energy_p_gt_m": 6.35652083566431e-05
+      },
+      "today": {
+        "T_GeV": 2.3486541805581e-13,
+        "rho": 2.511631278462077e-46,
+        "pressure": 4.350327205924625e-54,
+        "radiation_moment_3P": 1.3050981617773873e-53,
+        "nonradiation_moment_rho_minus_3P": 2.511631147952261e-46,
+        "DeltaNeff_radiation_moment": 0.028702998118094753,
+        "number_comoving": 2.460037570457702e-23,
+        "fraction_energy_p_gt_m": 5.1526567035925546e-08
+      }
+    },
+    {
+      "spectrum": "energy_logflat",
+      "x0": 30,
+      "m_G_eV": 1.020972679613913e-14,
+      "Omega_misalignment_h2": 0.12000000000000263,
+      "Omega_emission_rest_mass_h2": 1.0460735690694374,
+      "Omega_total_rest_mass_h2": 1.16607356906944,
+      "maximum_efficiency_at_original_mass": 0.0,
+      "convergence_relative": 2.935632992029369e-05,
+      "BBN": {
+        "T_GeV": 0.001,
+        "rho": 2.0288127552723835e-14,
+        "pressure": 6.761977970352971e-15,
+        "radiation_moment_3P": 2.0285933911058913e-14,
+        "nonradiation_moment_rho_minus_3P": 2.1936416649219797e-18,
+        "DeltaNeff_radiation_moment": 0.035235340031292466,
+        "number_comoving": 8.292734060944465e-24,
+        "fraction_energy_p_gt_m": 1.0
+      },
+      "CMB": {
+        "T_GeV": 2.6e-10,
+        "rho": 1.1488332065712606e-37,
+        "pressure": 7.350768690283455e-42,
+        "radiation_moment_3P": 2.2052306070850364e-41,
+        "nonradiation_moment_rho_minus_3P": 1.148612683510552e-37,
+        "DeltaNeff_radiation_moment": 0.03229393787158711,
+        "number_comoving": 8.292734060944465e-24,
+        "fraction_energy_p_gt_m": 0.0001909457117389622
+      },
+      "today": {
+        "T_GeV": 2.3486541805581e-13,
+        "rho": 8.466656217788637e-47,
+        "pressure": 4.417594968563751e-54,
+        "radiation_moment_3P": 1.3252784905691252e-53,
+        "nonradiation_moment_rho_minus_3P": 8.466654892510147e-47,
+        "DeltaNeff_radiation_moment": 0.029146823690987245,
+        "number_comoving": 8.292734060944465e-24,
+        "fraction_energy_p_gt_m": 1.553164505051077e-07
+      }
+    },
+    {
+      "spectrum": "energy_logflat",
+      "x0": 100,
+      "m_G_eV": 1.020972679613913e-14,
+      "Omega_misalignment_h2": 0.12000000000000263,
+      "Omega_emission_rest_mass_h2": 0.31557397764912754,
+      "Omega_total_rest_mass_h2": 0.4355739776491302,
+      "maximum_efficiency_at_original_mass": 0.0,
+      "convergence_relative": 2.9899996909943383e-05,
+      "BBN": {
+        "T_GeV": 0.001,
+        "rho": 2.0287187870963696e-14,
+        "pressure": 6.762328853534556e-15,
+        "radiation_moment_3P": 2.028698656060367e-14,
+        "nonradiation_moment_rho_minus_3P": 2.013103600266943e-19,
+        "DeltaNeff_radiation_moment": 0.035237168414683925,
+        "number_comoving": 2.5017084367466087e-24,
+        "fraction_energy_p_gt_m": 1.0
+      },
+      "CMB": {
+        "T_GeV": 2.6e-10,
+        "rho": 3.4672895589331966e-38,
+        "pressure": 7.447280362786084e-42,
+        "radiation_moment_3P": 2.2341841088358253e-41,
+        "nonradiation_moment_rho_minus_3P": 3.465055374824361e-38,
+        "DeltaNeff_radiation_moment": 0.032717940052447825,
+        "number_comoving": 2.5017084367466087e-24,
+        "fraction_energy_p_gt_m": 0.0006408720551293496
+      },
+      "today": {
+        "T_GeV": 2.3486541805581e-13,
+        "rho": 2.5541772908632685e-47,
+        "pressure": 4.491152795175091e-54,
+        "radiation_moment_3P": 1.3473458385525271e-53,
+        "nonradiation_moment_rho_minus_3P": 2.55417594351743e-47,
+        "DeltaNeff_radiation_moment": 0.029632150439724912,
+        "number_comoving": 2.5017084367466087e-24,
+        "fraction_energy_p_gt_m": 5.236393024566831e-07
+      }
+    }
+  ],
+  "conditional_DM_roots": [
+    {
+      "spectrum": "ir_delta",
+      "efficiency": 0,
+      "m_G_eV": 1.0209726796139255e-14,
+      "Omega_misalignment_h2": 0.12000000000000338,
+      "Omega_emission_rest_mass_h2": 0.0,
+      "T_osc_GeV": 0.002762673047822667,
+      "BBN": {
+        "T_GeV": 0.001,
+        "rho": 0.0,
+        "pressure": 0.0,
+        "radiation_moment_3P": 0.0,
+        "nonradiation_moment_rho_minus_3P": 0.0,
+        "DeltaNeff_radiation_moment": 0.0,
+        "number_comoving": 0.0,
+        "fraction_energy_p_gt_m": 0.0
+      },
+      "CMB": {
+        "T_GeV": 2.6e-10,
+        "rho": 0.0,
+        "pressure": 0.0,
+        "radiation_moment_3P": 0.0,
+        "nonradiation_moment_rho_minus_3P": 0.0,
+        "DeltaNeff_radiation_moment": 0.0,
+        "number_comoving": 0.0,
+        "fraction_energy_p_gt_m": 0.0
+      },
+      "GHN_Eq19_Omega_formal": 118.32191227602483,
+      "xi_log": 1672.3326816475362,
+      "GHN_Eq19_linear_domain": false,
+      "source_calibrated_RP3": false,
+      "collapse_energy_included": false
+    },
+    {
+      "spectrum": "ir_delta",
+      "efficiency": 0.001,
+      "m_G_eV": 2.725008557750444e-15,
+      "Omega_misalignment_h2": 0.06210038734943604,
+      "Omega_emission_rest_mass_h2": 0.05789961265110797,
+      "T_osc_GeV": 0.0014296922208952819,
+      "BBN": {
+        "T_GeV": 0.001,
+        "rho": 2.1939094591992547e-17,
+        "pressure": 7.244312120854054e-18,
+        "radiation_moment_3P": 2.173293636256216e-17,
+        "nonradiation_moment_rho_minus_3P": 2.061582294303861e-19,
+        "DeltaNeff_radiation_moment": 3.774868862191544e-05,
+        "number_comoving": 1.719718716569531e-24,
+        "fraction_energy_p_gt_m": 1.0
+      },
+      "CMB": {
+        "T_GeV": 2.6e-10,
+        "rho": 6.357530287043189e-39,
+        "pressure": 1.8075612998357404e-45,
+        "radiation_moment_3P": 5.422683899507221e-45,
+        "nonradiation_moment_rho_minus_3P": 6.35752486435929e-39,
+        "DeltaNeff_radiation_moment": 7.941111300800528e-06,
+        "number_comoving": 1.719718716569531e-24,
+        "fraction_energy_p_gt_m": 8.011313536633117e-07
+      },
+      "GHN_Eq19_Omega_formal": 63.18511838151365,
+      "xi_log": 1725.6759133960622,
+      "GHN_Eq19_linear_domain": false,
+      "source_calibrated_RP3": false,
+      "collapse_energy_included": false
+    },
+    {
+      "spectrum": "ir_delta",
+      "efficiency": 0.01,
+      "m_G_eV": 7.61665676789334e-17,
+      "Omega_misalignment_h2": 0.010973865334943978,
+      "Omega_emission_rest_mass_h2": 0.109026134672041,
+      "T_osc_GeV": 0.00026921171785143156,
+      "BBN": {
+        "T_GeV": 0.001,
+        "rho": 2.2722252850888463e-16,
+        "pressure": 7.5739670778693e-17,
+        "radiation_moment_3P": 2.27219012336079e-16,
+        "nonradiation_moment_rho_minus_3P": 3.5161728056295686e-21,
+        "DeltaNeff_radiation_moment": 0.0003946645590160195,
+        "number_comoving": 2.515144473246789e-23,
+        "fraction_energy_p_gt_m": 1.0
+      },
+      "CMB": {
+        "T_GeV": 2.6e-10,
+        "rho": 1.1971420154955135e-38,
+        "pressure": 2.6488752548141635e-44,
+        "radiation_moment_3P": 7.94662576444249e-44,
+        "nonradiation_moment_rho_minus_3P": 1.197134068869749e-38,
+        "DeltaNeff_radiation_moment": 0.00011637233670762455,
+        "number_comoving": 1.158552877152293e-22,
+        "fraction_energy_p_gt_m": 6.252320233809368e-06
+      },
+      "GHN_Eq19_Omega_formal": 12.922834242090087,
+      "xi_log": 1874.350482729328,
+      "GHN_Eq19_linear_domain": false,
+      "source_calibrated_RP3": false,
+      "collapse_energy_included": false
+    },
+    {
+      "spectrum": "ir_delta",
+      "efficiency": 0.1,
+      "m_G_eV": 5.73120026430971e-19,
+      "Omega_misalignment_h2": 0.0010548988243708072,
+      "Omega_emission_rest_mass_h2": 0.11894510995041452,
+      "T_osc_GeV": 2.7301188100116624e-05,
+      "BBN": {
+        "T_GeV": 0.001,
+        "rho": 2.2745173872365092e-15,
+        "pressure": 7.581724617357783e-16,
+        "radiation_moment_3P": 2.274517385207335e-15,
+        "nonradiation_moment_rho_minus_3P": 2.029174284725525e-24,
+        "DeltaNeff_radiation_moment": 0.003950687891730554,
+        "number_comoving": 2.5398324672000797e-22,
+        "fraction_energy_p_gt_m": 1.0
+      },
+      "CMB": {
+        "T_GeV": 2.6e-10,
+        "rho": 1.3061669859816272e-38,
+        "pressure": 4.414726944617661e-43,
+        "radiation_moment_3P": 1.3244180833852984e-42,
+        "nonradiation_moment_rho_minus_3P": 1.3060345441732885e-38,
+        "DeltaNeff_radiation_moment": 0.001939510324382234,
+        "number_comoving": 1.6797731614039394e-20,
+        "fraction_energy_p_gt_m": 9.336914140773535e-05
+      },
+      "GHN_Eq19_Omega_formal": 1.4595568775266978,
+      "xi_log": 2087.499899996698,
+      "GHN_Eq19_linear_domain": false,
+      "source_calibrated_RP3": false,
+      "collapse_energy_included": false
+    },
+    {
+      "spectrum": "ir_delta",
+      "efficiency": 1.0,
+      "m_G_eV": 4.890549347558509e-21,
+      "Omega_misalignment_h2": 9.54514668123017e-05,
+      "Omega_emission_rest_mass_h2": 0.11990456091123497,
+      "T_osc_GeV": 2.5572231221207726e-06,
+      "BBN": {
+        "T_GeV": 0.001,
+        "rho": 2.274288749231493e-14,
+        "pressure": 7.580962497437819e-15,
+        "radiation_moment_3P": 2.2742887492313456e-14,
+        "nonradiation_moment_rho_minus_3P": 1.47359217095285e-27,
+        "DeltaNeff_radiation_moment": 0.039502907659983745,
+        "number_comoving": 2.5373792830312385e-21,
+        "fraction_energy_p_gt_m": 1.0
+      },
+      "CMB": {
+        "T_GeV": 2.6e-10,
+        "rho": 1.3187636155513173e-38,
+        "pressure": 8.164712069014048e-42,
+        "radiation_moment_3P": 2.449413620704214e-41,
+        "nonradiation_moment_rho_minus_3P": 1.3163142019306133e-38,
+        "DeltaNeff_radiation_moment": 0.03586981381208033,
+        "number_comoving": 1.9843930060282697e-18,
+        "fraction_energy_p_gt_m": 0.001747575807837006
+      },
+      "GHN_Eq19_Omega_formal": 0.1510354876482225,
+      "xi_log": 2306.202508676178,
+      "GHN_Eq19_linear_domain": false,
+      "source_calibrated_RP3": false,
+      "collapse_energy_included": false
+    },
+    {
+      "spectrum": "energy_logflat",
+      "efficiency": 0,
+      "m_G_eV": 1.0209726796139255e-14,
+      "Omega_misalignment_h2": 0.12000000000000338,
+      "Omega_emission_rest_mass_h2": 0.0,
+      "T_osc_GeV": 0.002762673047822667,
+      "BBN": {
+        "T_GeV": 0.001,
+        "rho": 0.0,
+        "pressure": 0.0,
+        "radiation_moment_3P": 0.0,
+        "nonradiation_moment_rho_minus_3P": 0.0,
+        "DeltaNeff_radiation_moment": 0.0,
+        "number_comoving": 0.0,
+        "fraction_energy_p_gt_m": 0.0
+      },
+      "CMB": {
+        "T_GeV": 2.6e-10,
+        "rho": 0.0,
+        "pressure": 0.0,
+        "radiation_moment_3P": 0.0,
+        "nonradiation_moment_rho_minus_3P": 0.0,
+        "DeltaNeff_radiation_moment": 0.0,
+        "number_comoving": 0.0,
+        "fraction_energy_p_gt_m": 0.0
+      },
+      "GHN_Eq19_Omega_formal": 118.32191227602483,
+      "xi_log": 1672.3326816475362,
+      "GHN_Eq19_linear_domain": false,
+      "source_calibrated_RP3": false,
+      "collapse_energy_included": false
+    },
+    {
+      "spectrum": "energy_logflat",
+      "efficiency": 0.001,
+      "m_G_eV": 9.700911369062253e-15,
+      "Omega_misalignment_h2": 0.11697160633360966,
+      "Omega_emission_rest_mass_h2": 0.0030284092541816737,
+      "T_osc_GeV": 0.00269295253481969,
+      "BBN": {
+        "T_GeV": 0.001,
+        "rho": 2.035499193234485e-17,
+        "pressure": 6.779490179057947e-18,
+        "radiation_moment_3P": 2.033847053717384e-17,
+        "nonradiation_moment_rho_minus_3P": 1.6521395171008518e-20,
+        "DeltaNeff_radiation_moment": 3.5326592713736e-05,
+        "number_comoving": 2.5266882341928208e-26,
+        "fraction_energy_p_gt_m": 1.0
+      },
+      "CMB": {
+        "T_GeV": 2.6e-10,
+        "rho": 3.325486424910689e-40,
+        "pressure": 7.285716609413682e-45,
+        "radiation_moment_3P": 2.1857149828241046e-44,
+        "nonradiation_moment_rho_minus_3P": 3.3252678534124067e-40,
+        "DeltaNeff_radiation_moment": 3.200814628344983e-05,
+        "number_comoving": 2.5266882341928208e-26,
+        "fraction_energy_p_gt_m": 6.53556068402053e-05
+      },
+      "GHN_Eq19_Omega_formal": 115.47717733614267,
+      "xi_log": 1674.3816232032773,
+      "GHN_Eq19_linear_domain": false,
+      "source_calibrated_RP3": false,
+      "collapse_energy_included": false
+    },
+    {
+      "spectrum": "energy_logflat",
+      "efficiency": 0.01,
+      "m_G_eV": 6.416849097932738e-15,
+      "Omega_misalignment_h2": 0.09513385573365926,
+      "Omega_emission_rest_mass_h2": 0.024866144259915592,
+      "T_osc_GeV": 0.002190197825701563,
+      "BBN": {
+        "T_GeV": 0.001,
+        "rho": 2.0838879397355415e-16,
+        "pressure": 6.942467360178911e-17,
+        "radiation_moment_3P": 2.0827402080536732e-16,
+        "nonradiation_moment_rho_minus_3P": 1.147731681868256e-19,
+        "DeltaNeff_radiation_moment": 0.00036175834817054914,
+        "number_comoving": 3.136434719097332e-25,
+        "fraction_energy_p_gt_m": 1.0
+      },
+      "CMB": {
+        "T_GeV": 2.6e-10,
+        "rho": 2.7305877957396215e-39,
+        "pressure": 7.484676796336916e-44,
+        "radiation_moment_3P": 2.2454030389010747e-43,
+        "nonradiation_moment_rho_minus_3P": 2.7303632554357312e-39,
+        "DeltaNeff_radiation_moment": 0.00032882232815911576,
+        "number_comoving": 3.136434719097332e-25,
+        "fraction_energy_p_gt_m": 8.182767052363195e-05
+      },
+      "GHN_Eq19_Omega_formal": 94.85015558852548,
+      "xi_log": 1690.9925414018355,
+      "GHN_Eq19_linear_domain": false,
+      "source_calibrated_RP3": false,
+      "collapse_energy_included": false
+    },
+    {
+      "spectrum": "energy_logflat",
+      "efficiency": 0.1,
+      "m_G_eV": 7.229383655137949e-16,
+      "Omega_misalignment_h2": 0.032163832370499496,
+      "Omega_emission_rest_mass_h2": 0.0878361676072838,
+      "T_osc_GeV": 0.0007497742752399337,
+      "BBN": {
+        "T_GeV": 0.001,
+        "rho": 2.271018413483523e-15,
+        "pressure": 7.569799145537901e-16,
+        "radiation_moment_3P": 2.2709397436613703e-15,
+        "nonradiation_moment_rho_minus_3P": 7.866982215252786e-20,
+        "DeltaNeff_radiation_moment": 0.003944473762426237,
+        "number_comoving": 7.100600086264084e-24,
+        "fraction_energy_p_gt_m": 1.0
+      },
+      "CMB": {
+        "T_GeV": 2.6e-10,
+        "rho": 9.647180044421457e-39,
+        "pressure": 8.58397664261557e-43,
+        "radiation_moment_3P": 2.5751929927846713e-42,
+        "nonradiation_moment_rho_minus_3P": 9.644604851428672e-39,
+        "DeltaNeff_radiation_moment": 0.003771175778585036,
+        "number_comoving": 9.833808256919946e-24,
+        "fraction_energy_p_gt_m": 0.0002654826476553885
+      },
+      "GHN_Eq19_Omega_formal": 34.18136600037997,
+      "xi_log": 1780.106011392753,
+      "GHN_Eq19_linear_domain": false,
+      "source_calibrated_RP3": false,
+      "collapse_energy_included": false
+    },
+    {
+      "spectrum": "energy_logflat",
+      "efficiency": 1.0,
+      "m_G_eV": 8.315887067097984e-18,
+      "Omega_misalignment_h2": 0.0041020928082383746,
+      "Omega_emission_rest_mass_h2": 0.11589789940327061,
+      "T_osc_GeV": 0.00010194003042026494,
+      "BBN": {
+        "T_GeV": 0.001,
+        "rho": 2.275010686711735e-14,
+        "pressure": 7.583368919454454e-15,
+        "radiation_moment_3P": 2.2750106758363363e-14,
+        "nonradiation_moment_rho_minus_3P": 1.0875398629178982e-22,
+        "DeltaNeff_radiation_moment": 0.03951544705280441,
+        "number_comoving": 7.238576441998119e-23,
+        "fraction_energy_p_gt_m": 1.0
+      },
+      "CMB": {
+        "T_GeV": 2.6e-10,
+        "rho": 1.275949071589363e-38,
+        "pressure": 1.1317551971401784e-41,
+        "radiation_moment_3P": 3.395265591420535e-41,
+        "nonradiation_moment_rho_minus_3P": 1.2725538059979426e-38,
+        "DeltaNeff_radiation_moment": 0.049721102053724625,
+        "number_comoving": 1.1280195120082088e-21,
+        "fraction_energy_p_gt_m": 0.002650861246117315
+      },
+      "GHN_Eq19_Omega_formal": 5.141719254257211,
+      "xi_log": 1969.4755292953741,
+      "GHN_Eq19_linear_domain": false,
+      "source_calibrated_RP3": false,
+      "collapse_energy_included": false
+    }
+  ],
+  "checks": {
+    "relativistic_redshift_relative": 3.7492231541591536e-13,
+    "cold_redshift_relative": 1.4999113062685865e-12,
+    "comoving_number_exact": true,
+    "injection_energy_relative": 4.440892098500626e-16,
+    "pass_numerical_ledger": true
+  },
+  "caveats": [
+    "U1-inspired source normalization and spectra NOT measured for RP3",
+    "collisionless constant-mass evolution omits nonlinear transient and wall collapse",
+    "radiation-moment Neff is a diagnostic; massive distributions require full Boltzmann/CMB analysis",
+    "DM target is rest-mass abundance; test velocity and isocurvature before observational viability",
+    "radiation-dominated background and interpolated g*; no dark backreaction",
+    "no computed gravitational-wave spectrum or LISA SNR"
+  ]
+}

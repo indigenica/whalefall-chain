@@ -1,0 +1,531 @@
+classy v3.4.1 workers 24
+   [1/2] CLASS C0b ok  (0.0 min)
+   [2/2] CLASS C0 analytic ok  (0.0 min)
+   [1/149] thermal mixed_1keV_f0.140 ok  (0.1 min)
+   [2/149] thermal thermal_5.3keV ok  (0.1 min)
+   [3/149] thermal mixed_2keV_f0.300 ok  (0.1 min)
+   [4/149] thermal mixed_4keV_f0.643 ok  (0.1 min)
+   [5/149] thermal mixed_3keV_f0.469 ok  (0.1 min)
+   [6/149] thermal family 0.2 keV f=0.75 ok  (6.2 min)
+   [7/149] thermal family 0.3 keV f=0.75 ok  (6.3 min)
+   [8/149] thermal family 0.2 keV f=0.55 ok  (6.6 min)
+   [9/149] thermal family 0.3 keV f=0.55 ok  (7.1 min)
+   [10/149] thermal family 0.2 keV f=0.4 ok  (7.2 min)
+   [11/149] thermal family 0.2 keV f=0.3 ok  (7.3 min)
+   [12/149] thermal family 0.2 keV f=0.01 ok  (7.3 min)
+   [13/149] thermal family 0.2 keV f=0.2 ok  (7.3 min)
+   [14/149] thermal family 0.3 keV f=0.15 ok  (7.4 min)
+   [15/149] thermal family 0.2 keV f=0.02 ok  (7.4 min)
+   [16/149] thermal family 0.3 keV f=0.2 ok  (7.4 min)
+   [17/149] thermal family 0.3 keV f=0.3 ok  (7.4 min)
+   [18/149] thermal family 0.2 keV f=0.03 ok  (7.4 min)
+   [19/149] thermal family 0.2 keV f=0.15 ok  (7.5 min)
+   [20/149] thermal family 0.3 keV f=0.05 ok  (7.5 min)
+   [21/149] thermal family 0.3 keV f=0.02 ok  (7.5 min)
+   [22/149] thermal family 0.5 keV f=0.05 ok  (7.5 min)
+   [23/149] thermal family 0.5 keV f=0.1 ok  (7.5 min)
+   [24/149] thermal family 0.5 keV f=0.15 ok  (7.5 min)
+   [25/149] thermal family 0.5 keV f=0.2 ok  (7.5 min)
+   [26/149] thermal family 0.5 keV f=0.3 ok  (7.5 min)
+   [27/149] thermal family 0.5 keV f=0.4 ok  (7.5 min)
+   [28/149] thermal family 0.5 keV f=0.55 ok  (7.5 min)
+   [29/149] thermal family 0.5 keV f=0.75 ok  (7.5 min)
+   [30/149] thermal family 0.5 keV f=1 ok  (7.5 min)
+   [31/149] thermal family 0.3 keV f=0.03 ok  (7.5 min)
+   [32/149] thermal family 0.3 keV f=0.4 ok  (7.5 min)
+   [33/149] thermal family 0.3 keV f=0.01 ok  (7.6 min)
+   [34/149] thermal family 0.75 keV f=0.05 ok  (7.6 min)
+   [35/149] thermal family 0.75 keV f=0.1 ok  (7.6 min)
+   [36/149] thermal family 0.75 keV f=0.15 ok  (7.6 min)
+   [37/149] thermal family 0.75 keV f=0.2 ok  (7.6 min)
+   [38/149] thermal family 0.75 keV f=0.3 ok  (7.6 min)
+   [39/149] thermal family 0.75 keV f=0.4 ok  (7.6 min)
+   [40/149] thermal family 0.75 keV f=0.55 ok  (7.6 min)
+   [41/149] thermal family 0.75 keV f=0.75 ok  (7.6 min)
+   [42/149] thermal family 0.75 keV f=1 ok  (7.6 min)
+   [43/149] thermal family 0.2 keV f=0.1 ok  (7.6 min)
+   [44/149] thermal family 0.3 keV f=0.1 ok  (7.7 min)
+   [45/149] thermal family 0.3 keV f=1 ok  (8.9 min)
+   [46/149] thermal family 1 keV f=0.05 ok  (8.9 min)
+   [47/149] thermal family 1 keV f=0.1 ok  (8.9 min)
+   [48/149] thermal family 1 keV f=0.15 ok  (8.9 min)
+   [49/149] thermal family 1 keV f=0.2 ok  (8.9 min)
+   [50/149] thermal family 1 keV f=0.3 ok  (8.9 min)
+   [51/149] thermal family 1 keV f=0.4 ok  (8.9 min)
+   [52/149] thermal family 1 keV f=0.55 ok  (8.9 min)
+   [53/149] thermal family 1 keV f=0.75 ok  (8.9 min)
+   [54/149] thermal family 1 keV f=1 ok  (8.9 min)
+   [55/149] thermal family 0.2 keV f=1 ok  (10.6 min)
+   [56/149] thermal family 0.2 keV f=0.05 ok  (11.0 min)
+   [57/149] thermal family 0.4 keV f=0.01 ok  (16.5 min)
+   [58/149] thermal family 1.5 keV f=0.05 ok  (16.5 min)
+   [59/149] thermal family 1.5 keV f=0.1 ok  (16.5 min)
+   [60/149] thermal family 1.5 keV f=0.15 ok  (16.5 min)
+   [61/149] thermal family 1.5 keV f=0.2 ok  (16.5 min)
+   [62/149] thermal family 1.5 keV f=0.3 ok  (16.5 min)
+   [63/149] thermal family 1.5 keV f=0.4 ok  (16.5 min)
+   [64/149] thermal family 1.5 keV f=0.55 ok  (16.5 min)
+   [65/149] thermal family 1.5 keV f=0.75 ok  (16.5 min)
+   [66/149] thermal family 1.5 keV f=1 ok  (16.5 min)
+   [67/149] thermal family 0.4 keV f=0.75 ok  (17.0 min)
+   [68/149] thermal family 0.4 keV f=0.02 ok  (17.1 min)
+   [69/149] thermal family 0.4 keV f=0.03 ok  (17.4 min)
+   [70/149] thermal family 2 keV f=0.05 ok  (17.4 min)
+   [71/149] thermal family 2 keV f=0.1 ok  (17.4 min)
+   [72/149] thermal family 2 keV f=0.15 ok  (17.4 min)
+   [73/149] thermal family 2 keV f=0.2 ok  (17.4 min)
+   [74/149] thermal family 2 keV f=0.3 ok  (17.4 min)
+   [75/149] thermal family 2 keV f=0.4 ok  (17.4 min)
+   [76/149] thermal family 2 keV f=0.55 ok  (17.4 min)
+   [77/149] thermal family 2 keV f=0.75 ok  (17.4 min)
+   [78/149] thermal family 2 keV f=1 ok  (17.4 min)
+   [79/149] thermal family 0.4 keV f=0.55 ok  (17.5 min)
+   [80/149] thermal family 0.4 keV f=0.4 ok  (17.7 min)
+   [81/149] thermal family 0.4 keV f=0.3 ok  (17.7 min)
+   [82/149] thermal family 3 keV f=0.05 ok  (17.7 min)
+   [83/149] thermal family 3 keV f=0.1 ok  (17.7 min)
+   [84/149] thermal family 3 keV f=0.15 ok  (17.7 min)
+   [85/149] thermal family 3 keV f=0.2 ok  (17.7 min)
+   [86/149] thermal family 3 keV f=0.3 ok  (17.7 min)
+   [87/149] thermal family 3 keV f=0.4 ok  (17.7 min)
+   [88/149] thermal family 3 keV f=0.55 ok  (17.7 min)
+   [89/149] thermal family 3 keV f=0.75 ok  (17.7 min)
+   [90/149] thermal family 3 keV f=1 ok  (17.7 min)
+   [91/149] thermal family 0.4 keV f=0.15 ok  (17.8 min)
+   [92/149] thermal family 0.4 keV f=0.05 ok  (17.8 min)
+   [93/149] thermal family 0.4 keV f=0.1 ok  (18.0 min)
+   [94/149] thermal family 4 keV f=0.05 ok  (18.0 min)
+   [95/149] thermal family 4 keV f=0.1 ok  (18.0 min)
+   [96/149] thermal family 4 keV f=0.15 ok  (18.0 min)
+   [97/149] thermal family 4 keV f=0.2 ok  (18.0 min)
+   [98/149] thermal family 4 keV f=0.3 ok  (18.0 min)
+   [99/149] thermal family 4 keV f=0.4 ok  (18.0 min)
+   [100/149] thermal family 4 keV f=0.55 ok  (18.0 min)
+   [101/149] thermal family 4 keV f=0.75 ok  (18.0 min)
+   [102/149] thermal family 4 keV f=1 ok  (18.0 min)
+   [103/149] thermal family 0.5 keV f=0.01 ok  (18.1 min)
+   [104/149] thermal family 0.4 keV f=0.2 ok  (18.2 min)
+   [105/149] thermal family 1 keV f=0.01 ok  (18.3 min)
+   [106/149] thermal family 6 keV f=0.05 ok  (18.3 min)
+   [107/149] thermal family 6 keV f=0.1 ok  (18.3 min)
+   [108/149] thermal family 6 keV f=0.15 ok  (18.3 min)
+   [109/149] thermal family 6 keV f=0.2 ok  (18.3 min)
+   [110/149] thermal family 6 keV f=0.3 ok  (18.3 min)
+   [111/149] thermal family 6 keV f=0.4 ok  (18.3 min)
+   [112/149] thermal family 6 keV f=0.55 ok  (18.3 min)
+   [113/149] thermal family 6 keV f=0.75 ok  (18.3 min)
+   [114/149] thermal family 6 keV f=1 ok  (18.3 min)
+   [115/149] thermal family 0.5 keV f=0.03 ok  (18.4 min)
+   [116/149] thermal family 0.5 keV f=0.02 ok  (18.5 min)
+   [117/149] thermal family 0.75 keV f=0.02 ok  (18.5 min)
+   [118/149] thermal family 10 keV f=0.05 ok  (18.5 min)
+   [119/149] thermal family 10 keV f=0.1 ok  (18.5 min)
+   [120/149] thermal family 10 keV f=0.15 ok  (18.5 min)
+   [121/149] thermal family 10 keV f=0.2 ok  (18.5 min)
+   [122/149] thermal family 10 keV f=0.3 ok  (18.5 min)
+   [123/149] thermal family 10 keV f=0.4 ok  (18.5 min)
+   [124/149] thermal family 10 keV f=0.55 ok  (18.5 min)
+   [125/149] thermal family 10 keV f=0.75 ok  (18.5 min)
+   [126/149] thermal family 10 keV f=1 ok  (18.5 min)
+   [127/149] thermal family 0.75 keV f=0.03 ok  (18.5 min)
+   [128/149] thermal family 0.75 keV f=0.01 ok  (18.6 min)
+   [129/149] thermal family 1 keV f=0.03 ok  (18.6 min)
+   [130/149] thermal family 1 keV f=0.02 ok  (18.9 min)
+   [131/149] thermal family 0.4 keV f=1 ok  (19.2 min)
+   [132/149] thermal family 1.5 keV f=0.01 ok  (19.6 min)
+   [133/149] thermal family 1.5 keV f=0.02 ok  (21.4 min)
+   [134/149] thermal family 1.5 keV f=0.03 ok  (22.2 min)
+   [135/149] thermal family 2 keV f=0.02 ok  (26.9 min)
+   [136/149] thermal family 2 keV f=0.01 ok  (27.0 min)
+   [137/149] thermal family 3 keV f=0.02 ok  (27.3 min)
+   [138/149] thermal family 2 keV f=0.03 ok  (27.3 min)
+   [139/149] thermal family 3 keV f=0.01 ok  (27.5 min)
+   [140/149] thermal family 4 keV f=0.01 ok  (27.6 min)
+   [141/149] thermal family 3 keV f=0.03 ok  (27.6 min)
+   [142/149] thermal family 4 keV f=0.02 ok  (27.7 min)
+   [143/149] thermal family 4 keV f=0.03 ok  (27.9 min)
+   [144/149] thermal family 6 keV f=0.01 ok  (28.0 min)
+   [145/149] thermal family 6 keV f=0.02 ok  (28.0 min)
+   [146/149] thermal family 10 keV f=0.01 ok  (28.1 min)
+   [147/149] thermal family 10 keV f=0.02 ok  (28.1 min)
+   [148/149] thermal family 10 keV f=0.03 ok  (28.3 min)
+   [149/149] thermal family 6 keV f=0.03 ok  (28.3 min)
+refs {'thermal_5.3keV': 0.33606674391968916, 'mixed_1keV_f0.140': 0.23408346011191306, 'mixed_2keV_f0.300': 0.289530456443554, 'mixed_3keV_f0.469': 0.3076237784895315, 'mixed_4keV_f0.643': 0.3114622617098102} strict 0.23408346011191306 wide 0.33606674391968916
+156 CLASS row runs (of 156 rows)
+   [1/156] row U5_B4a_s0.105_-1s_q1_x30_K1 ok  (107.1 min)
+   [2/156] row U5_B4a_s0.105_+1s_q1_x30_K1 ok  (107.2 min)
+   [3/156] row U5_B4a_s0.105_central_q1_x30_K1 ok  (107.8 min)
+   [4/156] row U5_B4a_s0.062_+1s_q1_x30_K1 ok  (107.9 min)
+   [5/156] row U5_B4a_s0.105_-1s_q1_x10_K1 ok  (109.0 min)
+   [6/156] row U5_B4a_s0.105_central_q1_x30_K0 ok  (109.3 min)
+   [7/156] row U5_B4a_s0.062_-1s_q1_x30_K1 ok  (109.3 min)
+   [8/156] row U5_B4a_s0.105_-1s_q1_x30_K0 ok  (109.4 min)
+   [9/156] row U5_B4a_s0.062_-1s_q1_x10_K1 ok  (109.7 min)
+   [10/156] row U5_B4a_s0.062_central_q1_x30_K0 ok  (109.8 min)
+   [11/156] row U5_B4a_s0.105_+1s_q1_x30_K0 ok  (109.9 min)
+   [12/156] row U5_B4a_s0.062_central_q1_x30_K1 ok  (110.3 min)
+   [13/156] row U5_B4a_s0.105_+1s_q1_x10_K1 ok  (110.4 min)
+   [14/156] row U5_B4a_s0.062_+1s_q1_x30_K0 ok  (110.5 min)
+   [15/156] row U5_B4a_s0.105_central_q1_x10_K1 ok  (110.7 min)
+   [16/156] row U5_B4a_s0.062_-1s_q1_x30_K0 ok  (110.9 min)
+   [17/156] row U5_B4a_s0.062_central_q1_x10_K1 ok  (111.0 min)
+   [18/156] row U5_B4a_s0.062_+1s_q1_x10_K1 ok  (111.9 min)
+   [19/156] row U5_B4a_s0.062_-1s_q1_x10_K0 ok  (112.0 min)
+   [20/156] row U5_B4a_s0.062_central_q1_x10_K0 ok  (113.0 min)
+   [21/156] row U5_B4a_s0.062_+1s_q1_x10_K0 ok  (113.1 min)
+   [22/156] row U5_B4a_s0.105_central_q1_x10_K0 ok  (113.6 min)
+   [23/156] row U5_B4a_s0.105_-1s_q1_x10_K0 ok  (113.7 min)
+   [24/156] row U5_B4a_s0.105_+1s_q1_x10_K0 ok  (114.7 min)
+   [25/156] row U5_B4a_s0.181_-1s_q1_x30_K1 ok  (167.3 min)
+   [26/156] row U5_B4a_s0.181_central_q1_x30_K1 ok  (168.3 min)
+   [27/156] row U5_B4a_s0.181_+1s_q1_x30_K1 ok  (169.9 min)
+   [28/156] row U5_B4a_s0.181_-1s_q1_x30_K0 ok  (171.8 min)
+   [29/156] row U5_B4b_s0.062_central_q1_x30_K0 ok  (173.1 min)
+   [30/156] row U5_B4a_s0.181_central_q1_x10_K1 ok  (173.9 min)
+   [31/156] row U5_B4b_s0.062_-1s_q1_x30_K0 ok  (174.0 min)
+   [32/156] row U5_B4a_s0.181_central_q1_x30_K0 ok  (174.1 min)
+   [33/156] row U5_B4b_s0.062_-1s_q1_x10_K1 ok  (174.5 min)
+   [34/156] row U5_B4a_s0.181_-1s_q1_x10_K1 ok  (174.6 min)
+   [35/156] row U5_B4b_s0.062_+1s_q1_x30_K1 ok  (174.8 min)
+   [36/156] row U5_B4b_s0.062_-1s_q1_x30_K1 ok  (174.8 min)
+   [37/156] row U5_B4b_s0.062_central_q1_x30_K1 ok  (175.6 min)
+   [38/156] row U5_B4a_s0.181_+1s_q1_x30_K0 ok  (175.8 min)
+   [39/156] row U5_B4b_s0.062_+1s_q1_x30_K0 ok  (177.7 min)
+   [40/156] row U5_B4a_s0.181_+1s_q1_x10_K1 ok  (177.8 min)
+   [41/156] row U5_B4b_s0.062_central_q1_x10_K1 ok  (178.4 min)
+   [42/156] row U5_B4b_s0.062_+1s_q1_x10_K1 ok  (178.6 min)
+   [43/156] row U5_B4a_s0.181_-1s_q1_x10_K0 ok  (180.3 min)
+   [44/156] row U5_B4b_s0.062_-1s_q1_x10_K0 ok  (180.7 min)
+   [45/156] row U5_B4b_s0.062_central_q1_x10_K0 ok  (182.7 min)
+   [46/156] row U5_B4a_s0.181_central_q1_x10_K0 ok  (182.9 min)
+   [47/156] row U5_B4a_s0.181_+1s_q1_x10_K0 ok  (183.6 min)
+   [48/156] row U5_B4b_s0.062_+1s_q1_x10_K0 ok  (184.1 min)
+   [49/156] row U5_B4b_s0.105_+1s_q1_x30_K1 ok  (232.6 min)
+   [50/156] row U5_B4b_s0.105_-1s_q1_x30_K1 ok  (233.1 min)
+   [51/156] row U5_B4b_s0.105_-1s_q1_x30_K0 ok  (233.3 min)
+   [52/156] row U5_B4b_s0.105_central_q1_x30_K1 ok  (235.1 min)
+   [53/156] row U5_B4b_s0.105_-1s_q1_x10_K1 ok  (236.0 min)
+   [54/156] row U5_B4b_s0.105_central_q1_x30_K0 ok  (236.6 min)
+   [55/156] row U5_B4b_s0.105_+1s_q1_x10_K1 ok  (239.5 min)
+   [56/156] row U5_B4b_s0.181_-1s_q1_x30_K1 ok  (239.8 min)
+   [57/156] row U5_B4b_s0.105_-1s_q1_x10_K0 ok  (239.8 min)
+   [58/156] row U5_B4b_s0.105_+1s_q1_x30_K0 ok  (240.0 min)
+   [59/156] row U5_B4b_s0.105_central_q1_x10_K1 ok  (240.4 min)
+   [60/156] row U5_B4b_s0.181_central_q1_x30_K1 ok  (240.8 min)
+   [61/156] row U5_B4b_s0.181_-1s_q1_x30_K0 ok  (240.8 min)
+   [62/156] row U5_B4b_s0.181_central_q1_x30_K0 ok  (243.3 min)
+   [63/156] row U5_B4b_s0.181_-1s_q1_x10_K1 ok  (245.2 min)
+   [64/156] row U5_B4b_s0.181_+1s_q1_x30_K1 ok  (245.9 min)
+   [65/156] row U5_B4b_s0.181_+1s_q1_x30_K0 ok  (246.7 min)
+   [66/156] row U5_B4b_s0.181_central_q1_x10_K1 ok  (247.6 min)
+   [67/156] row U5_B4b_s0.105_+1s_q1_x10_K0 ok  (248.8 min)
+   [68/156] row U5_B4b_s0.105_central_q1_x10_K0 ok  (248.9 min)
+   [69/156] row U5_B4b_s0.181_+1s_q1_x10_K1 ok  (252.0 min)
+   [70/156] row U5_B4b_s0.181_-1s_q1_x10_K0 ok  (255.5 min)
+   [71/156] row U5_B4b_s0.181_central_q1_x10_K0 ok  (259.0 min)
+   [72/156] row U5_B4b_s0.181_+1s_q1_x10_K0 ok  (262.3 min)
+   [73/156] row U5_B2_-1s_q0.9_x30_K1 ok  (289.6 min)
+   [74/156] row U5_B2_-1s_q0.9_x30_K0 ok  (291.2 min)
+   [75/156] row U5_B2_-1s_q0.9_x10_K1 ok  (292.6 min)
+   [76/156] row U5_B2_+1s_q0.9_x30_K1 ok  (293.7 min)
+   [77/156] row U5_B2_central_q0.9_x30_K1 ok  (293.7 min)
+   [78/156] row U5_B2_-1s_q0.9_x10_K0 ok  (297.8 min)
+   [79/156] row U5_B2_+1s_q0.9_x30_K0 ok  (298.2 min)
+   [80/156] row U5_B2_central_q0.9_x10_K1 ok  (298.6 min)
+   [81/156] row U5_B2_central_q0.9_x30_K0 ok  (299.1 min)
+   [82/156] row U5_B2_+1s_q0.9_x10_K1 ok  (302.0 min)
+   [83/156] row U5_B2_+1s_q0.9_x10_K0 ok  (303.3 min)
+   [84/156] row U5_B2_central_q0.9_x10_K0 ok  (303.6 min)
+   [85/156] row U5_B2_-1s_q1.1_x10_K1 ok  (308.1 min)
+   [86/156] row U5_B2_-1s_q1.1_x30_K1 ok  (309.3 min)
+   [87/156] row U5_B2_-1s_q1.1_x30_K0 ok  (310.4 min)
+   [88/156] row U5_B2_-1s_q1.1_x10_K0 ok  (310.9 min)
+   [89/156] row U5_B2_central_q1.1_x10_K1 ok  (312.3 min)
+   [90/156] row U5_B2_central_q1.1_x30_K1 ok  (313.3 min)
+   [91/156] row U5_B2_central_q1.1_x30_K0 ok  (313.6 min)
+   [92/156] row U5_B2_central_q1.1_x10_K0 ok  (319.1 min)
+   [93/156] row U5_B2_+1s_q1.1_x10_K1 ok  (323.0 min)
+   [94/156] row U5_B2_+1s_q1.1_x30_K0 ok  (323.9 min)
+   [95/156] row U5_B2_+1s_q1.1_x30_K1 ok  (324.4 min)
+   [96/156] row U5_B2_+1s_q1.1_x10_K0 ok  (325.0 min)
+   [97/156] row U5_B2_-1s_q1.2_x30_K1 ok  (354.8 min)
+   [98/156] row U5_B2_-1s_q1.2_x30_K0 ok  (357.8 min)
+   [99/156] row U5_B2_-1s_q1.2_x10_K1 ok  (360.4 min)
+   [100/156] row U5_B2_central_q1.2_x30_K1 ok  (361.0 min)
+   [101/156] row U5_B2_central_q1.2_x30_K0 ok  (364.1 min)
+   [102/156] row U5_B2_+1s_q1.2_x30_K1 ok  (365.7 min)
+   [103/156] row U5_B4a_s0.105_-1s_q0.9_x30_K1 ok  (367.6 min)
+   [104/156] row U5_B2_central_q1.2_x10_K1 ok  (368.6 min)
+   [105/156] row U5_B2_+1s_q1.2_x30_K0 ok  (369.1 min)
+   [106/156] row U5_B2_-1s_q1.2_x10_K0 ok  (370.3 min)
+   [107/156] row U5_B4a_s0.105_-1s_q0.9_x10_K1 ok  (372.7 min)
+   [108/156] row U5_B4a_s0.105_-1s_q0.9_x10_K0 ok  (372.9 min)
+   [109/156] row U5_B4a_s0.105_central_q0.9_x30_K0 ok  (373.0 min)
+   [110/156] row U5_B4a_s0.105_-1s_q0.9_x30_K0 ok  (373.8 min)
+   [111/156] row U5_B4a_s0.105_central_q0.9_x10_K1 ok  (374.3 min)
+   [112/156] row U5_B2_+1s_q1.2_x10_K1 ok  (374.4 min)
+   [113/156] row U5_B4a_s0.105_central_q0.9_x30_K1 ok  (374.5 min)
+   [114/156] row U5_B2_central_q1.2_x10_K0 ok  (375.9 min)
+   [115/156] row U5_B4a_s0.105_+1s_q0.9_x30_K1 ok  (380.3 min)
+   [116/156] row U5_B4a_s0.105_central_q0.9_x10_K0 ok  (381.6 min)
+   [117/156] row U5_B2_+1s_q1.2_x10_K0 ok  (382.1 min)
+   [118/156] row U5_B4a_s0.105_+1s_q0.9_x30_K0 ok  (386.7 min)
+   [119/156] row U5_B4a_s0.105_+1s_q0.9_x10_K1 ok  (387.2 min)
+   [120/156] row U5_B4a_s0.105_+1s_q0.9_x10_K0 ok  (390.0 min)
+   [121/156] row U5_B4a_s0.105_-1s_q1.1_x30_K1 ok  (425.2 min)
+   [122/156] row U5_B4a_s0.105_-1s_q1.1_x30_K0 ok  (434.3 min)
+   [123/156] row U5_B4a_s0.105_central_q1.1_x30_K1 ok  (435.2 min)
+   [124/156] row U5_B4a_s0.105_+1s_q1.1_x30_K1 ok  (437.5 min)
+   [125/156] row U5_B4a_s0.105_-1s_q1.1_x10_K1 ok  (440.2 min)
+   [126/156] row U5_B4a_s0.105_central_q1.1_x30_K0 ok  (445.2 min)
+   [127/156] row U5_B4a_s0.105_-1s_q1.2_x30_K1 ok  (445.5 min)
+   [128/156] row U5_B4a_s0.105_+1s_q1.1_x30_K0 ok  (447.1 min)
+   [129/156] row U5_B4a_s0.105_central_q1.1_x10_K1 ok  (448.5 min)
+   [130/156] row U5_B4a_s0.105_central_q1.2_x30_K1 ok  (455.6 min)
+   [131/156] row U5_B4a_s0.105_+1s_q1.1_x10_K1 ok  (457.0 min)
+   [132/156] row U5_B4a_s0.105_-1s_q1.2_x30_K0 ok  (458.0 min)
+   [133/156] row U5_B4a_s0.105_+1s_q1.2_x30_K1 ok  (460.8 min)
+   [134/156] row U5_B4a_s0.105_central_q1.2_x30_K0 ok  (462.9 min)
+   [135/156] row U5_B4a_s0.105_-1s_q1.1_x10_K0 ok  (464.5 min)
+   [136/156] row U5_B4a_s0.105_+1s_q1.2_x30_K0 ok  (472.3 min)
+   [137/156] row U5_B4a_s0.105_-1s_q1.2_x10_K1 ok  (474.4 min)
+   [138/156] row U5_B4a_s0.105_central_q1.2_x10_K1 ok  (476.7 min)
+   [139/156] row U5_B4a_s0.105_central_q1.1_x10_K0 ok  (483.1 min)
+   [140/156] row U5_B4a_s0.105_+1s_q1.2_x10_K1 ok  (489.2 min)
+   [141/156] row U5_B2_-1s_q1_x10_K0 ok  (489.6 min)
+   [142/156] row U5_B4a_s0.105_+1s_q1.1_x10_K0 ok  (491.9 min)
+   [143/156] row U5_B2_-1s_q1_x10_K1 ok  (495.5 min)
+   [144/156] row U5_B2_-1s_q1_x30_K1 ok  (495.7 min)
+   [145/156] row U5_B2_-1s_q1_x30_K0 ok  (496.4 min)
+   [146/156] row U5_B2_central_q1_x30_K1 ok  (501.8 min)
+   [147/156] row U5_B2_central_q1_x10_K0 ok  (502.9 min)
+   [148/156] row U5_B2_central_q1_x10_K1 ok  (503.6 min)
+   [149/156] row U5_B2_central_q1_x30_K0 ok  (504.1 min)
+   [150/156] row U5_B2_+1s_q1_x10_K0 ok  (507.0 min)
+   [151/156] row U5_B2_+1s_q1_x10_K1 ok  (509.8 min)
+   [152/156] row U5_B2_+1s_q1_x30_K1 ok  (510.2 min)
+   [153/156] row U5_B2_+1s_q1_x30_K0 ok  (511.8 min)
+   [154/156] row U5_B4a_s0.105_central_q1.2_x10_K0 ok  (521.2 min)
+   [155/156] row U5_B4a_s0.105_-1s_q1.2_x10_K0 ok  (527.3 min)
+   [156/156] row U5_B4a_s0.105_+1s_q1.2_x10_K0 ok  (531.0 min)
+U5_B4a_s0.062_-1s_q1_x10_K0          f_em=0.802 dA=0.378 fit m=0.35 f=0.080 primary=False
+U5_B4a_s0.062_-1s_q1_x10_K1          f_em=0.669 dA=0.368 fit m=0.35 f=0.078 primary=False
+U5_B4a_s0.062_-1s_q1_x30_K0          f_em=0.574 dA=0.352 fit m=0.35 f=0.074 primary=False
+U5_B4a_s0.062_-1s_q1_x30_K1          f_em=0.405 dA=0.328 fit m=0.28 f=0.062 primary=False
+U5_B4a_s0.062_central_q1_x10_K0      f_em=0.817 dA=0.397 fit m=0.36 f=0.087 primary=False
+U5_B4a_s0.062_central_q1_x10_K1      f_em=0.690 dA=0.387 fit m=0.35 f=0.084 primary=False
+U5_B4a_s0.062_central_q1_x30_K0      f_em=0.598 dA=0.372 fit m=0.35 f=0.080 primary=False
+U5_B4a_s0.062_central_q1_x30_K1      f_em=0.428 dA=0.349 fit m=0.33 f=0.075 primary=False
+U5_B4a_s0.062_+1s_q1_x10_K0          f_em=0.830 dA=0.415 fit m=0.35 f=0.093 primary=False
+U5_B4a_s0.062_+1s_q1_x10_K1          f_em=0.708 dA=0.406 fit m=0.35 f=0.090 primary=False
+U5_B4a_s0.062_+1s_q1_x30_K0          f_em=0.619 dA=0.391 fit m=0.35 f=0.086 primary=False
+U5_B4a_s0.062_+1s_q1_x30_K1          f_em=0.450 dA=0.367 fit m=0.33 f=0.080 primary=False
+U5_B4a_s0.105_-1s_q1_x10_K0          f_em=0.867 dA=0.479 fit m=0.36 f=0.117 primary=False
+U5_B4a_s0.105_-1s_q1_x10_K1          f_em=0.766 dA=0.470 fit m=0.35 f=0.114 primary=False
+U5_B4a_s0.105_-1s_q1_x30_K0          f_em=0.687 dA=0.455 fit m=0.35 f=0.109 primary=False
+U5_B4a_s0.105_-1s_q1_x30_K1          f_em=0.525 dA=0.434 fit m=0.29 f=0.092 primary=False
+U5_B4a_s0.105_central_q1_x10_K0      f_em=0.878 dA=0.500 fit m=0.36 f=0.126 primary=False
+U5_B4a_s0.105_central_q1_x10_K1      f_em=0.782 dA=0.492 fit m=0.36 f=0.123 primary=False
+U5_B4a_s0.105_central_q1_x30_K0      f_em=0.708 dA=0.477 fit m=0.36 f=0.118 primary=False
+U5_B4a_s0.105_central_q1_x30_K1      f_em=0.549 dA=0.456 fit m=0.29 f=0.100 primary=False
+U5_B4a_s0.105_+1s_q1_x10_K0          f_em=0.887 dA=0.519 fit m=0.36 f=0.134 primary=False
+U5_B4a_s0.105_+1s_q1_x10_K1          f_em=0.797 dA=0.512 fit m=0.36 f=0.131 primary=False
+U5_B4a_s0.105_+1s_q1_x30_K0          f_em=0.726 dA=0.497 fit m=0.36 f=0.126 primary=False
+U5_B4a_s0.105_+1s_q1_x30_K1          f_em=0.571 dA=0.477 fit m=0.34 f=0.119 primary=False
+U5_B4a_s0.181_-1s_q1_x10_K0          f_em=0.916 dA=0.594 fit m=0.37 f=0.173 primary=False
+U5_B4a_s0.181_-1s_q1_x10_K1          f_em=0.846 dA=0.588 fit m=0.36 f=0.170 primary=False
+U5_B4a_s0.181_-1s_q1_x30_K0          f_em=0.787 dA=0.574 fit m=0.36 f=0.163 primary=False
+U5_B4a_s0.181_-1s_q1_x30_K1          f_em=0.650 dA=0.557 fit m=0.35 f=0.156 primary=False
+U5_B4a_s0.181_central_q1_x10_K0      f_em=0.923 dA=0.616 fit m=0.37 f=0.186 primary=False
+U5_B4a_s0.181_central_q1_x10_K1      f_em=0.858 dA=0.610 fit m=0.37 f=0.182 primary=False
+U5_B4a_s0.181_central_q1_x30_K0      f_em=0.803 dA=0.596 fit m=0.37 f=0.175 primary=False
+U5_B4a_s0.181_central_q1_x30_K1      f_em=0.671 dA=0.580 fit m=0.35 f=0.167 primary=False
+U5_B4a_s0.181_+1s_q1_x10_K0          f_em=0.929 dA=0.635 fit m=0.37 f=0.198 primary=False
+U5_B4a_s0.181_+1s_q1_x10_K1          f_em=0.868 dA=0.630 fit m=0.37 f=0.195 primary=False
+U5_B4a_s0.181_+1s_q1_x30_K0          f_em=0.817 dA=0.616 fit m=0.37 f=0.187 primary=False
+U5_B4a_s0.181_+1s_q1_x30_K1          f_em=0.690 dA=0.601 fit m=0.36 f=0.179 primary=False
+U5_B4b_s0.062_-1s_q1_x10_K0          f_em=0.887 dA=0.520 fit m=0.36 f=0.135 primary=False
+U5_B4b_s0.062_-1s_q1_x10_K1          f_em=0.797 dA=0.513 fit m=0.36 f=0.132 primary=False
+U5_B4b_s0.062_-1s_q1_x30_K0          f_em=0.726 dA=0.498 fit m=0.36 f=0.127 primary=False
+U5_B4b_s0.062_-1s_q1_x30_K1          f_em=0.571 dA=0.478 fit m=0.34 f=0.120 primary=False
+U5_B4b_s0.062_central_q1_x10_K0      f_em=0.896 dA=0.542 fit m=0.36 f=0.145 primary=False
+U5_B4b_s0.062_central_q1_x10_K1      f_em=0.812 dA=0.535 fit m=0.36 f=0.142 primary=False
+U5_B4b_s0.062_central_q1_x30_K0      f_em=0.745 dA=0.520 fit m=0.36 f=0.137 primary=False
+U5_B4b_s0.062_central_q1_x30_K1      f_em=0.595 dA=0.501 fit m=0.35 f=0.129 primary=False
+U5_B4b_s0.062_+1s_q1_x10_K0          f_em=0.904 dA=0.561 fit m=0.37 f=0.155 primary=False
+U5_B4b_s0.062_+1s_q1_x10_K1          f_em=0.825 dA=0.555 fit m=0.36 f=0.152 primary=False
+U5_B4b_s0.062_+1s_q1_x30_K0          f_em=0.762 dA=0.541 fit m=0.36 f=0.146 primary=False
+U5_B4b_s0.062_+1s_q1_x30_K1          f_em=0.616 dA=0.522 fit m=0.35 f=0.139 primary=False
+U5_B4b_s0.105_-1s_q1_x10_K0          f_em=0.927 dA=0.628 fit m=0.37 f=0.193 primary=False
+U5_B4b_s0.105_-1s_q1_x10_K1          f_em=0.864 dA=0.623 fit m=0.37 f=0.190 primary=False
+U5_B4b_s0.105_-1s_q1_x30_K0          f_em=0.812 dA=0.609 fit m=0.37 f=0.183 primary=False
+U5_B4b_s0.105_-1s_q1_x30_K1          f_em=0.683 dA=0.593 fit m=0.36 f=0.175 primary=False
+U5_B4b_s0.105_central_q1_x10_K0      f_em=0.933 dA=0.650 fit m=0.37 f=0.207 primary=False
+U5_B4b_s0.105_central_q1_x10_K1      f_em=0.875 dA=0.645 fit m=0.37 f=0.204 primary=False
+U5_B4b_s0.105_central_q1_x30_K0      f_em=0.826 dA=0.631 fit m=0.37 f=0.196 primary=False
+U5_B4b_s0.105_central_q1_x30_K1      f_em=0.704 dA=0.616 fit m=0.36 f=0.188 primary=False
+U5_B4b_s0.105_+1s_q1_x10_K0          f_em=0.939 dA=0.669 fit m=0.37 f=0.220 primary=False
+U5_B4b_s0.105_+1s_q1_x10_K1          f_em=0.884 dA=0.664 fit m=0.37 f=0.218 primary=False
+U5_B4b_s0.105_+1s_q1_x30_K0          f_em=0.838 dA=0.650 fit m=0.37 f=0.209 primary=False
+U5_B4b_s0.105_+1s_q1_x30_K1          f_em=0.722 dA=0.637 fit m=0.36 f=0.201 primary=False
+U5_B4b_s0.181_-1s_q1_x10_K0          f_em=0.955 dA=0.740 fit m=0.38 f=0.282 primary=False
+U5_B4b_s0.181_-1s_q1_x10_K1          f_em=0.914 dA=0.737 fit m=0.38 f=0.278 primary=False
+U5_B4b_s0.181_-1s_q1_x30_K0          f_em=0.878 dA=0.722 fit m=0.37 f=0.264 primary=False
+U5_B4b_s0.181_-1s_q1_x30_K1          f_em=0.783 dA=0.712 fit m=0.37 f=0.255 primary=False
+U5_B4b_s0.181_central_q1_x10_K0      f_em=0.959 dA=0.760 fit m=0.38 f=0.302 primary=False
+U5_B4b_s0.181_central_q1_x10_K1      f_em=0.921 dA=0.757 fit m=0.38 f=0.300 primary=False
+U5_B4b_s0.181_central_q1_x30_K0      f_em=0.888 dA=0.742 fit m=0.38 f=0.283 primary=False
+U5_B4b_s0.181_central_q1_x30_K1      f_em=0.799 dA=0.732 fit m=0.37 f=0.274 primary=False
+U5_B4b_s0.181_+1s_q1_x10_K0          f_em=0.962 dA=0.777 fit m=0.43 f=0.345 primary=False
+U5_B4b_s0.181_+1s_q1_x10_K1          f_em=0.927 dA=0.775 fit m=0.43 f=0.342 primary=False
+U5_B4b_s0.181_+1s_q1_x30_K0          f_em=0.897 dA=0.759 fit m=0.38 f=0.302 primary=False
+U5_B4b_s0.181_+1s_q1_x30_K1          f_em=0.813 dA=0.751 fit m=0.37 f=0.293 primary=False
+U5_B2_-1s_q0.9_x10_K0                f_em=0.003 dA=-0.000 fit m=7.24 f=0.020 primary=True
+U5_B2_-1s_q0.9_x10_K1                f_em=0.001 dA=0.000 fit m=6.00 f=0.036 primary=True
+U5_B2_-1s_q0.9_x30_K0                f_em=0.001 dA=0.001 fit m=3.00 f=0.027 primary=True
+U5_B2_-1s_q0.9_x30_K1                f_em=0.000 dA=0.001 fit m=6.00 f=0.034 primary=True
+U5_B2_central_q0.9_x10_K0            f_em=0.003 dA=0.002 fit m=3.12 f=0.013 primary=True
+U5_B2_central_q0.9_x10_K1            f_em=0.001 dA=0.000 fit m=5.79 f=0.044 primary=True
+U5_B2_central_q0.9_x30_K0            f_em=0.001 dA=0.002 fit m=5.58 f=0.040 primary=True
+U5_B2_central_q0.9_x30_K1            f_em=0.000 dA=0.001 fit m=6.43 f=0.029 primary=True
+U5_B2_+1s_q0.9_x10_K0                f_em=0.003 dA=0.001 fit m=2.97 f=0.032 primary=True
+U5_B2_+1s_q0.9_x10_K1                f_em=0.001 dA=0.001 fit m=3.29 f=0.011 primary=True
+U5_B2_+1s_q0.9_x30_K0                f_em=0.001 dA=0.001 fit m=5.79 f=0.043 primary=True
+U5_B2_+1s_q0.9_x30_K1                f_em=0.001 dA=-0.000 fit m=3.83 f=0.023 primary=True
+U5_B2_-1s_q1.1_x10_K0                f_em=0.868 dA=0.449 fit m=0.38 f=0.106 primary=False
+U5_B2_-1s_q1.1_x10_K1                f_em=0.767 dA=0.443 fit m=0.37 f=0.104 primary=False
+U5_B2_-1s_q1.1_x30_K0                f_em=0.686 dA=0.426 fit m=0.37 f=0.099 primary=False
+U5_B2_-1s_q1.1_x30_K1                f_em=0.523 dA=0.408 fit m=0.35 f=0.094 primary=False
+U5_B2_central_q1.1_x10_K0            f_em=0.879 dA=0.470 fit m=0.38 f=0.114 primary=False
+U5_B2_central_q1.1_x10_K1            f_em=0.784 dA=0.465 fit m=0.37 f=0.112 primary=False
+U5_B2_central_q1.1_x30_K0            f_em=0.707 dA=0.447 fit m=0.37 f=0.107 primary=False
+U5_B2_central_q1.1_x30_K1            f_em=0.548 dA=0.430 fit m=0.36 f=0.102 primary=False
+U5_B2_+1s_q1.1_x10_K0                f_em=0.888 dA=0.490 fit m=0.42 f=0.133 primary=False
+U5_B2_+1s_q1.1_x10_K1                f_em=0.798 dA=0.484 fit m=0.38 f=0.120 primary=False
+U5_B2_+1s_q1.1_x30_K0                f_em=0.725 dA=0.467 fit m=0.37 f=0.115 primary=False
+U5_B2_+1s_q1.1_x30_K1                f_em=0.569 dA=0.450 fit m=0.36 f=0.109 primary=False
+U5_B2_-1s_q1.2_x10_K0                f_em=0.924 dA=0.561 fit m=0.45 f=0.171 primary=False
+U5_B2_-1s_q1.2_x10_K1                f_em=0.858 dA=0.557 fit m=0.44 f=0.169 primary=False
+U5_B2_-1s_q1.2_x30_K0                f_em=0.802 dA=0.541 fit m=0.39 f=0.149 primary=False
+U5_B2_-1s_q1.2_x30_K1                f_em=0.669 dA=0.528 fit m=0.39 f=0.144 primary=False
+U5_B2_central_q1.2_x10_K0            f_em=0.930 dA=0.583 fit m=0.45 f=0.184 primary=False
+U5_B2_central_q1.2_x10_K1            f_em=0.869 dA=0.580 fit m=0.44 f=0.182 primary=False
+U5_B2_central_q1.2_x30_K0            f_em=0.817 dA=0.563 fit m=0.44 f=0.174 primary=False
+U5_B2_central_q1.2_x30_K1            f_em=0.690 dA=0.551 fit m=0.39 f=0.155 primary=False
+U5_B2_+1s_q1.2_x10_K0                f_em=0.936 dA=0.604 fit m=0.45 f=0.198 primary=False
+U5_B2_+1s_q1.2_x10_K1                f_em=0.879 dA=0.601 fit m=0.45 f=0.196 primary=False
+U5_B2_+1s_q1.2_x30_K0                f_em=0.830 dA=0.584 fit m=0.44 f=0.186 primary=False
+U5_B2_+1s_q1.2_x30_K1                f_em=0.708 dA=0.573 fit m=0.43 f=0.180 primary=False
+U5_B4a_s0.105_-1s_q0.9_x10_K0        f_em=0.018 dA=0.006 fit m=1.44 f=0.016 primary=True
+U5_B4a_s0.105_-1s_q0.9_x10_K1        f_em=0.008 dA=0.003 fit m=1.10 f=0.010 primary=True
+U5_B4a_s0.105_-1s_q0.9_x30_K0        f_em=0.007 dA=0.005 fit m=1.50 f=0.018 primary=True
+U5_B4a_s0.105_-1s_q0.9_x30_K1        f_em=0.003 dA=0.003 fit m=1.12 f=0.010 primary=True
+U5_B4a_s0.105_central_q0.9_x10_K0    f_em=0.020 dA=0.004 fit m=4.18 f=0.109 primary=True
+U5_B4a_s0.105_central_q0.9_x10_K1    f_em=0.009 dA=0.004 fit m=1.44 f=0.017 primary=True
+U5_B4a_s0.105_central_q0.9_x30_K0    f_em=0.007 dA=0.004 fit m=1.38 f=0.015 primary=True
+U5_B4a_s0.105_central_q0.9_x30_K1    f_em=0.003 dA=0.004 fit m=1.79 f=0.020 primary=True
+U5_B4a_s0.105_+1s_q0.9_x10_K0        f_em=0.022 dA=0.007 fit m=1.43 f=0.017 primary=True
+U5_B4a_s0.105_+1s_q0.9_x10_K1        f_em=0.010 dA=0.005 fit m=1.53 f=0.020 primary=True
+U5_B4a_s0.105_+1s_q0.9_x30_K0        f_em=0.008 dA=0.006 fit m=1.38 f=0.016 primary=True
+U5_B4a_s0.105_+1s_q0.9_x30_K1        f_em=0.004 dA=0.004 fit m=1.47 f=0.017 primary=True
+U5_B4a_s0.105_-1s_q1.1_x10_K0        f_em=0.982 dA=0.877 fit m=0.49 f=0.550 primary=False
+U5_B4a_s0.105_-1s_q1.1_x10_K1        f_em=0.965 dA=0.876 fit m=0.48 f=0.548 primary=False
+U5_B4a_s0.105_-1s_q1.1_x30_K0        f_em=0.945 dA=0.855 fit m=0.47 f=0.486 primary=False
+U5_B4a_s0.105_-1s_q1.1_x30_K1        f_em=0.896 dA=0.852 fit m=0.46 f=0.477 primary=False
+U5_B4a_s0.105_central_q1.1_x10_K0    f_em=0.984 dA=0.889 fit m=0.55 f=0.620 primary=False
+U5_B4a_s0.105_central_q1.1_x10_K1    f_em=0.968 dA=0.889 fit m=0.55 f=0.615 primary=False
+U5_B4a_s0.105_central_q1.1_x30_K0    f_em=0.950 dA=0.870 fit m=0.47 f=0.523 primary=False
+U5_B4a_s0.105_central_q1.1_x30_K1    f_em=0.904 dA=0.867 fit m=0.47 f=0.513 primary=False
+U5_B4a_s0.105_+1s_q1.1_x10_K0        f_em=0.985 dA=0.900 fit m=0.56 f=0.655 primary=False
+U5_B4a_s0.105_+1s_q1.1_x10_K1        f_em=0.971 dA=0.899 fit m=0.55 f=0.649 primary=False
+U5_B4a_s0.105_+1s_q1.1_x30_K0        f_em=0.954 dA=0.882 fit m=0.47 f=0.556 primary=False
+U5_B4a_s0.105_+1s_q1.1_x30_K1        f_em=0.912 dA=0.880 fit m=0.47 f=0.550 primary=False
+U5_B4a_s0.105_-1s_q1.2_x10_K0        f_em=0.991 dA=0.933 fit m=0.54 f=0.769 primary=False
+U5_B4a_s0.105_-1s_q1.2_x10_K1        f_em=0.981 dA=0.933 fit m=0.54 f=0.767 primary=False
+U5_B4a_s0.105_-1s_q1.2_x30_K0        f_em=0.970 dA=0.922 fit m=0.58 f=0.758 primary=False
+U5_B4a_s0.105_-1s_q1.2_x30_K1        f_em=0.941 dA=0.921 fit m=0.57 f=0.755 primary=False
+U5_B4a_s0.105_central_q1.2_x10_K0    f_em=0.991 dA=0.941 fit m=0.51 f=0.776 primary=False
+U5_B4a_s0.105_central_q1.2_x10_K1    f_em=0.983 dA=0.940 fit m=0.51 f=0.774 primary=False
+U5_B4a_s0.105_central_q1.2_x30_K0    f_em=0.973 dA=0.931 fit m=0.55 f=0.766 primary=False
+U5_B4a_s0.105_central_q1.2_x30_K1    f_em=0.947 dA=0.931 fit m=0.55 f=0.763 primary=False
+U5_B4a_s0.105_+1s_q1.2_x10_K0        f_em=0.992 dA=0.947 fit m=0.49 f=0.784 primary=False
+U5_B4a_s0.105_+1s_q1.2_x10_K1        f_em=0.985 dA=0.947 fit m=0.49 f=0.783 primary=False
+U5_B4a_s0.105_+1s_q1.2_x30_K0        f_em=0.975 dA=0.939 fit m=0.52 f=0.774 primary=False
+U5_B4a_s0.105_+1s_q1.2_x30_K1        f_em=0.952 dA=0.938 fit m=0.52 f=0.770 primary=False
+U5_B2_-1s_q1_x10_K0                  f_em=0.465 dA=0.145 fit m=0.32 f=0.024 primary=True
+U5_B2_-1s_q1_x10_K1                  f_em=0.303 dA=0.133 fit m=0.27 f=0.020 primary=True
+U5_B2_-1s_q1_x30_K0                  f_em=0.227 dA=0.123 fit m=0.26 f=0.019 primary=True
+U5_B2_-1s_q1_x30_K1                  f_em=0.128 dA=0.104 fit m=0.24 f=0.017 primary=True
+U5_B2_central_q1_x10_K0              f_em=0.489 dA=0.157 fit m=0.33 f=0.026 primary=True
+U5_B2_central_q1_x10_K1              f_em=0.324 dA=0.145 fit m=0.27 f=0.022 primary=True
+U5_B2_central_q1_x30_K0              f_em=0.245 dA=0.133 fit m=0.26 f=0.020 primary=True
+U5_B2_central_q1_x30_K1              f_em=0.140 dA=0.114 fit m=0.24 f=0.018 primary=True
+U5_B2_+1s_q1_x10_K0                  f_em=0.511 dA=0.167 fit m=0.20 f=0.019 primary=True
+U5_B2_+1s_q1_x10_K1                  f_em=0.343 dA=0.154 fit m=0.27 f=0.024 primary=True
+U5_B2_+1s_q1_x30_K0                  f_em=0.261 dA=0.143 fit m=0.27 f=0.022 primary=True
+U5_B2_+1s_q1_x30_K1                  f_em=0.150 dA=0.123 fit m=0.24 f=0.020 primary=True
+   [1/62] U4a row (cache) B1_-1s_energy_x10_K1 ok  (0.1 min)
+   [2/62] U4a row (cache) B1_-1s_ir_del_x30_K1 ok  (0.1 min)
+   [3/62] U4a row (cache) B1_-1s_ir_del_x30_K0 ok  (0.1 min)
+   [4/62] U4a row (cache) B1_+1s_energy_x10_K1 ok  (0.1 min)
+   [5/62] U4a row (cache) B1_-1s_energy_x10_K0 ok  (0.1 min)
+   [6/62] U4a row (cache) B1_central_energy_x30_K0 ok  (0.1 min)
+   [7/62] U4a row (cache) B1_central_energy_x30_K1 ok  (0.1 min)
+   [8/62] U4a row (cache) B2_central_ir_del_x30_K0 ok  (0.1 min)
+   [9/62] U4a row (cache) B2_central_ir_del_x30_K1 ok  (0.1 min)
+   [10/62] U4a row (cache) B1_-1s_energy_x30_K1 ok  (0.1 min)
+   [11/62] U4a row (cache) B2_central_energy_x10_K0 ok  (0.1 min)
+   [12/62] U4a row (cache) B2_central_energy_x10_K1 ok  (0.1 min)
+   [13/62] U4a row (cache) B2_central_energy_x30_K0 ok  (0.1 min)
+   [14/62] U4a row (cache) B1_central_energy_x10_K0 ok  (0.1 min)
+   [15/62] U4a row (cache) B1_central_energy_x10_K1 ok  (0.1 min)
+   [16/62] U4a row (cache) B2_central_energy_x30_K1 ok  (0.1 min)
+   [17/62] U4a row (cache) B2_+1s_ir_del_x10_K0 ok  (0.1 min)
+   [18/62] U4a row (cache) B2_+1s_ir_del_x10_K1 ok  (0.1 min)
+   [19/62] U4a row (cache) B2_+1s_ir_del_x30_K1 ok  (0.1 min)
+   [20/62] U4a row (cache) B2_+1s_ir_del_x30_K0 ok  (0.1 min)
+   [21/62] U4a row (cache) B2_+1s_energy_x10_K0 ok  (0.1 min)
+   [22/62] U4a row (cache) B1_-1s_energy_x30_K0 ok  (0.1 min)
+   [23/62] U4a row (cache) B1_+1s_energy_x10_K0 ok  (0.1 min)
+   [24/62] U4a row (cache) B2_+1s_energy_x10_K1 ok  (0.1 min)
+   [25/62] U4a row (cache) B2_+1s_energy_x30_K0 ok  (0.1 min)
+   [26/62] U4a row (cache) B2_+1s_energy_x30_K1 ok  (0.1 min)
+   [27/62] U4a row (cache) B3_-1s_ir_del_x10_K0 ok  (0.1 min)
+   [28/62] U4a row (cache) B1_+1s_energy_x30_K1 ok  (0.1 min)
+   [29/62] U4a row (cache) B3_-1s_ir_del_x10_K1 ok  (0.1 min)
+   [30/62] U4a row (cache) B3_-1s_ir_del_x30_K0 ok  (0.1 min)
+   [31/62] U4a row (cache) B3_-1s_ir_del_x30_K1 ok  (0.1 min)
+   [32/62] U4a row (cache) B3_-1s_energy_x10_K0 ok  (0.1 min)
+   [33/62] U4a row (cache) B3_-1s_energy_x10_K1 ok  (0.1 min)
+   [34/62] U4a row (cache) B3_-1s_energy_x30_K0 ok  (0.1 min)
+   [35/62] U4a row (cache) B3_-1s_energy_x30_K1 ok  (0.1 min)
+   [36/62] U4a row (cache) B3_central_ir_del_x10_K0 ok  (0.1 min)
+   [37/62] U4a row (cache) B2_-1s_ir_del_x10_K1 ok  (0.1 min)
+   [38/62] U4a row (cache) B1_+1s_energy_x30_K0 ok  (0.1 min)
+   [39/62] U4a row (cache) B2_-1s_energy_x10_K1 ok  (0.1 min)
+   [40/62] U4a row (cache) B3_central_ir_del_x10_K1 ok  (0.1 min)
+   [41/62] U4a row (cache) B3_central_ir_del_x30_K0 ok  (0.1 min)
+   [42/62] U4a row (cache) B3_central_ir_del_x30_K1 ok  (0.1 min)
+   [43/62] U4a row (cache) B2_-1s_ir_del_x10_K0 ok  (0.1 min)
+   [44/62] U4a row (cache) B3_central_energy_x10_K0 ok  (0.1 min)
+   [45/62] U4a row (cache) B2_-1s_ir_del_x30_K1 ok  (0.1 min)
+   [46/62] U4a row (cache) B3_central_energy_x10_K1 ok  (0.1 min)
+   [47/62] U4a row (cache) B3_central_energy_x30_K0 ok  (0.1 min)
+   [48/62] U4a row (cache) B3_central_energy_x30_K1 ok  (0.1 min)
+   [49/62] U4a row (cache) B3_+1s_ir_del_x10_K0 ok  (0.1 min)
+   [50/62] U4a row (cache) B3_+1s_ir_del_x10_K1 ok  (0.1 min)
+   [51/62] U4a row (cache) B2_-1s_energy_x30_K0 ok  (0.1 min)
+   [52/62] U4a row (cache) B3_+1s_ir_del_x30_K0 ok  (0.1 min)
+   [53/62] U4a row (cache) B3_+1s_ir_del_x30_K1 ok  (0.1 min)
+   [54/62] U4a row (cache) B3_+1s_energy_x10_K0 ok  (0.1 min)
+   [55/62] U4a row (cache) B3_+1s_energy_x30_K0 ok  (0.1 min)
+   [56/62] U4a row (cache) B2_-1s_energy_x30_K1 ok  (0.1 min)
+   [57/62] U4a row (cache) B2_-1s_ir_del_x30_K0 ok  (0.1 min)
+   [58/62] U4a row (cache) B3_+1s_energy_x10_K1 ok  (0.1 min)
+   [59/62] U4a row (cache) B3_+1s_energy_x30_K1 ok  (0.1 min)
+   [60/62] U4a row (cache) B2_central_ir_del_x10_K1 ok  (0.1 min)
+   [61/62] U4a row (cache) B2_-1s_energy_x10_K0 ok  (0.1 min)
+   [62/62] U4a row (cache) B2_central_ir_del_x10_K0 ok  (0.1 min)
+U5b {'n': 62, 'n_changed': 0, 'n_still_at_edge': 4}
+U5c max ratio 0.0024835937979821687 passed True
+U5a: DEPENDE_DEL_ESCALADO s_crit None | U5f: DEPENDE_DE_q q_crit 1.0246955313384818 | U5c: True

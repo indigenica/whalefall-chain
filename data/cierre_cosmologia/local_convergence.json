@@ -1,0 +1,106 @@
+{
+  "selected_patch_spatial": {
+    "a": "primordial3d_w8",
+    "b": "primordial3d_w8_fine",
+    "common_point_field_L2": {
+      "R3": 0.00022586071560613146,
+      "R4": 0.00020627930634075926
+    },
+    "integrated_net_flux_a": [
+      0.45954422820733193,
+      1.3915977329627396,
+      -3.891483494965031
+    ],
+    "integrated_net_flux_b": [
+      0.4594957045695574,
+      1.393762613240243,
+      -3.8842584582749655
+    ],
+    "relative_net_flux_change": [
+      0.00010559078929967554,
+      0.001553263272337632,
+      0.0018566278642614706
+    ],
+    "physical_radii_initial": [
+      3,
+      5,
+      8
+    ],
+    "source_emission_interpretation": false
+  },
+  "selected_patch_buffer": {
+    "a": "primordial3d_w8",
+    "b": "primordial3d_w12",
+    "common_point_field_L2": {
+      "R3": 0.02495165821111669,
+      "R4": 0.02237424023736188
+    },
+    "integrated_net_flux_a": [
+      0.45954422820733193,
+      1.3915977329627396,
+      -3.891483494965031
+    ],
+    "integrated_net_flux_b": [
+      0.41763616204526405,
+      1.266252892310103,
+      -3.911736666655149
+    ],
+    "relative_net_flux_change": [
+      0.09119484826422469,
+      0.09007261055662603,
+      0.005177539649527604
+    ],
+    "physical_radii_initial": [
+      3,
+      5,
+      8
+    ],
+    "source_emission_interpretation": false
+  },
+  "actual_3d_candidate_spatial": {
+    "a": "candidate3d_w12",
+    "b": "candidate3d_nested",
+    "common_point_field_L2": {
+      "R3": 0.00019005576447585917,
+      "R4": 0.00016956444349565668
+    },
+    "integrated_net_flux_a": [
+      -3.6552817276920937,
+      -12.44448688559996,
+      -24.921366498721298
+    ],
+    "integrated_net_flux_b": [
+      -3.6564442848362924,
+      -12.446580570380913,
+      -24.922423771626292
+    ],
+    "relative_net_flux_change": [
+      0.0003179474521244379,
+      0.0001682136526665502,
+      4.242255547382624e-05
+    ],
+    "physical_radii_initial": [
+      3,
+      5,
+      8
+    ],
+    "source_emission_interpretation": false
+  },
+  "trace": {
+    "fixed_y_interval_initial_physical": [
+      -4,
+      4
+    ],
+    "lengths_initial_physical": [
+      8.191744838668537,
+      8.19139959035314
+    ],
+    "length_relative_change": 4.2145882494737386e-05,
+    "maximum_position_change_initial_physical": 0.0020107099298940865,
+    "maximum_position_change_over_final_core_radius": 0.00459697482890593,
+    "RMS_position_change_initial_physical": 0.001410124103690111
+  },
+  "static_reference_spatial_relative_change": 2.380784282984827e-05,
+  "local_control_only": true,
+  "representative_network_source_converged": false
+}

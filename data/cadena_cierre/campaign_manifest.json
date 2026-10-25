@@ -1,0 +1,360 @@
+{
+  "sealed_utc": "2026-10-04T20:04:39.881291+00:00",
+  "scientific_environment": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "matplotlib": "3.11.2"
+  },
+  "copied_sources": [
+    {
+      "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude\\tools\\c44i_hierarchy_universality.py",
+      "copy": "vendor\\c44i_hierarchy_universality.py",
+      "sha256": "5178673470e0eb4e15bd56d3f6ee94eb701d88a172b9346ca3c4487c4e88b7dc"
+    },
+    {
+      "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude\\tools\\c46_chi_reheating_relic.py",
+      "copy": "vendor\\c46_chi_reheating_relic.py",
+      "sha256": "cb4b4e199baf40b71b5b009c235cf156ccbd20db3de16cecb6bb44595ec6c25f"
+    },
+    {
+      "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude\\tools\\c35b_pseudo_goldstone_dm_rp3.py",
+      "copy": "vendor\\c35b_pseudo_goldstone_dm_rp3.py",
+      "sha256": "263c05cb4194485cd3a2d928c8ae5d089c483f2533c7ec4f5781ac65fc5f532a"
+    },
+    {
+      "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude\\tools\\c38_dneff_budget.py",
+      "copy": "vendor\\c38_dneff_budget.py",
+      "sha256": "c1153c33d11e2b72b5781c1010dbd8825a846ef2cbc61bac664fb310ad122dd7"
+    },
+    {
+      "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude\\tools\\c50_ficha3.py",
+      "copy": "vendor\\c50_ficha3.py",
+      "sha256": "dbba6c5ee09233aaee9e2a4ed70ddd3672e57b1472d7e29b86725230e011dc68"
+    },
+    {
+      "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude\\tools\\c32d_scars_chi_background.py",
+      "copy": "vendor\\c32d_scars_chi_background.py",
+      "sha256": "1f3f35b9dcf539f900a5380c1a9820eade2f346e95335a076ba61593738c0437"
+    },
+    {
+      "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude\\tools\\c40d_ksw_chi.py",
+      "copy": "vendor\\c40d_ksw_chi.py",
+      "sha256": "dab729f30977d8f97a8341bc623076a906e1bb6361379c1ad4087679caa5c77e"
+    },
+    {
+      "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude\\tools\\c40b_ramp_collapse.py",
+      "copy": "vendor\\c40b_ramp_collapse.py",
+      "sha256": "f26130358551cb570024ac67656745b56b341d03ce38539f485c76462a70768e"
+    },
+    {
+      "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude_dual\\c45b\\audit_c45g\\indep.py",
+      "copy": "vendor\\indep.py",
+      "sha256": "6e86d2884f1e320891604297d800f2bd0545005c298ff66e83641b509724d7d7"
+    },
+    {
+      "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude_dual\\c45b\\dn\\equations.py",
+      "copy": "vendor\\equations.py",
+      "sha256": "a998e988beaa60417c284abe7cfb9646cf4ed1f52de5f397a7bad7376cb7ef6e"
+    },
+    {
+      "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude_dual\\c45b\\dn\\solver.py",
+      "copy": "vendor\\solver.py",
+      "sha256": "ebae6fd808376127c2a04ecec90eb96d32a0419b462d3094b52215da730a55a1"
+    },
+    {
+      "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude_dual\\c45b\\hom\\frw_core.c",
+      "copy": "vendor\\frw_core.c",
+      "sha256": "0fff7f7bf569a91cec9ea633aa9b66df77f0f5a7c131a56849ca852e83c87ad1"
+    },
+    {
+      "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude_dual\\c45b\\results\\c45h_content_20261004T153219Z\\results.json",
+      "copy": "vendor\\c45h_results.json",
+      "sha256": "7843e07f357c2c5da3bf4bad70feb379092d8270706f4aaf077e10a260010dae"
+    },
+    {
+      "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude\\tools\\c32b_scars_kibble.py",
+      "copy": "vendor\\c32b_scars_kibble.py",
+      "sha256": "a1edae073851c4605ab69b747d2360279be5a297146658b5430aca26b48c28a2"
+    },
+    {
+      "original": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude\\tools\\c32c_scars_mechanism.py",
+      "copy": "vendor\\c32c_scars_mechanism.py",
+      "sha256": "1fe71b3cc08f818f21723a3805c84e7b71c32b3bebf9374c38e8d7fc89a34eaa"
+    }
+  ],
+  "originals_verified": {
+    "checked": 4049,
+    "changed_or_removed": [],
+    "new_outside_campaign": []
+  },
+  "files": {
+    "src\\bounce.py": {
+      "bytes": 4661,
+      "sha256": "82607d04b084480615e8a7cd0a00ad29108ff25b2d009574ba24c5aadd642569"
+    },
+    "src\\common.py": {
+      "bytes": 1384,
+      "sha256": "b002414087f60cefdcb4bdc86fdf673c1419538d565351e02cea999f5212c9d5"
+    },
+    "src\\contract.py": {
+      "bytes": 6322,
+      "sha256": "7b13f27467901167758a1c15b35c4a73ef1cb3da3166f86e8681c20f3562778d"
+    },
+    "src\\dark.py": {
+      "bytes": 7003,
+      "sha256": "f241ddef4afe6eb2d8014b5a77e1acef81cb68a5c3292ab28e74a029a62a78a0"
+    },
+    "src\\double_null.py": {
+      "bytes": 8130,
+      "sha256": "e6716f8d5b4a6a962447692fbc0c286b817df98c8ffeb511e29fe0b67775afa0"
+    },
+    "src\\finalize.py": {
+      "bytes": 1863,
+      "sha256": "2a3521680655143695aae5a84dc45cad54a4f1509d1b79a0f8fe63ded8e93bd1"
+    },
+    "src\\mass_bounce.py": {
+      "bytes": 5110,
+      "sha256": "623a8e84de79b08f98a9a5798477153beaca7f1242f820578dfa4a0d825aba14"
+    },
+    "src\\plots.py": {
+      "bytes": 2466,
+      "sha256": "190ee8cb04aac3aef736e6c387bb580bae87739d92f5b8fe2aaa81328872586a"
+    },
+    "src\\q_bridge.py": {
+      "bytes": 5029,
+      "sha256": "aa4c17d69de16986e106b46a97a0f2ced9337f9f7bac056d916711956c013567"
+    },
+    "src\\report.py": {
+      "bytes": 22709,
+      "sha256": "2d62a963403ae9a45c5d7db0dc54fe06e1d7211f5e28d73c4146a6938d485e80"
+    },
+    "src\\run_all.py": {
+      "bytes": 1623,
+      "sha256": "daafcdffc51b230c5aea03c12271b68d92ec193f921860db74d3b53d14b971f0"
+    },
+    "src\\scalar_end.py": {
+      "bytes": 954,
+      "sha256": "72a341341a759ca51daba31e14e90690ed17f6bfbf709e9d63fced8a9920aa40"
+    },
+    "src\\seal.py": {
+      "bytes": 1543,
+      "sha256": "56040cd567ca3709d04a6a8b8c6f94c9251f1041522b86972f3d2cbf10f5778d"
+    },
+    "src\\snapshot.py": {
+      "bytes": 2736,
+      "sha256": "306dfb78919213d492dd7cb0a80f821d10f1f8c004eea6aa128c037bdc186d66"
+    },
+    "src\\stochastic.py": {
+      "bytes": 3904,
+      "sha256": "d7e88f8c328f9a6065cf480ea8ff2a50dbd40fca882c1479952b50493b9be95c"
+    },
+    "src\\thermal.py": {
+      "bytes": 5030,
+      "sha256": "a269230a3482beada60d7e7007752cb0443e691b32ee551ff964d6d64d2b9594"
+    },
+    "vendor\\c32b_scars_kibble.py": {
+      "bytes": 28578,
+      "sha256": "a1edae073851c4605ab69b747d2360279be5a297146658b5430aca26b48c28a2"
+    },
+    "vendor\\c32c_scars_mechanism.py": {
+      "bytes": 24053,
+      "sha256": "1fe71b3cc08f818f21723a3805c84e7b71c32b3bebf9374c38e8d7fc89a34eaa"
+    },
+    "vendor\\c32d_scars_chi_background.py": {
+      "bytes": 6086,
+      "sha256": "1f3f35b9dcf539f900a5380c1a9820eade2f346e95335a076ba61593738c0437"
+    },
+    "vendor\\c35b_pseudo_goldstone_dm_rp3.py": {
+      "bytes": 3132,
+      "sha256": "263c05cb4194485cd3a2d928c8ae5d089c483f2533c7ec4f5781ac65fc5f532a"
+    },
+    "vendor\\c38_dneff_budget.py": {
+      "bytes": 4549,
+      "sha256": "c1153c33d11e2b72b5781c1010dbd8825a846ef2cbc61bac664fb310ad122dd7"
+    },
+    "vendor\\c40b_ramp_collapse.py": {
+      "bytes": 10516,
+      "sha256": "f26130358551cb570024ac67656745b56b341d03ce38539f485c76462a70768e"
+    },
+    "vendor\\c40d_ksw_chi.py": {
+      "bytes": 2317,
+      "sha256": "dab729f30977d8f97a8341bc623076a906e1bb6361379c1ad4087679caa5c77e"
+    },
+    "vendor\\c44i_hierarchy_universality.py": {
+      "bytes": 5255,
+      "sha256": "5178673470e0eb4e15bd56d3f6ee94eb701d88a172b9346ca3c4487c4e88b7dc"
+    },
+    "vendor\\c45h_results.json": {
+      "bytes": 2390722,
+      "sha256": "7843e07f357c2c5da3bf4bad70feb379092d8270706f4aaf077e10a260010dae"
+    },
+    "vendor\\c46_chi_reheating_relic.py": {
+      "bytes": 9838,
+      "sha256": "cb4b4e199baf40b71b5b009c235cf156ccbd20db3de16cecb6bb44595ec6c25f"
+    },
+    "vendor\\c50_ficha3.py": {
+      "bytes": 7660,
+      "sha256": "dbba6c5ee09233aaee9e2a4ed70ddd3672e57b1472d7e29b86725230e011dc68"
+    },
+    "vendor\\equations.py": {
+      "bytes": 2263,
+      "sha256": "a998e988beaa60417c284abe7cfb9646cf4ed1f52de5f397a7bad7376cb7ef6e"
+    },
+    "vendor\\frw_core.c": {
+      "bytes": 8737,
+      "sha256": "0fff7f7bf569a91cec9ea633aa9b66df77f0f5a7c131a56849ca852e83c87ad1"
+    },
+    "vendor\\indep.py": {
+      "bytes": 3336,
+      "sha256": "6e86d2884f1e320891604297d800f2bd0545005c298ff66e83641b509724d7d7"
+    },
+    "vendor\\solver.py": {
+      "bytes": 9105,
+      "sha256": "ebae6fd808376127c2a04ecec90eb96d32a0419b462d3094b52215da730a55a1"
+    },
+    "logs\\bounce.log": {
+      "bytes": 9181,
+      "sha256": "13006ab346f7c5b5c03fefdca1199b51e6b83eed1279dc80f429c7dc5604db91"
+    },
+    "logs\\contract.log": {
+      "bytes": 498,
+      "sha256": "8b5bd0e44a56a4a73286f4be89b9bcff0b5849d22794a4f241a4984e2ebc630e"
+    },
+    "logs\\contract_stage1.log": {
+      "bytes": 498,
+      "sha256": "8b5bd0e44a56a4a73286f4be89b9bcff0b5849d22794a4f241a4984e2ebc630e"
+    },
+    "logs\\dark.log": {
+      "bytes": 275,
+      "sha256": "b6b53d6daccbf59e457cde914d12e5bbe0bd5dac7fecdaa7ce56f3c2624b8020"
+    },
+    "logs\\double_null.log": {
+      "bytes": 864,
+      "sha256": "6a553082116147ac2a76582cd2ca8ec3547fd283186d29c5f6341f2ca305968e"
+    },
+    "logs\\mass_bounce.log": {
+      "bytes": 1571,
+      "sha256": "e7f299ac9827a0e12111540e42a3be84c128ea0dd341765a6be160a5ed067aa8"
+    },
+    "logs\\plots.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "logs\\q_bridge.log": {
+      "bytes": 1588,
+      "sha256": "1ea97e95c9f03110b98283c7ef9e4fd7f1665b48bdfc80768e7b7c1ae5a21cc0"
+    },
+    "logs\\stochastic.log": {
+      "bytes": 86,
+      "sha256": "4a143cd8b576c2684d02dad4b23f078e4f022d0e55074e5ba79ebb6e113d50ef"
+    },
+    "logs\\thermal.log": {
+      "bytes": 110,
+      "sha256": "77877387d14d45ba00057b80926cbab937f73541cfd6c4ce9b47fc3405528a47"
+    },
+    "results\\bounce.json": {
+      "bytes": 24244,
+      "sha256": "249484a5593c1bdff46495fc056053d22aa394b667deb462f7a707cc097995d9"
+    },
+    "results\\bounce_selection.json": {
+      "bytes": 9563,
+      "sha256": "c23e64c5a12c4ff4908b6ed03b8b319cad79132a42fab3748b05775bb3a63580"
+    },
+    "results\\contract.json": {
+      "bytes": 6574,
+      "sha256": "a13c1113cff31a68dc7ec4c9ad6009e29be8e9643c1f846436194a67d255075b"
+    },
+    "results\\contract_stage1.json": {
+      "bytes": 4794,
+      "sha256": "d32cfa0fe82c198bb8dd4dbdc8f3c8fa353482da2432bacb61dceba46d7a5b39"
+    },
+    "results\\copied_sources.json": {
+      "bytes": 3434,
+      "sha256": "9d64213beaf4d9a837e81a2b6e998e747b6abe074338f44d8371707704ae7406"
+    },
+    "results\\dark.json": {
+      "bytes": 24018,
+      "sha256": "ce81c9ac34dab481f713a8e87df3d690b0cd404b25ec429b703092ff8ff52a16"
+    },
+    "results\\dark_stage1.json": {
+      "bytes": 23652,
+      "sha256": "03194557295cf04bdccf0a09d0d508289e4e2d4ca9189dcef3f20f3d13d2eb87"
+    },
+    "results\\double_null.json": {
+      "bytes": 8379,
+      "sha256": "d679955fbd49890d5bff1770d8defabdfbe8af73d0754c0b0d3b6fe0b8d78947"
+    },
+    "results\\double_null_grids.npz": {
+      "bytes": 4275645,
+      "sha256": "5856ce3b384a32d52935717e73c75d239ffedf0f1d2d80d7484942f9892c2516"
+    },
+    "results\\execution.json": {
+      "bytes": 4181,
+      "sha256": "ff8a427e0cc7d66b550268cccd3f4e691fcd6403355f52dbebe6b6f7d4454839"
+    },
+    "results\\mass_bounce.json": {
+      "bytes": 17591,
+      "sha256": "1a55417991c3981f7bc30fb77804715f7fa0828419a6535cc7a66babb68215c0"
+    },
+    "results\\mass_bounce_stage1.json": {
+      "bytes": 13823,
+      "sha256": "a94a3119a232465a89187842c7f6d6d31792a73622cd528ac094e6a54e33d5b5"
+    },
+    "results\\originals_manifest.json": {
+      "bytes": 1148026,
+      "sha256": "a73d45f0cdcba04cb51544a9832ffc8fcf6a8fc720ef2b17c279b18d300f4d76"
+    },
+    "results\\originals_verification.json": {
+      "bytes": 83,
+      "sha256": "7af40ddffcfccb415ac892c7f08305235d6bc6becf0324818b438811bca8e87b"
+    },
+    "results\\q_bridge.json": {
+      "bytes": 103652,
+      "sha256": "91480e638ce374112b63dd77761c2effa437b4f03b6cee15573e1e1018a0a828"
+    },
+    "results\\q_bridge_stage1_incomplete.json": {
+      "bytes": 22941,
+      "sha256": "d3d5bcb4982381735d80cc63055fed9ae89b1eecd81644a3dc6b17119d2ffdee"
+    },
+    "results\\resumen.png": {
+      "bytes": 227491,
+      "sha256": "47f8303ce197721816a652968013018b88ba7e3ae20d1e1cd9d38e2fe725539c"
+    },
+    "results\\shared_bounce_trajectory.npz": {
+      "bytes": 48903,
+      "sha256": "fc08d4d41575f5847941822c20927a58ecb35623fead913cafdea1a00a75d5f8"
+    },
+    "results\\stochastic.json": {
+      "bytes": 7011,
+      "sha256": "b9609e0ba7ad168c6a47047cc24dad4a8fb0fb5f2360bf7358165c62d6800b54"
+    },
+    "results\\thermal.json": {
+      "bytes": 114987,
+      "sha256": "01c1d94af33dffa3e5c79bace62b7b015c9a099417a5e23038e5186fe10d8789"
+    },
+    "results\\thermal_stage1.json": {
+      "bytes": 113791,
+      "sha256": "1feb28de8889924f893624487831fab446801a4f67bcc9ab68d78287874be17a"
+    },
+    "INFORME_CIERRE.md": {
+      "bytes": 22879,
+      "sha256": "43e4d5459629d8d1d89365b6d29eeaa6c2e72425f719562f6d94a3196007b282"
+    },
+    "NOTAS_EXPLORACION.md": {
+      "bytes": 3057,
+      "sha256": "7bd4791c596ab0ba64449b4e791e059a192d75735f824e5ef8737516c4b04124"
+    },
+    "PROTOCOLO.md": {
+      "bytes": 3144,
+      "sha256": "3ccf4e523e35648c1c8c4284315a6d8f2e59270c6835952f857c4307735b181f"
+    },
+    "README.md": {
+      "bytes": 3068,
+      "sha256": "8b712088f061f46def69a8d5a1daa9bbfdf6b6a2d9ca386268cb45de9bc27efb"
+    },
+    "requirements.txt": {
+      "bytes": 46,
+      "sha256": "d1b0a8d072852123a0a50cd8564f8517b1a3bb12947db5d177d5d059f20b38a2"
+    }
+  }
+}

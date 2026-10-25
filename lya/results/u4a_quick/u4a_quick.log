@@ -1,0 +1,53 @@
+classy v3.4.1 workers 16
+   [1/2] CLASS C0 analytic ok  (0.0 min)
+   [2/2] CLASS C0 file ok  (3.8 min)
+C0 {'max_rel': 0.0037275415276918356, 'passed': True}
+   [1/19] CLASS mixed_3keV_f0.469 ok  (0.0 min)
+   [2/19] CLASS family 3 keV f=0.1 ok  (0.0 min)
+   [3/19] CLASS table_3keV_f0.50 ok  (0.0 min)
+   [4/19] CLASS table_2keV_f0.35 ok  (0.0 min)
+   [5/19] CLASS mixed_4keV_f0.643 ok  (0.0 min)
+   [6/19] CLASS family 6 keV f=0.5 ok  (0.0 min)
+   [7/19] CLASS family 1 keV f=0.1 ok  (0.0 min)
+   [8/19] CLASS family 3 keV f=0.5 ok  (0.0 min)
+   [9/19] CLASS family 6 keV f=1 ok  (0.0 min)
+   [10/19] CLASS family 6 keV f=0.1 ok  (0.0 min)
+   [11/19] CLASS family 3 keV f=1 ok  (0.0 min)
+   [12/19] CLASS family 1 keV f=0.5 ok  (0.0 min)
+   [13/19] CLASS thermal_5.3keV ok  (0.0 min)
+   [14/19] CLASS family 1 keV f=1 ok  (0.0 min)
+   [15/19] CLASS table_1keV_f0.16 ok  (0.0 min)
+   [16/19] CLASS table_4keV_f0.67 ok  (0.0 min)
+   [17/19] CLASS mixed_1keV_f0.140 ok  (0.0 min)
+   [18/19] CLASS mixed_2keV_f0.300 ok  (0.0 min)
+   [19/19] CLASS C0b ok  (13.1 min)
+C0b {'nodes': 20, 'rel_deltaA': 5.515673633516016e-05, 'max_rel_T2_0p5_20': 0.0003742947637948024, 'max_rel_T2_0p5_50': 0.003970936068989239, 'passed': True}
+   [1/3] CLASS Viel 5.3 keV ok  (0.0 min)
+   [2/3] CLASS Viel 2 keV ok  (0.0 min)
+   [3/3] CLASS Viel 3.5 keV ok  (0.0 min)
+refs {'thermal_5.3keV': 0.33606674391968916, 'mixed_1keV_f0.140': 0.23408346011191306, 'mixed_2keV_f0.300': 0.289530456443554, 'mixed_3keV_f0.469': 0.3076237784895315, 'mixed_4keV_f0.643': 0.3114622617098102, 'table_1keV_f0.16': 0.26702436205722824, 'table_2keV_f0.35': 0.33288422672901274, 'table_3keV_f0.50': 0.324914610965338, 'table_4keV_f0.67': 0.32182797956496245} strict 0.23408346011191306 wide 0.33606674391968916
+10 CLASS row runs (45 momentum nodes in ln q, full hierarchy; ~20-40 min each, one core each)
+   [1/10] row B1_central_energy_x30_K0 ok  (43.5 min)
+   [2/10] row B3_central_energy_x30_K0 ok  (44.6 min)
+   [3/10] row B2_central_energy_x30_K0 ok  (44.6 min)
+   [4/10] row B2_central_energy_x10_K0 ok  (45.5 min)
+   [5/10] row B3_central_energy_x10_K0 ok  (45.9 min)
+   [6/10] row B1_central_energy_x10_K0 ok  (50.0 min)
+   [7/10] row B3_central_ir_del_x30_K0 ok  (57.7 min)
+   [8/10] row B2_central_ir_del_x30_K0 ok  (66.4 min)
+   [9/10] row B3_central_ir_del_x10_K0 ok  (81.8 min)
+   [10/10] row B2_central_ir_del_x10_K0 ok  (186.0 min)
+B1_central_energy_x10_K0           f_em=0.952 dA=0.726 fit m=1.00 keV f=0.53 rms=0.131 shape_strict=False dA_strict=False
+B1_central_energy_x30_K0           f_em=0.871 dA=0.707 fit m=1.00 keV f=0.52 rms=0.123 shape_strict=False dA_strict=False
+B2_central_ir_del_x10_K0           f_em=0.990 dA=0.817 fit m=1.00 keV f=0.66 rms=0.110 shape_strict=False dA_strict=False
+B2_central_ir_del_x30_K0           f_em=0.970 dA=0.799 fit m=1.00 keV f=0.62 rms=0.099 shape_strict=False dA_strict=False
+B2_central_energy_x10_K0           f_em=0.537 dA=0.179 fit m=1.03 keV f=0.10 rms=0.008 shape_strict=True dA_strict=True
+B2_central_energy_x30_K0           f_em=0.282 dA=0.155 fit m=1.11 keV f=0.10 rms=0.009 shape_strict=True dA_strict=True
+B3_central_ir_del_x10_K0           f_em=0.982 dA=0.682 fit m=1.00 keV f=0.45 rms=0.046 shape_strict=False dA_strict=False
+B3_central_ir_del_x30_K0           f_em=0.946 dA=0.660 fit m=1.00 keV f=0.41 rms=0.046 shape_strict=False dA_strict=False
+B3_central_energy_x10_K0           f_em=0.394 dA=0.117 fit m=6.00 keV f=1.00 rms=0.006 shape_strict=True dA_strict=True
+B3_central_energy_x30_K0           f_em=0.181 dA=0.096 fit m=6.00 keV f=0.98 rms=0.006 shape_strict=True dA_strict=True
+C1 {'cases': [], 'passed': False}
+C2 {'cases': []}
+VERDICT (prereg): QUICK (comprobación de la tubería; sin veredicto)
+QUICK, filas centrales permitidas (LYA primary): {'B1_GHN': False, 'B2_standard_scaling': True, 'B3_trend_1_over_ell': True}

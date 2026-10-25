@@ -1,0 +1,17 @@
+{'grid': 'k30', 'branch': 'B2_standard_scaling', 'x0': 10, 'nq': 40, 'lmax': 10, 'phase': 0.5, 'deltaA': 0.15722653758672778}
+{'grid': 'k30', 'branch': 'B2_standard_scaling', 'x0': 10, 'nq': 64, 'lmax': 16, 'phase': 0.25, 'deltaA': 0.15696735465108247}
+{'grid': 'k30', 'branch': 'B2_standard_scaling', 'x0': 30, 'nq': 40, 'lmax': 10, 'phase': 0.5, 'deltaA': 0.13783128067015038}
+{'grid': 'k30', 'branch': 'B2_standard_scaling', 'x0': 30, 'nq': 64, 'lmax': 16, 'phase': 0.25, 'deltaA': 0.13761344151216093}
+{'grid': 'k30', 'branch': 'B3_trend_1_over_ell', 'x0': 10, 'nq': 40, 'lmax': 10, 'phase': 0.5, 'deltaA': 0.09751464468662285}
+{'grid': 'k30', 'branch': 'B3_trend_1_over_ell', 'x0': 10, 'nq': 64, 'lmax': 16, 'phase': 0.25, 'deltaA': 0.09722723073608619}
+{'grid': 'k30', 'branch': 'B3_trend_1_over_ell', 'x0': 30, 'nq': 40, 'lmax': 10, 'phase': 0.5, 'deltaA': 0.08363061907947777}
+{'grid': 'k30', 'branch': 'B3_trend_1_over_ell', 'x0': 30, 'nq': 64, 'lmax': 16, 'phase': 0.25, 'deltaA': 0.08346575482705221}
+{'grid': 'k44', 'branch': 'B2_standard_scaling', 'x0': 10, 'nq': 40, 'lmax': 10, 'phase': 0.5, 'deltaA': 0.17485403276400058}
+{'grid': 'k44', 'branch': 'B2_standard_scaling', 'x0': 10, 'nq': 64, 'lmax': 16, 'phase': 0.25, 'deltaA': 0.17462083614761248}
+{'grid': 'k44', 'branch': 'B2_standard_scaling', 'x0': 30, 'nq': 40, 'lmax': 10, 'phase': 0.5, 'deltaA': 0.15164849125794722}
+{'grid': 'k44', 'branch': 'B2_standard_scaling', 'x0': 30, 'nq': 64, 'lmax': 16, 'phase': 0.25, 'deltaA': 0.15146305956374506}
+{'grid': 'k44', 'branch': 'B3_trend_1_over_ell', 'x0': 10, 'nq': 40, 'lmax': 10, 'phase': 0.5, 'deltaA': 0.11064636184256094}
+{'grid': 'k44', 'branch': 'B3_trend_1_over_ell', 'x0': 10, 'nq': 64, 'lmax': 16, 'phase': 0.25, 'deltaA': 0.11047304716616202}
+{'grid': 'k44', 'branch': 'B3_trend_1_over_ell', 'x0': 30, 'nq': 40, 'lmax': 10, 'phase': 0.5, 'deltaA': 0.09333049073723909}
+{'grid': 'k44', 'branch': 'B3_trend_1_over_ell', 'x0': 30, 'nq': 64, 'lmax': 16, 'phase': 0.25, 'deltaA': 0.09322801752476573}
+W3b 0.1346640517241151 False

@@ -1,0 +1,481 @@
+{
+ "verdict": "FRAGIL",
+ "baseline_obs": {
+  "n_s": 0.9732867405531523,
+  "r": 0.004927959295454277,
+  "chi_star": 3.996282391214094
+ },
+ "summary": {
+  "none_1e+30": {
+   "fam": "none",
+   "chic": 1e+30,
+   "n_s": 0.9732867405531523,
+   "r": 0.004927959295454277,
+   "chi_star": 3.996282391214094,
+   "equivalent": true,
+   "per_sep": {
+    "0.0001": {
+     "n_fertile": 180,
+     "f_productive": 1.0,
+     "f_eternal": 0.31666666666666665,
+     "f_PES": 0.2111111111111111
+    },
+    "1e-05": {
+     "n_fertile": 187,
+     "f_productive": 1.0,
+     "f_eternal": 0.5133689839572193,
+     "f_PES": 0.18181818181818182
+    },
+    "1e-06": {
+     "n_fertile": 190,
+     "f_productive": 1.0,
+     "f_eternal": 0.5789473684210527,
+     "f_PES": 0.1
+    }
+   },
+   "max_f_PES": 0.2111111111111111
+  },
+  "sube_10": {
+   "fam": "sube",
+   "chic": 10,
+   "n_s": 0.9952225064149699,
+   "r": 0.08134423458710378,
+   "chi_star": 6.647230786225315,
+   "equivalent": false,
+   "per_sep": {
+    "0.0001": {
+     "n_fertile": 185,
+     "f_productive": 1.0,
+     "f_eternal": 0.10810810810810811,
+     "f_PES": 0.016216216216216217
+    },
+    "1e-05": {
+     "n_fertile": 191,
+     "f_productive": 1.0,
+     "f_eternal": 0.2774869109947644,
+     "f_PES": 0.02617801047120419
+    },
+    "1e-06": {
+     "n_fertile": 196,
+     "f_productive": 1.0,
+     "f_eternal": 0.3673469387755102,
+     "f_PES": 0.01020408163265306
+    }
+   },
+   "max_f_PES": 0.02617801047120419
+  },
+  "sube_30": {
+   "fam": "sube",
+   "chic": 30,
+   "n_s": 0.981493902561829,
+   "r": 0.007786592549671392,
+   "chi_star": 4.235534945064156,
+   "equivalent": false,
+   "per_sep": {
+    "0.0001": {
+     "n_fertile": 190,
+     "f_productive": 1.0,
+     "f_eternal": 0.08421052631578947,
+     "f_PES": 0.021052631578947368
+    },
+    "1e-05": {
+     "n_fertile": 197,
+     "f_productive": 1.0,
+     "f_eternal": 0.2233502538071066,
+     "f_PES": 0.005076142131979695
+    },
+    "1e-06": {
+     "n_fertile": 201,
+     "f_productive": 1.0,
+     "f_eternal": 0.31343283582089554,
+     "f_PES": 0.0
+    }
+   },
+   "max_f_PES": 0.021052631578947368
+  },
+  "sube_100": {
+   "fam": "sube",
+   "chic": 100,
+   "n_s": 0.974080603001889,
+   "r": 0.0051424061509213565,
+   "chi_star": 4.016976054513755,
+   "equivalent": true,
+   "per_sep": {
+    "0.0001": {
+     "n_fertile": 190,
+     "f_productive": 1.0,
+     "f_eternal": 0.06842105263157895,
+     "f_PES": 0.010526315789473684
+    },
+    "1e-05": {
+     "n_fertile": 197,
+     "f_productive": 1.0,
+     "f_eternal": 0.17258883248730963,
+     "f_PES": 0.0
+    },
+    "1e-06": {
+     "n_fertile": 201,
+     "f_productive": 1.0,
+     "f_eternal": 0.2537313432835821,
+     "f_PES": 0.0
+    }
+   },
+   "max_f_PES": 0.010526315789473684
+  },
+  "sube_300": {
+   "fam": "sube",
+   "chic": 300,
+   "n_s": 0.9733754701308682,
+   "r": 0.004951405931536651,
+   "chi_star": 3.998573439779033,
+   "equivalent": true,
+   "per_sep": {
+    "0.0001": {
+     "n_fertile": 190,
+     "f_productive": 1.0,
+     "f_eternal": 0.042105263157894736,
+     "f_PES": 0.010526315789473684
+    },
+    "1e-05": {
+     "n_fertile": 197,
+     "f_productive": 1.0,
+     "f_eternal": 0.1218274111675127,
+     "f_PES": 0.0
+    },
+    "1e-06": {
+     "n_fertile": 201,
+     "f_productive": 1.0,
+     "f_eternal": 0.20398009950248755,
+     "f_PES": 0.0
+    }
+   },
+   "max_f_PES": 0.010526315789473684
+  },
+  "sube_1000": {
+   "fam": "sube",
+   "chic": 1000,
+   "n_s": 0.9732947315507882,
+   "r": 0.004930065628432415,
+   "chi_star": 3.9964885011296434,
+   "equivalent": true,
+   "per_sep": {
+    "0.0001": {
+     "n_fertile": 189,
+     "f_productive": 1.0,
+     "f_eternal": 0.031746031746031744,
+     "f_PES": 0.0
+    },
+    "1e-05": {
+     "n_fertile": 197,
+     "f_productive": 1.0,
+     "f_eternal": 0.09137055837563451,
+     "f_PES": 0.0
+    },
+    "1e-06": {
+     "n_fertile": 201,
+     "f_productive": 1.0,
+     "f_eternal": 0.14925373134328357,
+     "f_PES": 0.0
+    }
+   },
+   "max_f_PES": 0.0
+  },
+  "cae_10": {
+   "fam": "cae",
+   "chic": 10,
+   "n_s": 0.8839356647098537,
+   "r": 6.356780782032517e-05,
+   "chi_star": 2.7662261892025795,
+   "equivalent": false,
+   "per_sep": {
+    "0.0001": {
+     "n_fertile": 85,
+     "f_productive": 0.0,
+     "f_eternal": 0.0,
+     "f_PES": 0.0
+    },
+    "1e-05": {
+     "n_fertile": 67,
+     "f_productive": 0.0,
+     "f_eternal": 0.0,
+     "f_PES": 0.0
+    },
+    "1e-06": {
+     "n_fertile": 57,
+     "f_productive": 0.0,
+     "f_eternal": 0.0,
+     "f_PES": 0.0
+    }
+   },
+   "max_f_PES": 0.0,
+   "chi_top": 2.8212799125801302
+  },
+  "cae_30": {
+   "fam": "cae",
+   "chic": 30,
+   "n_s": 0.964327646806734,
+   "r": 0.003068929831359655,
+   "chi_star": 3.7826984752734827,
+   "equivalent": false,
+   "per_sep": {
+    "0.0001": {
+     "n_fertile": 96,
+     "f_productive": 0.010416666666666666,
+     "f_eternal": 0.0,
+     "f_PES": 0.0
+    },
+    "1e-05": {
+     "n_fertile": 81,
+     "f_productive": 0.012345679012345678,
+     "f_eternal": 0.0,
+     "f_PES": 0.0
+    },
+    "1e-06": {
+     "n_fertile": 69,
+     "f_productive": 0.014492753623188406,
+     "f_eternal": 0.0,
+     "f_PES": 0.0
+    }
+   },
+   "max_f_PES": 0.0,
+   "chi_top": 5.6448713555254795
+  },
+  "cae_100": {
+   "fam": "cae",
+   "chic": 100,
+   "n_s": 0.9724870685371277,
+   "r": 0.004721868213019942,
+   "chi_star": 3.9758048674510214,
+   "equivalent": true,
+   "per_sep": {
+    "0.0001": {
+     "n_fertile": 123,
+     "f_productive": 0.18699186991869918,
+     "f_eternal": 0.0,
+     "f_PES": 0.0
+    },
+    "1e-05": {
+     "n_fertile": 102,
+     "f_productive": 0.14705882352941177,
+     "f_eternal": 0.0,
+     "f_PES": 0.0
+    },
+    "1e-06": {
+     "n_fertile": 92,
+     "f_productive": 0.16304347826086957,
+     "f_eternal": 0.0,
+     "f_PES": 0.0
+    }
+   },
+   "max_f_PES": 0.0,
+   "chi_top": 12.350309676840252
+  },
+  "cae_300": {
+   "fam": "cae",
+   "chic": 300,
+   "n_s": 0.9731979395826705,
+   "r": 0.004904616196247026,
+   "chi_star": 3.993994020336485,
+   "equivalent": true,
+   "per_sep": {
+    "0.0001": {
+     "n_fertile": 142,
+     "f_productive": 0.29577464788732394,
+     "f_eternal": 0.0,
+     "f_PES": 0.0
+    },
+    "1e-05": {
+     "n_fertile": 121,
+     "f_productive": 0.2396694214876033,
+     "f_eternal": 0.0,
+     "f_PES": 0.0
+    },
+    "1e-06": {
+     "n_fertile": 110,
+     "f_productive": 0.2545454545454545,
+     "f_eternal": 0.0,
+     "f_PES": 0.0
+    }
+   },
+   "max_f_PES": 0.0,
+   "chi_top": 25.51722202735546
+  },
+  "cae_1000": {
+   "fam": "cae",
+   "chic": 1000,
+   "n_s": 0.9732787489796505,
+   "r": 0.004925853801483193,
+   "chi_star": 3.9960763029964843,
+   "equivalent": true,
+   "per_sep": {
+    "0.0001": {
+     "n_fertile": 159,
+     "f_productive": 0.4088050314465409,
+     "f_eternal": 0.0,
+     "f_PES": 0.0
+    },
+    "1e-05": {
+     "n_fertile": 142,
+     "f_productive": 0.30985915492957744,
+     "f_eternal": 0.0,
+     "f_PES": 0.0
+    },
+    "1e-06": {
+     "n_fertile": 129,
+     "f_productive": 0.3333333333333333,
+     "f_eternal": 0.0,
+     "f_PES": 0.0
+    }
+   },
+   "max_f_PES": 0.0,
+   "chi_top": 56.60738088297568
+  },
+  "inclina_10": {
+   "fam": "inclina",
+   "chic": 10,
+   "n_s": 0.9820609561085802,
+   "r": 0.038824202914694156,
+   "chi_star": 6.497379213329967,
+   "equivalent": false,
+   "per_sep": {
+    "0.0001": {
+     "n_fertile": 186,
+     "f_productive": 1.0,
+     "f_eternal": 0.06989247311827956,
+     "f_PES": 0.005376344086021506
+    },
+    "1e-05": {
+     "n_fertile": 195,
+     "f_productive": 1.0,
+     "f_eternal": 0.15384615384615385,
+     "f_PES": 0.0
+    },
+    "1e-06": {
+     "n_fertile": 198,
+     "f_productive": 1.0,
+     "f_eternal": 0.2222222222222222,
+     "f_PES": 0.0
+    }
+   },
+   "max_f_PES": 0.005376344086021506
+  },
+  "inclina_30": {
+   "fam": "inclina",
+   "chic": 30,
+   "n_s": 0.9833881779186598,
+   "r": 0.015645872325970814,
+   "chi_star": 4.985602340137182,
+   "equivalent": false,
+   "per_sep": {
+    "0.0001": {
+     "n_fertile": 190,
+     "f_productive": 1.0,
+     "f_eternal": 0.04736842105263158,
+     "f_PES": 0.0
+    },
+    "1e-05": {
+     "n_fertile": 196,
+     "f_productive": 1.0,
+     "f_eternal": 0.11224489795918367,
+     "f_PES": 0.0
+    },
+    "1e-06": {
+     "n_fertile": 200,
+     "f_productive": 1.0,
+     "f_eternal": 0.195,
+     "f_PES": 0.0
+    }
+   },
+   "max_f_PES": 0.0
+  },
+  "inclina_100": {
+   "fam": "inclina",
+   "chic": 100,
+   "n_s": 0.9781839996980545,
+   "r": 0.007615430507744571,
+   "chi_star": 4.301966896118498,
+   "equivalent": false,
+   "per_sep": {
+    "0.0001": {
+     "n_fertile": 189,
+     "f_productive": 1.0,
+     "f_eternal": 0.031746031746031744,
+     "f_PES": 0.0
+    },
+    "1e-05": {
+     "n_fertile": 197,
+     "f_productive": 1.0,
+     "f_eternal": 0.09137055837563451,
+     "f_PES": 0.0
+    },
+    "1e-06": {
+     "n_fertile": 201,
+     "f_productive": 1.0,
+     "f_eternal": 0.15920398009950248,
+     "f_PES": 0.0
+    }
+   },
+   "max_f_PES": 0.0
+  },
+  "inclina_300": {
+   "fam": "inclina",
+   "chic": 300,
+   "n_s": 0.9751620576808958,
+   "r": 0.005757343123876213,
+   "chi_star": 4.0984405566949444,
+   "equivalent": false,
+   "per_sep": {
+    "0.0001": {
+     "n_fertile": 189,
+     "f_productive": 1.0,
+     "f_eternal": 0.021164021164021163,
+     "f_PES": 0.0
+    },
+    "1e-05": {
+     "n_fertile": 197,
+     "f_productive": 1.0,
+     "f_eternal": 0.07614213197969544,
+     "f_PES": 0.0
+    },
+    "1e-06": {
+     "n_fertile": 201,
+     "f_productive": 1.0,
+     "f_eternal": 0.12935323383084577,
+     "f_PES": 0.0
+    }
+   },
+   "max_f_PES": 0.0
+  },
+  "inclina_1000": {
+   "fam": "inclina",
+   "chic": 1000,
+   "n_s": 0.973877305725238,
+   "r": 0.005169436210207838,
+   "chi_star": 4.026934652054029,
+   "equivalent": true,
+   "per_sep": {
+    "0.0001": {
+     "n_fertile": 189,
+     "f_productive": 1.0,
+     "f_eternal": 0.026455026455026454,
+     "f_PES": 0.0
+    },
+    "1e-05": {
+     "n_fertile": 197,
+     "f_productive": 1.0,
+     "f_eternal": 0.07106598984771574,
+     "f_PES": 0.0
+    },
+    "1e-06": {
+     "n_fertile": 201,
+     "f_productive": 1.0,
+     "f_eternal": 0.11442786069651742,
+     "f_PES": 0.0
+    }
+   },
+   "max_f_PES": 0.0
+  }
+ },
+ "verdict_after_obs_fix": "FRAGIL",
+ "obs_fix_note": "C45i post-processing (declared after the run):\n(1) bug fix in the slow-roll observables of the 'cae' family: the N* = 51 bracket went past the plateau top (V' = 0), where\n    int V/V' is singular; the upper bracket is now the first zero of V' (inner side).  The scan rows are unchanged.\n(2) exploratory extension (NOT preregistered): how flat must the plateau stay?  'sube' and 'inclina' with chi_c up to 3e5 M_Pl,\n    and the analytic flatness condition |V'/V| < sqrt(V0/3)/(2 pi) for eternal inflation."
+}

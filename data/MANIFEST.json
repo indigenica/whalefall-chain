@@ -1,0 +1,201 @@
+{
+ "note": "Copies (read-only use). Originals untouched.",
+ "files": {
+  "c45b/c45h_results.json": {
+   "origin": "claude_dual/c45b/results/c45h_content_20261004T153219Z/results.json",
+   "sha256": "7843e07f357c2c5da3bf4bad70feb379092d8270706f4aaf077e10a260010dae"
+  },
+  "c45b/c45i_deform_summary.json": {
+   "origin": "claude_dual/c45b/results/c45i_deform_20261004T165106Z/results_obsfix.json (rows removed)",
+   "sha256": "44530895403c240bc5348ccad08cc47da51376020011281217769f2526e8b0df"
+  },
+  "c45b/c45i_explore_results.json": {
+   "origin": "claude_dual/c45b/results/c45i_explore_20261004T165742Z/results.json",
+   "sha256": "7615b6aa5bc3e05150b51b485b2037ff5316479b23a7992e32e18681531199d5"
+  },
+  "c45b/c45j_results.json": {
+   "origin": "claude_dual/c45b/results/c45j_multibounce_20261004T165134Z/results.json",
+   "sha256": "76d06f1849f59d02a4ebcf2147d9b586a8f72ef08d0bbe1ef9c60bc79f178d67"
+  },
+  "cadena_cierre/bounce.json": {
+   "origin": "claude_dual/cadena_cierre_20261004/results/bounce.json",
+   "sha256": "249484a5593c1bdff46495fc056053d22aa394b667deb462f7a707cc097995d9"
+  },
+  "cadena_cierre/bounce_selection.json": {
+   "origin": "claude_dual/cadena_cierre_20261004/results/bounce_selection.json",
+   "sha256": "c23e64c5a12c4ff4908b6ed03b8b319cad79132a42fab3748b05775bb3a63580"
+  },
+  "cadena_cierre/campaign_manifest.json": {
+   "origin": "claude_dual/cadena_cierre_20261004/results/campaign_manifest.json",
+   "sha256": "036bf7dd1b56edea76ffed53da950c5a97ce974a511f9848f29d11db39b96dd6"
+  },
+  "cadena_cierre/contract.json": {
+   "origin": "claude_dual/cadena_cierre_20261004/results/contract.json",
+   "sha256": "a13c1113cff31a68dc7ec4c9ad6009e29be8e9643c1f846436194a67d255075b"
+  },
+  "cadena_cierre/contract_stage1.json": {
+   "origin": "claude_dual/cadena_cierre_20261004/results/contract_stage1.json",
+   "sha256": "d32cfa0fe82c198bb8dd4dbdc8f3c8fa353482da2432bacb61dceba46d7a5b39"
+  },
+  "cadena_cierre/copied_sources.json": {
+   "origin": "claude_dual/cadena_cierre_20261004/results/copied_sources.json",
+   "sha256": "9d64213beaf4d9a837e81a2b6e998e747b6abe074338f44d8371707704ae7406"
+  },
+  "cadena_cierre/dark.json": {
+   "origin": "claude_dual/cadena_cierre_20261004/results/dark.json",
+   "sha256": "ce81c9ac34dab481f713a8e87df3d690b0cd404b25ec429b703092ff8ff52a16"
+  },
+  "cadena_cierre/dark_stage1.json": {
+   "origin": "claude_dual/cadena_cierre_20261004/results/dark_stage1.json",
+   "sha256": "03194557295cf04bdccf0a09d0d508289e4e2d4ca9189dcef3f20f3d13d2eb87"
+  },
+  "cadena_cierre/double_null.json": {
+   "origin": "claude_dual/cadena_cierre_20261004/results/double_null.json",
+   "sha256": "d679955fbd49890d5bff1770d8defabdfbe8af73d0754c0b0d3b6fe0b8d78947"
+  },
+  "cadena_cierre/execution.json": {
+   "origin": "claude_dual/cadena_cierre_20261004/results/execution.json",
+   "sha256": "ff8a427e0cc7d66b550268cccd3f4e691fcd6403355f52dbebe6b6f7d4454839"
+  },
+  "cadena_cierre/mass_bounce.json": {
+   "origin": "claude_dual/cadena_cierre_20261004/results/mass_bounce.json",
+   "sha256": "1a55417991c3981f7bc30fb77804715f7fa0828419a6535cc7a66babb68215c0"
+  },
+  "cadena_cierre/mass_bounce_stage1.json": {
+   "origin": "claude_dual/cadena_cierre_20261004/results/mass_bounce_stage1.json",
+   "sha256": "a94a3119a232465a89187842c7f6d6d31792a73622cd528ac094e6a54e33d5b5"
+  },
+  "cadena_cierre/originals_manifest.json": {
+   "origin": "claude_dual/cadena_cierre_20261004/results/originals_manifest.json",
+   "sha256": "a73d45f0cdcba04cb51544a9832ffc8fcf6a8fc720ef2b17c279b18d300f4d76"
+  },
+  "cadena_cierre/originals_verification.json": {
+   "origin": "claude_dual/cadena_cierre_20261004/results/originals_verification.json",
+   "sha256": "7af40ddffcfccb415ac892c7f08305235d6bc6becf0324818b438811bca8e87b"
+  },
+  "cadena_cierre/q_bridge.json": {
+   "origin": "claude_dual/cadena_cierre_20261004/results/q_bridge.json",
+   "sha256": "91480e638ce374112b63dd77761c2effa437b4f03b6cee15573e1e1018a0a828"
+  },
+  "cadena_cierre/q_bridge_stage1_incomplete.json": {
+   "origin": "claude_dual/cadena_cierre_20261004/results/q_bridge_stage1_incomplete.json",
+   "sha256": "d3d5bcb4982381735d80cc63055fed9ae89b1eecd81644a3dc6b17119d2ffdee"
+  },
+  "cadena_cierre/stochastic.json": {
+   "origin": "claude_dual/cadena_cierre_20261004/results/stochastic.json",
+   "sha256": "b9609e0ba7ad168c6a47047cc24dad4a8fb0fb5f2360bf7358165c62d6800b54"
+  },
+  "cadena_cierre/thermal.json": {
+   "origin": "claude_dual/cadena_cierre_20261004/results/thermal.json",
+   "sha256": "01c1d94af33dffa3e5c79bace62b7b015c9a099417a5e23038e5186fe10d8789"
+  },
+  "cadena_cierre/thermal_stage1.json": {
+   "origin": "claude_dual/cadena_cierre_20261004/results/thermal_stage1.json",
+   "sha256": "1feb28de8889924f893624487831fab446801a4f67bcc9ab68d78287874be17a"
+  },
+  "cierre_accion/decays.json": {
+   "origin": "claude_dual/cierre_accion_20261004/results/decays.json",
+   "sha256": "e5786e73490d102a1c81ae6f1c5f7e684db6cef93eb5fa32fb552a4f48bc2cae"
+  },
+  "cierre_accion/execution.json": {
+   "origin": "claude_dual/cierre_accion_20261004/results/execution.json",
+   "sha256": "bcb0c395094b1d0a6f1214f9fc79bb5759d19de2fc106bc14e14b0aff833ca74"
+  },
+  "cierre_accion/experiments.json": {
+   "origin": "claude_dual/cierre_accion_20261004/results/experiments.json",
+   "sha256": "4b4b81de17bf5b9e9b096ecb96881d1319117f0eedd6529561bc5c99c842f37b"
+  },
+  "cierre_accion/integrity.json": {
+   "origin": "claude_dual/cierre_accion_20261004/results/integrity.json",
+   "sha256": "4815b2b1243845c9a20effaa59e3dc051dc6d109487d6574433b9257edfbf678"
+  },
+  "cierre_accion/late_fluid.json": {
+   "origin": "claude_dual/cierre_accion_20261004/results/late_fluid.json",
+   "sha256": "327fa78acf0feca981012ff9e3a704db5529cedf93e3800251b0b5228cd6d26c"
+  },
+  "cierre_accion/portal.json": {
+   "origin": "claude_dual/cierre_accion_20261004/results/portal.json",
+   "sha256": "9feac8ffcae74a88d617a8a3c6d5ad1d1ae3978e4361de53729af5494cad00f5"
+  },
+  "cierre_accion/symbolic.json": {
+   "origin": "claude_dual/cierre_accion_20261004/results/symbolic.json",
+   "sha256": "fe31332be0dc18c3e148b62259b0d205749df8aef9f68b4f8e80e069cab9b8ca"
+  },
+  "cierre_accion/units.json": {
+   "origin": "claude_dual/cierre_accion_20261004/results/units.json",
+   "sha256": "b03ec32206fc359ef307d0b56e4ee499a9f439b27bedce5e5a90a2890733d8fe"
+  },
+  "cierre_cosmologia/closure_status.json": {
+   "origin": "claude_dual/cierre_cosmologia_20261005/results/closure_status.json",
+   "sha256": "6339922a06081d12477ecf3314f243f085c776d11830e499cc9108c47fa62f4a"
+  },
+  "cierre_cosmologia/end_to_end_control.json": {
+   "origin": "claude_dual/cierre_cosmologia_20261005/results/end_to_end_control.json",
+   "sha256": "8f41228b168fea0d0d39ae69f38dff3da1543db6f2bde57f183b55452c53d3e9"
+  },
+  "cierre_cosmologia/ensemble_statistics.json": {
+   "origin": "claude_dual/cierre_cosmologia_20261005/results/ensemble_statistics.json",
+   "sha256": "15dede37f510ec6e4ab19973f9a134f1d4a777c8ecaf8de6298bef7b07732928"
+  },
+  "cierre_cosmologia/local_convergence.json": {
+   "origin": "claude_dual/cierre_cosmologia_20261005/results/local_convergence.json",
+   "sha256": "753c6e8446a668c3f63aacbdcc915f6bd4120609afad55162a60d490e36b97a2"
+  },
+  "cierre_cosmologia/numerical_field_to_observables.json": {
+   "origin": "claude_dual/cierre_cosmologia_20261005/results/numerical_field_to_observables.json",
+   "sha256": "3e4349cd70e9ecb51b3243ae1f1c07660f351b61e34af400bcf229fbab2558a5"
+  },
+  "cierre_cosmologia/source_bridge_controls.json": {
+   "origin": "claude_dual/cierre_cosmologia_20261005/results/source_bridge_controls.json",
+   "sha256": "fa4f0ec585409802d3bef5214f8d39f736f134d85e691088b5c16d909e54dfc2"
+  },
+  "cierre_cosmologia/species.json": {
+   "origin": "claude_dual/cierre_cosmologia_20261005/results/species.json",
+   "sha256": "38a9982b57bd062a5a36b0573e0281fe92f72deccc38d20cda720fe1d4fa1b68"
+  },
+  "cierre_red/checks.json": {
+   "origin": "claude_dual/cierre_red_20261005/results/checks.json",
+   "sha256": "9ea7a3c3c1596ebe7fe712f7796d7979e70ca68227af8511583d104e072ca37f"
+  },
+  "cierre_red/source_contract.json": {
+   "origin": "claude_dual/cierre_red_20261005/results/source_contract.json",
+   "sha256": "2876c8c838a7e9cc5b52c875bc515e8600cdfe75e51821a236c48f4b94a89541"
+  },
+  "cierre_red/summary.json": {
+   "origin": "claude_dual/cierre_red_20261005/results/summary.json",
+   "sha256": "8a99c605d1c7c45295777133b79cc6c066e4ce77d7002bbb96e733573d09e10b"
+  },
+  "literatura/witte_mummery_2412.03655_fig1.json": {
+   "origin": "digitized (17 Oct 2026) from Fig. 1 of Witte & Mummery, arXiv:2412.03655v3, PDF page 2 at 300 dpi (ESPEC_U23)",
+   "sha256": "12cfba3014d18f8029abf32d1641aadc350c003e1e52573174218c881c3dfe4c"
+  },
+  "cadena_cierre/thermal_pole.json": {
+   "origin": "generated in this repository by chain/u26_thermal_pole.py (U26)",
+   "sha256": "e6055b7841a1345aab5dfc00dc382ba06bfb3d8977749a50751ba564eac493b5"
+  },
+  "cierre_accion_pole/decays.json": {
+   "origin": "action/results_pole/decays.json (WHALEFALL_PLATEAU=pole make action, U26)",
+   "sha256": "d1e9dff0467912dfb8c0f4bdebd07838dd0fdc20e74deb14c43c577af4a899fa"
+  },
+  "cierre_accion_pole/execution.json": {
+   "origin": "action/results_pole/execution.json (WHALEFALL_PLATEAU=pole make action, U26)",
+   "sha256": "80c1c0bd5240424f9347208204bafa9e6c740e80017b4a94d286050d7750dd30"
+  },
+  "cierre_accion_pole/experiments.json": {
+   "origin": "action/results_pole/experiments.json (WHALEFALL_PLATEAU=pole make action, U26)",
+   "sha256": "3837c3fd94f225d003c03d6dd004bb99ddff15dba8845ae407639885093f02aa"
+  },
+  "cierre_accion_pole/late_fluid.json": {
+   "origin": "action/results_pole/late_fluid.json (WHALEFALL_PLATEAU=pole make action, U26)",
+   "sha256": "424e7ea34211d1794e9e00d0a94efaaf6da0b915c0111e0d5794cc729a1b4ecf"
+  },
+  "cierre_accion_pole/portal.json": {
+   "origin": "action/results_pole/portal.json (WHALEFALL_PLATEAU=pole make action, U26)",
+   "sha256": "6b8f72b982f8f2f7ce607db13c168a1970af5fd91806d0c9f0a9d87836e5a2a2"
+  },
+  "cierre_accion_pole/symbolic.json": {
+   "origin": "action/results_pole/symbolic.json (WHALEFALL_PLATEAU=pole make action, U26)",
+   "sha256": "858d8c2eb40a90deaa80f7b3e6dfc737fa4a7b7c0b37220f019d7408a78aef8b"
+  }
+ }
+}

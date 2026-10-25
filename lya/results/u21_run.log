@@ -1,0 +1,244 @@
+U21_P_F1       m_G=2.56e-18 T_osc=0.0571 MeV lam/WDM=0.941 cold=False f_nc=0.981 iso=False dNeff=6.4e-03 Lambda_H=1.17 keV
+U21_P_F0.7     m_G=1.15e-17 T_osc=0.117 MeV lam/WDM=0.47 cold=False f_nc=0.980 iso=True dNeff=2.9e-03 Lambda_H=2.07 keV
+U21_P_F0.5     m_G=5.48e-17 T_osc=0.233 MeV lam/WDM=0.222 cold=False f_nc=0.980 iso=True dNeff=1.4e-03 Lambda_H=3.83 keV
+U21_P_F0.35    m_G=2.64e-16 T_osc=0.468 MeV lam/WDM=0.105 cold=False f_nc=0.979 iso=True dNeff=6.3e-04 Lambda_H=7.03 keV
+U21_P_F0.25    m_G=1.08e-15 T_osc=0.907 MeV lam/WDM=0.0545 cold=False f_nc=0.979 iso=True dNeff=3.0e-04 Lambda_H=12 keV
+U21_P_F0.18    m_G=4.22e-15 T_osc=1.78 MeV lam/WDM=0.0288 cold=True f_nc=0.979 iso=True dNeff=1.5e-04 Lambda_H=20.2 keV
+U21_P_F0.125   m_G=1.90e-14 T_osc=3.77 MeV lam/WDM=0.0142 cold=True f_nc=0.978 iso=True dNeff=6.6e-05 Lambda_H=35.6 keV
+U21_P_F0.09    m_G=7.35e-14 T_osc=7.41 MeV lam/WDM=0.00754 cold=True f_nc=0.978 iso=True dNeff=3.2e-05 Lambda_H=59.5 keV
+U21_P_F0.0625  m_G=3.37e-13 T_osc=15.7 MeV lam/WDM=0.00367 cold=True f_nc=0.977 iso=True dNeff=1.4e-05 Lambda_H=106 keV
+U21_P_F0.045   m_G=1.34e-12 T_osc=31 MeV lam/WDM=0.00191 cold=True f_nc=0.977 iso=True dNeff=6.8e-06 Lambda_H=179 keV
+U21_P_F0.03    m_G=8.07e-12 T_osc=71.8 MeV lam/WDM=0.000799 cold=True f_nc=0.976 iso=True dNeff=2.7e-06 Lambda_H=360 keV
+U21_H_F1       m_G=2.56e-18 T_osc=0.0571 MeV lam/WDM=2.82 cold=False f_nc=0.981 iso=False dNeff=6.4e-03 Lambda_H=1.17 keV
+U21_H_F0.7     m_G=1.15e-17 T_osc=0.117 MeV lam/WDM=1.41 cold=False f_nc=0.980 iso=True dNeff=2.9e-03 Lambda_H=2.07 keV
+U21_H_F0.5     m_G=5.48e-17 T_osc=0.233 MeV lam/WDM=0.667 cold=False f_nc=0.980 iso=True dNeff=1.4e-03 Lambda_H=3.83 keV
+U21_H_F0.35    m_G=2.64e-16 T_osc=0.468 MeV lam/WDM=0.316 cold=False f_nc=0.979 iso=True dNeff=6.3e-04 Lambda_H=7.03 keV
+U21_H_F0.25    m_G=1.08e-15 T_osc=0.907 MeV lam/WDM=0.164 cold=False f_nc=0.979 iso=True dNeff=3.0e-04 Lambda_H=12 keV
+U21_H_F0.18    m_G=4.22e-15 T_osc=1.78 MeV lam/WDM=0.0865 cold=False f_nc=0.979 iso=True dNeff=1.5e-04 Lambda_H=20.2 keV
+U21_H_F0.125   m_G=1.90e-14 T_osc=3.77 MeV lam/WDM=0.0427 cold=True f_nc=0.978 iso=True dNeff=6.6e-05 Lambda_H=35.6 keV
+U21_H_F0.09    m_G=7.35e-14 T_osc=7.41 MeV lam/WDM=0.0226 cold=True f_nc=0.978 iso=True dNeff=3.2e-05 Lambda_H=59.5 keV
+U21_H_F0.0625  m_G=3.37e-13 T_osc=15.7 MeV lam/WDM=0.011 cold=True f_nc=0.977 iso=True dNeff=1.4e-05 Lambda_H=106 keV
+U21_H_F0.045   m_G=1.34e-12 T_osc=31 MeV lam/WDM=0.00572 cold=True f_nc=0.977 iso=True dNeff=6.8e-06 Lambda_H=179 keV
+U21_H_F0.03    m_G=8.07e-12 T_osc=71.8 MeV lam/WDM=0.0024 cold=True f_nc=0.976 iso=True dNeff=2.7e-06 Lambda_H=360 keV
+U21_D_F1       m_G=3.24e-17 T_osc=0.186 MeV lam/WDM=0.919 cold=False f_nc=0.937 iso=True dNeff=5.7e-03 Lambda_H=4.16 keV
+U21_D_F0.7     m_G=1.57e-16 T_osc=0.371 MeV lam/WDM=0.436 cold=False f_nc=0.935 iso=True dNeff=2.6e-03 Lambda_H=7.68 keV
+U21_D_F0.5     m_G=6.61e-16 T_osc=0.718 MeV lam/WDM=0.223 cold=False f_nc=0.934 iso=True dNeff=1.2e-03 Lambda_H=13.3 keV
+U21_D_F0.35    m_G=2.90e-15 T_osc=1.47 MeV lam/WDM=0.112 cold=False f_nc=0.933 iso=True dNeff=5.7e-04 Lambda_H=23.3 keV
+U21_D_F0.25    m_G=1.16e-14 T_osc=2.95 MeV lam/WDM=0.0587 cold=False f_nc=0.931 iso=True dNeff=2.7e-04 Lambda_H=39.4 keV
+U21_D_F0.18    m_G=4.49e-14 T_osc=5.79 MeV lam/WDM=0.0312 cold=True f_nc=0.930 iso=True dNeff=1.3e-04 Lambda_H=65.7 keV
+U21_D_F0.125   m_G=2.03e-13 T_osc=12.3 MeV lam/WDM=0.0154 cold=True f_nc=0.929 iso=True dNeff=5.9e-05 Lambda_H=117 keV
+U21_D_F0.09    m_G=8.05e-13 T_osc=24.2 MeV lam/WDM=0.008 cold=True f_nc=0.927 iso=True dNeff=2.8e-05 Lambda_H=197 keV
+U21_D_F0.0625  m_G=3.74e-12 T_osc=51.2 MeV lam/WDM=0.00386 cold=True f_nc=0.925 iso=True dNeff=1.2e-05 Lambda_H=354 keV
+U21_D_F0.045   m_G=1.74e-11 T_osc=101 MeV lam/WDM=0.00182 cold=True f_nc=0.924 iso=True dNeff=5.9e-06 Lambda_H=647 keV
+U21_D_F0.03    m_G=1.57e-10 T_osc=235 MeV lam/WDM=0.00059 cold=True f_nc=0.921 iso=True dNeff=2.3e-06 Lambda_H=1.59e+03 keV
+U21_A_F1       m_G=2.24e-20 T_osc=0.00548 MeV lam/WDM=7.94 cold=False f_nc=0.998 iso=False dNeff=6.3e-02 Lambda_H=0.11 keV
+U21_A_F0.7     m_G=1.00e-19 T_osc=0.0116 MeV lam/WDM=4.06 cold=False f_nc=0.998 iso=False dNeff=2.9e-02 Lambda_H=0.194 keV
+U21_A_F0.5     m_G=4.03e-19 T_osc=0.0229 MeV lam/WDM=2.17 cold=False f_nc=0.998 iso=False dNeff=1.4e-02 Lambda_H=0.328 keV
+U21_A_F0.35    m_G=1.76e-18 T_osc=0.0476 MeV lam/WDM=1.11 cold=False f_nc=0.998 iso=False dNeff=6.1e-03 Lambda_H=0.575 keV
+U21_A_F0.25    m_G=7.14e-18 T_osc=0.0948 MeV lam/WDM=0.589 cold=False f_nc=0.998 iso=False dNeff=2.8e-03 Lambda_H=0.977 keV
+U21_A_F0.18    m_G=3.52e-17 T_osc=0.193 MeV lam/WDM=0.274 cold=False f_nc=0.998 iso=True dNeff=1.3e-03 Lambda_H=1.84 keV
+U21_A_F0.125   m_G=1.87e-16 T_osc=0.4 MeV lam/WDM=0.124 cold=False f_nc=0.998 iso=True dNeff=5.8e-04 Lambda_H=3.53 keV
+U21_A_F0.09    m_G=7.86e-16 T_osc=0.78 MeV lam/WDM=0.0633 cold=False f_nc=0.998 iso=True dNeff=2.7e-04 Lambda_H=6.15 keV
+U21_A_F0.0625  m_G=3.75e-15 T_osc=1.68 MeV lam/WDM=0.0305 cold=True f_nc=0.998 iso=True dNeff=1.2e-04 Lambda_H=11.2 keV
+U21_A_F0.045   m_G=1.52e-14 T_osc=3.37 MeV lam/WDM=0.0158 cold=True f_nc=0.997 iso=True dNeff=5.6e-05 Lambda_H=19.1 keV
+U21_A_F0.03    m_G=8.57e-14 T_osc=8 MeV lam/WDM=0.00701 cold=True f_nc=0.997 iso=True dNeff=2.2e-05 Lambda_H=37.1 keV
+   [1/149] thermal (cache) mixed_2keV_f0.300 ok  (0.0 min)
+   [2/149] thermal (cache) mixed_4keV_f0.643 ok  (0.0 min)
+   [3/149] thermal (cache) family 0.2 keV f=0.01 ok  (0.0 min)
+   [4/149] thermal (cache) family 0.2 keV f=0.02 ok  (0.0 min)
+   [5/149] thermal (cache) family 0.2 keV f=0.03 ok  (0.0 min)
+   [6/149] thermal (cache) family 0.2 keV f=0.05 ok  (0.0 min)
+   [7/149] thermal (cache) family 0.2 keV f=0.1 ok  (0.0 min)
+   [8/149] thermal (cache) family 0.2 keV f=0.15 ok  (0.0 min)
+   [9/149] thermal (cache) family 0.2 keV f=0.2 ok  (0.0 min)
+   [10/149] thermal (cache) family 0.2 keV f=0.3 ok  (0.0 min)
+   [11/149] thermal (cache) family 0.2 keV f=0.4 ok  (0.0 min)
+   [12/149] thermal (cache) family 0.2 keV f=0.55 ok  (0.0 min)
+   [13/149] thermal (cache) family 0.2 keV f=0.75 ok  (0.0 min)
+   [14/149] thermal (cache) family 0.2 keV f=1 ok  (0.0 min)
+   [15/149] thermal (cache) family 0.3 keV f=0.01 ok  (0.0 min)
+   [16/149] thermal (cache) family 0.3 keV f=0.02 ok  (0.0 min)
+   [17/149] thermal (cache) family 0.3 keV f=0.03 ok  (0.0 min)
+   [18/149] thermal (cache) family 0.3 keV f=0.05 ok  (0.0 min)
+   [19/149] thermal (cache) family 0.3 keV f=0.1 ok  (0.0 min)
+   [20/149] thermal (cache) family 0.3 keV f=0.15 ok  (0.0 min)
+   [21/149] thermal (cache) family 0.3 keV f=0.2 ok  (0.0 min)
+   [22/149] thermal (cache) family 0.3 keV f=0.3 ok  (0.0 min)
+   [23/149] thermal (cache) family 0.3 keV f=0.4 ok  (0.0 min)
+   [24/149] thermal (cache) family 0.3 keV f=0.55 ok  (0.0 min)
+   [25/149] thermal (cache) family 0.3 keV f=0.75 ok  (0.0 min)
+   [26/149] thermal (cache) family 0.3 keV f=1 ok  (0.0 min)
+   [27/149] thermal (cache) family 0.4 keV f=0.01 ok  (0.0 min)
+   [28/149] thermal (cache) family 0.4 keV f=0.02 ok  (0.0 min)
+   [29/149] thermal (cache) family 0.4 keV f=0.03 ok  (0.0 min)
+   [30/149] thermal (cache) family 0.4 keV f=0.05 ok  (0.0 min)
+   [31/149] thermal (cache) family 0.4 keV f=0.1 ok  (0.0 min)
+   [32/149] thermal (cache) family 0.4 keV f=0.15 ok  (0.0 min)
+   [33/149] thermal (cache) mixed_1keV_f0.140 ok  (0.0 min)
+   [34/149] thermal (cache) family 0.4 keV f=0.2 ok  (0.0 min)
+   [35/149] thermal (cache) family 0.4 keV f=0.3 ok  (0.0 min)
+   [36/149] thermal (cache) family 0.4 keV f=0.4 ok  (0.0 min)
+   [37/149] thermal (cache) family 0.4 keV f=0.55 ok  (0.0 min)
+   [38/149] thermal (cache) family 0.4 keV f=0.75 ok  (0.0 min)
+   [39/149] thermal (cache) family 0.4 keV f=1 ok  (0.0 min)
+   [40/149] thermal (cache) family 0.5 keV f=0.02 ok  (0.0 min)
+   [41/149] thermal (cache) family 0.5 keV f=0.01 ok  (0.0 min)
+   [42/149] thermal (cache) family 0.5 keV f=0.05 ok  (0.0 min)
+   [43/149] thermal (cache) family 0.5 keV f=0.03 ok  (0.0 min)
+   [44/149] thermal (cache) family 0.5 keV f=0.15 ok  (0.0 min)
+   [45/149] thermal (cache) family 0.5 keV f=0.1 ok  (0.0 min)
+   [46/149] thermal (cache) family 0.5 keV f=0.2 ok  (0.0 min)
+   [47/149] thermal (cache) family 0.5 keV f=0.3 ok  (0.0 min)
+   [48/149] thermal (cache) family 0.5 keV f=0.4 ok  (0.0 min)
+   [49/149] thermal (cache) family 0.5 keV f=0.55 ok  (0.0 min)
+   [50/149] thermal (cache) family 0.5 keV f=0.75 ok  (0.0 min)
+   [51/149] thermal (cache) family 0.75 keV f=0.01 ok  (0.0 min)
+   [52/149] thermal (cache) family 0.5 keV f=1 ok  (0.0 min)
+   [53/149] thermal (cache) family 0.75 keV f=0.02 ok  (0.0 min)
+   [54/149] thermal (cache) family 0.75 keV f=0.03 ok  (0.0 min)
+   [55/149] thermal (cache) family 0.75 keV f=0.05 ok  (0.0 min)
+   [56/149] thermal (cache) family 0.75 keV f=0.15 ok  (0.0 min)
+   [57/149] thermal (cache) family 0.75 keV f=0.1 ok  (0.0 min)
+   [58/149] thermal (cache) family 0.75 keV f=0.2 ok  (0.0 min)
+   [59/149] thermal (cache) family 0.75 keV f=0.3 ok  (0.0 min)
+   [60/149] thermal (cache) family 0.75 keV f=0.4 ok  (0.0 min)
+   [61/149] thermal (cache) family 0.75 keV f=0.55 ok  (0.0 min)
+   [62/149] thermal (cache) family 0.75 keV f=0.75 ok  (0.0 min)
+   [63/149] thermal (cache) family 1 keV f=0.01 ok  (0.0 min)
+   [64/149] thermal (cache) family 1 keV f=0.02 ok  (0.0 min)
+   [65/149] thermal (cache) family 0.75 keV f=1 ok  (0.0 min)
+   [66/149] thermal (cache) family 1 keV f=0.03 ok  (0.0 min)
+   [67/149] thermal (cache) family 1 keV f=0.05 ok  (0.0 min)
+   [68/149] thermal (cache) family 1 keV f=0.1 ok  (0.0 min)
+   [69/149] thermal (cache) family 1 keV f=0.2 ok  (0.0 min)
+   [70/149] thermal (cache) family 1 keV f=0.15 ok  (0.0 min)
+   [71/149] thermal (cache) family 1 keV f=0.3 ok  (0.0 min)
+   [72/149] thermal (cache) family 1 keV f=0.4 ok  (0.0 min)
+   [73/149] thermal (cache) thermal_5.3keV ok  (0.0 min)
+   [74/149] thermal (cache) family 1 keV f=0.75 ok  (0.0 min)
+   [75/149] thermal (cache) family 1 keV f=0.55 ok  (0.0 min)
+   [76/149] thermal (cache) family 1.5 keV f=0.01 ok  (0.0 min)
+   [77/149] thermal (cache) family 1.5 keV f=0.02 ok  (0.0 min)
+   [78/149] thermal (cache) family 1 keV f=1 ok  (0.0 min)
+   [79/149] thermal (cache) family 1.5 keV f=0.03 ok  (0.0 min)
+   [80/149] thermal (cache) family 1.5 keV f=0.1 ok  (0.0 min)
+   [81/149] thermal (cache) family 1.5 keV f=0.15 ok  (0.0 min)
+   [82/149] thermal (cache) family 1.5 keV f=0.05 ok  (0.0 min)
+   [83/149] thermal (cache) family 1.5 keV f=0.3 ok  (0.0 min)
+   [84/149] thermal (cache) family 1.5 keV f=0.2 ok  (0.0 min)
+   [85/149] thermal (cache) family 1.5 keV f=0.4 ok  (0.0 min)
+   [86/149] thermal (cache) family 1.5 keV f=0.75 ok  (0.0 min)
+   [87/149] thermal (cache) family 1.5 keV f=0.55 ok  (0.0 min)
+   [88/149] thermal (cache) family 1.5 keV f=1 ok  (0.0 min)
+   [89/149] thermal (cache) family 2 keV f=0.03 ok  (0.0 min)
+   [90/149] thermal (cache) family 2 keV f=0.02 ok  (0.0 min)
+   [91/149] thermal (cache) family 2 keV f=0.01 ok  (0.0 min)
+   [92/149] thermal (cache) family 2 keV f=0.05 ok  (0.0 min)
+   [93/149] thermal (cache) family 2 keV f=0.1 ok  (0.0 min)
+   [94/149] thermal (cache) family 2 keV f=0.2 ok  (0.0 min)
+   [95/149] thermal (cache) family 2 keV f=0.15 ok  (0.0 min)
+   [96/149] thermal (cache) family 2 keV f=0.4 ok  (0.0 min)
+   [97/149] thermal (cache) family 2 keV f=0.3 ok  (0.0 min)
+   [98/149] thermal (cache) family 2 keV f=0.75 ok  (0.0 min)
+   [99/149] thermal (cache) family 2 keV f=0.55 ok  (0.0 min)
+   [100/149] thermal (cache) family 3 keV f=0.01 ok  (0.0 min)
+   [101/149] thermal (cache) family 2 keV f=1 ok  (0.0 min)
+   [102/149] thermal (cache) family 3 keV f=0.03 ok  (0.0 min)
+   [103/149] thermal (cache) family 3 keV f=0.05 ok  (0.0 min)
+   [104/149] thermal (cache) family 3 keV f=0.1 ok  (0.0 min)
+   [105/149] thermal (cache) family 3 keV f=0.02 ok  (0.0 min)
+   [106/149] thermal (cache) family 3 keV f=0.15 ok  (0.0 min)
+   [107/149] thermal (cache) family 3 keV f=0.2 ok  (0.0 min)
+   [108/149] thermal (cache) family 3 keV f=0.4 ok  (0.0 min)
+   [109/149] thermal (cache) family 3 keV f=0.3 ok  (0.0 min)
+   [110/149] thermal (cache) family 3 keV f=0.55 ok  (0.0 min)
+   [111/149] thermal (cache) family 3 keV f=0.75 ok  (0.0 min)
+   [112/149] thermal (cache) family 4 keV f=0.01 ok  (0.0 min)
+   [113/149] thermal (cache) family 4 keV f=0.02 ok  (0.0 min)
+   [114/149] thermal (cache) family 4 keV f=0.05 ok  (0.0 min)
+   [115/149] thermal (cache) family 4 keV f=0.03 ok  (0.0 min)
+   [116/149] thermal (cache) family 3 keV f=1 ok  (0.0 min)
+   [117/149] thermal (cache) family 4 keV f=0.1 ok  (0.0 min)
+   [118/149] thermal (cache) family 4 keV f=0.15 ok  (0.0 min)
+   [119/149] thermal (cache) family 4 keV f=0.3 ok  (0.0 min)
+   [120/149] thermal (cache) family 4 keV f=0.2 ok  (0.0 min)
+   [121/149] thermal (cache) family 4 keV f=0.55 ok  (0.0 min)
+   [122/149] thermal (cache) family 4 keV f=0.4 ok  (0.0 min)
+   [123/149] thermal (cache) family 4 keV f=1 ok  (0.0 min)
+   [124/149] thermal (cache) family 4 keV f=0.75 ok  (0.0 min)
+   [125/149] thermal (cache) family 6 keV f=0.01 ok  (0.0 min)
+   [126/149] thermal (cache) family 6 keV f=0.02 ok  (0.0 min)
+   [127/149] thermal (cache) family 6 keV f=0.05 ok  (0.0 min)
+   [128/149] thermal (cache) family 6 keV f=0.03 ok  (0.0 min)
+   [129/149] thermal (cache) family 6 keV f=0.1 ok  (0.0 min)
+   [130/149] thermal (cache) family 6 keV f=0.2 ok  (0.0 min)
+   [131/149] thermal (cache) family 6 keV f=0.15 ok  (0.0 min)
+   [132/149] thermal (cache) family 6 keV f=0.3 ok  (0.0 min)
+   [133/149] thermal (cache) family 6 keV f=0.4 ok  (0.0 min)
+   [134/149] thermal (cache) family 6 keV f=0.75 ok  (0.0 min)
+   [135/149] thermal (cache) family 6 keV f=0.55 ok  (0.0 min)
+   [136/149] thermal (cache) family 6 keV f=1 ok  (0.0 min)
+   [137/149] thermal (cache) family 10 keV f=0.02 ok  (0.0 min)
+   [138/149] thermal (cache) family 10 keV f=0.01 ok  (0.0 min)
+   [139/149] thermal (cache) family 10 keV f=0.05 ok  (0.0 min)
+   [140/149] thermal (cache) family 10 keV f=0.1 ok  (0.0 min)
+   [141/149] thermal (cache) family 10 keV f=0.03 ok  (0.0 min)
+   [142/149] thermal (cache) family 10 keV f=0.2 ok  (0.0 min)
+   [143/149] thermal (cache) family 10 keV f=0.3 ok  (0.0 min)
+   [144/149] thermal (cache) family 10 keV f=0.4 ok  (0.0 min)
+   [145/149] thermal (cache) family 10 keV f=0.15 ok  (0.0 min)
+   [146/149] thermal (cache) family 10 keV f=0.55 ok  (0.0 min)
+   [147/149] thermal (cache) family 10 keV f=0.75 ok  (0.0 min)
+   [148/149] thermal (cache) family 10 keV f=1 ok  (0.0 min)
+   [149/149] thermal (cache) mixed_3keV_f0.469 ok  (0.0 min)
+   [1/25] row U21_P_F0.5 ok  (26.3 min)
+   [2/25] row U21_P_F0.35 ok  (27.1 min)
+   [3/25] row U21_P_F0.7 ok  (28.5 min)
+   [4/25] row U21_P_F1 ok  (29.1 min)
+   [5/25] row U21_P_F0.25 ok  (54.3 min)
+   [6/25] row U21_H_F1 ok  (55.6 min)
+   [7/25] row U21_H_F0.7 ok  (56.6 min)
+   [8/25] row U21_H_F0.5 ok  (57.2 min)
+   [9/25] row U21_H_F0.25 ok  (81.8 min)
+   [10/25] row U21_H_F0.35 ok  (83.7 min)
+   [11/25] row U21_D_F1 ok  (83.7 min)
+   [12/25] row U21_H_F0.18 ok  (84.5 min)
+   [13/25] row U21_D_F0.7 ok  (107.5 min)
+   [14/25] row U21_D_F0.5 ok  (111.2 min)
+   [15/25] row U21_D_F0.35 ok  (111.8 min)
+   [16/25] row U21_D_F0.25 ok  (113.4 min)
+   [17/25] row U21_A_F0.35 ok  (148.6 min)
+   [18/25] row U21_A_F0.5 ok  (149.9 min)
+   [19/25] row U21_A_F0.7 ok  (154.1 min)
+   [20/25] row U21_A_F1 ok  (157.3 min)
+   [21/25] row U21_A_F0.18 ok  (175.5 min)
+   [22/25] row U21_A_F0.125 ok  (179.0 min)
+   [23/25] row U21_A_F0.25 ok  (180.3 min)
+   [24/25] row U21_A_F0.09 ok  (182.6 min)
+   [25/25] row U21_P_F0.18 ok  (204.2 min)
+U21_P_F1       dA=0.323 fit m=4.30 f=0.644 primary=True
+U21_P_F0.7     dA=0.185 fit m=3.00 f=0.153 primary=True
+U21_P_F0.5     dA=0.094 fit m=10.00 f=0.402 primary=True
+U21_P_F0.35    dA=0.043 fit m=10.00 f=0.135 primary=True
+U21_P_F0.25    dA=0.018 fit m=10.00 f=0.044 primary=True
+U21_H_F1       dA=0.609 fit m=2.49 f=0.962 primary=False
+U21_H_F0.7     dA=0.402 fit m=3.00 f=0.576 primary=False
+U21_H_F0.5     dA=0.231 fit m=3.07 f=0.221 primary=True
+U21_H_F0.35    dA=0.121 fit m=10.00 f=0.578 primary=True
+U21_H_F0.25    dA=0.063 fit m=6.16 f=0.108 primary=True
+U21_H_F0.18    dA=0.032 fit m=10.00 f=0.227 primary=True
+U21_D_F1       dA=0.116 fit m=9.16 f=0.420 primary=True
+U21_D_F0.7     dA=0.055 fit m=10.00 f=0.185 primary=True
+U21_D_F0.5     dA=0.025 fit m=6.00 f=0.010 primary=True
+U21_D_F0.35    dA=0.008 fit m=10.00 f=0.061 primary=True
+U21_D_F0.25    dA=0.002 fit m=10.00 f=0.029 primary=True
+U21_A_F1       dA=0.880 fit m=0.93 f=1.000 primary=False
+U21_A_F0.7     dA=0.746 fit m=1.65 f=0.969 primary=False
+U21_A_F0.5     dA=0.562 fit m=2.82 f=0.983 primary=False
+U21_A_F0.35    dA=0.367 fit m=4.77 f=0.920 primary=False
+U21_A_F0.25    dA=0.226 fit m=3.82 f=0.295 primary=True
+U21_A_F0.18    dA=0.116 fit m=10.00 f=0.520 primary=True
+U21_A_F0.125   dA=0.053 fit m=10.00 f=0.184 primary=True
+U21_A_F0.09    dA=0.023 fit m=4.00 f=0.010 primary=True
+U21_P_F0.18    dA=0.006 fit m=7.21 f=0.010 primary=True
+U21: BANDA_BAJO_EL_BENCHMARK {'P': {'F_max_over_F0': 0.7, 'F_min_over_F0': 0.03, 'n_pass': 10, 'contiguous': True}, 'H': {'F_max_over_F0': 0.5, 'F_min_over_F0': 0.03, 'n_pass': 9, 'contiguous': True}, 'D': {'F_max_over_F0': 1.0, 'F_min_over_F0': 0.03, 'n_pass': 11, 'contiguous': True}, 'A': {'F_max_over_F0': 0.18, 'F_min_over_F0': 0.03, 'n_pass': 6, 'contiguous': True}}

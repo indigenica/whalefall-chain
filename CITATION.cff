@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this code or these data, please cite the preprint below."
+title: "WHALEFALL (whale 5): code, frozen inputs, results, preregistrations and audits for the version-2 preprint"
+type: software
+authors:
+  - family-names: Bautista
+    given-names: Jose
+    email: jozebautista@gmail.com
+    orcid: "https://orcid.org/0009-0001-6655-4028"
+repository-code: "https://github.com/indigenica/whalefall-chain"
+license:
+  - GPL-3.0-or-later
+  - CC-BY-NC-4.0
+keywords:
+  - cosmology
+  - bounce
+  - inflation
+  - topological defects
+  - string-wall networks
+  - pseudo-Goldstone dark matter
+  - Lyman-alpha forest
+  - preregistration
+preferred-citation:
+  type: article
+  title: "WHALEFALL: a preregistered, falsifiable toy cosmology from a quasi-topological bounce to cold dark matter from the collapse of an RP3 string-wall network (version 2)"
+  authors:
+    - family-names: Bautista
+      given-names: Jose
+      email: jozebautista@gmail.com
+      orcid: "https://orcid.org/0009-0001-6655-4028"
+  year: 2026
+  status: preprint
+  publisher:
+    name: Zenodo

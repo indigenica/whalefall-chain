@@ -1,0 +1,264 @@
+{
+  "alpha_dimensionless": 0.98,
+  "V0_dimensionless": 0.01,
+  "width": 0.8,
+  "exact_equation_error": [
+    1.27675647831893e-15,
+    4.524158825347513e-15,
+    4.649058915617843e-16
+  ],
+  "pass_equations": true,
+  "pass_homogeneous_convergence": true,
+  "runs": [
+    {
+      "n": 64,
+      "eps": 0.0,
+      "homogeneous_error": [
+        4.945481508533689e-06,
+        1.2486422562796307e-05,
+        1.9874869460867473e-05
+      ],
+      "constraint_u_max": 0.0003067643557498396,
+      "constraint_v_max": 0.00018834451794322085,
+      "min_margin": 0.039530133176572384,
+      "diamond_fixed_point_error": 1.925681836212334e-13,
+      "local_expansion_min": -0.30873445654904463,
+      "local_expansion_max": 0.3087395881223048,
+      "max_density": 15.075320599037614,
+      "geometric_margin_min": 0.03955717438426398,
+      "chi_min": -2.0970261248141684,
+      "chi_max": 2.0970062499447075,
+      "final_corner": [
+        0.8060520439905627,
+        -0.2762218781991255,
+        2.0970062499447075
+      ]
+    },
+    {
+      "n": 128,
+      "eps": 0.0,
+      "homogeneous_error": [
+        1.2359865709798967e-06,
+        3.1234564399906795e-06,
+        4.966851415932894e-06
+      ],
+      "constraint_u_max": 8.274200218863224e-05,
+      "constraint_v_max": 4.8840730365079295e-05,
+      "min_margin": 0.039582137313267374,
+      "diamond_fixed_point_error": 1.957323192414151e-13,
+      "local_expansion_min": -0.3172787949721044,
+      "local_expansion_max": 0.31727975182651,
+      "max_density": 15.075505618978942,
+      "geometric_margin_min": 0.03958745979038869,
+      "chi_min": -2.0970261248141684,
+      "chi_max": 2.0970211579627525,
+      "final_corner": [
+        0.8060489268328505,
+        -0.2762125152330027,
+        2.0970211579627525
+      ]
+    },
+    {
+      "n": 256,
+      "eps": 0.0,
+      "homogeneous_error": [
+        3.0895262326247064e-07,
+        7.809772263334125e-07,
+        1.241596669032674e-06
+      ],
+      "constraint_u_max": 2.1454921448315377e-05,
+      "constraint_v_max": 1.24422366583371e-05,
+      "min_margin": 0.03959548341599816,
+      "diamond_fixed_point_error": 1.9872992140790302e-13,
+      "local_expansion_min": -0.3214722213443871,
+      "local_expansion_max": 0.32147241787683195,
+      "max_density": 15.075551828476712,
+      "geometric_margin_min": 0.039596631135499716,
+      "chi_min": -2.0970261248141684,
+      "chi_max": 2.0970248832174994,
+      "final_corner": [
+        0.8060481483393764,
+        -0.27621017275378906,
+        2.0970248832174994
+      ]
+    },
+    {
+      "n": 64,
+      "eps": 0.01,
+      "homogeneous_error": [
+        0.0002783418820979655,
+        0.0011526545443426017,
+        0.014756881976801361
+      ],
+      "constraint_u_max": 0.0003074243069283114,
+      "constraint_v_max": 0.0001895261621732857,
+      "min_margin": 0.03875556918543559,
+      "diamond_fixed_point_error": 1.925681836212334e-13,
+      "local_expansion_min": -0.3087344079355214,
+      "local_expansion_max": 0.3088428166019991,
+      "max_density": 15.441638585861526,
+      "geometric_margin_min": 0.03884405608627495,
+      "chi_min": -2.0970261248141684,
+      "chi_max": 2.097684724038105,
+      "final_corner": [
+        0.8062592407642065,
+        -0.277091820951382,
+        2.097684724038105
+      ]
+    },
+    {
+      "n": 128,
+      "eps": 0.01,
+      "homogeneous_error": [
+        0.0002753945849648387,
+        0.0011591917719828704,
+        0.014779621070707849
+      ],
+      "constraint_u_max": 8.292121546019003e-05,
+      "constraint_v_max": 4.892064109047155e-05,
+      "min_margin": 0.03874866966990872,
+      "diamond_fixed_point_error": 1.957323192414151e-13,
+      "local_expansion_min": -0.31727879232207984,
+      "local_expansion_max": 0.3173691898050678,
+      "max_density": 15.443054077430428,
+      "geometric_margin_min": 0.03877073352414617,
+      "chi_min": -2.0970261248141684,
+      "chi_max": 2.0976994349591944,
+      "final_corner": [
+        0.8062561835600639,
+        -0.2770825191065081,
+        2.0976994349591944
+      ]
+    },
+    {
+      "n": 256,
+      "eps": 0.01,
+      "homogeneous_error": [
+        0.00027467902843880676,
+        0.0011608549745618646,
+        0.014781729982862313
+      ],
+      "constraint_u_max": 2.150130280127048e-05,
+      "constraint_v_max": 1.2447386561668808e-05,
+      "min_margin": 0.03874710165796513,
+      "diamond_fixed_point_error": 1.9939605522267811e-13,
+      "local_expansion_min": -0.3214722211922875,
+      "local_expansion_max": 0.3215548001370943,
+      "max_density": 15.443468143909882,
+      "geometric_margin_min": 0.03875264400748468,
+      "chi_min": -2.0970261248141684,
+      "chi_max": 2.0977031109229975,
+      "final_corner": [
+        0.8062554200639578,
+        -0.27708019189861827,
+        2.0977031109229975
+      ]
+    },
+    {
+      "n": 64,
+      "eps": 0.05,
+      "homogeneous_error": [
+        0.0013798067691845883,
+        0.0055996070945628085,
+        0.07381656472704967
+      ],
+      "constraint_u_max": 0.00031108406960218365,
+      "constraint_v_max": 0.00023328719029572275,
+      "min_margin": 0.035429881696051164,
+      "diamond_fixed_point_error": 1.9262369477246466e-13,
+      "local_expansion_min": -0.30873421345979785,
+      "local_expansion_max": 0.3096840985518054,
+      "max_density": 17.00623640373802,
+      "geometric_margin_min": 0.03549261177287788,
+      "chi_min": -2.0970261248141684,
+      "chi_max": 2.1003597984068936,
+      "final_corner": [
+        0.8071667377701377,
+        -0.28020674795054407,
+        2.1003597984068936
+      ]
+    },
+    {
+      "n": 128,
+      "eps": 0.05,
+      "homogeneous_error": [
+        0.0013772851808635522,
+        0.005606877707061975,
+        0.07389512760118877
+      ],
+      "constraint_u_max": 8.390956311263225e-05,
+      "constraint_v_max": 5.924657526203086e-05,
+      "min_margin": 0.03541975109476282,
+      "diamond_fixed_point_error": 1.978417429882029e-13,
+      "local_expansion_min": -0.3172787817218513,
+      "local_expansion_max": 0.31817409321617474,
+      "max_density": 17.01419470760004,
+      "geometric_margin_min": 0.035436259870133435,
+      "chi_min": -2.0970261248141684,
+      "chi_max": 2.1003736318055344,
+      "final_corner": [
+        0.8071640609868922,
+        -0.28019733941272595,
+        2.1003736318055344
+      ]
+    },
+    {
+      "n": 256,
+      "eps": 0.05,
+      "homogeneous_error": [
+        0.0013767660511748714,
+        0.005610168973943286,
+        0.0738973319507581
+      ],
+      "constraint_u_max": 2.1757349721089217e-05,
+      "constraint_v_max": 1.493404591907732e-05,
+      "min_margin": 0.035417546091653686,
+      "diamond_fixed_point_error": 1.9917401061775308e-13,
+      "local_expansion_min": -0.3214722205836822,
+      "local_expansion_max": 0.32234112997987996,
+      "max_density": 17.01551576727513,
+      "geometric_margin_min": 0.0354211475083942,
+      "chi_min": -2.0970261248141684,
+      "chi_max": 2.1003770882935737,
+      "final_corner": [
+        0.8071633926706642,
+        -0.28019498539819315,
+        2.1003770882935737
+      ]
+    }
+  ],
+  "perturbations": [
+    {
+      "eps": 0.01,
+      "constraint_u_refinement_ratios": [
+        3.707426443548744,
+        3.8565670288262877
+      ],
+      "constraint_v_refinement_ratios": [
+        3.874155324800116,
+        3.9301937678324026
+      ],
+      "pass_local": true,
+      "final_corner_refinement": 3.6759638031291786e-06
+    },
+    {
+      "eps": 0.05,
+      "constraint_u_refinement_ratios": [
+        3.7073732487989943,
+        3.856607729722679
+      ],
+      "constraint_v_refinement_ratios": [
+        3.93756414212905,
+        3.967215286672383
+      ],
+      "pass_local": true,
+      "final_corner_refinement": 3.4564880393439523e-06
+    }
+  ],
+  "limitations": [
+    "Local annulus with scalar-only closed-FRW background, not initial collapse from large turnaround",
+    "Perturbations on one null boundary with solved characteristic constraints",
+    "Does not test regular centre, dust or large eternal-regime excursions",
+    "No emergence of closed patch or canonical inflaton is asserted"
+  ]
+}

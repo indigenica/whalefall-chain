@@ -1,0 +1,207 @@
+{
+  "checked_utc": "2026-10-04T21:41:04.536984+00:00",
+  "originals_checked": 4049,
+  "original_bytes": 31135393686,
+  "originals_changed_or_removed": [],
+  "previous_campaign_files_checked": 67,
+  "previous_campaign_changed_or_removed": [],
+  "new_files_outside_authorized_folders": [],
+  "copied_sources": [
+    {
+      "source": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude_dual\\cadena_cierre_20261004\\results\\thermal.json",
+      "copy": "vendor\\thermal.json",
+      "source_sha256": "01c1d94af33dffa3e5c79bace62b7b015c9a099417a5e23038e5186fe10d8789",
+      "copy_sha256": "01c1d94af33dffa3e5c79bace62b7b015c9a099417a5e23038e5186fe10d8789",
+      "identical": true
+    },
+    {
+      "source": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude_dual\\cadena_cierre_20261004\\vendor\\c32b_scars_kibble.py",
+      "copy": "vendor\\c32b_scars_kibble.py",
+      "source_sha256": "a1edae073851c4605ab69b747d2360279be5a297146658b5430aca26b48c28a2",
+      "copy_sha256": "a1edae073851c4605ab69b747d2360279be5a297146658b5430aca26b48c28a2",
+      "identical": true
+    },
+    {
+      "source": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude\\tools\\c33_q_decays_sympy.py",
+      "copy": "vendor\\c33_q_decays_sympy.py",
+      "source_sha256": "49fc352fb37d90f29647b95a271547565388940c135b1b0dfd81ad2b0fe29ddc",
+      "copy_sha256": "49fc352fb37d90f29647b95a271547565388940c135b1b0dfd81ad2b0fe29ddc",
+      "identical": true
+    },
+    {
+      "source": "F:\\Proyectos\\Cencia\\Akashic alpha engine\\whalefall\\WHALEFALL\\claude_dual\\cadena_cierre_20261004\\src\\common.py",
+      "copy": "src\\common.py",
+      "source_sha256": "b002414087f60cefdcb4bdc86fdf673c1419538d565351e02cea999f5212c9d5",
+      "copy_sha256": "b002414087f60cefdcb4bdc86fdf673c1419538d565351e02cea999f5212c9d5",
+      "identical": true
+    }
+  ],
+  "files": {
+    "src\\common.py": {
+      "bytes": 1384,
+      "sha256": "b002414087f60cefdcb4bdc86fdf673c1419538d565351e02cea999f5212c9d5"
+    },
+    "src\\decays.py": {
+      "bytes": 2670,
+      "sha256": "36781700e6fa8c4c46cd25a3df6dada7c1ae065457b396e9abae80dddd10936f"
+    },
+    "src\\experiments.py": {
+      "bytes": 4637,
+      "sha256": "6ecd6c892a435a93609ca4bb6cb9d2d9650335b6d8412672c3853d96179a9039"
+    },
+    "src\\integrity.py": {
+      "bytes": 3294,
+      "sha256": "e31d63bd3053d071c7236955070d9dad0570f2f9898587d79f8304646894d952"
+    },
+    "src\\late_fluid.py": {
+      "bytes": 5282,
+      "sha256": "8c2d2f103a6b8a0e515c5248cf6bb1333964b19f46bd4df47b8936f1d8364f88"
+    },
+    "src\\model.py": {
+      "bytes": 3461,
+      "sha256": "f39aa4f61ea5728d0a540fe2d240b9144f7789fdbedb62afa66c999b5f464c68"
+    },
+    "src\\plots.py": {
+      "bytes": 1624,
+      "sha256": "92c90adb1fc4c1d3956707f938ac5444cf94427ce2f71f593d8a96188267d1f5"
+    },
+    "src\\portal.py": {
+      "bytes": 1793,
+      "sha256": "beb982dcd359e0c75b860a5b3854b8fec03a92b07b5fce1e12a8092e75fb70d5"
+    },
+    "src\\run_all.py": {
+      "bytes": 2039,
+      "sha256": "9d23b3e120fe37f18e3ea08e9a09f83b30d7212f9f3464ad64bba31eb6cc77ce"
+    },
+    "src\\symbolic.py": {
+      "bytes": 1076,
+      "sha256": "cab091bdddedfc4e1d6513ed645f18e98695f8489825a97f8a311574e20c13ab"
+    },
+    "vendor\\c32b_scars_kibble.py": {
+      "bytes": 28578,
+      "sha256": "a1edae073851c4605ab69b747d2360279be5a297146658b5430aca26b48c28a2"
+    },
+    "vendor\\c33_q_decays_sympy.py": {
+      "bytes": 8684,
+      "sha256": "49fc352fb37d90f29647b95a271547565388940c135b1b0dfd81ad2b0fe29ddc"
+    },
+    "vendor\\thermal.json": {
+      "bytes": 114987,
+      "sha256": "01c1d94af33dffa3e5c79bace62b7b015c9a099417a5e23038e5186fe10d8789"
+    },
+    "logs\\decays.log": {
+      "bytes": 483,
+      "sha256": "7a3b96d4575b583bd6e1cfdedbcdf005d6bf8a7236e1cdfd9c75b522900174d3"
+    },
+    "logs\\experiments.log": {
+      "bytes": 6670,
+      "sha256": "9756b626ff0945300f1661cc9b0eb835313672c74efc24b4d3f222da3e4dbb05"
+    },
+    "logs\\late_fluid.log": {
+      "bytes": 4985,
+      "sha256": "2615ed9524102a45f9ff1fb40de5ec4fe86b7f36e58a98c2cc8ce7b8a518109f"
+    },
+    "logs\\plots.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "logs\\portal.log": {
+      "bytes": 83,
+      "sha256": "1c70f7592c656b516fbcbc489766637857e13ac60de61562a71dc6b28781362f"
+    },
+    "logs\\symbolic.log": {
+      "bytes": 16,
+      "sha256": "f90bc2d2389683d2907f5364a2fd7e2d3deaabebe11bb597f668a7d4190ef956"
+    },
+    "results\\benchmark.npz": {
+      "bytes": 798552,
+      "sha256": "8679de6d32700b19d464688dd48b38fe2932327b76028e90b7e9d0603d9faea8"
+    },
+    "results\\benchmark_spectator.npz": {
+      "bytes": 798562,
+      "sha256": "f7a310ecf9be313c858dc51461351d8357328a58ddaa3e1fd06175bfbea292c4"
+    },
+    "results\\cadena_efectiva.png": {
+      "bytes": 208196,
+      "sha256": "8cc1f1401ef037af7589d23128036942475bbe720ee593d4370dc91205536fed"
+    },
+    "results\\decays.json": {
+      "bytes": 3881,
+      "sha256": "e5786e73490d102a1c81ae6f1c5f7e684db6cef93eb5fa32fb552a4f48bc2cae"
+    },
+    "results\\execution.json": {
+      "bytes": 2134,
+      "sha256": "bcb0c395094b1d0a6f1214f9fc79bb5759d19de2fc106bc14e14b0aff833ca74"
+    },
+    "results\\experiments.json": {
+      "bytes": 11291,
+      "sha256": "4b4b81de17bf5b9e9b096ecb96881d1319117f0eedd6529561bc5c99c842f37b"
+    },
+    "results\\GR_minimal_limit.npz": {
+      "bytes": 797292,
+      "sha256": "b266de521612bf296c18c14503c3af90c3caf6f3d23224971c0625ca22d98d06"
+    },
+    "results\\late_fast_envelope.npz": {
+      "bytes": 84670,
+      "sha256": "9ebb9bf1a9713b49f4278c05bedd65fb9b67c2aa3d06321a57c54769063a99b5"
+    },
+    "results\\late_fluid.json": {
+      "bytes": 9900,
+      "sha256": "327fa78acf0feca981012ff9e3a704db5529cedf93e3800251b0b5228cd6d26c"
+    },
+    "results\\late_slow_envelope.npz": {
+      "bytes": 87088,
+      "sha256": "53cd296b3f99b4b2550b1fbb073ef649d20800f841ba9c1b9103d66444df37e4"
+    },
+    "results\\portal.json": {
+      "bytes": 1790,
+      "sha256": "9feac8ffcae74a88d617a8a3c6d5ad1d1ae3978e4361de53729af5494cad00f5"
+    },
+    "results\\Q_stress_1000.npz": {
+      "bytes": 798532,
+      "sha256": "f5748267585620c9bc29ca326cb4487e6c02c608166b4632a0c44fd1d5f8044a"
+    },
+    "results\\Q_stress_1000_spectator.npz": {
+      "bytes": 798534,
+      "sha256": "54eca3e2b7a48d3fccb5ec56c9829220b09ea3e50464151eb1322b4e41eb966a"
+    },
+    "results\\symbolic.json": {
+      "bytes": 130,
+      "sha256": "fe31332be0dc18c3e148b62259b0d205749df8aef9f68b4f8e80e069cab9b8ca"
+    },
+    "results\\transfer_stress.npz": {
+      "bytes": 796025,
+      "sha256": "f103c1e965929661bdd1c1aa5e32de7002ccdf2b19efeab4f85155dce00b7835"
+    },
+    "results\\units.json": {
+      "bytes": 500,
+      "sha256": "b03ec32206fc359ef307d0b56e4ee499a9f439b27bedce5e5a90a2890733d8fe"
+    },
+    "results\\legacy_decay_derivation\\C33_RESULTS.json": {
+      "bytes": 4995,
+      "sha256": "d55a3cacf9083f074ec45ac9914c11fde9cb4c4f8805adfd18f2cc21ae6b2178"
+    },
+    "INFORME.md": {
+      "bytes": 15859,
+      "sha256": "38c3342d5acceb9232516f70a35e81e12bcfea6a1d71b9b58c5641dad49d0435"
+    },
+    "MODELO.md": {
+      "bytes": 9112,
+      "sha256": "5679d6e919e75e8fd395088368f812ccecb3b624f6ec89c08b31883a48511f0b"
+    },
+    "PROTOCOLO.md": {
+      "bytes": 2086,
+      "sha256": "904fc672d2776a1abca1f21c76b01e324fc784a562a8799f976be90c3e8de09d"
+    },
+    "README.md": {
+      "bytes": 1845,
+      "sha256": "ec53695bf21ace8c7cc3bd821aa58104c3d6b5384d3f8dd5a917704d7066f137"
+    }
+  },
+  "scan_exclusions": [
+    ".git",
+    "__pycache__",
+    "the two authorized campaign folders"
+  ],
+  "passed": true
+}

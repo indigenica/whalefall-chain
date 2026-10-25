@@ -1,0 +1,135 @@
+{
+ "stage": "S2_pocket",
+ "plateau": "pole",
+ "provenance": {
+  "utc": "2026-10-18T19:04:56Z",
+  "plateau": "pole",
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+  "sources": {
+   "chain/check_reproduction.py": "565c56ca99fa26b3aea2c825d135cfe78b40147e8d200990e0bc6f041a851e4c",
+   "chain/figures.py": "9589f9b940cae2de6a5bc3d66df80cfb52436e5cf30f4a1d91a9ac545bdb1bd5",
+   "chain/pole_potential.py": "72c326e3ed21be78804f34529a05495093ef3213f55b11d66928f4f8258be667",
+   "chain/run_all.py": "3812290f8e295d6c4ccd3577d610b8e24c240a07d3be78a8f708131e22ed4faf",
+   "chain/s1_birth.py": "bee57b93f45e94bab47a91050b03b498ac1b8022dd9e975b8ccc865cf66ba691",
+   "chain/s2_pocket.py": "509d16a2d0d2d7ccaa434b3b348cb3407b6b68eea6d169e481beb1c04a2ee754",
+   "chain/s3_sectors.py": "10b0d45f680042be97cb0dbeef4aa85d886c77a2b2545dabbc763a0db7cf3436",
+   "chain/s4_dark.py": "c7bbab8069226c61b27d0bcaf01fe6bb4df6aa855b0935f0ffe84b88ca33a2ce",
+   "chain/s5_closure.py": "b7d5e0001770d60190390081693c216e320883a84a4d98a42fbde7c8019bba91",
+   "chain/s6_measured.py": "b653b9c330a2482f0c14c9b151c06c5fd3fd94a33514f4b0c39da25f02ec805c",
+   "chain/u17_ksw.py": "5ad8d81198e7bcca2112244b482f1abe4cc2846d2e4cb0f91153c5523782a4ae",
+   "chain/u20_iso.py": "216a685e0405d30554497aef7e62667f92c015c50ac257f683dacf8fa79b12fc",
+   "chain/u20b_iso.py": "c5aa1113dc93370ce5a9131e9bf457d797f59c8c0c254ce83d97f3701283bbcb",
+   "chain/u22_pole.py": "c6cd6950dd6fa40cce7b37fe1b0b21d0d75bd5998920257e0575191c055ee162",
+   "chain/u22b_births.py": "16d61a88af46003627309bdaecdab1fd03cfc48972dac003d2c56eabff500c89",
+   "chain/u23_superradiance.py": "f64fc0deb1508fcff6639971186f0ee9b092b77703d41f80cde8520e973df00a",
+   "chain/u26_pole_default.py": "f1e46f76fbb5ff4f923fafa777e30e0ae688c0067c62dcc53fe038243b464109",
+   "chain/u26_thermal_pole.py": "51137c4553612e06266cd9a588996893e4505e1059f5c7618cd10370bce5217a",
+   "chain/u_contract.py": "d6a76acfbe543a6681b19f27f4ae8dc806a8c2cd71794ce54d3049899aead9f0",
+   "chain/ucommon.py": "536940b046fcb4ca2e52a7cae63e0c8147b0a7effbf0b20a87f6311dfa7e1a42",
+   "chain/vendor_potential.py": "185bd647b68b50d1d73cdc5c3d587c651cbb83cc0b2ae5a34e8f48e6eb8becfe",
+   "components/c35b_pseudo_goldstone_dm_rp3.py": "263c05cb4194485cd3a2d928c8ae5d089c483f2533c7ec4f5781ac65fc5f532a",
+   "components/c44i_hierarchy_universality.py": "5178673470e0eb4e15bd56d3f6ee94eb701d88a172b9346ca3c4487c4e88b7dc",
+   "components/c45b_hom/frw.py": "573b2e217fc0854be99acb811e29a716be01a760b8c6ed1692efaaf0b6401952",
+   "components/c45b_hom/frw_c.py": "736a4f165cd9b58d17a2696a654a33c6e956b18fd447ae1181a7788bbbce44a4",
+   "components/c45b_hom/frw_core.c": "44043fb4da26b7652c0b2e35276acb177f9d8fdf7340cac4c03c3e415e9c5f56",
+   "components/c46_chi_reheating_relic.py": "cb4b4e199baf40b71b5b009c235cf156ccbd20db3de16cecb6bb44595ec6c25f",
+   "components/cadena_cierre/common.py": "ed7de6351e738eb9fdef918c22c4a52efe8e7d1fc41e2d44d7b16a5c93ccaddb",
+   "components/cadena_cierre/contract.py": "7b13f27467901167758a1c15b35c4a73ef1cb3da3166f86e8681c20f3562778d",
+   "components/cadena_cierre/dark.py": "f241ddef4afe6eb2d8014b5a77e1acef81cb68a5c3292ab28e74a029a62a78a0",
+   "components/cadena_cierre/scalar_end.py": "72a341341a759ca51daba31e14e90690ed17f6bfbf709e9d63fced8a9920aa40",
+   "components/cadena_cierre/stochastic.py": "d7e88f8c328f9a6065cf480ea8ff2a50dbd40fca882c1479952b50493b9be95c",
+   "components/cadena_cierre/thermal.py": "a269230a3482beada60d7e7007752cb0443e691b32ee551ff964d6d64d2b9594"
+  }
+ },
+ "pivot_rerun": {
+  "N_star": {
+   "rerun": 51.59272005680061,
+   "archived": 51.59272005665074,
+   "rel": 2.9047875216292596e-12
+  },
+  "n_s": {
+   "rerun": 0.9727713616500943,
+   "archived": 0.9727713616501065,
+   "rel": 1.2545520178264269e-14
+  },
+  "r": {
+   "rerun": 0.005016030807576975,
+   "archived": 0.005016030807573985,
+   "rel": 5.95967719618784e-13
+  },
+  "V0": {
+   "rerun": 1.7131198104829698e-10,
+   "archived": 1.7131198104819247e-10,
+   "rel": 6.09956529729061e-13
+  },
+  "chi_star": {
+   "rerun": 3.903767124503247,
+   "archived": 3.9037671245038084,
+   "rel": 1.4377388168895777e-13
+  },
+  "chi_end": {
+   "rerun": 0.3362837583483005,
+   "archived": 0.3362837585522977,
+   "rel": 6.066221969192043e-10
+  },
+  "T_rh_GeV": {
+   "rerun": 2285989079.8468127,
+   "archived": 2285989054.4963837,
+   "rel": 1.108947955685835e-08
+  },
+  "F_GeV": {
+   "rerun": 1069134731031415.9,
+   "archived": 1069134731031097.2,
+   "rel": 2.97983859809392e-13
+  },
+  "H_star_GeV": {
+   "rerun": 17556836868149.352,
+   "archived": 17556836868144.12,
+   "rel": 2.97983859809392e-13
+  }
+ },
+ "pivot_max_rel": 1.108947955685835e-08,
+ "pivot_status": "PASS",
+ "pivot_runtime_s": 2.4109485149383545,
+ "pole_vs_sum": {
+  "dn_s": -0.00011813571611429818,
+  "dr_rel": -0.0017586401886323655,
+  "cmb_equivalent": true,
+  "rel_change": {
+   "V0": -0.001842629260159101,
+   "T_rh_GeV": 0.15254067395884108,
+   "F_GeV": -0.0008797989781199611,
+   "H_star_GeV": -0.0008797989781200721,
+   "m_chi_GeV": 0.3283499759555104,
+   "Gamma_GeV": 0.3283499759555102,
+   "chi_end": -0.18080328569957516
+  }
+ },
+ "observables": {
+  "n_s": 0.9727713616500943,
+  "r": 0.005016030807576975,
+  "pull_Planck18": 1.8741337262129234,
+  "pull_ACT_DR6": -0.44959951467817577,
+  "r_below_BK18": true
+ },
+ "eternal": {
+  "chi_Pzeta_1": 540.9528146719773,
+  "chi_volume_Pzeta_1_over_6": 345.7331425901764,
+  "flatness_bound_per_MPl": 1.2026890943463803e-06,
+  "max_ratio_above_threshold": 1.2022981784198097e-06,
+  "undeformed_plateau_meets_bound": true,
+  "ratio_over_bound_at": {
+   "chi_et": 0.9996749651024457,
+   "1e3": 0.29244958162319845,
+   "1e4": 0.0029235515952669823
+  }
+ },
+ "D3": {
+  "C45i_verdict": "FRAGIL",
+  "requirement": "|V'/V| < sqrt(V0/3)/(2 pi) ~ 1.2e-6 per M_Pl from chi ~ 541 to ~1e3 M_Pl",
+  "UV_status": "(b) incompatible with the swampland distance and dS conjectures; (c) open only if they fail (docs/c45b_ballena5/NOTA_D3_UV.md)"
+ }
+}

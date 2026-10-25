@@ -1,0 +1,6 @@
+{
+  "constraint_derivative": "0",
+  "acceleration_residual": "0",
+  "stress_continuity_residual": "0",
+  "pass_exact": true
+}

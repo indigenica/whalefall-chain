@@ -1,0 +1,58 @@
+{
+  "plateau": "pole",
+  "start_utc": "2026-10-18T19:02:15.101302+00:00",
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "executable": "/usr/bin/python3",
+  "modules": [
+    {
+      "module": "symbolic",
+      "returncode": 0,
+      "seconds": 0.9298448599984113,
+      "code_sha256": "cab091bdddedfc4e1d6513ed645f18e98695f8489825a97f8a311574e20c13ab",
+      "log_sha256": "fbf44bf3285b3ffa8cf4ebad7af07cec7e35d3d0a45c49f6fc17f4b139ccbc28"
+    },
+    {
+      "module": "portal",
+      "returncode": 0,
+      "seconds": 0.47944770300091477,
+      "code_sha256": "4ec4ac86cbc18e992ca5750c374e53a75445c0cc9fd152a999d4045fdf12f1ce",
+      "log_sha256": "7e0e6dd3e893632e37fe8e62327ecfd460ef7d1415f3afaa7f8de4b87113fe51"
+    },
+    {
+      "module": "experiments",
+      "returncode": 0,
+      "seconds": 81.04372747699745,
+      "code_sha256": "5263dafd3c0d78ad12da07fe10b41f6f4fb07367d2bf2961f273302eb54a05f8",
+      "log_sha256": "157bed898b09949a1f22641aceea6ffe6b147f35d51751c3db0a3fcc33ac7399"
+    },
+    {
+      "module": "decays",
+      "returncode": 0,
+      "seconds": 1.6217598210023425,
+      "code_sha256": "36781700e6fa8c4c46cd25a3df6dada7c1ae065457b396e9abae80dddd10936f",
+      "log_sha256": "7119f365292bdbc486241e9be1bcadfd7fc8b22a96d330213773bacc9cdbf902"
+    },
+    {
+      "module": "late_fluid",
+      "returncode": 0,
+      "seconds": 9.97230836900053,
+      "code_sha256": "3c1e395d29510aeb2d67a48f918c0dd99f3e369d26d1c2ededa1ec59bfedda81",
+      "log_sha256": "b0c1478303b235de58622d92f51e01cae292f82f5d375cc19eae022b37e124c2"
+    },
+    {
+      "module": "plots",
+      "returncode": 0,
+      "seconds": 2.395422270998097,
+      "code_sha256": "1780c8cbefad30206352781373b876611d108d2d2f7e93d074397d22bd2deeb7",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "checks": {
+    "symbolic_exact": true,
+    "early_numerics": true,
+    "late_numerics": true,
+    "heavy_decay_channels": true
+  },
+  "pass_execution": true,
+  "end_utc": "2026-10-18T19:03:51.552450+00:00"
+}
