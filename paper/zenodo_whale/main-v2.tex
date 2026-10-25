@@ -1,5 +1,5 @@
 \documentclass[11pt,a4paper]{article}
-% WHALEFALL (whale 5) -- Zenodo preprint, version 2 (draft, 24 October 2026).  Build: latexmk -pdf main-v2.tex
+% WHALEFALL -- Zenodo preprint, version 2 (draft, 24 October 2026).  Build: latexmk -pdf main-v2.tex
 % Version 1 (main.tex, 11 October 2026) is kept unchanged for comparison; what changed is listed in Sec. "What changed since version 1".
 \usepackage[margin=2.4cm]{geometry}
 % T1 fontenc omitted: cm-super not available in the build environment
@@ -28,15 +28,15 @@
 \newcommand{\Xu}{X_{\rm univ}}
 \newcommand{\todo}[1]{\textcolor{red}{[#1]}}
 
-\title{\textbf{WHALEFALL: a preregistered, falsifiable toy cosmology from a quasi-topological bounce to cold dark matter from the collapse of an $\RP$ string--wall network}\\[4pt]\large Version 2}
+\title{\textbf{WHALEFALL: a preregistered, falsifiable toy cosmology from a quasi-topological bounce to cold dark matter from the collapse of an $\RP$ string--wall network}}
 \author{Jose Bautista\,\orcidlink{0009-0001-6655-4028}\thanks{\href{mailto:jozebautista@gmail.com}{jozebautista@gmail.com}}}
-\date{October 24, 2026}
+\date{October 25, 2026}
 
 \begin{document}
 \maketitle
 
 \begin{abstract}
-WHALEFALL (``whale~5'') is a toy cosmology built as a single chain of computations, from a non-singular beginning to a dark-matter prediction, with every verdict-bearing computation preregistered and reproducible.
+WHALEFALL is a toy cosmology built as a single chain of computations, from a non-singular beginning to a dark-matter prediction, with every verdict-bearing computation preregistered and reproducible.
 A small, closed, contracting patch bounces through a non-polynomial quasi-topological gravity core, which kicks a scalar onto an inflationary plateau where stochastic eternal inflation takes over; pocket universes give $n_s=0.9728$ and $r=0.0050$.
 A symmetric-tensor order parameter orders into an $\RP$ vacuum and leaves a network of global $\Ztwo$ strings; a small explicit breaking gives the Goldstones a mass $m_G$, and the network collapses as string--wall systems when $H\simeq m_G/3$.
 This second version replaces the dark sector of version~1.
@@ -49,11 +49,7 @@ The best estimate is cold pseudo-Goldstone dark matter, $96$--$99\%$ of it from 
 We list every open assumption, every failed gate and every superseded statement of version~1.
 \end{abstract}
 
-\begin{center}\small
-This work is licensed under the Creative Commons Attribution--NonCommercial 4.0 International license
-(\href{https://creativecommons.org/licenses/by-nc/4.0/}{CC BY-NC 4.0}).
-\end{center}
-
+\clearpage
 \tableofcontents
 \bigskip\hrule\bigskip
 
@@ -68,7 +64,7 @@ WHALEFALL is an experiment in the opposite direction: a deliberately complete ch
 (iii) every computation that yields a verdict is preregistered with its thresholds and verdict logic before it is run, amendments are dated, and failures are reported as such, and
 (iv) stages are checked by independent audits that reimplement the essentials rather than reusing the audited code.
 
-The model is the fifth iteration (``whale~5'') of a series whose earlier versions were discarded by preregistered no-go tests (\S\ref{sec:history}).
+The model is the fifth of a series whose four predecessors were discarded by preregistered no-go tests (\S\ref{sec:history}).
 It combines ingredients that exist separately in the literature: a non-singular bounce in four-dimensional non-polynomial quasi-topological gravity~\cite{Bueno2025formation,BorissovaMagueijo2026}; an inflationary plateau with an eternal regime; an order parameter with a non-trivial vacuum manifold that produces global strings~\cite{Kibble1976,VilenkinShellard}; and pseudo-Goldstone dark matter from the misalignment of the field and from the network, as in the post-inflationary axion scenario~\cite{GHV2018,GHV2021,Buschmann2022,Hindmarsh2021approach,Saikawa2024,KimParkSon2024,Correia2025spectrum}.
 
 Version~1 of this preprint (11 October 2026) placed the dark matter in the radiation of the string network before its collapse, and made survival hinge on the spectral slope of that radiation at large $\ell$.
@@ -166,7 +162,7 @@ At the throat, $a\simeq\sqrt{\alpha}\cosh(t/\sqrt{\alpha})$ and $a^3\dot\chi = p
 an exact, scale-invariant relation verified numerically to a ratio $0.999$--$1.000$ for dust, radiation and mixed parents.
 Above $\chi_{\rm et}\simeq 541\,\Mpl$ (pole plateau; $416\,\Mpl$ with the hierarchy) quantum diffusion beats classical roll ($P_\zeta>1$), so landings there enter eternal inflation and are causally disconnected from the parent; the bounce provides the non-singular past that eternal inflation requires~\cite{BGV2003}.
 Not every fertile birth is eternal: in the archived birth grid (computed with the hierarchy plateau) $16\%$ of fertile births land above $\chi_{\rm et}$ below the Planck density, while for $27\%$ the field reaches at most $50\,\Mpl$ after the bounce and for $6\%$ at most $10\,\Mpl$; they inflate without an eternal phase, still for more than $10^3$ e-folds above $10\,\Mpl$. We place our pocket in the eternal branch, which dominates by volume; that is the measure assumption of \S\ref{sec:open}.
-Coherent bounces require a contracting parent: collapses inside an expanding parent never bounce coherently (a no-go of the earlier whales).
+Coherent bounces require a contracting parent: collapses inside an expanding parent never bounce coherently (a no-go of the earlier models).
 With realistic inflationary-amplitude perturbations, $3.6\%$ of fertile children bounce coherently (marginal; \S\ref{sec:open}).
 The viable children require a quasi-topological length scale $\ell_{\rm QT}\approx 390$--$2700\,\ell_{\rm P}$; this is a consistency condition with no direct observable.
 
@@ -410,7 +406,7 @@ Combining the band with the extrapolation of the collapse:
 
 \begin{table}[t]
 \centering\small
-\caption{Predictions of whale~5 (version~2) and what would falsify them. The dark-sector entries assume the central extrapolation of the collapse unless stated.}
+\caption{Predictions of the model and what would falsify them. The dark-sector entries assume the central extrapolation of the collapse unless stated.}
 \label{tab:predictions}
 \begin{tabular}{L{3.0cm}L{5.4cm}L{5.6cm}}
 \toprule
@@ -444,7 +440,7 @@ The band does not close at any $\Xu$ we tested: what would remove the dark secto
 
 \begin{description}
 \item[Seed.] The small, closed, contracting patch is assumed, not derived; it needs to exist only once. The interior of a regular black hole in NPQT gravity, a closed contracting region causally separated from its exterior, is a candidate origin that has not been computed; it would have to avoid the incoherence that spoils local collapses in an expanding parent (\S\ref{sec:birth}), for example by being causally separated by the horizon.
-\item[Field range.] Eternal inflation in the landing zone needs a plateau flat to $1.2\times10^{-6}$ per $\Mpl$ up to $\chi\sim10^3\Mpl$. We know of no UV construction that protects this; axion monodromy controls ranges of $\sim10\Mpl$, and the distance and de Sitter swampland conjectures~\cite{Obied2018} exclude it. The whale lives outside the swampland or not at all. The shape of the plateau, a postulated hierarchy in version~1, is now a standard pole, which makes the required flatness stable against corrections analytic at the pole (\S\ref{sec:pocket}); what remains assumed is that the ultraviolet completion respects the pole over a geodesic range of $\sim10^3\Mpl$. The requirement belongs to the eternal branch: if our pocket were a direct, non-eternal child (\S\ref{sec:birth}), the plateau would need to be flat only up to its landing value, typically $10$--$50\,\Mpl$. A bounce within reach of the largest observable scales would need a landing below $\approx4.1\,\Mpl$, with at most $\approx60$ e-folds in total; the archived grid does not sample such births (its fertility criterion requires the field to exceed $5\,\Mpl$ after the bounce, which already gives $\approx108$ e-folds), and the imprint has not been computed.
+\item[Field range.] Eternal inflation in the landing zone needs a plateau flat to $1.2\times10^{-6}$ per $\Mpl$ up to $\chi\sim10^3\Mpl$. We know of no UV construction that protects this; axion monodromy controls ranges of $\sim10\Mpl$, and the distance and de Sitter swampland conjectures~\cite{Obied2018} exclude it. The model lives outside the swampland or not at all. The shape of the plateau, a postulated hierarchy in version~1, is now a standard pole, which makes the required flatness stable against corrections analytic at the pole (\S\ref{sec:pocket}); what remains assumed is that the ultraviolet completion respects the pole over a geodesic range of $\sim10^3\Mpl$. The requirement belongs to the eternal branch: if our pocket were a direct, non-eternal child (\S\ref{sec:birth}), the plateau would need to be flat only up to its landing value, typically $10$--$50\,\Mpl$. A bounce within reach of the largest observable scales would need a landing below $\approx4.1\,\Mpl$, with at most $\approx60$ e-folds in total; the archived grid does not sample such births (its fertility criterion requires the field to exceed $5\,\Mpl$ after the bounce, which already gives $\approx108$ e-folds), and the imprint has not been computed.
 \item[Measure.] The fraction of births that land in the eternal regime depends on the prior over parent states, not on a measure; weights within eternal inflation are measure-dependent, and so is whether observers live in pockets of the eternal branch or in direct children. The predictions are not: every pocket and every direct child with more than $\sim60$ e-folds exits along the same single-field attractor, with the same $n_s$, $r$ and dark sector at a given $F$.
 \item[Quantum backreaction at birth.] The contraction, bounce and kick are computed with a classical homogeneous $\chi$. Whether the quantum state of its zero mode, with its backreaction on $Q$, radiation and the NPQT background, follows the same history through the bounce and the launch is not established; a single mean background with fluctuating stress is itself an approximation near the bounce.
 \item[Perturbations in NPQT.] Not computed; standard perturbation theory on the NPQT background is assumed. It matters at the bounce, where $\alpha\psi\to1$, and so for the coherence estimate. During eternal and observable inflation $\alpha\psi=\alpha V_0/3\lesssim4\times10^{-4}$ for the viable children, so the background is that of general relativity to $\alpha^2\psi^2\lesssim2\times10^{-7}$; the CMB predictions rest on the theory reducing smoothly to general relativity at low curvature.
@@ -485,8 +481,8 @@ The following statements of version~1 no longer hold:
 \label{sec:history}
 %=====================================================================
 
-Whales 1--4 (September 2026) explored variants of the $\RP$ scar network, pseudo-Goldstone dark matter and the hierarchical plateau, many discarded by preregistered tests.
-Whale~5 (2--4 October 2026) replaced the birth mechanism after the following no-gos:
+Four earlier models (September 2026) explored variants of the $\RP$ scar network, pseudo-Goldstone dark matter and the hierarchical plateau, many discarded by preregistered tests.
+The present model (2--4 October 2026) replaced the birth mechanism after the following no-gos:
 children born from local collapses inside an expanding parent never bounce coherently;
 rescues with sharp, tension-bounded edges fail because tension makes the wall fall faster than dust;
 a core--envelope pair cannot play the role of the two centres that generate the $1/\chi$ plateau;

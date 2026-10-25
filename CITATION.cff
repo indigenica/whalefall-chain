@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or these data, please cite the preprint below."
-title: "WHALEFALL (whale 5): code, frozen inputs, results, preregistrations and audits for the version-2 preprint"
+title: "WHALEFALL: code, frozen inputs, results and preregistrations for the version-2 preprint"
 type: software
 authors:
   - family-names: Bautista

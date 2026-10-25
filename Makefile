@@ -1,4 +1,4 @@
-# whalefall-chain: code, frozen inputs, results and preregistrations behind the WHALEFALL (whale 5) preprint, version 2.
+# whalefall-chain: code, frozen inputs, results and preregistrations behind the WHALEFALL preprint, version 2.
 # Generated from indigenica/whalefall (see EXPORT_PROVENANCE.json). Do not edit here: edit whalefall and re-export.
 PY ?= python3
 export PYTHONDONTWRITEBYTECODE = 1

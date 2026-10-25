@@ -1,4 +1,4 @@
-# WHALEFALL (whale 5): the chain behind the preprint
+# WHALEFALL: the chain behind the preprint
 
 [![Preprint DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23478896.svg)](https://doi.org/10.5281/zenodo.23478896)
 [![reproducibility](https://github.com/indigenica/whalefall-chain/actions/workflows/ci.yml/badge.svg)](https://github.com/indigenica/whalefall-chain/actions/workflows/ci.yml)
