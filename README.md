@@ -1,11 +1,12 @@
 # WHALEFALL (whale 5): the chain behind the preprint
 
+[![Preprint DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23478896.svg)](https://doi.org/10.5281/zenodo.23478896)
 [![reproducibility](https://github.com/indigenica/whalefall-chain/actions/workflows/ci.yml/badge.svg)](https://github.com/indigenica/whalefall-chain/actions/workflows/ci.yml)
 
 Code, frozen inputs, results, preregistrations and paper source for
 
 > J. Bautista, *WHALEFALL: a preregistered, falsifiable toy cosmology from a quasi-topological bounce to cold dark matter
-> from the collapse of an RP³ string–wall network*, version 2, preprint (2026), Zenodo.
+> from the collapse of an RP³ string–wall network*, version 2, preprint (2026), Zenodo, [doi:10.5281/zenodo.23478896](https://doi.org/10.5281/zenodo.23478896).
 > Source in `paper/zenodo_whale/main-v2.tex`, PDF in `paper/zenodo_whale/main-v2.pdf`.
 
 WHALEFALL is a toy cosmology built as one chain of computations, from a non-singular beginning to a dark-matter
