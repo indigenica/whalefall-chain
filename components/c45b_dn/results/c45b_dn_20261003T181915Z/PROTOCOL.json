@@ -1,0 +1,60 @@
+{
+ "status": "written AFTER exploratory probes (declared): gaussian A=0.25 w=3 alpha=0.1 (N=800/1600/3200) and chi-star s=1.5, 2.0, 2.5, 3.0 alpha=0.1 (N=1600; s=2.0 also N=800/3200). Probe outcome seen: horizon, QT-saturated centre that bounces and is recompressed, kinetic-dominated. The criteria below were fixed before running this bank; a --quick smoke run (3 configs, alpha = 0.1) was used only to fix the centre-density estimator and the trust tolerance (declared).",
+ "units": "G = 1, m_chi = 1; potential common/potential.py (V0 = 8.695e-3, H_inf = 0.270)",
+ "code": "dn/solver.py: diamond scheme, regular centre, psi from generalized mass, causal masking (failed nodes -> NaN, only their causal future is lost)",
+ "families": {
+  "star": "phi(u=0, r) = sqrt2 * s * phi_star(r), C59a ground state (phi0 = 0.12), tapered tail; s in {1.75, 2.0, 2.5, 3.0}",
+  "gauss": "A exp(-(r/w)^2), (A, w) in {(0.25, 3), (0.15, 5), (0.1, 8)}",
+  "tophat": "A / (1 + exp((r - R)/0.5)), A = 0.3, R in {3, 4, 6} (closest analogue of the homogeneous patch)"
+ },
+ "alpha": [
+  0.1,
+  0.03
+ ],
+ "grid": "L = 80 (initial cone r <= 40), N in {800, 1600, 3200}",
+ "trust": "centre trusted while |phi_c(N=1600) - phi_c(3200)| < 0.02 and |delta rho_c| < 0.05 max(rho_c) (rho_c intrinsic: phi_v = (1/2) d phi_c/du on the centre line) (same u); events are evaluated on the N = 3200 centre history up to that time only. 2D trusted mask (dn/convergence.py) reported for information",
+ "events": {
+  "H": "trapped node (r_u < 0, r_v <= 0) anywhere",
+  "B": "centre QT bounce: comoving H_c changes sign - to + while alpha psi_c >= 0.9",
+  "L": "launch: an interval of centre proper time >= 1/H_inf during which kinetic fraction < 0.5, rho_c < 10 V0, H_c > 0 and |phi_c| > CHI_END hold continuously (with or without B; L_after_B recorded separately)",
+  "R": "recompression after B: rho_c exceeds 10x its post-bounce minimum",
+  "MI": "inner-horizon diagnostic: max interior (r < 2) generalized mass / M_ADM, over the 2D trusted mask (N = 1600 vs 3200) and, for information, over all finite nodes"
+ },
+ "verdict": {
+  "PASS": "L in at least one run with H, for each alpha, in the star family",
+  "FAIL": "no L in any run with H, and every run with H and B shows R inside the trusted domain",
+  "INCONCLUSIVE": "otherwise",
+  "note": "the specification's PASS (lambda in the C54 window, e-folds within 10 % of C45) can only be evaluated if L occurs; then the trusted centre state is continued with the homogeneous model"
+ },
+ "sources": {
+  "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "common/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "common/bosonstar.py": "0baeca218fbcdfb6d9d08b70843b8ec6f46bc0e80d6a3ac8ef29149793bdd2a5",
+  "common/potential.py": "be7df74bfb09ab2fb6c58522b2f1f8b71b5f415e283557f94776aec9cde16691",
+  "common/provenance.py": "f633eabca4b9fa432ec7f4e85132b8aa44299d921615c9c69ec424da8751617d",
+  "dn/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "dn/analysis.py": "a38255c8c1a8f72ff9258c57dfe7f83e577552502df62e2aeecefc52ad1d9b78",
+  "dn/convergence.py": "2f5558fedf076531487ffa66cc23b250bd3eca81d74cd231c4b510b9389bf367",
+  "dn/diagnostics.py": "68eebee059381d35da1182aebc0bf3bbd81cdf85b4bdc8e944800cb4c5b83b6f",
+  "dn/equations.py": "a998e988beaa60417c284abe7cfb9646cf4ed1f52de5f397a7bad7376cb7ef6e",
+  "dn/profiles.py": "7bf0545d020612a24ef24639b7af8777093a6d1d632660b4668fbbe67b148de5",
+  "dn/solver.py": "ebae6fd808376127c2a04ecec90eb96d32a0419b462d3094b52215da730a55a1",
+  "dn_bank/run_c45b_dn.py": "adcf62203b6d74ff87cb3ea8c2d9832cb433d2b9becd42e53ce458b6c43b4600",
+  "dn_runs/probe.py": "96eb5cfbcf6837e11d2582ab891fe9271f64dde6aa21bfb43c940b23e534ad5b",
+  "dn_runs/probe_star.py": "78aec0ec61376a4557c3a5e4d488d51761754e0488a6a338ec87ee4466a1ab9e",
+  "hom/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "hom/frw.py": "96d355c12d640e4e32aaa958cd91cc45bff639576d9d0a07617a77d31fa47f6f",
+  "hom/run_hom.py": "bf058f13a0e0fc42bbcb3b523b81801e39862cfaf1ddc91199a3c2e8c84ff342",
+  "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "tests/test_dn_flat.py": "8c2873c7b1d84783009d8d7537d77e938ebfd451ae9fd6054632a6f7bd13c34a"
+ },
+ "env": {
+  "python": "3.11.15",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "platform": "Linux-6.18.44-fc-v64-x86_64-with-glibc2.39",
+  "host": "vm",
+  "cpu_count": 2,
+  "utc": "2026-10-03T18:19:15Z"
+ }
+}

@@ -1,4 +1,4 @@
-# whalefall-chain: code, frozen inputs, results and preregistrations behind the WHALEFALL preprint, version 2.
+# whalefall-chain: code, frozen inputs, results and preregistrations behind the WHALEFALL preprint, version 3.
 # Generated from indigenica/whalefall (see EXPORT_PROVENANCE.json). Do not edit here: edit whalefall and re-export.
 PY ?= python3
 export PYTHONDONTWRITEBYTECODE = 1
@@ -24,15 +24,15 @@ reproduce: chain chain-sum ## both chains, then check that they reproduce the st
 action:          ## common action: symbolic residuals, decays, late fluid (needs sympy)
 	mkdir -p action/logs action/results action/logs_pole action/results_pole action/runtime && cd action && $(PY) -B src/run_all.py
 
-numbers:         ## every result number quoted in main-v2.tex, recomputed from the stored results (exit 1 on any mismatch)
-	$(PY) -B paper/zenodo_whale/paper_numbers_v2.py
+numbers:         ## every result number quoted in main-v3.tex, recomputed from the stored results (exit 1 on any mismatch)
+	$(PY) -B paper/zenodo_whale/paper_numbers_v3.py
 
 figures:         ## preprint figures from the stored results (fig_collapse, fig_band, fig_lyafull, fig_bracket)
 	$(PY) -B paper/zenodo_whale/figures/make_figures_v2.py
 	$(PY) -B -c "import sys; sys.path.insert(0, 'paper/zenodo_whale/figures'); import make_figures as M; M.fig_bracket()"
 
-paper: figures   ## paper/zenodo_whale/main-v2.pdf (needs latexmk and a TeX distribution)
-	cd paper/zenodo_whale && latexmk -pdf -interaction=nonstopmode main-v2.tex
+paper: figures   ## paper/zenodo_whale/main-v3.pdf (needs latexmk and a TeX distribution)
+	cd paper/zenodo_whale && latexmk -pdf -interaction=nonstopmode main-v3.tex
 
 env-check:       ## checks numpy, sympy, gcc+OpenMP and, for the Lyman-alpha tests, classy with the quadrature patch
 	$(PY) env/check_env.py

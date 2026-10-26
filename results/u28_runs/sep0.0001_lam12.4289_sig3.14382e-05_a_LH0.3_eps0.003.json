@@ -1,0 +1,1 @@
+{"valid": false, "status": "STALLED", "H_max": 8.928730600095338e-10, "steps": 7194, "runtime_s": 3.127925157546997, "sqrt_al": 100.0, "rho_d_min": 0.02986331516823147, "child": "sep0.0001_lam12.4289_sig3.14382e-05", "family": "a", "LH": 0.3, "eps": 0.003, "cls": "E"}

@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or these data, please cite the preprint below."
-title: "WHALEFALL: code, frozen inputs, results and preregistrations for the version-2 preprint"
+title: "WHALEFALL: code, frozen inputs, results and preregistrations for the version-3 preprint"
 type: software
 authors:
   - family-names: Bautista
@@ -23,7 +23,7 @@ keywords:
   - preregistration
 preferred-citation:
   type: article
-  title: "WHALEFALL: a preregistered, falsifiable toy cosmology from a quasi-topological bounce to cold dark matter from the collapse of an RP3 string-wall network (version 2)"
+  title: "WHALEFALL: a preregistered, falsifiable toy cosmology from a quasi-topological bounce to cold dark matter from the collapse of an RP3 string-wall network (version 3)"
   authors:
     - family-names: Bautista
       given-names: Jose

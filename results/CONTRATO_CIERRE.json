@@ -116,9 +116,9 @@
   },
   {
    "link": "2 rebote(s) NPQT coherente(s) en el padre que se contrae",
-   "status": "PASS_TOY / MARGINAL (D11)",
-   "evidence": "U26-S1 (meseta de polo): f_ES = 0.153 frente a 0.163 con la suma (R = 0.94) en las 1100 filas de C45h; 10 de los 20 hijos viables de C45j son eternos con el polo; el puerto C (suma, modo 0) reproduce bit a bit; el filtro \u03b6\u2080 de C45j (f_viable = 0.036) es de la suma",
-   "open": "coherencia con \u03c7 inhomog\u00e9neo (C45k montado, sin ejecutar)"
+   "status": "PASS_TOY \u00b7 D11: RAMA DIRECTA VIABLE, ETERNA MARGINAL (U28, \u03c7 inhomog\u00e9neo)",
+   "evidence": "U26-S1 (meseta de polo): f_ES = 0.153 frente a 0.163 con la suma (R = 0.94) en las 1100 filas de C45h; 10 de los 20 hijos viables de C45j son eternos con el polo; el puerto C (suma, modo 0) reproduce bit a bit; el filtro \u03b6\u2080 de C45j (f_viable = 0.036) es de la suma; U27 (polvo, meseta de polo): 14.9% directos y 3.6% eternos viables de 556 f\u00e9rtiles (RAMA_DIRECTA_VIABLE); U28 (\u03c7 inhomog\u00e9neo, un rebote): IGUAL en D y IGUAL en E; directos 12.4%\u201318.0% (VIABLE), eternos 1.8%\u20132.9% (MARGINAL)",
+   "open": "U28: un solo rebote extrapolado a varios (\u03b5/n_rebotes), simetr\u00eda esf\u00e9rica y una escala (L\u00b7H = 1; con L\u00b7H = 0.3, INCONCLUSA por corridas inv\u00e1lidas); qu\u00e9 rama nos alberga es la medida (D9)"
   },
   {
    "link": "3 bomba \u03c7 + disparo por la garganta \u2192 aterrizaje \u03c7_land",

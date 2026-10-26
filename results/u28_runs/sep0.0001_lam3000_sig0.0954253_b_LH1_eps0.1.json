@@ -1,0 +1,1 @@
+{"valid": true, "status": "COMPLETE", "H_max": 8.872633143654436e-10, "steps": 5726, "runtime_s": 3.3042702674865723, "sqrt_al": 100.0, "rho_d_min": 0.029861339819298952, "dtB": 32.144186869110854, "dtB_over_sqrtal": 0.3214418686911085, "pass_dt": false, "coherent": false, "child": "sep0.0001_lam3000_sig0.0954253", "family": "b", "LH": 1.0, "eps": 0.1, "cls": "D"}

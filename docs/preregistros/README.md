@@ -36,6 +36,8 @@ Cada prueba se escribió **antes** de ejecutar su código. Las enmiendas van al 
 | `ESPEC_U26.md` | la inflación de polo como potencial por defecto de la cadena (S1–S6, la acción común), con la suma como opción | **POLO_ADOPTADO**, `docs/informes/INFORME_U26.md` |
 | `ESPEC_U24.md` | sensibilidad de R_Γ al drenaje (ℓ_d, Γ_d), 384³, 3 semillas (enmienda 1) | **DRENAJE_ROBUSTO** (max \|δR_Γ\| = 1.9 %; R_ξ −5.6 % con el doble de drenaje), `docs/informes/INFORME_U24.md` |
 | `ESPEC_U25.md` | dτ/2 con el protocolo D0 de U24 (enmienda 1: sesgo b = 2·\|Δ\|) | **PASO_ROBUSTO** (sesgo < 0.8 % en R_Γ), `docs/informes/INFORME_U25.md` |
+| `ESPEC_U27.md` | la coherencia de los hijos directos (no eternos) con la meseta de polo, en el modelo de C45j: ¿alternativa a la rama eterna con una meseta plana solo hasta 10–50 M_Pl? | **RAMA_DIRECTA_VIABLE; BANDA_10_50_POBLADA**: el 14.9 % de los fértiles son directos y viables (frente al 3.6 % de los eternos), y el 4.9 % aterrizan además en 10–50 M_Pl; `docs/informes/INFORME_U27.md` |
+| `ESPEC_U28.md` | C45k: la coherencia de los rebotes del padre con χ inhomogéneo (`c58c/regular_center` más polvo, meseta de polo), para hijos eternos y directos: ¿sostiene la rama directa de U27 fuera del modelo de polvo? | **IGUAL en las dos clases** (a L·H = 1). La rama directa sigue VIABLE (12.4–18.0 % de los fértiles) y la eterna pasa a MARGINAL (1.8–2.9 %). Con un solver comóvil nuevo (enmiendas 2–7), porque `c58c/regular_center` no cubría el parche; `docs/informes/INFORME_U28.md` |
 
 **Rutas.** Los preregistros conservan las rutas que existían cuando se escribieron, porque no se editan. En este repositorio corresponden a:
 

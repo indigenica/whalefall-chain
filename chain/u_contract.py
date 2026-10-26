@@ -45,19 +45,28 @@ def main():
     u21 = _j("lya", "results", "u21", "U21_RESULT.json"); u22 = _j("results", "u22_pole.json"); u22b = _j("results", "u22b_births.json"); u20 = _j("results", "u20_iso.json"); u19b = _j("network", "results", "u19b", "U19B_RESULT.json"); u17e = _j("lya", "results", "u17e", "U17E_RESULT.json"); u23 = _j("results", "u23_superradiance.json"); u20b = _j("results", "u20b_iso.json"); u26 = _j("results", "u26_pole_default.json"); u17f = _j("lya", "results", "u17f", "U17F_RESULT.json"); u19c = _j("network", "results", "u19c", "U19C_RESULT.json"); u19d = _j("network", "results", "u19d", "U19D_RESULT.json"); u17g = _j("lya", "results", "u17g", "U17G_RESULT.json")
     u15d = _j("lya", "results", "u15d", "U15D_RESULT.json"); u15d_final = bool(u15d and u15d.get("converged") and str(u15d.get("verdict_U15d", "")).startswith("F0_"))      # PENDIENTE: no ratios
     u24 = _j("network", "results", "u24", "U24_RESULT.json"); u25 = _j("network", "results", "u25", "U25_RESULT.json")
+    u27 = _j("results", "u27_direct_children.json"); u28 = _j("results", "u28_c45k.json")
     cc = {c["connection"]: c for c in load("cadena_cierre/contract.json")["connections"]}
     J = load("c45b/c45j_results.json")
     L = [
         dict(link="1 semilla cerrada en contracción", status="ASSUMED", evidence="docs/evidencia/nacimiento_c45/NOTA_C45F_SEMILLAS.md; data/cadena_cierre/contract.json",
              open="origen y probabilidad de la semilla (D1); tamaño A·H ≈ 0.5–1.4 requerido por C45j"),
-        dict(link="2 rebote(s) NPQT coherente(s) en el padre que se contrae", status="PASS_TOY / MARGINAL (D11)",
+        dict(link="2 rebote(s) NPQT coherente(s) en el padre que se contrae",
+             status=("PASS_TOY · D11: RAMA DIRECTA VIABLE, ETERNA MARGINAL (U28, χ inhomogéneo)" if u28 and u28["viable"]["D"]["verdict_D11"] == "VIABLE"
+                     and u28["viable"]["E"]["verdict_D11"] == "MARGINAL" else "PASS_TOY / MARGINAL (D11)"),
              evidence=(f"C45d–C45j; U1-S1 reproduce los {s1['n_viable_C45j']} hijos viables bit a bit; f_viable = {J['frac_viable_LH1_over_fertile']:.3f}"
                        if PLATEAU == "sum" else
                        "U26-S1 (meseta de polo): S1 omitido sin gcc (el puerto C de C45 lo necesita)" if "f_ES_pole" not in s1 else
                        f"U26-S1 (meseta de polo): f_ES = {s1['f_ES_pole']:.3f} frente a {s1['f_ES_sum']:.3f} con la suma (R = {s1['R_f_ES_pole_over_sum']:.2f}) "
                        f"en las {s1['grid_pole']['n']} filas de C45h; {s1['viable_eternal_pole']} de los {s1['n_viable_C45j']} hijos viables de C45j son eternos con el polo; "
-                       f"el puerto C (suma, modo 0) reproduce bit a bit; el filtro ζ₀ de C45j (f_viable = {J['frac_viable_LH1_over_fertile']:.3f}) es de la suma"),
-             open="coherencia con χ inhomogéneo (C45k montado, sin ejecutar)"),
+                       f"el puerto C (suma, modo 0) reproduce bit a bit; el filtro ζ₀ de C45j (f_viable = {J['frac_viable_LH1_over_fertile']:.3f}) es de la suma")
+             + (f"; U27 (polvo, meseta de polo): {u27['R2_pole_D']['LH1']['f_v']:.1%} directos y {u27['R1_pole_E']['LH1']['f_v']:.1%} eternos viables de "
+                f"{u27['n_window_fertile_pole']} fértiles ({u27['verdict_U27']})" if u27 else "")
+             + (f"; U28 (χ inhomogéneo, un rebote): {u28['class_LH1']['D-v']['verdict']} en D y {u28['class_LH1']['E-v']['verdict']} en E; "
+                f"directos {u28['viable']['D']['f_lo']:.1%}–{u28['viable']['D']['f_hi']:.1%} ({u28['viable']['D']['verdict_D11']}), "
+                f"eternos {u28['viable']['E']['f_lo']:.1%}–{u28['viable']['E']['f_hi']:.1%} ({u28['viable']['E']['verdict_D11']})" if u28 else ""),
+             open=("U28: un solo rebote extrapolado a varios (ε/n_rebotes), simetría esférica y una escala (L·H = 1; con L·H = 0.3, INCONCLUSA "
+                   "por corridas inválidas); qué rama nos alberga es la medida (D9)" if u28 else "coherencia con χ inhomogéneo (C45k montado, sin ejecutar)")),
         dict(link="3 bomba χ + disparo por la garganta → aterrizaje χ_land", status="PASS_NUMERICS (homogéneo)",
              evidence="C45g/C45h (R_throat ≈ 1); cadena_cierre 'garganta fuerte' = " + cc["garganta fuerte -> coherencia del disparo"]["state"],
              open="lanzamiento global inhomogéneo"),

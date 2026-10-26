@@ -1,0 +1,24 @@
+{
+ "spec": "ESPEC_C45IJ.md (C45j)",
+ "input": "results/c45h_content_20261004T153219Z",
+ "sources": {
+  "common/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "common/potential.py": "be7df74bfb09ab2fb6c58522b2f1f8b71b5f415e283557f94776aec9cde16691",
+  "common/provenance.py": "f633eabca4b9fa432ec7f4e85132b8aa44299d921615c9c69ec424da8751617d",
+  "ltb/bank_pbh.py": "75850fd1e504c09971491d80b71916c6a989d28242e25831500a4d4a08accc65",
+  "ltb/coherence.py": "8b758b1865631bc6471fd79e22cf25353d6cd1069641a0eca9734d09e5b29032",
+  "ltb/growing.py": "f71ee50241e5d36654cd1fed1d0b1cfed169181717aee7b6288f2395b835ee61",
+  "ltb/growing_qt.py": "0a19d4061ecf0c56f873853df24a710680b5f6d14d55d163bc032ae3b689bab5",
+  "ltb/multibounce_viability.py": "45f14fa4f7f5f62871f5151b215392f1c1fe1607d43ec70733e28312c6a1e26a",
+  "ltb/shells.py": "475ad25cec9aeb8ec29ece1129d73508d2647681e8d387f9e76d2a385a87a373"
+ },
+ "env": {
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39",
+  "host": "vm",
+  "cpu_count": 4,
+  "utc": "2026-10-25T18:12:01Z"
+ }
+}

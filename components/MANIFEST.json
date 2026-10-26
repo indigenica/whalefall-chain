@@ -62,6 +62,271 @@
    "origin": "claude_dual/cadena_cierre_20261004/src/thermal.py",
    "sha256": "a269230a3482beada60d7e7007752cb0443e691b32ee551ff964d6d64d2b9594",
    "adapted": "unchanged copy"
+  },
+  "c45j_ltb/SHA256SUMS.txt": {
+   "origin": "claude_dual/c45b/SHA256SUMS.txt",
+   "sha256": "182200da129b56bff5400ec94e8269500720654ca4cd0ae33d72f58311d374e3",
+   "adapted": "hashes of the originals, written by the author when copying"
+  },
+  "c45j_ltb/common/__init__.py": {
+   "origin": "claude_dual/c45b/common/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "adapted": "unchanged copy (U27, enmienda 2 de ESPEC_U27; enviado por el autor con SHA256SUMS.txt)"
+  },
+  "c45j_ltb/common/potential.py": {
+   "origin": "claude_dual/c45b/common/potential.py",
+   "sha256": "be7df74bfb09ab2fb6c58522b2f1f8b71b5f415e283557f94776aec9cde16691",
+   "adapted": "unchanged copy (U27, enmienda 2 de ESPEC_U27; enviado por el autor con SHA256SUMS.txt)"
+  },
+  "c45j_ltb/common/provenance.py": {
+   "origin": "claude_dual/c45b/common/provenance.py",
+   "sha256": "f633eabca4b9fa432ec7f4e85132b8aa44299d921615c9c69ec424da8751617d",
+   "adapted": "unchanged copy (U27, enmienda 2 de ESPEC_U27; enviado por el autor con SHA256SUMS.txt)"
+  },
+  "c45j_ltb/ltb/bank_pbh.py": {
+   "origin": "claude_dual/c45b/ltb/bank_pbh.py",
+   "sha256": "75850fd1e504c09971491d80b71916c6a989d28242e25831500a4d4a08accc65",
+   "adapted": "unchanged copy (U27, enmienda 2 de ESPEC_U27; enviado por el autor con SHA256SUMS.txt)"
+  },
+  "c45j_ltb/ltb/coherence.py": {
+   "origin": "claude_dual/c45b/ltb/coherence.py",
+   "sha256": "8b758b1865631bc6471fd79e22cf25353d6cd1069641a0eca9734d09e5b29032",
+   "adapted": "unchanged copy (U27, enmienda 2 de ESPEC_U27; enviado por el autor con SHA256SUMS.txt)"
+  },
+  "c45j_ltb/ltb/growing.py": {
+   "origin": "claude_dual/c45b/ltb/growing.py",
+   "sha256": "f71ee50241e5d36654cd1fed1d0b1cfed169181717aee7b6288f2395b835ee61",
+   "adapted": "unchanged copy (U27, enmienda 2 de ESPEC_U27; enviado por el autor con SHA256SUMS.txt)"
+  },
+  "c45j_ltb/ltb/growing_qt.py": {
+   "origin": "claude_dual/c45b/ltb/growing_qt.py",
+   "sha256": "0a19d4061ecf0c56f873853df24a710680b5f6d14d55d163bc032ae3b689bab5",
+   "adapted": "unchanged copy (U27, enmienda 2 de ESPEC_U27; enviado por el autor con SHA256SUMS.txt)"
+  },
+  "c45j_ltb/ltb/multibounce_viability.py": {
+   "origin": "claude_dual/c45b/ltb/multibounce_viability.py",
+   "sha256": "45f14fa4f7f5f62871f5151b215392f1c1fe1607d43ec70733e28312c6a1e26a",
+   "adapted": "unchanged copy (U27, enmienda 2 de ESPEC_U27; enviado por el autor con SHA256SUMS.txt)"
+  },
+  "c45j_ltb/ltb/shells.py": {
+   "origin": "claude_dual/c45b/ltb/shells.py",
+   "sha256": "475ad25cec9aeb8ec29ece1129d73508d2647681e8d387f9e76d2a385a87a373",
+   "adapted": "unchanged copy (U27, enmienda 2 de ESPEC_U27; enviado por el autor con SHA256SUMS.txt)"
+  },
+  "c45j_ltb/results/c45h_content_20261004T153219Z/C_SOURCE_HASHES.json": {
+   "origin": "claude_dual/c45b/results/c45h_content_20261004T153219Z/C_SOURCE_HASHES.json",
+   "sha256": "abf6e5c1081a686ee3bef2b85ba924c9d73b18f2a1fd4fb1bebb65ed0d05a327",
+   "adapted": "unchanged copy (U27, enmienda 2 de ESPEC_U27; enviado por el autor con SHA256SUMS.txt)"
+  },
+  "c45j_ltb/results/c45h_content_20261004T153219Z/MANIFEST.json": {
+   "origin": "claude_dual/c45b/results/c45h_content_20261004T153219Z/MANIFEST.json",
+   "sha256": "95eb4a12f49670528099e176b1eeb6f73efa583b9195868070952b08495226ee",
+   "adapted": "unchanged copy (U27, enmienda 2 de ESPEC_U27; enviado por el autor con SHA256SUMS.txt)"
+  },
+  "c45j_ltb/results/c45h_content_20261004T153219Z/PROTOCOL.json": {
+   "origin": "claude_dual/c45b/results/c45h_content_20261004T153219Z/PROTOCOL.json",
+   "sha256": "3be6a88bffd829a41d358dab7223e1688eca96906ff026886eb5d036797a9841",
+   "adapted": "unchanged copy (U27, enmienda 2 de ESPEC_U27; enviado por el autor con SHA256SUMS.txt)"
+  },
+  "c45j_ltb/results/c45h_content_20261004T153219Z/results.json": {
+   "origin": "claude_dual/c45b/results/c45h_content_20261004T153219Z/results.json",
+   "sha256": "7843e07f357c2c5da3bf4bad70feb379092d8270706f4aaf077e10a260010dae",
+   "adapted": "unchanged copy (U27, enmienda 2 de ESPEC_U27; enviado por el autor con SHA256SUMS.txt)"
+  },
+  "c45b_dn/INFORME_C45B.md": {
+   "origin": "claude_dual/c45b/INFORME_C45B.md",
+   "sha256": "0d00273e4c74191c56ef5ad026f3953392fb3912e7f6731ced14ade7c1bc569f",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/README.md": {
+   "origin": "claude_dual/c45b/README.md",
+   "sha256": "33ea16b9f417c4424462cf37dbc67e72cd470b245845040f38058bbdd820a72c",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/SHA256SUMS.txt": {
+   "origin": "claude_dual/c45b/SHA256SUMS.txt (c45b_dn.zip)",
+   "sha256": "5512648a04577f6fed637ebb3f5b7cc151b0953d2ef1108559f3048ea4046a49",
+   "adapted": "hashes of the originals, written by the author when copying"
+  },
+  "c45b_dn/__init__.py": {
+   "origin": "claude_dual/c45b/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/audit/AUDIT_C45B.md": {
+   "origin": "claude_dual/c45b/audit/AUDIT_C45B.md",
+   "sha256": "bbb839ca29a0465e8fcefa391c1b8aa5965e68e99368ac7df4969fb93d00aa2d",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/audit/__init__.py": {
+   "origin": "claude_dual/c45b/audit/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/audit/analyse_star.py": {
+   "origin": "claude_dual/c45b/audit/analyse_star.py",
+   "sha256": "c28c1ad3491381923c5bae84de716e00c30fe525e484b43cee885ee4cec0aee9",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/audit/check_bank.py": {
+   "origin": "claude_dual/c45b/audit/check_bank.py",
+   "sha256": "dd02084b1caa12667c9bfa19c5b6fe86027fbdcb1aa6eccb62c33780060ec323",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/audit/check_convergence.py": {
+   "origin": "claude_dual/c45b/audit/check_convergence.py",
+   "sha256": "42a53b14c9df5be3443ff99c9e2f0b1a82fd2adb330a47ae96ffa1ec341272a1",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/audit/check_equations.py": {
+   "origin": "claude_dual/c45b/audit/check_equations.py",
+   "sha256": "f67574a0cb70587de92b67e16d38868903b623eb5f63676e42fb3b4ab852abca",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/audit/out_bank.txt": {
+   "origin": "claude_dual/c45b/audit/out_bank.txt",
+   "sha256": "c37987650805aa5f41035f17e7579fb438e71343eb54a2e523485db651cbd4ba",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/audit/out_convergence_gr.txt": {
+   "origin": "claude_dual/c45b/audit/out_convergence_gr.txt",
+   "sha256": "b1a6bfd63fc5dd2072d9f6b31409aa5322814fc7a2c3c4e3c171408425d4ad5d",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/audit/out_convergence_qt.txt": {
+   "origin": "claude_dual/c45b/audit/out_convergence_qt.txt",
+   "sha256": "140be8ee09ee395aa08837b39ab02b566bd68c58852d28d5476bb71658f667d3",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/audit/out_equations.txt": {
+   "origin": "claude_dual/c45b/audit/out_equations.txt",
+   "sha256": "5778d8fb813cff700ba8e5847d6529ea0988160b0be8fbb83857c98503a19825",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/audit/out_flat_test.txt": {
+   "origin": "claude_dual/c45b/audit/out_flat_test.txt",
+   "sha256": "bcaefec50333bbb850a045856e905c33b6eedede98335897dc1497978b5e4cc9",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/audit/out_star_analysis.txt": {
+   "origin": "claude_dual/c45b/audit/out_star_analysis.txt",
+   "sha256": "266bb6fca26e746e17eba89ea8929c7963f8b86b7596d8c30cdd68ae15b15b35",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/audit/out_star_runs.txt": {
+   "origin": "claude_dual/c45b/audit/out_star_runs.txt",
+   "sha256": "a45e98a06d415f69e10e50b4c01f77a3947222c562bf7b9f1f3da57a96044134",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/audit/run_star.py": {
+   "origin": "claude_dual/c45b/audit/run_star.py",
+   "sha256": "6d46088b8576bc43c7618acd3e667cd013126a4b8a8816da520ad6139b98c614",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/common/__init__.py": {
+   "origin": "claude_dual/c45b/common/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/common/bosonstar.py": {
+   "origin": "claude_dual/c45b/common/bosonstar.py",
+   "sha256": "0baeca218fbcdfb6d9d08b70843b8ec6f46bc0e80d6a3ac8ef29149793bdd2a5",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/common/potential.py": {
+   "origin": "claude_dual/c45b/common/potential.py",
+   "sha256": "be7df74bfb09ab2fb6c58522b2f1f8b71b5f415e283557f94776aec9cde16691",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/common/provenance.py": {
+   "origin": "claude_dual/c45b/common/provenance.py",
+   "sha256": "f633eabca4b9fa432ec7f4e85132b8aa44299d921615c9c69ec424da8751617d",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/dn/__init__.py": {
+   "origin": "claude_dual/c45b/dn/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/dn/analysis.py": {
+   "origin": "claude_dual/c45b/dn/analysis.py",
+   "sha256": "a38255c8c1a8f72ff9258c57dfe7f83e577552502df62e2aeecefc52ad1d9b78",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/dn/convergence.py": {
+   "origin": "claude_dual/c45b/dn/convergence.py",
+   "sha256": "2f5558fedf076531487ffa66cc23b250bd3eca81d74cd231c4b510b9389bf367",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/dn/diagnostics.py": {
+   "origin": "claude_dual/c45b/dn/diagnostics.py",
+   "sha256": "68eebee059381d35da1182aebc0bf3bbd81cdf85b4bdc8e944800cb4c5b83b6f",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/dn/equations.py": {
+   "origin": "claude_dual/c45b/dn/equations.py",
+   "sha256": "a998e988beaa60417c284abe7cfb9646cf4ed1f52de5f397a7bad7376cb7ef6e",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/dn/profiles.py": {
+   "origin": "claude_dual/c45b/dn/profiles.py",
+   "sha256": "7bf0545d020612a24ef24639b7af8777093a6d1d632660b4668fbbe67b148de5",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/dn/solver.py": {
+   "origin": "claude_dual/c45b/dn/solver.py",
+   "sha256": "ebae6fd808376127c2a04ecec90eb96d32a0419b462d3094b52215da730a55a1",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/dn_bank/run_c45b_dn.py": {
+   "origin": "claude_dual/c45b/dn_bank/run_c45b_dn.py",
+   "sha256": "8165424e1388dd6b2c42e0626e340949ca6daabbbca3a9718f0f22af36893fe6",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/hom/__init__.py": {
+   "origin": "claude_dual/c45b/hom/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/hom/frw.py": {
+   "origin": "claude_dual/c45b/hom/frw.py",
+   "sha256": "573b2e217fc0854be99acb811e29a716be01a760b8c6ed1692efaaf0b6401952",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/results/c45b_dn_20261003T181915Z/MANIFEST.json": {
+   "origin": "claude_dual/c45b/results/c45b_dn_20261003T181915Z/MANIFEST.json",
+   "sha256": "87e01359eed305ee307db4667b60727462947c75088c5e891397700cac8b942d",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/results/c45b_dn_20261003T181915Z/PROTOCOL.json": {
+   "origin": "claude_dual/c45b/results/c45b_dn_20261003T181915Z/PROTOCOL.json",
+   "sha256": "186a0b40b22c3ca0ccb90f72be49d994aa295446239632d88554105daf46a264",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/results/c45b_dn_20261003T181915Z/results.json": {
+   "origin": "claude_dual/c45b/results/c45b_dn_20261003T181915Z/results.json",
+   "sha256": "cb54236db69142f769e3d34354a2eaa98d8c1bfc3cdaf87e1464efd530519e4c",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/results/c45b_dn_20261003T181915Z/results_partial.json": {
+   "origin": "claude_dual/c45b/results/c45b_dn_20261003T181915Z/results_partial.json",
+   "sha256": "c295e890e3143f4ba60bce9f44da7de05f9eb479e196f5105edc5445aceaf80b",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/tests/__init__.py": {
+   "origin": "claude_dual/c45b/tests/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/tests/run_all.py": {
+   "origin": "claude_dual/c45b/tests/run_all.py",
+   "sha256": "c0185503f7a31f4cacc5eb369aa280f6ebf5ade91137451e49ddf6f17af7a43f",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
+  },
+  "c45b_dn/tests/test_dn_flat.py": {
+   "origin": "claude_dual/c45b/tests/test_dn_flat.py",
+   "sha256": "8efd52d5c433bf752a4879ff1a4b7a236d745788564006e2831102d4e796f833",
+   "adapted": "unchanged copy (U28, enmienda 3 de ESPEC_U28: origen de las ecuaciones E1-E2; U28 no lo importa)"
   }
  }
 }

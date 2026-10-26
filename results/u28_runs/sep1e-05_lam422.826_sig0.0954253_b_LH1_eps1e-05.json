@@ -1,0 +1,1 @@
+{"valid": false, "status": "FAILED", "H_max": 5.762626714210152e-08, "steps": 4628, "runtime_s": 2.8236234188079834, "sqrt_al": 31.622776601683793, "rho_d_min": 0.944363952574048, "child": "sep1e-05_lam422.826_sig0.0954253", "family": "b", "LH": 1.0, "eps": 1e-05, "cls": "E"}

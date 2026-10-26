@@ -6,12 +6,13 @@
 Code, frozen inputs, results, preregistrations and paper source for
 
 > J. Bautista, *WHALEFALL: a preregistered, falsifiable toy cosmology from a quasi-topological bounce to cold dark matter
-> from the collapse of an RP³ string–wall network*, version 2, preprint (2026), Zenodo, [doi:10.5281/zenodo.23478896](https://doi.org/10.5281/zenodo.23478896).
-> Source in `paper/zenodo_whale/main-v2.tex`, PDF in `paper/zenodo_whale/main-v2.pdf`.
+> from the collapse of an RP³ string–wall network*, version 3, preprint (2026), Zenodo, [doi:10.5281/zenodo.23478896](https://doi.org/10.5281/zenodo.23478896).
+> Source in `paper/zenodo_whale/main-v3.tex`, PDF in `paper/zenodo_whale/main-v3.pdf`.
 
 WHALEFALL is a toy cosmology built as one chain of computations, from a non-singular beginning to a dark-matter
 prediction. A small closed contracting patch bounces through a quasi-topological gravity core and kicks a scalar onto an
-order-four pole plateau (n_s = 0.9728, r = 0.0050). A symmetric-tensor order parameter orders into an RP³ vacuum and leaves
+order-four pole plateau, where it either enters eternal inflation or inflates directly (n_s = 0.9728, r = 0.0050);
+the direct children are the branch that the coherence of the parent's bounces favours. A symmetric-tensor order parameter orders into an RP³ vacuum and leaves
 a network of global ℤ₂ strings, which collapses as string–wall systems when H ≃ m_G/3. The collapse, measured on the
 lattice and passed through a patched CLASS, Lyman-α gates and a full Lyman-α likelihood, leaves a band of the decay
 constant F ≈ 0.06–0.5 F₀ (F₀ = 1.07×10¹⁵ GeV) with cold pseudo-Goldstone dark matter, m_G ≈ 10⁻¹⁷–10⁻¹³ eV.
@@ -50,9 +51,9 @@ make test       # fast tests: chain pieces, small lattice runs, Boltzmann solver
 make reproduce  # chain S1-S6 + contract with the pole plateau and with the ten-level hierarchy of version 1,
                 # then check that both reproduce the stored results (rtol 1e-6; ~10 min)
 make action     # common action: symbolic residuals, tree-level decays, late fluid (sympy)
-make numbers    # every result number quoted in main-v2.tex, recomputed from the stored results
+make numbers    # every result number quoted in main-v3.tex, recomputed from the stored results
 make figures    # preprint figures from the stored results
-make paper      # paper/zenodo_whale/main-v2.pdf
+make paper      # paper/zenodo_whale/main-v3.pdf
 ```
 
 `make all` runs `test reproduce action numbers figures` (what CI runs, ~15 min on a laptop). Without `gcc` some tests
@@ -60,6 +61,9 @@ are reported as `SKIP`, never as passed; CI sets `REQUIRE_ALL=1`, so there a ski
 
 **Heavy computations** (not run by `make`; each script states its command, cost and outputs in its docstring):
 
+- **Coherence of the birth.** `chain/u27_direct_children.py` (dust model, ~4 min) and `chain/u28_c45k.py`
+  (`gates`, `produce`, `analyze`; the parent with an inhomogeneous inflaton, 780 runs in ~3 h on one core; `produce`
+  skips finished runs).
 - **Lattice.** `network/kern.c` (C + OpenMP) with `network/lattice.py`; an optional JAX port (`network/jax_kernel.py`,
   `WHALEFALL_BACKEND=jax`) was used on an A100 GPU for the largest collapse networks. The collapse networks
   (`network/u19*_produce.py`, resumable, skip finished networks) took 0.4–2.6 h each on a 4-core machine or the GPU at
@@ -77,7 +81,8 @@ are reported as `SKIP`, never as passed; CI sets `REQUIRE_ALL=1`, so there a ski
 
 ```
 chain/              S1 birth, S2 pocket, S3 sectors, S4 dark ledger, S5 closure, S6 measured closure, the contract
-                    (u_contract.py) and the dark-sector tests run inside the chain (U17, U20, U20b, U22, U22b, U23, U26)
+                    (u_contract.py), the dark-sector tests run inside the chain (U17, U20, U20b, U22, U22b, U23, U26) and
+                    the coherence tests of the birth (U27, U28)
 components/         frozen components from earlier campaigns (birth integrator, hierarchy, relic, pseudo-Goldstone)
 data/               frozen inputs, with SHA-256 manifest (data/MANIFEST.json)
 results/            chain outputs and the contract (CONTRATO_CIERRE.json); results/plateau_sum/ with the hierarchy
@@ -87,7 +92,7 @@ network/            lattice kernel and the string–wall collapse (U19-U19d) wit
 docs/               preregistered specifications (preregistros/ESPEC_U*.md, index in its README) and the report with
                     the verdict of each test (informes/INFORME_U*.md)
 env/                environment check, CLASS patch and setup
-paper/zenodo_whale/ the preprint (main-v2.tex, refs.bib), figure scripts and paper_numbers_v2.py
+paper/zenodo_whale/ the preprint (main-v3.tex, refs.bib), figure scripts and paper_numbers_v3.py
 tests/              fast tests (make test)
 ```
 
