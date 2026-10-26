@@ -102,6 +102,12 @@ The preregistrations and reports are in Spanish: they are the original dated rec
 **Plateau.** Since U26 the chain uses the order-four pole plateau by default; `WHALEFALL_PLATEAU=sum` selects the ten-level
 hierarchy of version 1 and writes to `results/plateau_sum/` (chain) or `action/results/` (common action).
 
-## Licence
+## Citation and licence
 
-Code under GPL-3.0-or-later; text, figures and data under CC-BY-NC-4.0. See `LICENSE.md`.
+Please cite the preprint: J. Bautista (2026), Zenodo, [doi:10.5281/zenodo.23478896](https://doi.org/10.5281/zenodo.23478896)
+(this DOI always resolves to the latest version; also in `CITATION.cff`, and under "Cite this repository" on GitHub).
+Code release 1.1.0 accompanies version 3 of the preprint, and release 1.0.0 version 2 (`CHANGELOG.md`).
+
+Code: GPL-3.0-or-later. Preprint, figures, data and documentation: CC BY-NC 4.0. Research and teaching use is free;
+commercial use of the text, figures or data, or use of the code in closed-source software, needs the author's
+permission. Details in `LICENSE.md`.
