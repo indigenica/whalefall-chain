@@ -172,3 +172,15 @@ La selección cubre, por tanto, tanto padres dominados por el polvo como padres 
 ---
 
 *Nota (26 de octubre de 2026, 09:42, Madrid).* El autor llevó U27 y U28 a la v3 del preprint (`paper/zenodo_whale/main-v3.tex`). La línea D11 del contrato (eslabón 2) recoge ahora este veredicto, como preveía §8 del ESPEC. El texto de arriba no cambia.
+
+*Nota (27 de octubre de 2026, 18:37, Madrid): lectura informativa, decidida después de ver los datos.*
+- **Qué se hizo:** se repitieron las 43 corridas de E-v y D-v con L·H = 1 que pasan la prueba de Δt_B pero fallan f_loc (30 de E-v y 13 de D-v). Se guardó el motivo de cada celda muestreada (`chain/u28_motivos.py`, `results/u28_motivos.json`).
+- **Reproducción:** las etiquetas coinciden exactamente con las guardadas en las 43.
+- **Cómo aterrizan las celdas:**
+  - **En E-v** (720 celdas): 325 como D (45 %), 287 por encima de la densidad de Planck (40 %), 48 no fértiles (7 %) y 60 como E.
+  - **En D-v** (312 celdas): 141 como E (45 %), 142 por encima de Planck (46 %), 15 no fértiles y 14 como D.
+- **La hipótesis no se confirma.** Suponía que los eternos pierden celdas sobre todo por encima de Planck, porque K_max·α ∝ χ_land².
+  - Las dos clases pierden celdas igual: la mitad cambian de clase y la otra mitad pasan de Planck.
+  - Las celdas de D-v que pasan de Planck lo hacen por más: mediana de 16 veces la densidad de Planck, frente a 3.6 en E-v.
+  - Lo que distingue a los eternos es que fallan así más a menudo: en 30 de sus 42 corridas incoherentes, frente a 13 de 27.
+- No se aísla un mecanismo único. El veredicto de arriba no cambia.

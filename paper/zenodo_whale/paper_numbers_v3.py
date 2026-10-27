@@ -158,6 +158,32 @@ CHECKS += [
     ("U28 V4", f"collapse to ${e(max(x['rel'] for x in _g['V4']), 0)}$"),
 ]
 
+# version 3.1: open assumptions "Seed" (docs/informes/NOTA_SEMILLAS_AGUJEROS_NEGROS.md) and "Late-time acceleration"
+SB = J("results", "explora_semillas_bh.json"); sm = SB["summary"]
+viab = [p for p in SB["parents"] if p["group"] in ("E-v", "D-v")]
+lq = [math.log10(p["ratio_q_over_kin"]) for p in viab]
+CHECKS += [
+    ("seed AH", f"($AH\\simeq{sm['AH_range'][0]:.1f}$--${sm['AH_range'][1]:.0f}$)"),
+    ("seed chi0", "with $\\chi$ at rest at its minimum" if sm["chi0_max"] == 0 else "MISMATCH"),
+    ("seed kinetic", f"kinetic energy of ${e(sm['f_kin_range'][0], 0)}$--${e(sm['f_kin_range'][1], 0)}$ of the dust"),
+    ("seed quantum shortfall", f"by $10^{{{-max(lq):.1f}}}$--$10^{{{-min(lq):.0f}}}$" if max(lq) < 0 else "MISMATCH"),
+]
+_H0 = 67.4e3 / 3.0857e22 * 6.582e-16; _rhoL = 0.685 * 3 * _H0 ** 2 * (2.435e27) ** 2       # eV, eV^4 (8 pi G = 1/M_Pl^2)
+CHECKS.append(("Lambda shortfall", f"about {['zero','one','two','three','four','five','six','seven','eight','nine'][round(math.log10(_rhoL / (_H0 ** 2 * (2.7e23) ** 2)))]} orders of magnitude below the dark energy"))
+
+# version 3.1: reasons of the lost cells in U28 (chain/u28_motivos.py, informative)
+MO = J("results", "u28_motivos.json"); ms = MO["summary"]
+_pc = lambda g, k: 100 * ms[g]["reasons"].get(k, 0) / sum(ms[g]["reasons"].values())
+_runs = [json.loads(f.read_text()) for f in ROOT.joinpath("results", "u28_runs").glob("sep*.json")]
+_sel = json.loads(ROOT.joinpath("results", "u28_runs", "selection.json").read_text()); _grp = {x["tag"]: g for g, v in _sel.items() for x in v}
+_inc = {g: sum(1 for o in _runs if _grp[o["child"]] == g and o["LH"] == 1.0 and o.get("valid") and not o["coherent"]) for g in ("E-v", "D-v")}
+CHECKS += [
+    ("U28 reasons runs", f"Repeating the ${MO['n_runs']}$ runs that pass the bounce-time test" if MO["labels_mismatches"] == 0 else "MISMATCH"),
+    ("U28 reasons flips", f"(${_pc('E-v', 'D'):.0f}\\%$ of the cells in both classes)" if round(_pc("E-v", "D")) == round(_pc("D-v", "E")) else "MISMATCH"),
+    ("U28 reasons Planck", f"(${_pc('E-v', 'super_planck'):.0f}\\%$ for eternal and ${_pc('D-v', 'super_planck'):.0f}\\%$ for direct children)"),
+    ("U28 reasons frequency", f"(${ms['E-v']['n_runs']}$ of their ${_inc['E-v']}$ incoherent runs, against ${ms['D-v']['n_runs']}$ of ${_inc['D-v']}$)"),
+]
+
 fails = 0
 for name, frag in CHECKS:
     if frag == "SKIP":

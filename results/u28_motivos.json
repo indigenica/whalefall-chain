@@ -1,0 +1,6758 @@
+{
+ "note": "informative, decided after the data; INFORME_U28 dated note of 27 October",
+ "n_runs": 43,
+ "labels_mismatches": 0,
+ "summary": {
+  "E-v": {
+   "n_runs": 30,
+   "reasons": {
+    "D": 325,
+    "super_planck": 287,
+    "infertile": 48,
+    "E": 60
+   },
+   "super_planck_E_over_planck_median": 3.6385932916654
+  },
+  "D-v": {
+   "n_runs": 13,
+   "reasons": {
+    "infertile": 15,
+    "E": 141,
+    "super_planck": 142,
+    "D": 14
+   },
+   "super_planck_E_over_planck_median": 15.938111035984
+  }
+ },
+ "runs": [
+  {
+   "child": "sep0.0001_lam1.18381_sig0.00307107",
+   "group": "D-v",
+   "cls": "D",
+   "family": "b",
+   "eps": 0.01,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 161006.29362374244,
+     "E_over_planck": 0.46104756406600295
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.37401098610049693,
+     "chi_end": -747.6841572351847
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3740326904271642,
+     "chi_end": -757.2192561024581
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.37401748658656775,
+     "chi_end": -760.26035338526
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3739829648207783,
+     "chi_end": -761.8442137648342
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3739358344924145,
+     "chi_end": -762.6237861162372
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3738787900712375,
+     "chi_end": -763.027593816286
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.37381365207275175,
+     "chi_end": -763.2348454254171
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.37374201552109354,
+     "chi_end": -763.3310205142853
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3736741204076434,
+     "chi_end": -763.3602265564234
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.37359435031457405,
+     "chi_end": -763.3539146049671
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.37351238008727744,
+     "chi_end": -763.3220383991682
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3734295720910482,
+     "chi_end": -763.2754809309833
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3733471792964477,
+     "chi_end": -763.2216387844921
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3732663198702927,
+     "chi_end": -763.1656867146913
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3731965156059373,
+     "chi_end": -763.1171586358086
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.37312105188604844,
+     "chi_end": -763.0662635705451
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.37304945844926424,
+     "chi_end": -763.0209277369237
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3729822262776738,
+     "chi_end": -762.9821376387395
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.37291969788396456,
+     "chi_end": -762.9502625208025
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.37286208732129505,
+     "chi_end": -762.9251557188309
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3728150988377492,
+     "chi_end": -762.9080761554701
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.37276702689922375,
+     "chi_end": -762.8939743326141
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3727240418988072,
+     "chi_end": -762.8842717015729
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam1.18381_sig0.0303533",
+   "group": "D-v",
+   "cls": "D",
+   "family": "a",
+   "eps": 0.003,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.6476349793784364,
+     "chi_end": 1179.8155655272703
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.6480660924809291,
+     "chi_end": 1179.6092859978985
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.6492723048708944,
+     "chi_end": 1178.6165554699908
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.651265102826627,
+     "chi_end": 1177.0355310734956
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.6537105085561837,
+     "chi_end": 1175.2031455922427
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.6572409029102934,
+     "chi_end": 1172.750359594033
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.6616255606732677,
+     "chi_end": 1169.9976904024802
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.666901904714249,
+     "chi_end": 1167.06908985994
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.6731160550284147,
+     "chi_end": 1164.1003243529067
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.6803188907406235,
+     "chi_end": 1161.223488480611
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.6885678500933258,
+     "chi_end": 1158.5692544607177
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.697922280021008,
+     "chi_end": 1156.2565061821788
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.7072138199246197,
+     "chi_end": 1154.5732560989009
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.7188121181482237,
+     "chi_end": 1153.1813752736562
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.7316621624960059,
+     "chi_end": 1152.3904234024817
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.7457809408333858,
+     "chi_end": 1152.251348055756
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.7611530378386296,
+     "chi_end": 1152.7912763548713
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.7777151198702142,
+     "chi_end": 1154.009025476757
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.7953446888400377,
+     "chi_end": 1155.875022315203
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.8138409086065912,
+     "chi_end": 1158.3285017570522
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.8307789099605417,
+     "chi_end": 1160.9319364874161
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.8500477298632947,
+     "chi_end": 1164.2719075531993
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 48533.55928376168,
+     "E_over_planck": 0.8690838868673807
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 59621.27529041239,
+     "E_over_planck": 0.8873239587641435
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam1.18381_sig0.0303533",
+   "group": "D-v",
+   "cls": "D",
+   "family": "b",
+   "eps": 0.001,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5043259729144705,
+     "chi_end": -893.4998596231579
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5042589476589668,
+     "chi_end": -887.1947696842656
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5041677397597647,
+     "chi_end": -886.3550084831683
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5040426200506923,
+     "chi_end": -885.9973568136375
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5038536965163309,
+     "chi_end": -885.7039183982758
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5036173827353777,
+     "chi_end": -885.4361590174079
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5033386294583821,
+     "chi_end": -885.1618160014117
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.503023261481848,
+     "chi_end": -884.8719543636016
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.50267770775873,
+     "chi_end": -884.5674101745639
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5023507018320822,
+     "chi_end": -884.2884190435723
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5019668166107949,
+     "chi_end": -883.9714652825345
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5015726360283526,
+     "chi_end": -883.6584664416981
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5011748300641452,
+     "chi_end": -883.3568302025728
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5007796537230854,
+     "chi_end": -883.0734061385917
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5003928019059883,
+     "chi_end": -882.8141004378557
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.500060000875898,
+     "chi_end": -882.6076975185536
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.4997019861508638,
+     "chi_end": -882.4056885036731
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.49936477153573855,
+     "chi_end": -882.237518290257
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.49905119952914506,
+     "chi_end": -882.1036301600682
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.4987633970132812,
+     "chi_end": -882.0029562469888
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.49850284534104605,
+     "chi_end": -881.9330468889776
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.4982949140992498,
+     "chi_end": -881.8938027138915
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.49808844625808085,
+     "chi_end": -881.8712773694917
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.49791077632104913,
+     "chi_end": -881.8666732416062
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam1.18381_sig0.0303533",
+   "group": "D-v",
+   "cls": "D",
+   "family": "b",
+   "eps": 0.01,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 152.2657759963185,
+     "chi_end": 15140.488393512665
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 152.2504240398103,
+     "chi_end": 15041.697076897946
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 152.2084277466619,
+     "chi_end": 15022.546783981292
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 152.15003155447872,
+     "chi_end": 15006.986690319956
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 152.0630563807042,
+     "chi_end": 14987.455702024756
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 430457.2454143316,
+     "E_over_planck": 152.1170446847821
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 599533.9270077856,
+     "E_over_planck": 152.0271478904846
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 676257.4134880775,
+     "E_over_planck": 151.96676154612484
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 737575.562726999,
+     "E_over_planck": 151.89410913096924
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 768171.2886113228,
+     "E_over_planck": 151.46109410676561
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 814089.0896249063,
+     "E_over_planck": 151.7711484785314
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 829289.5580708851,
+     "E_over_planck": 151.7123587425145
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 829127.5764750328,
+     "E_over_planck": 151.65414881160567
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 798242.4929784318,
+     "E_over_planck": 151.58606776255627
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 751993.3508809378,
+     "E_over_planck": 151.51617069919325
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 690400.4957268334,
+     "E_over_planck": 151.43446818054892
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 536708.9021551177,
+     "E_over_planck": 151.32003181450042
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 150.7239765643046,
+     "chi_end": 14913.757600436367
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 150.61964794031175,
+     "chi_end": 14945.231151994056
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 150.48961332323887,
+     "chi_end": 14980.487255806014
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 150.32861784300076,
+     "chi_end": 15017.974831893032
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 150.1585806758413,
+     "chi_end": 15051.93174833415
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 149.94038162344089,
+     "chi_end": 15089.471042790565
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 149.7021682719391,
+     "chi_end": 15124.925287925445
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam1.18381_sig0.0954253",
+   "group": "E-v",
+   "cls": "E",
+   "family": "a",
+   "eps": 0.0001,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23959315583165364,
+     "chi_end": -532.8307640689162
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.2395932143308212,
+     "chi_end": -532.8653986690382
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.2395933771218885,
+     "chi_end": -532.9095944223598
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23959360726922838,
+     "chi_end": -532.9344455031581
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23959395841534498,
+     "chi_end": -533.0045959422156
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23959440171782298,
+     "chi_end": -533.0886485068042
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23959492997132195,
+     "chi_end": -533.174765827189
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23959553494393784,
+     "chi_end": -533.2782270092388
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23959620716431118,
+     "chi_end": -533.3960732539476
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23959685296142233,
+     "chi_end": -533.5006645302486
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.2395976239766408,
+     "chi_end": -533.6228862677839
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23959843142394052,
+     "chi_end": -533.7419762404162
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23959926402112908,
+     "chi_end": -533.8562427822156
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23960011050367014,
+     "chi_end": -533.9625569945824
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23960095992931862,
+     "chi_end": -534.0591111245071
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23960170870722008,
+     "chi_end": -534.1370802737746
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23960253494679637,
+     "chi_end": -534.217718983416
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23960333492632369,
+     "chi_end": -534.286048239242
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23960409972547617,
+     "chi_end": -534.3430326180431
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23960482132390568,
+     "chi_end": -534.3863459844197
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23960549246437063,
+     "chi_end": -534.4202989176573
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.2396060414114472,
+     "chi_end": -534.4398023490763
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.2396066002075451,
+     "chi_end": -534.4556615111363
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23960709207564013,
+     "chi_end": -534.4655786720336
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam1.18381_sig0.0954253",
+   "group": "E-v",
+   "cls": "E",
+   "family": "a",
+   "eps": 0.0003,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23952130335391508,
+     "chi_end": -349.2579017067985
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23952147871469573,
+     "chi_end": -349.31050900910657
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23952196676842102,
+     "chi_end": -349.3687017165684
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23952265674506837,
+     "chi_end": -349.4457529827448
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.239523709505805,
+     "chi_end": -349.55948884343786
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23952503854291995,
+     "chi_end": -349.7081760700115
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23952662246293008,
+     "chi_end": -349.8724058365177
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23952843614973313,
+     "chi_end": -350.05765900572294
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23953045161530268,
+     "chi_end": -350.265286280101
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23953238790832052,
+     "chi_end": -350.45639731939406
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23953469964298824,
+     "chi_end": -350.67469817752533
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23953712060362103,
+     "chi_end": -350.89749271209047
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23953961700083568,
+     "chi_end": -351.11630960274573
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.2395421551131765,
+     "chi_end": -351.3278171379808
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23954470189672442,
+     "chi_end": -351.52818539336096
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23954694719710204,
+     "chi_end": -351.6950837856043
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.2395494247473539,
+     "chi_end": -351.8671725537598
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.2395518234436876,
+     "chi_end": -352.02200513605425
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.2395541167856517,
+     "chi_end": -352.1569233200708
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.2395562805947219,
+     "chi_end": -352.27366668574876
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23955829307080065,
+     "chi_end": -352.37286599026834
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23955993916500382,
+     "chi_end": -352.44632149901577
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23956161489143357,
+     "chi_end": -352.5133987839374
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23956308990276323,
+     "chi_end": -352.56610372704375
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam1.18381_sig0.0954253",
+   "group": "E-v",
+   "cls": "E",
+   "family": "a",
+   "eps": 0.001,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23927010231680385,
+     "chi_end": 463.1474127651454
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23927068542463045,
+     "chi_end": 463.49130877922954
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23927230866245336,
+     "chi_end": 463.75739906257394
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23927460340962153,
+     "chi_end": 464.1199908780103
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.2392781049063564,
+     "chi_end": 464.66635299740574
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23928252517017035,
+     "chi_end": 465.35713000440336
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23928779333330624,
+     "chi_end": 466.1488618951336
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23929382617874972,
+     "chi_end": 467.0368827840909
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23930053028180553,
+     "chi_end": 468.00352840308574
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.239306971041343,
+     "chi_end": 468.90897045697767
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23931466127497145,
+     "chi_end": 469.9519410874039
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23932271517926282,
+     "chi_end": 470.99770662028106
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.2393310204232485,
+     "chi_end": 472.0209836516905
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.2393394648595915,
+     "chi_end": 473.0042924406778
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23934793863696907,
+     "chi_end": 473.92432389498924
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23935540962498905,
+     "chi_end": 474.67884370514514
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23936365367446855,
+     "chi_end": 475.45018214340604
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23937163573242554,
+     "chi_end": 476.1276314407793
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.2393792677176928,
+     "chi_end": 476.70972531921825
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23938646885539738,
+     "chi_end": 477.193998252498
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23939316661634893,
+     "chi_end": 477.58802029178224
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.2393986452351875,
+     "chi_end": 477.8663633017026
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.23940422261450456,
+     "chi_end": 478.1090820908097
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.2394091321417963,
+     "chi_end": 478.28779393952084
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam1.18381_sig0.0954253",
+   "group": "E-v",
+   "cls": "E",
+   "family": "b",
+   "eps": 0.001,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5.021920150405036,
+     "chi_end": 2804.4751649585983
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5.021569076831693,
+     "chi_end": 2790.557561649903
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5.020654085909915,
+     "chi_end": 2789.012306233794
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5.019364899557867,
+     "chi_end": 2788.0751258377395
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5.01740541309377,
+     "chi_end": 2786.992282102753
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5.014945434080264,
+     "chi_end": 2785.7832414176464
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5.012034635762447,
+     "chi_end": 2784.444067154194
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5.008731272301965,
+     "chi_end": 2783.009449893846
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5.005100402096084,
+     "chi_end": 2781.5264220401746
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5.0016543705192955,
+     "chi_end": 2780.2105954339245
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 4.997597255366963,
+     "chi_end": 2778.782755955278
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 4.99341863352219,
+     "chi_end": 2777.4615824634384
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 4.9891881851796,
+     "chi_end": 2776.29517558755
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 4.98497992618972,
+     "chi_end": 2775.323658193799
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 4.980848479800833,
+     "chi_end": 2774.5786296180772
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 4.977278292700955,
+     "chi_end": 2774.1234566509065
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 4.973415008269871,
+     "chi_end": 2773.853227294995
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 4.969754279013245,
+     "chi_end": 2773.836523521735
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 4.96632591292301,
+     "chi_end": 2774.058979695139
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 4.963138782137603,
+     "chi_end": 2774.4941724678174
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 4.960209637553595,
+     "chi_end": 2775.1056633792086
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 4.95784698793149,
+     "chi_end": 2775.761053045416
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 4.955452015378142,
+     "chi_end": 2776.578018316383
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 4.953346416729576,
+     "chi_end": 2777.4271782282117
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam1.18381_sig0.0954253",
+   "group": "E-v",
+   "cls": "E",
+   "family": "b",
+   "eps": 0.003,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 135.48009022101903,
+     "chi_end": 14196.872216312448
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 377243.2671674496,
+     "E_over_planck": 135.47320346500555
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 449822.21321778855,
+     "E_over_planck": 135.45459057482086
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 493340.27895823907,
+     "E_over_planck": 135.42890425124537
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 522311.3987732369,
+     "E_over_planck": 135.39101563658463
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 551260.4035079655,
+     "E_over_planck": 135.34540913313734
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 580188.4079131333,
+     "E_over_planck": 135.2942886623843
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 609099.1641805486,
+     "E_over_planck": 135.29695949753216
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 623488.5402011179,
+     "E_over_planck": 135.18494250935666
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 623381.1780748278,
+     "E_over_planck": 135.136929095002
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 623260.0501022598,
+     "E_over_planck": 135.08534254093098
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 608641.0990959388,
+     "E_over_planck": 135.03702340474445
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 579531.1355990778,
+     "E_over_planck": 135.0076072186075
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 506950.7953133659,
+     "E_over_planck": 134.948184807717
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 134.90403001722018,
+     "chi_end": 14115.851831286029
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 134.86172977765096,
+     "chi_end": 14131.575794843806
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 134.80740478690322,
+     "chi_end": 14153.136386403652
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 134.74241839438375,
+     "chi_end": 14177.964864040052
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 134.66364590199964,
+     "chi_end": 14205.377161965589
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 134.56908585652417,
+     "chi_end": 14234.589929292475
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 134.45839824843554,
+     "chi_end": 14264.725844579516
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 134.34951516834602,
+     "chi_end": 14291.531018832873
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 134.2201896821716,
+     "chi_end": 14320.834354527105
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 134.08777040756533,
+     "chi_end": 14348.326594400678
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam1.18381_sig1e-05",
+   "group": "E-v",
+   "cls": "E",
+   "family": "a",
+   "eps": 0.0001,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.14583021277055122,
+     "chi_end": -476.6024387841246
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.14586008525151878,
+     "chi_end": -476.65280304439324
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.14594331659967305,
+     "chi_end": -476.7931578716552
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.14606116792665774,
+     "chi_end": -476.9919670547763
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.14624148384331123,
+     "chi_end": -477.2962119251127
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.1464699794629692,
+     "chi_end": -477.6818606552966
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.14674367073909791,
+     "chi_end": -478.1438347196446
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.14708792753861888,
+     "chi_end": -478.67611077887636
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.14742962914460556,
+     "chi_end": -479.2718450936509
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.14783809259883365,
+     "chi_end": -479.8484668897614
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.14823747769315698,
+     "chi_end": -480.54288675773853
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.14861032826128817,
+     "chi_end": -481.2773807908112
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.1490997500345702,
+     "chi_end": -482.042798067958
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.14967733689028836,
+     "chi_end": -482.8299181556264
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.15014855328761384,
+     "chi_end": -483.6292753295176
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.15032313054875118,
+     "chi_end": -484.3423706353608
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.15060767381197823,
+     "chi_end": -485.1387639366777
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.1510902964931856,
+     "chi_end": -485.91993499414053
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.15180016416685235,
+     "chi_end": -486.6766882163838
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.15039690933978217,
+     "chi_end": -487.39997202779307
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.15123684086816722,
+     "chi_end": -488.0810526115471
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.15086184122519292,
+     "chi_end": -488.6446187789355
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.151541986379585,
+     "chi_end": -489.224320260108
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.15367654009265974,
+     "chi_end": -489.7399933326085
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam1.18381_sig1e-05",
+   "group": "E-v",
+   "cls": "E",
+   "family": "a",
+   "eps": 0.0003,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.03536056617556105,
+     "chi_end": -232.4727399403411
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.03538264030419749,
+     "chi_end": -232.54818995901226
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.03544407016240214,
+     "chi_end": -232.75834544458573
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.035530886537856375,
+     "chi_end": -233.0557717850438
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.03566335253457288,
+     "chi_end": -233.51037491303794
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.035831620245519794,
+     "chi_end": -234.08567132966428
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.03604525732184656,
+     "chi_end": -234.7735094598405
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.036269714097900155,
+     "chi_end": -235.5643532870433
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.03652905442479377,
+     "chi_end": -236.44758362209873
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.03679570369929683,
+     "chi_end": -237.30072005721124
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0371152619168586,
+     "chi_end": -238.3259343697355
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.03743752620423565,
+     "chi_end": -239.4080952577263
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.037771503256497044,
+     "chi_end": -240.5340496196764
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.038114082809763764,
+     "chi_end": -241.6904411666805
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.03849025588777016,
+     "chi_end": -242.86382844729056
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.03878699767887859,
+     "chi_end": -243.91024651863918
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.039135211204921076,
+     "chi_end": -245.07914927487332
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.039535766479659035,
+     "chi_end": -246.22656278273863
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.03985511653722959,
+     "chi_end": -247.33930536953082
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.04017667390880414,
+     "chi_end": -248.40465915469412
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.04046497223009363,
+     "chi_end": -249.41014952752812
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.04070668603968516,
+     "chi_end": -250.24391035551633
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.04106168533903371,
+     "chi_end": -251.10389644549022
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.041283770063065356,
+     "chi_end": -251.87084477522126
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam1.18381_sig1e-05",
+   "group": "E-v",
+   "cls": "E",
+   "family": "a",
+   "eps": 0.001,
+   "f_loc": 0.5785307969488465,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.1300468324041287,
+     "chi_end": 450.3123914740297
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.13035056009187918,
+     "chi_end": 450.8787035971091
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.13119738674243872,
+     "chi_end": 452.45275488561094
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.13239862224991777,
+     "chi_end": 454.6721015494102
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.13424137220874438,
+     "chi_end": 458.04554796122153
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.13591921750544203,
+     "chi_end": 462.2826753576777
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.13926044987619088,
+     "chi_end": 467.30284829527125
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.14167448268350158,
+     "chi_end": 473.014790295021
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.1455853196486511,
+     "chi_end": 479.3201270152063
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.14968649167411907,
+     "chi_end": 485.3405422406796
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.15349218656876826,
+     "chi_end": 492.487087934609
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.16038306422229415,
+     "chi_end": 499.93321071196533
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.16535061933551334,
+     "chi_end": 507.58078318229093
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.1704124425440333,
+     "chi_end": 515.3374739031073
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.1752180270297991,
+     "chi_end": 523.116854206974
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.18014005739483024,
+     "chi_end": 529.9858375802394
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.18315903958794644,
+     "chi_end": 537.5944488317638
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.19021511412535816,
+     "chi_end": 545.009548090093
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.1952800466081766,
+     "chi_end": 552.1648367439852
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.1983451315187743,
+     "chi_end": 558.998689827845
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.2042574353229213,
+     "chi_end": 565.4492952373415
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.2086912970746659,
+     "chi_end": 570.8117101126271
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.21295558451563099,
+     "chi_end": 576.3689287390347
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.2166968651820977,
+     "chi_end": 581.3596383681249
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam1.18381_sig1e-05",
+   "group": "E-v",
+   "cls": "E",
+   "family": "b",
+   "eps": 0.001,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.7351698227334076,
+     "chi_end": 1649.0280969340686
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.1070025524412549,
+     "chi_end": 409.71275918087713
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.08293775774714306,
+     "chi_end": 359.2394644906336
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.07549346128218463,
+     "chi_end": 342.74651745184104
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.07053018638805347,
+     "chi_end": 332.9334118355449
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0678865346287581,
+     "chi_end": 326.99894185769006
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.06642658699816731,
+     "chi_end": 322.99132066094137
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.06536650754726507,
+     "chi_end": 320.07776570771296
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.06489755790420408,
+     "chi_end": 317.8433043631015
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0642861470787813,
+     "chi_end": 316.2391299565301
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.06371432296086847,
+     "chi_end": 314.736215722124
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.06323180822361293,
+     "chi_end": 313.46611894385774
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.06281535045906257,
+     "chi_end": 312.36851806835466
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.06244908451416093,
+     "chi_end": 311.40216077972747
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.06212186724033293,
+     "chi_end": 310.5380195698287
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.061857239105098376,
+     "chi_end": 309.83862134029533
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.061583638938200236,
+     "chi_end": 309.11500627536543
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.061331316152400325,
+     "chi_end": 308.4472189246988
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.06109697117580378,
+     "chi_end": 307.8266402365305
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.06087831240751075,
+     "chi_end": 307.2472861858856
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.06067379160501517,
+     "chi_end": 306.70512853326744
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.06050319513518451,
+     "chi_end": 306.2527100150182
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.060323810786163286,
+     "chi_end": 305.7768082150528
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0601585491020887,
+     "chi_end": 305.33821904925645
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam1.18381_sig1e-05",
+   "group": "E-v",
+   "cls": "E",
+   "family": "b",
+   "eps": 0.003,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 135.51640617144886,
+     "chi_end": 14527.908914392945
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 129.98537624155156,
+     "chi_end": 14331.129082516129
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 132.93157728928648,
+     "chi_end": 14386.172608172044
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.1950541302856,
+     "chi_end": 14404.331815019834
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.39414259197795,
+     "chi_end": 14415.022428118647
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.55555585983285,
+     "chi_end": 14421.33637927314
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.63396114257364,
+     "chi_end": 14425.451997919874
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.6886290764478,
+     "chi_end": 14428.305227304723
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.7283482554183,
+     "chi_end": 14430.364795674983
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.75511772946794,
+     "chi_end": 14431.74268882104
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.77837696655345,
+     "chi_end": 14432.92914955539
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.79625346552126,
+     "chi_end": 14433.830013166747
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.81006384549985,
+     "chi_end": 14434.514882987114
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.82071672753787,
+     "chi_end": 14435.031853888822
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.82886323818565,
+     "chi_end": 14435.415299869832
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.8343905309763,
+     "chi_end": 14435.664700496693
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.83901377466,
+     "chi_end": 14435.859964949042
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.84222198023141,
+     "chi_end": 14435.979487267865
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.84424270189962,
+     "chi_end": 14436.035316290492
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.84526147989976,
+     "chi_end": 14436.037479608225
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.84543390077718,
+     "chi_end": 14435.994372891142
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.8449902094307,
+     "chi_end": 14435.924425862768
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.84394382743915,
+     "chi_end": 14435.817185583097
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 133.8424559534498,
+     "chi_end": 14435.68793315084
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam1.18381_sig1e-05",
+   "group": "E-v",
+   "cls": "E",
+   "family": "b",
+   "eps": 0.01,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.73750003831074,
+     "E_over_planck": 0.0009521546397594714
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.4902351546357133,
+     "E_over_planck": 0.0009560769991173633
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.48508238264987,
+     "E_over_planck": 0.0009560644887729972
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.4834336367321272,
+     "E_over_planck": 0.0009560625914755607
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.482450413967538,
+     "E_over_planck": 0.0009560628464802876
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.4818476345742715,
+     "E_over_planck": 0.0009560623177104655
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.4814314874272987,
+     "E_over_planck": 0.000956061627942518
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.4811200989599116,
+     "E_over_planck": 0.0009560617356473536
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.4808729540463936,
+     "E_over_planck": 0.000956061736600539
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.4806889361522995,
+     "E_over_planck": 0.0009560616457166284
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.4805096755156426,
+     "E_over_planck": 0.000956061477989492
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.4803514677388816,
+     "E_over_planck": 0.0009560612621398008
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.480208550388066,
+     "E_over_planck": 0.0009560610104518364
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.4800770107557635,
+     "E_over_planck": 0.0009560607299592918
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.479954124388957,
+     "E_over_planck": 0.0009560604249030792
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.4798505843306646,
+     "E_over_planck": 0.0009560601353335857
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.479739236162945,
+     "E_over_planck": 0.0009560597906322531
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.479632371330403,
+     "E_over_planck": 0.0009560594273531318
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.4795293190396843,
+     "E_over_planck": 0.0009560590468783226
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.4794296874078228,
+     "E_over_planck": 0.0009560586505003603
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.479333349201949,
+     "E_over_planck": 0.0009560582394005997
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.479250603186726,
+     "E_over_planck": 0.0009560578620557097
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.4791612193143777,
+     "E_over_planck": 0.0009560574226584753
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 2.4790767161067433,
+     "E_over_planck": 0.0009560569593669815
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam1.75176_sig0.0954253",
+   "group": "E-v",
+   "cls": "E",
+   "family": "a",
+   "eps": 0.003,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 1274411.4208985255,
+     "E_over_planck": 16.992186297936883
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 1213478.067814306,
+     "E_over_planck": 16.83171801102468
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 1181140.4921841824,
+     "E_over_planck": 16.680739166818263
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 1123432.8816487647,
+     "E_over_planck": 16.557731859756892
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 1052878.7831571654,
+     "E_over_planck": 16.667781174400663
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 956661.6628794854,
+     "E_over_planck": 16.552701821588517
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 835480.45808851,
+     "E_over_planck": 16.268922996439983
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 690042.706373552,
+     "E_over_planck": 16.04527780902701
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 521364.41545059223,
+     "E_over_planck": 15.990663761812742
+    },
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 270374.4636566543,
+     "E_over_planck": 15.740742848979497
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 14.65478172079668,
+     "chi_end": -5316.854262951796
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 14.610913677276162,
+     "chi_end": -5381.307066665937
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 14.55774375470293,
+     "chi_end": -5437.980168867669
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 14.491229032852912,
+     "chi_end": -5500.480135677804
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 14.427069946223007,
+     "chi_end": -5560.889046598003
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 14.373459364154456,
+     "chi_end": -5618.1267973959875
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 14.335447975797843,
+     "chi_end": -5670.592678499552
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 14.314213980218382,
+     "chi_end": -5716.661081448027
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 14.307532389012247,
+     "chi_end": -5754.478211172248
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 14.310399226482204,
+     "chi_end": -5782.496137528227
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 14.315802941544833,
+     "chi_end": -5798.508680095047
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 14.319365173787661,
+     "chi_end": -5806.47658998711
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 14.315607598024163,
+     "chi_end": -5804.804717437371
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 14.301990259580656,
+     "chi_end": -5795.269932221341
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam1.75176_sig0.0954253",
+   "group": "E-v",
+   "cls": "E",
+   "family": "b",
+   "eps": 0.0003,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.666367392842516,
+     "chi_end": -1965.2080119978211
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6662622321964695,
+     "chi_end": -1958.9163743791357
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6659977063417823,
+     "chi_end": -1958.2599955968537
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6656262766691197,
+     "chi_end": -1957.7712980030124
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6650622470934295,
+     "chi_end": -1957.1458416640965
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6643566182055927,
+     "chi_end": -1956.4129310426006
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.663525354526415,
+     "chi_end": -1955.5823935598723
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.662586990014286,
+     "chi_end": -1954.6794715938122
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6615619694303267,
+     "chi_end": -1953.7339209492147
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6605955834224457,
+     "chi_end": -1952.8822898679896
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6594663447031925,
+     "chi_end": -1951.9422237338697
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6583135991207998,
+     "chi_end": -1951.052313731441
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6571581644669684,
+     "chi_end": -1950.2423919490352
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6560191652634582,
+     "chi_end": -1949.5392255854624
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6549162163592916,
+     "chi_end": -1948.9625708855228
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6539754854959015,
+     "chi_end": -1948.568941035837
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6529720031786963,
+     "chi_end": -1948.268024945536
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6520346583822947,
+     "chi_end": -1948.1186592927686
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.651169170790874,
+     "chi_end": -1948.1154387691308
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6503795162557338,
+     "chi_end": -1948.2455231955123
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6496707629004077,
+     "chi_end": -1948.4894553806978
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6491055492665474,
+     "chi_end": -1948.7819531940052
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6485422569385388,
+     "chi_end": -1949.1700537015406
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6480553078624534,
+     "chi_end": -1949.5905379523767
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam1.75176_sig0.0954253",
+   "group": "E-v",
+   "cls": "E",
+   "family": "b",
+   "eps": 0.001,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.48979580909521087,
+     "chi_end": -297.0203797267439
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.48979439686397025,
+     "chi_end": -296.30125945719595
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.4897904660460511,
+     "chi_end": -296.0170030915363
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.4897849100173105,
+     "chi_end": -295.6563508620599
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.4897764345398475,
+     "chi_end": -295.12232766329595
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.48976573896608244,
+     "chi_end": -294.4620971334832
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.4897529974762695,
+     "chi_end": -293.69105452858264
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.48973841407250396,
+     "chi_end": -292.8275996269149
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.4897222175396247,
+     "chi_end": -291.8914046865852
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.4897066666526862,
+     "chi_end": -291.01433856830573
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.48968811136572654,
+     "chi_end": -289.9950234351398
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.48966869280854575,
+     "chi_end": -288.95935581038526
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.4896486838117456,
+     "chi_end": -287.92485590924457
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.48962835558337775,
+     "chi_end": -286.90772810076027
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.489607973188497,
+     "chi_end": -285.9224273754412
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.48959001646522793,
+     "chi_end": -285.0835441971694
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.489570216809867,
+     "chi_end": -284.19117892571506
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.4895510612687815,
+     "chi_end": -283.3616336840711
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.4895327599724605,
+     "chi_end": -282.6017272314258
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.4895155041961023,
+     "chi_end": -281.9162461646488
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.48949946566173913,
+     "chi_end": -281.30784527862534
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.4894863543757895,
+     "chi_end": -280.8324197001249
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.4894730139754963,
+     "chi_end": -280.3702805206888
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.48946127712334186,
+     "chi_end": -279.98284406461795
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam12.4289_sig3.14382e-05",
+   "group": "E-v",
+   "cls": "E",
+   "family": "a",
+   "eps": 0.0003,
+   "f_loc": 0.7002287453754786,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.014990338825982696,
+     "chi_end": -495.5278044839358
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.014783667226796545,
+     "chi_end": -491.8675897930913
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.013986484349026416,
+     "chi_end": -481.94221086132416
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.013298869349844129,
+     "chi_end": -468.6876923600643
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.01239751408095186,
+     "chi_end": -450.5641816250905
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.01139390032954902,
+     "chi_end": -431.8312376918557
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0105451542085118,
+     "chi_end": -415.9766928932424
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.010038521400939499,
+     "chi_end": -406.3171673851189
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.009962170752881389,
+     "chi_end": -405.15277101224615
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.010320325577580202,
+     "chi_end": -411.8779685971457
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.01118478112844642,
+     "chi_end": -427.39922461730805
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.012200299373637865,
+     "chi_end": -449.38514839381304
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.013767709079613293,
+     "chi_end": -475.20232446512574
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.015411035956635137,
+     "chi_end": -502.2613627296543
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0170611434899357,
+     "chi_end": -528.5050931151465
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.018444798283478357,
+     "chi_end": -550.0513731259601
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.01977654659845185,
+     "chi_end": -571.6507072408823
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.021131117590025138,
+     "chi_end": -590.303462441407
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.022335230074904126,
+     "chi_end": -606.1971021198726
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.023356871808353823,
+     "chi_end": -619.7195361335944
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.024146828069863353,
+     "chi_end": -631.3176466810486
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.025027943202727828,
+     "chi_end": -640.3564518020816
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.025627794612023296,
+     "chi_end": -649.4126873394141
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.026304596588607797,
+     "chi_end": -657.5145583759238
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam12.4289_sig3.14382e-05",
+   "group": "E-v",
+   "cls": "E",
+   "family": "b",
+   "eps": 0.001,
+   "f_loc": 0.00035180922934427373,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.030129418725795575,
+     "chi_end": -702.7260265186729
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.018169975460324565,
+     "chi_end": -549.5951899342349
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.01742700141055491,
+     "chi_end": -536.6972071575333
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.017280665091713006,
+     "chi_end": -532.3589397730367
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0171048956972683,
+     "chi_end": -529.756917753035
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.016999665576968442,
+     "chi_end": -528.1810287767739
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.01692934470854541,
+     "chi_end": -527.1193290738864
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.016878609156512084,
+     "chi_end": -526.3510779399436
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.01684015112372176,
+     "chi_end": -525.7655169666224
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.016812856645549237,
+     "chi_end": -525.3479297740419
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.016787507044048376,
+     "chi_end": -524.9594590926769
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.016766328351638403,
+     "chi_end": -524.6336476017937
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.01674825058485232,
+     "chi_end": -524.3541616818328
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.016732521774914487,
+     "chi_end": -524.1097851171136
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.016718613749236784,
+     "chi_end": -523.8926233172955
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.01670747215378701,
+     "chi_end": -523.7178445970378
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.01669605876479625,
+     "chi_end": -523.5379802605945
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.016685638583691185,
+     "chi_end": -523.3729902909078
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.016676068445197787,
+     "chi_end": -523.2207679256842
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.016667252236821976,
+     "chi_end": -523.079930919844
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.016659129032117585,
+     "chi_end": -522.9496421264544
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.016652471661808717,
+     "chi_end": -522.8424832720946
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.016645615706141544,
+     "chi_end": -522.7317715041598
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0166394567168538,
+     "chi_end": -522.6320101040127
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam12.4289_sig3.14382e-05",
+   "group": "E-v",
+   "cls": "E",
+   "family": "b",
+   "eps": 0.003,
+   "f_loc": 9.984012497627685e-06,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.01800838413685377,
+     "chi_end": -543.1551640500353
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.010620257228343869,
+     "chi_end": -418.77282999744256
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.010017155381515814,
+     "chi_end": -407.13028412946943
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.009805159967772889,
+     "chi_end": -403.21952506782355
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.009712592338556555,
+     "chi_end": -400.87015808707844
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.009755756263704125,
+     "chi_end": -399.4410114166599
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.009710097298126212,
+     "chi_end": -398.4709545904906
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.009676751666673283,
+     "chi_end": -397.7613479649247
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.009650999235212553,
+     "chi_end": -397.2125887091119
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.00963233734166114,
+     "chi_end": -396.81447321667684
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.009626684739183189,
+     "chi_end": -396.4365131178219
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.009611283467664704,
+     "chi_end": -396.11153685742
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.009597708929386396,
+     "chi_end": -395.82490527739026
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.009585483454568102,
+     "chi_end": -395.5665931631725
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.009574275641913816,
+     "chi_end": -395.32964161478577
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.009564978499694194,
+     "chi_end": -395.1329808275041
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.009555119564101523,
+     "chi_end": -394.9243334781211
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.009545793502510275,
+     "chi_end": -394.72686694701594
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.009541321265695546,
+     "chi_end": -394.5392845176522
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.009532877158553804,
+     "chi_end": -394.3610811965926
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.009524890705440263,
+     "chi_end": -394.192480299293
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0095182064289225,
+     "chi_end": -394.05133098082297
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.009511209469052359,
+     "chi_end": -393.9035449929197
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.00950484601871366,
+     "chi_end": -393.76911257316345
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam12.4289_sig3.14382e-05",
+   "group": "E-v",
+   "cls": "E",
+   "family": "b",
+   "eps": 0.01,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0016574181088141158,
+     "chi_end": -161.01983414722122
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0009724957244442477,
+     "chi_end": -121.19019076781744
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0009003118952491697,
+     "chi_end": -116.18544381290732
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008762043681435686,
+     "chi_end": -114.50542203625076
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008624442928577025,
+     "chi_end": -113.48703048705629
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008539753436761049,
+     "chi_end": -112.85533592370378
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008480822196811744,
+     "chi_end": -112.41332787211604
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008436095185541259,
+     "chi_end": -112.07634882436957
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008399827312700766,
+     "chi_end": -111.80202892748768
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008372090581362127,
+     "chi_end": -111.5915242592661
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008344185225991226,
+     "chi_end": -111.37907640735524
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008318578695047325,
+     "chi_end": -111.18352531752261
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008294449868811546,
+     "chi_end": -110.99872164711024
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008271248028693111,
+     "chi_end": -110.82053032516701
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008248608038305882,
+     "chi_end": -110.64621431789142
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008228767409523254,
+     "chi_end": -110.49310907040493
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008206654732797568,
+     "chi_end": -110.32210911499145
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008184732338618442,
+     "chi_end": -110.15222137801604
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008163054295497576,
+     "chi_end": -109.983890589622
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008141757638954513,
+     "chi_end": -109.81820829167091
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.000812105003097051,
+     "chi_end": -109.65682318577191
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008103358988594917,
+     "chi_end": -109.51873155670292
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008084558257770166,
+     "chi_end": -109.37176524955956
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008067271636309405,
+     "chi_end": -109.23644607551284
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam18.3919_sig0.000310723",
+   "group": "E-v",
+   "cls": "E",
+   "family": "a",
+   "eps": 0.0001,
+   "f_loc": 0.33119789748688694,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5612481986227486,
+     "chi_end": 3690.6974691112605
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5411252048295725,
+     "chi_end": 3624.1451035505675
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.4867888447217438,
+     "chi_end": 3439.5702695233927
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.4119431710567728,
+     "chi_end": 3181.037167149184
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3189520002866795,
+     "chi_end": 2794.049807655801
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.22181421162270684,
+     "chi_end": 2323.204051837107
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.13125040743193495,
+     "chi_end": 1795.1421737897213
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.0635305672017864,
+     "chi_end": 1241.8867121940148
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.020053635745499326,
+     "chi_end": 698.8964756315783
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0026740505983543664,
+     "chi_end": 252.9737170112035
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0013672229601536848,
+     "chi_end": -179.38132260498205
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.010492860053655717,
+     "chi_end": -503.50356721237364
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.020671435785991024,
+     "chi_end": -708.3601022481777
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.026518603648696897,
+     "chi_end": -806.0180928066775
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.02715750556128609,
+     "chi_end": -813.9915553626482
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.023877107511775277,
+     "chi_end": -761.2780584890307
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.017597605036567234,
+     "chi_end": -652.7793482508108
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.010853761702842236,
+     "chi_end": -512.0685028224166
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.005396348142133926,
+     "chi_end": -359.9383422525111
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.001976703014043081,
+     "chi_end": -215.57183311689835
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0004360918370261808,
+     "chi_end": -95.0999461100031
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 7.380253316223346e-05,
+     "chi_end": -16.84040734724065
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.00010673672259118429,
+     "chi_end": 34.05130245535724
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.00014510457655799965,
+     "chi_end": 46.08760243436219
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam18.3919_sig0.000310723",
+   "group": "E-v",
+   "cls": "E",
+   "family": "a",
+   "eps": 0.0003,
+   "f_loc": 0.02444929380017212,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.7622417793454656,
+     "chi_end": 4310.736429101025
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.6825722460339072,
+     "chi_end": 4065.659552032562
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.4529737500547555,
+     "chi_end": 3332.335329812904
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.19324314931637565,
+     "chi_end": 2171.319334368064
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.00045973873590583335,
+     "chi_end": 99.40845903081552
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.24515687041209336,
+     "chi_end": -2436.598778767984
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.7377715709671676,
+     "chi_end": -4239.251882278103
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2226181592004621,
+     "chi_end": -5443.683762695443
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.5998174160075014,
+     "chi_end": -6225.964920226927
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.821133252315392,
+     "chi_end": -6670.918309561652
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 2.0099494681502184,
+     "chi_end": -6973.254860242643
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 2.0980379743223683,
+     "chi_end": -7127.087753845726
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 2.1214586702573066,
+     "chi_end": -7174.432770547669
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 2.1081669159579217,
+     "chi_end": -7143.289247441248
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 2.0555210281435747,
+     "chi_end": -7051.975918079494
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.985593794267109,
+     "chi_end": -6930.316962692616
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.8691969250848302,
+     "chi_end": -6756.891534618022
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.7755435853309816,
+     "chi_end": -6554.09159479033
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.6539637921285948,
+     "chi_end": -6333.70821641733
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.5429507030201326,
+     "chi_end": -6111.002601050738
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.4245112584017439,
+     "chi_end": -5904.572914779076
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.3661902982161398,
+     "chi_end": -5751.029561099051
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.3084888290607815,
+     "chi_end": -5628.885556121519
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2834998173319063,
+     "chi_end": -5572.464266029005
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam18.3919_sig0.000310723",
+   "group": "E-v",
+   "cls": "E",
+   "family": "b",
+   "eps": 0.0001,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.3929353459500375,
+     "chi_end": -9066.730710942076
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.137252802363311,
+     "chi_end": 5251.741420808887
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1164573329293312,
+     "chi_end": 5202.485527517968
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1090207165003272,
+     "chi_end": 5184.770498823827
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1047986708381738,
+     "chi_end": 5174.438320303445
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1023939902636855,
+     "chi_end": 5168.6897354285875
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1009996401921658,
+     "chi_end": 5165.3473461678395
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1002077303155031,
+     "chi_end": 5163.440571234957
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0998088148875562,
+     "chi_end": 5162.470404614127
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0996866615104515,
+     "chi_end": 5162.161842121499
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0997423932964328,
+     "chi_end": 5162.274645499011
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.099954522054736,
+     "chi_end": 5162.759536861506
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1002878046750386,
+     "chi_end": 5163.5323235052865
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1007168609960085,
+     "chi_end": 5164.532356262181
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1012227064277234,
+     "chi_end": 5165.7142621929315
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1017242580829436,
+     "chi_end": 5166.88791460125
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1023356563503577,
+     "chi_end": 5168.31949240381
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1029869175698552,
+     "chi_end": 5169.844774158547
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1036685892364577,
+     "chi_end": 5171.44126569885
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.104372350393654,
+     "chi_end": 5173.0892032164475
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1050900962872805,
+     "chi_end": 5174.76939691407
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1057325418626407,
+     "chi_end": 5176.272779001787
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1073225721346762,
+     "chi_end": 5177.953971523744
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1080356534178897,
+     "chi_end": 5179.59213629777
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam18.3919_sig0.000310723",
+   "group": "E-v",
+   "cls": "E",
+   "family": "b",
+   "eps": 0.0003,
+   "f_loc": 9.984068857210396e-06,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.702906200247319,
+     "chi_end": -4125.55917189252
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.600539904968854,
+     "chi_end": 6228.508535051502
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.5616996441349484,
+     "chi_end": 6189.851514860545
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.569153161586574,
+     "chi_end": 6176.880976366987
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.5710911171480666,
+     "chi_end": 6169.1692128839695
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.5661866170164878,
+     "chi_end": 6164.573356999264
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.5645932514054024,
+     "chi_end": 6161.549568275253
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.563543729721812,
+     "chi_end": 6159.430517775654
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.5628367293725658,
+     "chi_end": 6157.880474401544
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.562404290744994,
+     "chi_end": 6156.826923381989
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.564538941016684,
+     "chi_end": 6155.901206453575
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.564208646027749,
+     "chi_end": 6155.178231718319
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.5639562378078973,
+     "chi_end": 6154.607284000878
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.563763674851533,
+     "chi_end": 6154.153180932971
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.563617961242895,
+     "chi_end": 6153.790692055145
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.5635198975647124,
+     "chi_end": 6153.530231096273
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.563438257943747,
+     "chi_end": 6153.293850554384
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.5516136279629325,
+     "chi_end": 6153.1068409042655
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.551606129438319,
+     "chi_end": 6152.960800389304
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.5591475030488893,
+     "chi_end": 6152.849073438256
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.5591414249916755,
+     "chi_end": 6152.766384248773
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.5591460753855388,
+     "chi_end": 6152.7137856704285
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.5591606848225914,
+     "chi_end": 6152.674739057813
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.5591831020793245,
+     "chi_end": 6152.6535899537275
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam18.3919_sig0.000310723",
+   "group": "E-v",
+   "cls": "E",
+   "family": "b",
+   "eps": 0.003,
+   "f_loc": 9.9840761601192e-06,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.013347151170532243,
+     "chi_end": -573.1687905006486
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 7.150140162320325e-05,
+     "chi_end": 15.673844786386898
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0003711879895573555,
+     "chi_end": 86.74262234646291
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0005557788205756696,
+     "chi_end": 109.68845922834808
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0006847771123266224,
+     "chi_end": 123.18319601880705
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0007586432668570382,
+     "chi_end": 131.22493644338527
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008222462717088708,
+     "chi_end": 136.55873931630418
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0008670741016311927,
+     "chi_end": 140.352882414489
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.000900134021209276,
+     "chi_end": 143.18835548911116
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0009206031639099473,
+     "chi_end": 145.1667823667876
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0009433864442854674,
+     "chi_end": 146.96085163632384
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0009620734093974396,
+     "chi_end": 148.41771961923126
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0009774006150234322,
+     "chi_end": 149.61936846871805
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0009902348558029294,
+     "chi_end": 150.6204997737708
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.00100104883310434,
+     "chi_end": 151.45810875769206
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0010091938292233732,
+     "chi_end": 152.08593978780237
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.001016885342791655,
+     "chi_end": 152.67672661509977
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0010231593065205863,
+     "chi_end": 153.15728093680735
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.001028126549721902,
+     "chi_end": 153.53692566934038
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.001031883613644028,
+     "chi_end": 153.82380329498204
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.001034493781789822,
+     "chi_end": 154.0262330213674
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0010360085393163838,
+     "chi_end": 154.14272538870574
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0010369338001943286,
+     "chi_end": 154.2126837971962
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0010371909990363841,
+     "chi_end": 154.23039820560595
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam18.3919_sig0.000310723",
+   "group": "E-v",
+   "cls": "E",
+   "family": "b",
+   "eps": 0.01,
+   "f_loc": 9.98413401219697e-06,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.03102740787304779,
+     "chi_end": 868.7895191169486
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.006833543491675525,
+     "chi_end": 407.80242947382663
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0034934116178733507,
+     "chi_end": 290.3346401556845
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0026312578132324355,
+     "chi_end": 251.01062756379343
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.002176399776209121,
+     "chi_end": 227.58969852759444
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0019106984288568562,
+     "chi_end": 213.55362318406623
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0017558121123478296,
+     "chi_end": 204.22849216279658
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0016531542767122777,
+     "chi_end": 197.59713744744033
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.001571115476987055,
+     "chi_end": 192.64537800540768
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0015143979644253623,
+     "chi_end": 189.1907652224032
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0014712195783501776,
+     "chi_end": 186.05320887792791
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.001431436168418913,
+     "chi_end": 183.49465004063205
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0013986209402123602,
+     "chi_end": 181.36866489990905
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0013711154686708651,
+     "chi_end": 179.5792375891758
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0013477429870155514,
+     "chi_end": 178.0638040008158
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.001337651931764888,
+     "chi_end": 176.91522011223867
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0013212417132648594,
+     "chi_end": 175.82531577070554
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0013074782957003274,
+     "chi_end": 174.9375602909472
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.001285751572169258,
+     "chi_end": 174.24580776732756
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0012855624907908618,
+     "chi_end": 173.74579065629516
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0012797829343192879,
+     "chi_end": 173.43115477850412
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0012763617750256723,
+     "chi_end": 173.29753499670312
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.0012768069581833366,
+     "chi_end": 173.29323334231103
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.001272990421288188,
+     "chi_end": 173.4160378225964
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam3.83582_sig0.000976859",
+   "group": "E-v",
+   "cls": "E",
+   "family": "b",
+   "eps": 0.003,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.5287927420364134,
+     "chi_end": 2792.174224525219
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1066976819874303,
+     "chi_end": 2365.4255070036547
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0954555728185633,
+     "chi_end": 2353.2481979047716
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.091542767489127,
+     "chi_end": 2349.058989584158
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0889548891163907,
+     "chi_end": 2346.3737069981676
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.087258413161648,
+     "chi_end": 2344.552924694057
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0859310569876417,
+     "chi_end": 2343.1291080078868
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0847881688303438,
+     "chi_end": 2341.9038736647076
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0837396786553362,
+     "chi_end": 2340.780400031972
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0828479190408025,
+     "chi_end": 2339.8252146116065
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0818656372305957,
+     "chi_end": 2338.773338052833
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0808915361291942,
+     "chi_end": 2337.7303976280814
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0799185598212775,
+     "chi_end": 2336.688746513189
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0789447205115357,
+     "chi_end": 2335.6461858516213
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0779716133520403,
+     "chi_end": 2334.6043694484442
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0771104824784865,
+     "chi_end": 2333.682369616849
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0761512099249928,
+     "chi_end": 2332.65519205016
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0752086823483498,
+     "chi_end": 2331.6458225238125
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.074290802975263,
+     "chi_end": 2330.6627173367633
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0734061777712252,
+     "chi_end": 2329.7150962348724
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0725638559556705,
+     "chi_end": 2328.812663300828
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.071858208591374,
+     "chi_end": 2328.05655858395
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0711215149355304,
+     "chi_end": 2327.2670877384335
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0704548574189459,
+     "chi_end": 2326.5525816232366
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam5.6761_sig0.0303533",
+   "group": "D-v",
+   "cls": "D",
+   "family": "b",
+   "eps": 0.003,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.05794628316664296,
+     "chi_end": 664.6729765498064
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.05783308877968535,
+     "chi_end": 660.1699575534095
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.05754277513430776,
+     "chi_end": 658.4270739902039
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.05714299182014289,
+     "chi_end": 656.5408928830956
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.05655448857499344,
+     "chi_end": 653.8481908824139
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.05584619185401621,
+     "chi_end": 650.5324516544636
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.05504832530249003,
+     "chi_end": 646.6331419030237
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.054191230421411316,
+     "chi_end": 642.2256082328973
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.05330371428060501,
+     "chi_end": 637.411470038269
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.05251101028529767,
+     "chi_end": 632.8892303688335
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.05163718276693025,
+     "chi_end": 627.6523638358241
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.05080387625798958,
+     "chi_end": 622.3970153418786
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.05003100956265886,
+     "chi_end": 617.2700004080696
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.049335615109420534,
+     "chi_end": 612.4126370055625
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.04873149923844683,
+     "chi_end": 607.9535168022609
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.048278906354782804,
+     "chi_end": 604.4130994291337
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.04786937254649072,
+     "chi_end": 600.9844810539148
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.047565143125380405,
+     "chi_end": 598.198147772726
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.047360273888681456,
+     "chi_end": 596.0793894915755
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.0472429395615646,
+     "chi_end": 594.6178354924638
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.04719617571270854,
+     "chi_end": 593.7666292618802
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.04719711468191261,
+     "chi_end": 593.4573299085095
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.04722587375732326,
+     "chi_end": 593.5138067252464
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.047264350074482465,
+     "chi_end": 593.8760008764174
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam5.6761_sig1e-05",
+   "group": "D-v",
+   "cls": "D",
+   "family": "b",
+   "eps": 0.003,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.19790323430086126,
+     "chi_end": 1218.4137014881278
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.15118175494406183,
+     "chi_end": 1065.1578115322397
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.1488266520403518,
+     "chi_end": 1060.5768371873125
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.14834197743735447,
+     "chi_end": 1059.0134623414622
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.14804408058107252,
+     "chi_end": 1058.056976221178
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.1478571975308985,
+     "chi_end": 1057.4605535002127
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.14772541615702522,
+     "chi_end": 1057.0431503093466
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.14762461385641526,
+     "chi_end": 1056.7267340492285
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.14754273355514366,
+     "chi_end": 1056.472282880825
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.1474803813039002,
+     "chi_end": 1056.2804780864979
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.14741830349703292,
+     "chi_end": 1056.0914720606704
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.1473623343107565,
+     "chi_end": 1055.9228915977428
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.1473108327191353,
+     "chi_end": 1055.7693774798392
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.14726273795625336,
+     "chi_end": 1055.6274142299148
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.14721735067756703,
+     "chi_end": 1055.4946776713402
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.14717892151466108,
+     "chi_end": 1055.3831817752866
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.14713757495512353,
+     "chi_end": 1055.2641167762335
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.14709806411160778,
+     "chi_end": 1055.1511663233314
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.1470603006685544,
+     "chi_end": 1055.043942894171
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.1470242696993828,
+     "chi_end": 1054.9422790960732
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.14699001061873,
+     "chi_end": 1054.8461880294321
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.14696112608440115,
+     "chi_end": 1054.7656049218224
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.14693055944611266,
+     "chi_end": 1054.6807414404661
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.1469023090822939,
+     "chi_end": 1054.6026886373181
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam5.6761_sig1e-05",
+   "group": "D-v",
+   "cls": "D",
+   "family": "b",
+   "eps": 0.01,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.06392569455674571,
+     "chi_end": -692.1234861182386
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.23443570668469182,
+     "chi_end": 1325.1644169276217
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.2748818106653251,
+     "chi_end": 1443.4820102391502
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.29195890923800105,
+     "chi_end": 1481.5491719360243
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.30036471135259374,
+     "chi_end": 1503.9996893867226
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.30663415653756615,
+     "chi_end": 1517.4699134354835
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3097904534072437,
+     "chi_end": 1526.4983660200212
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.31231414643783767,
+     "chi_end": 1533.0122044644836
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.31447857211066127,
+     "chi_end": 1537.9679144007828
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3160238413271155,
+     "chi_end": 1541.4969620194097
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3175322583785258,
+     "chi_end": 1544.7741179474688
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3187324810926076,
+     "chi_end": 1547.5147161000918
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.31975765398210015,
+     "chi_end": 1549.8548895384233
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.32064800435741314,
+     "chi_end": 1551.886771804556
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3214316726210806,
+     "chi_end": 1553.6747849282717
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3220549426464023,
+     "chi_end": 1555.0965581160256
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.32268701321445104,
+     "chi_end": 1556.538154066171
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.32325632747377975,
+     "chi_end": 1557.8363981188618
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3237709734609141,
+     "chi_end": 1559.0097948210932
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.32423688487312935,
+     "chi_end": 1560.071922679408
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3246582278612565,
+     "chi_end": 1561.0323226582111
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.32499793657766624,
+     "chi_end": 1561.8065576073195
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3253424576981989,
+     "chi_end": 1562.5916774935024
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.3256475565295367,
+     "chi_end": 1563.286888564665
+    }
+   ]
+  },
+  {
+   "child": "sep0.0001_lam5.6761_sig3.14382e-05",
+   "group": "E-v",
+   "cls": "E",
+   "family": "b",
+   "eps": 0.01,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "infertile",
+     "label": "none",
+     "outcome": "cycling",
+     "chi_abs_max": 1.3979242209611562,
+     "E_over_planck": 0.00019858689136812346
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 24660.076977682715,
+     "chi_end": -430514.44379633665
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 27581.45167546308,
+     "chi_end": -456369.17075360677
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 51244.83483404883,
+     "chi_end": -619178.1460717298
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 22555.35780907395,
+     "chi_end": -412999.9226643811
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 110414.46368065647,
+     "chi_end": 907849.8699304424
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 81838.38231320222,
+     "chi_end": 782268.9037025056
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 2224.4243186405006,
+     "chi_end": -128978.42124978165
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 77471.3194941152,
+     "chi_end": -760328.629522443
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 112156.75401494908,
+     "chi_end": -915573.3927412798
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 106347.42343378415,
+     "chi_end": -891851.4075501482
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 64297.28820403987,
+     "chi_end": -697633.6396066739
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 7349.338038811059,
+     "chi_end": -234075.19214205528
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 35713.953777493836,
+     "chi_end": 516558.1213433463
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 83906.70757996396,
+     "chi_end": 795243.5018067338
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 107360.63996397036,
+     "chi_end": 901797.1287243901
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 110444.86408565553,
+     "chi_end": 912491.0472388596
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 90960.36187604217,
+     "chi_end": 823457.2869149053
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 52005.11376809708,
+     "chi_end": 625585.2380413432
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 7628.676615805036,
+     "chi_end": 239729.44567495465
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 21881.768458441333,
+     "chi_end": -404061.9714266451
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 56802.59601503984,
+     "chi_end": -655210.4738151453
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 87281.66541465229,
+     "chi_end": -812851.7075262857
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 106066.215902062,
+     "chi_end": -890365.5587693128
+    }
+   ]
+  },
+  {
+   "child": "sep1e-05_lam1.75176_sig0.00307107",
+   "group": "D-v",
+   "cls": "D",
+   "family": "a",
+   "eps": 0.0003,
+   "f_loc": 0.23179695756379345,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.822293953165834,
+     "chi_end": 430.4501713511341
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.8234011811498293,
+     "chi_end": 430.69470097899006
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.8265062741699157,
+     "chi_end": 431.3757829279662
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.8309615688574964,
+     "chi_end": 432.3494886274039
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.8379142628714962,
+     "chi_end": 433.86560541307085
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.8469635989398192,
+     "chi_end": 435.83349769769114
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.8581598432033153,
+     "chi_end": 438.2590078820771
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.8715535814407929,
+     "chi_end": 441.14793032957454
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.887190689108998,
+     "chi_end": 444.50316040041383
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.9030039350681422,
+     "chi_end": 447.87635134529654
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.92296753369293,
+     "chi_end": 452.1061469193011
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.9452361371834427,
+     "chi_end": 456.7859217404403
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.9697876822039289,
+     "chi_end": 461.8982474172582
+    },
+    {
+     "reason": "D",
+     "label": "D",
+     "E_over_planck": 0.9965673394334942,
+     "chi_end": 467.4175749755918
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0254806458769343,
+     "chi_end": 473.3093865672976
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0528566610705832,
+     "chi_end": 478.8235075833719
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0853569443762952,
+     "chi_end": 485.28848405125433
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1194002405577284,
+     "chi_end": 491.96619062303523
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1546355716731607,
+     "chi_end": 498.7772153486303
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1906169659842112,
+     "chi_end": 505.62832198317716
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2267915825943352,
+     "chi_end": 512.4120968718227
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.258574656715152,
+     "chi_end": 518.2878197896667
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2932124377597423,
+     "chi_end": 524.60328612099
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.3258330111781,
+     "chi_end": 530.4691638673851
+    }
+   ]
+  },
+  {
+   "child": "sep1e-05_lam1.75176_sig0.00307107",
+   "group": "D-v",
+   "cls": "D",
+   "family": "b",
+   "eps": 0.0001,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.072748698211922,
+     "chi_end": -841.9515732206585
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.07249815726243,
+     "chi_end": -839.790249632346
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.0723190384249657,
+     "chi_end": -839.328384001009
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.072121593025965,
+     "chi_end": -839.1747941719993
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.071835722313893,
+     "chi_end": -839.0952403129303
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.071482166459526,
+     "chi_end": -839.0458596492384
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.0710687889751553,
+     "chi_end": -839.001353077366
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.0706062779501404,
+     "chi_end": -838.9539419491215
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.070106403069344,
+     "chi_end": -838.9016928678046
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.0696406286342928,
+     "chi_end": -838.8516467871266
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.0691032378975125,
+     "chi_end": -838.7922186638341
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.0685627532455264,
+     "chi_end": -838.7307899708233
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.0680295110895295,
+     "chi_end": -838.668703142963
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.0675126949934195,
+     "chi_end": -838.6070574155104
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.067020153807131,
+     "chi_end": -838.5469192109524
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.066607749927329,
+     "chi_end": -838.4954790410419
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.0661767453250364,
+     "chi_end": -838.4405780400906
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.0657837136961192,
+     "chi_end": -838.389436798987
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.065430462087309,
+     "chi_end": -838.3425458974743
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.0651175018743753,
+     "chi_end": -838.300216598745
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.0648442475894915,
+     "chi_end": -838.2626192051363
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.0646335263039512,
+     "chi_end": -838.2332172790198
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.0644307210903126,
+     "chi_end": -838.2045927410817
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.0642618137238964,
+     "chi_end": -838.1805230757242
+    }
+   ]
+  },
+  {
+   "child": "sep1e-05_lam1.75176_sig0.00307107",
+   "group": "D-v",
+   "cls": "D",
+   "family": "b",
+   "eps": 0.0003,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.978437845588997,
+     "chi_end": -1929.2662059675595
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.977501776835812,
+     "chi_end": -1922.1216452487865
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.975957872373554,
+     "chi_end": -1919.8953498444032
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.973890594407873,
+     "chi_end": -1919.1475403669444
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.970791770624588,
+     "chi_end": -1918.7033242657121
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.966944290760347,
+     "chi_end": -1918.3671343158744
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.962447863926117,
+     "chi_end": -1918.0302758540608
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.957418989434517,
+     "chi_end": -1917.6634199881526
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.951982972946595,
+     "chi_end": -1917.265827557188
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.94691328305554,
+     "chi_end": -1916.8917366333792
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.941058941058088,
+     "chi_end": -1916.4563173904305
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.935163130909913,
+     "chi_end": -1916.01588723927
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.929339724273548,
+     "chi_end": -1915.5817340282051
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.923689835292953,
+     "chi_end": -1915.1640612496465
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.918299734384044,
+     "chi_end": -1914.7719724556503
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.913783277056092,
+     "chi_end": -1914.4514498953608
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.909059824958048,
+     "chi_end": -1914.1277534454064
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.904750442323454,
+     "chi_end": -1913.8470636481388
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.900876443901607,
+     "chi_end": -1913.6117285498738
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.897444406597435,
+     "chi_end": -1913.421937955782
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.89444868018522,
+     "chi_end": -1913.2758824076643
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.892139733293003,
+     "chi_end": -1913.1798878354186
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.889920276113843,
+     "chi_end": -1913.1052920060413
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 15.888076065937247,
+     "chi_end": -1913.060100040305
+    }
+   ]
+  },
+  {
+   "child": "sep1e-05_lam1.75176_sig0.00307107",
+   "group": "D-v",
+   "cls": "D",
+   "family": "b",
+   "eps": 0.001,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 272.4373375353391,
+     "chi_end": -7992.100431391705
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 272.42623950798617,
+     "chi_end": -7965.218296268697
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 272.3962244867389,
+     "chi_end": -7954.095989120326
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 272.3541222505327,
+     "chi_end": -7949.291985048403
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 272.2903813817301,
+     "chi_end": -7945.092559824111
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 272.2107955637631,
+     "chi_end": -7940.872479631449
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 272.1172655553216,
+     "chi_end": -7936.237482022262
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 272.01201686599,
+     "chi_end": -7931.148291683787
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 271.89754591928363,
+     "chi_end": -7925.709284267001
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 271.7902189498558,
+     "chi_end": -7920.699453315423
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 271.6657314512078,
+     "chi_end": -7915.02020641865
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 271.5399486917289,
+     "chi_end": -7909.4650818473065
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 271.41552182160905,
+     "chi_end": -7904.200893179975
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 271.2948652360742,
+     "chi_end": -7899.383242424367
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 271.18004703916705,
+     "chi_end": -7895.146555004937
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 271.0842197200561,
+     "chi_end": -7891.954030270206
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 270.98449543362193,
+     "chi_end": -7889.074978408455
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 270.89399099310697,
+     "chi_end": -7886.987702996626
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 270.8129374012862,
+     "chi_end": -7885.691945358014
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 270.74116645297676,
+     "chi_end": -7885.148032880476
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 270.67846823556727,
+     "chi_end": -7885.278771280429
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 270.62996536408417,
+     "chi_end": -7885.873140253372
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 270.58258886036214,
+     "chi_end": -7886.956672553455
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 270.54224568612597,
+     "chi_end": -7888.331963741857
+    }
+   ]
+  },
+  {
+   "child": "sep1e-05_lam1.75176_sig0.00307107",
+   "group": "D-v",
+   "cls": "D",
+   "family": "b",
+   "eps": 0.003,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5386.614040578301,
+     "chi_end": -35274.00396182723
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5386.442772166456,
+     "chi_end": -35227.92862733358
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5385.966266554737,
+     "chi_end": -35193.24036429723
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5385.295722681268,
+     "chi_end": -35170.39826548205
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5384.281241603938,
+     "chi_end": -35143.666557685254
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5383.017992880581,
+     "chi_end": -35113.45568589074
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5381.542397710458,
+     "chi_end": -35079.73056924234
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5379.899851779851,
+     "chi_end": -35043.43416780288
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5378.143682698133,
+     "chi_end": -35005.94409535748
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5376.534786744576,
+     "chi_end": -34972.86716166148
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5374.726084964256,
+     "chi_end": -34937.404509955755
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5372.980838914464,
+     "chi_end": -34905.296698633225
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5371.358028990507,
+     "chi_end": -34877.993065410614
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5369.880492947103,
+     "chi_end": -34856.73947161098
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5368.588209996239,
+     "chi_end": -34842.505636782356
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5367.578084711463,
+     "chi_end": -34836.271231929204
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5366.5978918969395,
+     "chi_end": -34836.733989136854
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5365.723255349487,
+     "chi_end": -34845.00857540555
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5364.9004216839285,
+     "chi_end": -34860.59310274383
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5364.081323683862,
+     "chi_end": -34882.596189587704
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5363.198573827826,
+     "chi_end": -34909.78095104697
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5362.327152833526,
+     "chi_end": -34937.07178376137
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5361.2377058271395,
+     "chi_end": -34969.734641260904
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 5360.065050953592,
+     "chi_end": -35002.720859843685
+    }
+   ]
+  },
+  {
+   "child": "sep1e-05_lam1.75176_sig0.00307107",
+   "group": "D-v",
+   "cls": "D",
+   "family": "b",
+   "eps": 3e-05,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0442825367549866,
+     "chi_end": -487.2023523509988
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0441835089606413,
+     "chi_end": -486.24687500501165
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.044146118198743,
+     "chi_end": -486.1444165430252
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0441197804369446,
+     "chi_end": -486.10940942342125
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.044086335058071,
+     "chi_end": -486.09232245297045
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0440456202708825,
+     "chi_end": -486.0831888148237
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0439976604246504,
+     "chi_end": -486.0756323098073
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0439437180495152,
+     "chi_end": -486.06764151608127
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0438852194281392,
+     "chi_end": -486.0587784498848
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0438305536372596,
+     "chi_end": -486.0501835194224
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0437673778846726,
+     "chi_end": -486.039842882211
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0437037747404,
+     "chi_end": -486.02903338705164
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0436409073557325,
+     "chi_end": -486.01796053412494
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0435798552058293,
+     "chi_end": -486.0067842585678
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0435215539383929,
+     "chi_end": -485.99566635373276
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0434726317344052,
+     "chi_end": -485.98595954798947
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.043421333306349,
+     "chi_end": -485.9753492163217
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0433743521040388,
+     "chi_end": -485.965161844063
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0433319122958906,
+     "chi_end": -485.9554976991412
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0432940610742074,
+     "chi_end": -485.94643917132885
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0432607322395677,
+     "chi_end": -485.9380548613284
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.043234750513813,
+     "chi_end": -485.931216710063
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.043209416806385,
+     "chi_end": -485.9242607582992
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0431879335447096,
+     "chi_end": -485.9181269885572
+    }
+   ]
+  },
+  {
+   "child": "sep1e-05_lam5.6761_sig0.00965489",
+   "group": "E-v",
+   "cls": "E",
+   "family": "a",
+   "eps": 0.001,
+   "f_loc": 0.3949247250217476,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5466189759439227,
+     "chi_end": 730.1813795005954
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.546625357493627,
+     "chi_end": 733.5912614552518
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5466430175633488,
+     "chi_end": 734.407835530073
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5466677226969852,
+     "chi_end": 735.4168966742494
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5467048315959594,
+     "chi_end": 736.8515188691002
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5467506675325414,
+     "chi_end": 738.6028639319975
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5468038302252644,
+     "chi_end": 740.7792498003216
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5468627636326358,
+     "chi_end": 743.4703829056373
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5469258339975612,
+     "chi_end": 746.8855869133638
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5469840450642228,
+     "chi_end": 750.7254156257848
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5553125950045051,
+     "chi_end": 756.2574235387702
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.5799432087234944,
+     "chi_end": 763.4107951084383
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.6108979393660329,
+     "chi_end": 772.5579721928997
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.6495053952505049,
+     "chi_end": 784.082425883096
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.6973881580129745,
+     "chi_end": 798.3888930593893
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.7493547074527707,
+     "chi_end": 813.7841474529026
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.8206669505514136,
+     "chi_end": 834.5411548888732
+    },
+    {
+     "reason": "E",
+     "label": "E",
+     "E_over_planck": 0.9085523764198677,
+     "chi_end": 859.4339206977701
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.0170193138248922,
+     "chi_end": 889.0423408709089
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.1508863354555576,
+     "chi_end": 923.9874332745916
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.3159400772995438,
+     "chi_end": 964.8891951117569
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.4939774567054018,
+     "chi_end": 1006.6655972266922
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.7350450862947553,
+     "chi_end": 1059.9735265957129
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 2.0227310872115183,
+     "chi_end": 1119.5948730595314
+    }
+   ]
+  },
+  {
+   "child": "sep1e-05_lam5.6761_sig0.00965489",
+   "group": "E-v",
+   "cls": "E",
+   "family": "b",
+   "eps": 0.0001,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.284133094915664,
+     "chi_end": 984.5531034046311
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2835201048762588,
+     "chi_end": 975.9173140690574
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2826787319871116,
+     "chi_end": 974.8300594519941
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2815415177185725,
+     "chi_end": 974.3615140206629
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2798665923615113,
+     "chi_end": 973.9395662843917
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2778460628913062,
+     "chi_end": 973.5075904209983
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2755695995081797,
+     "chi_end": 973.032648613411
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2731321684841506,
+     "chi_end": 972.512531592769
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2706277099446863,
+     "chi_end": 971.9548040279725
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2684166130981374,
+     "chi_end": 971.4369642863373
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2660169356713655,
+     "chi_end": 970.8411763557172
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2637733180311208,
+     "chi_end": 970.2425456255684
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2617369165303087,
+     "chi_end": 969.6533910143694
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2599438564689232,
+     "chi_end": 969.0854068492647
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2584154386923003,
+     "chi_end": 968.5502246312725
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.257285575828369,
+     "chi_end": 968.1104478644684
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2562662886181104,
+     "chi_end": 967.6645951530986
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2554990146973968,
+     "chi_end": 967.2781598428102
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2549602211079656,
+     "chi_end": 966.9571223430878
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2546201214760897,
+     "chi_end": 966.7046017811917
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.254445003726298,
+     "chi_end": 966.5206125494334
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2543992733478422,
+     "chi_end": 966.4118841564833
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2544394953825249,
+     "chi_end": 966.3451283010418
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 1.2545446468346317,
+     "chi_end": 966.3276310120934
+    }
+   ]
+  },
+  {
+   "child": "sep1e-05_lam5.6761_sig0.00965489",
+   "group": "E-v",
+   "cls": "E",
+   "family": "b",
+   "eps": 0.0003,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.8435036935461153,
+     "chi_end": 1727.2753066043979
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.84088591029268,
+     "chi_end": 1699.3329525886736
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.835233679646624,
+     "chi_end": 1695.8851139305532
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.827457428066309,
+     "chi_end": 1694.096855706982
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.8159862909412796,
+     "chi_end": 1692.151097613207
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.8021503835755732,
+     "chi_end": 1689.9392076993925
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.786566129490402,
+     "chi_end": 1687.375552457727
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.7698509890481344,
+     "chi_end": 1684.4630567955103
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.752618260331706,
+     "chi_end": 1681.2426358460984
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.737341705585354,
+     "chi_end": 1678.163489934518
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.720658709500104,
+     "chi_end": 1674.5169889595613
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.704932733133573,
+     "chi_end": 1670.75447414931
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.690545911998795,
+     "chi_end": 1666.9677224732259
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.6777649276890103,
+     "chi_end": 1663.2571809967078
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.666786228868233,
+     "chi_end": 1659.725757928645
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.6586347582762007,
+     "chi_end": 1656.8189109989153
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.6512874096015677,
+     "chi_end": 1653.8946390101
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.6458048007146253,
+     "chi_end": 1651.4123474535172
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.6420410393223266,
+     "chi_end": 1649.4291133710003
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.639776912269475,
+     "chi_end": 1647.9749522523691
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.638736868389085,
+     "chi_end": 1647.0485729711365
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.6385932916654,
+     "chi_end": 1646.6411189392188
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.6390341981222565,
+     "chi_end": 1646.5926079954522
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 3.6398260510374723,
+     "chi_end": 1646.890796313682
+    }
+   ]
+  },
+  {
+   "child": "sep1e-05_lam5.6761_sig0.00965489",
+   "group": "E-v",
+   "cls": "E",
+   "family": "b",
+   "eps": 0.001,
+   "f_loc": 0.0,
+   "labels_reproduced": true,
+   "cells": [
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 31.0860260150486,
+     "chi_end": 5167.4330363916015
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 31.06603391768314,
+     "chi_end": 5006.031736503112
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 31.013645893133845,
+     "chi_end": 4989.40463569496
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 30.93982142724346,
+     "chi_end": 4979.079630120898
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 30.82777725346679,
+     "chi_end": 4966.001098757041
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 30.68705615117108,
+     "chi_end": 4949.616322249298
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 30.51979980715511,
+     "chi_end": 4929.256932676832
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 30.32837426485329,
+     "chi_end": 4904.735011134887
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 30.115559891112067,
+     "chi_end": 4876.1904010894505
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 29.911431544052604,
+     "chi_end": 4847.79494115665
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 29.669653821663942,
+     "chi_end": 4813.152224353892
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 29.421830066168063,
+     "chi_end": 4776.681963033648
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 29.177180489710587,
+     "chi_end": 4739.692435419535
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 28.94665446203313,
+     "chi_end": 4703.64871531902
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 28.742119563652334,
+     "chi_end": 4670.043845508543
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 28.59122000125691,
+     "chi_end": 4643.338265379149
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 28.46435835263631,
+     "chi_end": 4617.889472357164
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 28.387582571105746,
+     "chi_end": 4598.0518730225685
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 28.360084529862114,
+     "chi_end": 4584.156019846377
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 28.37465770164197,
+     "chi_end": 4576.038416586174
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 28.41801977511239,
+     "chi_end": 4573.067712443446
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 28.46659776854994,
+     "chi_end": 4573.937120694518
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 28.515621547011506,
+     "chi_end": 4577.7358799438525
+    },
+    {
+     "reason": "super_planck",
+     "label": "none",
+     "E_over_planck": 28.543392617448617,
+     "chi_end": 4583.258156138908
+    }
+   ]
+  }
+ ],
+ "runtime_s": 489.88210916519165
+}
