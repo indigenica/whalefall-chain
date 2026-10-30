@@ -31,3 +31,7 @@ lya/results/u15/mp_run/
 # U15b: plumbing-check tables (prepare_tables.py --quick)
 lya/u15b/tables_quick/
 paper/**/*Notes.bib
+# explora_reticulo (NOTA_SEMILLAS_PBH §13): checkpoints of the lattice runs (GB each, resumable, deleted when a run ends)
+results/explora_reticulo/**/ckpt/
+results/explora_reticulo/ckpt/
+results/explora_reticulo/*.live

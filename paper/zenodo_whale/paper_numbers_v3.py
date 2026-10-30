@@ -158,15 +158,14 @@ CHECKS += [
     ("U28 V4", f"collapse to ${e(max(x['rel'] for x in _g['V4']), 0)}$"),
 ]
 
-# version 3.1: open assumptions "Seed" (docs/informes/NOTA_SEMILLAS_AGUJEROS_NEGROS.md) and "Late-time acceleration"
+# version 3.1: open assumptions "Seed" (docs/informes/NOTA_SEMILLAS_AGUJEROS_NEGROS.md) and "Late-time acceleration".
+# The check of the quantum shortfall (10^2.4--10^11) was dropped on 29 October 2026 with the sentence that quoted it:
+# it held only for the grid of parents (correction of 29 October in that note)
 SB = J("results", "explora_semillas_bh.json"); sm = SB["summary"]
-viab = [p for p in SB["parents"] if p["group"] in ("E-v", "D-v")]
-lq = [math.log10(p["ratio_q_over_kin"]) for p in viab]
 CHECKS += [
     ("seed AH", f"($AH\\simeq{sm['AH_range'][0]:.1f}$--${sm['AH_range'][1]:.0f}$)"),
     ("seed chi0", "with $\\chi$ at rest at its minimum" if sm["chi0_max"] == 0 else "MISMATCH"),
     ("seed kinetic", f"kinetic energy of ${e(sm['f_kin_range'][0], 0)}$--${e(sm['f_kin_range'][1], 0)}$ of the dust"),
-    ("seed quantum shortfall", f"by $10^{{{-max(lq):.1f}}}$--$10^{{{-min(lq):.0f}}}$" if max(lq) < 0 else "MISMATCH"),
 ]
 _H0 = 67.4e3 / 3.0857e22 * 6.582e-16; _rhoL = 0.685 * 3 * _H0 ** 2 * (2.435e27) ** 2       # eV, eV^4 (8 pi G = 1/M_Pl^2)
 CHECKS.append(("Lambda shortfall", f"about {['zero','one','two','three','four','five','six','seven','eight','nine'][round(math.log10(_rhoL / (_H0 ** 2 * (2.7e23) ** 2)))]} orders of magnitude below the dark energy"))
