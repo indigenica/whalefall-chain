@@ -176,6 +176,13 @@ def test_restart_move_and_rejoin():
         assert [len(c) for c in ch] == [250]
 
 
+# Las pruebas de código interno, que no se exporta a whalefall-chain (el solver de garganta de U39, por ejemplo), viven en
+# tests/internal_tests.py, que el manifiesto deja fuera. En whalefall se ejecutan aquí; en la exportación ese fichero no
+# está y no cuentan (no son pruebas omitidas, que con REQUIRE_ALL=1 serían un fallo).
+if (Path(__file__).resolve().parent / "internal_tests.py").exists():
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from internal_tests import test_u39_centre_regularisation_guard  # noqa: E402,F401
+
 TESTS = [v for k, v in sorted(globals().items()) if k.startswith("test_") and callable(v)]
 
 if __name__ == "__main__":

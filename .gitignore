@@ -35,3 +35,11 @@ paper/**/*Notes.bib
 results/explora_reticulo/**/ckpt/
 results/explora_reticulo/ckpt/
 results/explora_reticulo/*.live
+# explora_reticulo: full field dumps (hundreds of MB each at 256^3), kept on the machine that ran them
+results/explora_reticulo/**/campos/
+results/explora_reticulo/campos/
+results/explora_reticulo/**/buffer/
+results/explora_reticulo/buffer/
+results/u31/campos/
+results/u31/ckpt/
+results/u31/buffer/

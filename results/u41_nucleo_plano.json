@@ -1,0 +1,1365 @@
+{
+ "spec": "docs/preregistros/ESPEC_U41.md",
+ "gates": {
+  "G0": true,
+  "G1": true,
+  "G2": false,
+  "G3": false,
+  "G4": true
+ },
+ "labels_R1": {
+  "INVALIDA": 25,
+  "INCOHERENTE": 1,
+  "INDECIDIBLE": 6
+ },
+ "n_rows": 32,
+ "n_invalid": 31,
+ "verdict": "INCONCLUSO",
+ "coherent_confirmed": [],
+ "rows": [
+  {
+   "alpha": 1,
+   "delta_m": 0.52,
+   "rhoH_over_V0": 1.0,
+   "lqt": 1000.0,
+   "label": "INVALIDA",
+   "trapped_t": 12.50315349965766,
+   "throat_t": 18.486154251449886,
+   "I_t": 19.60618705272627,
+   "I_reason": "L1 constraint 1.04e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 19.52287019066503,
+     "dtauB_over_sqrt_al": 12.810861888277403,
+     "diss_at_B": 0.0003813231427288254,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "CRUCE",
+     "X_t": 17.819821948076278,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 17.44941933538827,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 1,
+   "delta_m": 0.52,
+   "rhoH_over_V0": 1.0,
+   "lqt": 2000.0,
+   "label": "INVALIDA",
+   "trapped_t": 12.564974822674001,
+   "throat_t": 19.347862923214695,
+   "I_t": 20.945118049727043,
+   "I_reason": "L1 constraint 1.01e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 20.554716791370637,
+     "dtauB_over_sqrt_al": 6.442997296925081,
+     "diss_at_B": 0.00010681042203990101,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "CRUCE",
+     "X_t": 20.32970849563452,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 17.603873155219933,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 1,
+   "delta_m": 0.52,
+   "rhoH_over_V0": 10.0,
+   "lqt": 1000.0,
+   "label": "INVALIDA",
+   "trapped_t": 12.941121415347698,
+   "throat_t": 20.54722080169347,
+   "I_t": 24.0049827278973,
+   "I_reason": "L1 constraint 1.01e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 23.027934260144843,
+     "dtauB_over_sqrt_al": 4.166906187795888,
+     "diss_at_B": 4.593755229470162e-05,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 18.082946360610414,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 1,
+   "delta_m": 0.52,
+   "rhoH_over_V0": 10.0,
+   "lqt": 2000.0,
+   "label": "INCOHERENTE",
+   "trapped_t": null,
+   "throat_t": null,
+   "I_t": null,
+   "I_reason": null,
+   "regions": {
+    "R1": {
+     "label": "INCOHERENTE",
+     "X_t": null,
+     "B_t": 18.611387515156277,
+     "dtauB_over_sqrt_al": 1.6556224950148026,
+     "diss_at_B": 6.707657043155679e-44,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INCOHERENTE",
+     "X_t": null,
+     "B_t": 18.611387515156277,
+     "dtauB_over_sqrt_al": 6.282169409442576,
+     "diss_at_B": 8.374071589157495e-45,
+     "f_loc": 0.0
+    },
+    "R3": {
+     "label": "SIN_REBOTE",
+     "X_t": null,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 1,
+   "delta_m": 0.65,
+   "rhoH_over_V0": 1.0,
+   "lqt": 1000.0,
+   "label": "INVALIDA",
+   "trapped_t": 3.705635858753469,
+   "throat_t": 8.447153865511025,
+   "I_t": 9.057580113773584,
+   "I_reason": "L1 constraint 1.04e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R2": {
+     "label": "INDECIDIBLE",
+     "X_t": 9.00871463830841,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 7.926138745170015,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 1,
+   "delta_m": 0.65,
+   "rhoH_over_V0": 1.0,
+   "lqt": 2000.0,
+   "label": "INDECIDIBLE",
+   "trapped_t": 3.71597939163507,
+   "throat_t": 8.861749460525935,
+   "I_t": null,
+   "I_reason": null,
+   "regions": {
+    "R1": {
+     "label": "INDECIDIBLE",
+     "X_t": 9.969623516804432,
+     "B_t": 9.766217137490575,
+     "dtauB_over_sqrt_al": 3.0597891503698484,
+     "diss_at_B": 4.1880676818513444e-05,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INDECIDIBLE",
+     "X_t": 9.876928541088002,
+     "B_t": 9.845627995555343,
+     "dtauB_over_sqrt_al": 14.262757217967373,
+     "diss_at_B": 0.006408711224811176,
+     "f_loc": 0.05588015460692472
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 7.968644136843951,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 1,
+   "delta_m": 0.65,
+   "rhoH_over_V0": 10.0,
+   "lqt": 1000.0,
+   "label": "INVALIDA",
+   "trapped_t": 3.7824619618618676,
+   "throat_t": 9.301598870777704,
+   "I_t": 12.444692305054634,
+   "I_reason": "L1 constraint 1.00e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R2": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 8.059823338551329,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 1,
+   "delta_m": 0.65,
+   "rhoH_over_V0": 10.0,
+   "lqt": 2000.0,
+   "label": "INVALIDA",
+   "trapped_t": 4.928709557124057,
+   "throat_t": 11.920131310700532,
+   "I_t": 16.315477835144744,
+   "I_reason": "L1 constraint 1.01e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 12.980188064954572,
+     "dtauB_over_sqrt_al": 1.1318445342796548,
+     "diss_at_B": 6.2207246522286435e-06,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 9.45261478480388,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 2,
+   "delta_m": 0.56,
+   "rhoH_over_V0": 1.0,
+   "lqt": 1000.0,
+   "label": "INVALIDA",
+   "trapped_t": 10.414351010116123,
+   "throat_t": 15.749319185965229,
+   "I_t": 16.655592899892063,
+   "I_reason": "L1 constraint 1.02e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 16.597063483650075,
+     "dtauB_over_sqrt_al": 9.772514112330565,
+     "diss_at_B": 0.0003774876753080184,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "CRUCE",
+     "X_t": 15.262002782532948,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 14.876715773104026,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 2,
+   "delta_m": 0.56,
+   "rhoH_over_V0": 1.0,
+   "lqt": 2000.0,
+   "label": "INVALIDA",
+   "trapped_t": 10.462600861787358,
+   "throat_t": 16.417471491119787,
+   "I_t": 17.769192365748758,
+   "I_reason": "L1 constraint 1.00e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 17.4748129788304,
+     "dtauB_over_sqrt_al": 4.9205004835391595,
+     "diss_at_B": 0.0001052910050369688,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INDECIDIBLE",
+     "X_t": 17.363846260637445,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 14.999272774147867,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 2,
+   "delta_m": 0.56,
+   "rhoH_over_V0": 10.0,
+   "lqt": 1000.0,
+   "label": "INVALIDA",
+   "trapped_t": 10.731172224599149,
+   "throat_t": 17.357712584869393,
+   "I_t": 20.01302953009935,
+   "I_reason": "L1 constraint 1.01e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 19.3698457373702,
+     "dtauB_over_sqrt_al": 3.1929027557041265,
+     "diss_at_B": 4.566959619972772e-05,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 15.333031412847912,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 2,
+   "delta_m": 0.56,
+   "rhoH_over_V0": 10.0,
+   "lqt": 2000.0,
+   "label": "INVALIDA",
+   "trapped_t": 42.327246867099966,
+   "throat_t": null,
+   "I_t": 42.327246867099966,
+   "I_reason": "L1 constraint 7.54e-01",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 39.822397585527256,
+     "dtauB_over_sqrt_al": 5.117224232335459,
+     "diss_at_B": 1.4854746447268463e-41,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INCOHERENTE",
+     "X_t": null,
+     "B_t": 39.822397585527256,
+     "dtauB_over_sqrt_al": 8.714419733417133,
+     "diss_at_B": 5.337998261358402e-42,
+     "f_loc": 0.0
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 42.22146669703522,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 2,
+   "delta_m": 0.65,
+   "rhoH_over_V0": 1.0,
+   "lqt": 1000.0,
+   "label": "INDECIDIBLE",
+   "trapped_t": 4.146981036601943,
+   "throat_t": 9.550785401413478,
+   "I_t": null,
+   "I_reason": null,
+   "regions": {
+    "R1": {
+     "label": "INDECIDIBLE",
+     "X_t": 10.198452484025818,
+     "B_t": 10.096034936364251,
+     "dtauB_over_sqrt_al": 4.657499412380973,
+     "diss_at_B": 7.774695602759584e-05,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INDECIDIBLE",
+     "X_t": 10.14932095972903,
+     "B_t": 10.13702763867469,
+     "dtauB_over_sqrt_al": 21.244678699638783,
+     "diss_at_B": 0.008478639998784284,
+     "f_loc": 0.048034725914169484
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 9.258732215352245,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 2,
+   "delta_m": 0.65,
+   "rhoH_over_V0": 1.0,
+   "lqt": 2000.0,
+   "label": "INDECIDIBLE",
+   "trapped_t": 4.16431580063433,
+   "throat_t": 9.717084206466234,
+   "I_t": null,
+   "I_reason": null,
+   "regions": {
+    "R1": {
+     "label": "INDECIDIBLE",
+     "X_t": 10.383090081462155,
+     "B_t": 10.235579577308448,
+     "dtauB_over_sqrt_al": 2.3451022205915653,
+     "diss_at_B": 2.410840750605992e-05,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INDECIDIBLE",
+     "X_t": 10.328704913848528,
+     "B_t": 10.279249637939666,
+     "dtauB_over_sqrt_al": 10.709142991406363,
+     "diss_at_B": 0.0022460354285822716,
+     "f_loc": 0.0
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 9.281588754198715,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 2,
+   "delta_m": 0.65,
+   "rhoH_over_V0": 10.0,
+   "lqt": 1000.0,
+   "label": "INVALIDA",
+   "trapped_t": 4.256892834451844,
+   "throat_t": 9.982787019459218,
+   "I_t": 11.649140159035962,
+   "I_reason": "L1 constraint 1.00e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 11.586486696319573,
+     "dtauB_over_sqrt_al": 1.5069568191175058,
+     "diss_at_B": 1.1204633838580378e-05,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 11.631705390701129,
+     "dtauB_over_sqrt_al": 6.895208206784649,
+     "diss_at_B": 0.000958996710952199,
+     "f_loc": 0.0
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 9.356171620716227,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 2,
+   "delta_m": 0.65,
+   "rhoH_over_V0": 10.0,
+   "lqt": 2000.0,
+   "label": "INVALIDA",
+   "trapped_t": 5.908110716373599,
+   "throat_t": 12.633962427117478,
+   "I_t": 15.891348792149179,
+   "I_reason": "L1 constraint 1.01e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 15.589648898305756,
+     "dtauB_over_sqrt_al": 0.953394981071091,
+     "diss_at_B": 4.860400214980127e-06,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 10.910025304589514,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 4,
+   "delta_m": 0.6,
+   "rhoH_over_V0": 1.0,
+   "lqt": 1000.0,
+   "label": "INVALIDA",
+   "trapped_t": 8.778839153634197,
+   "throat_t": 13.691648369439946,
+   "I_t": 14.631638680947175,
+   "I_reason": "L1 constraint 1.00e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 14.502404128758176,
+     "dtauB_over_sqrt_al": 7.323002378110716,
+     "diss_at_B": 0.00036511039494908015,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "CRUCE",
+     "X_t": 13.43685838860022,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 12.937743395179089,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 4,
+   "delta_m": 0.6,
+   "rhoH_over_V0": 1.0,
+   "lqt": 2000.0,
+   "label": "INDECIDIBLE",
+   "trapped_t": 8.817916872790805,
+   "throat_t": 14.257730425574449,
+   "I_t": null,
+   "I_reason": null,
+   "regions": {
+    "R1": {
+     "label": "INDECIDIBLE",
+     "X_t": 15.630124330625655,
+     "B_t": 15.280929670148186,
+     "dtauB_over_sqrt_al": 3.6944553682598924,
+     "diss_at_B": 0.00010185565202029246,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INDECIDIBLE",
+     "X_t": 15.254959563149084,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 13.040666330759022,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 4,
+   "delta_m": 0.6,
+   "rhoH_over_V0": 10.0,
+   "lqt": 1000.0,
+   "label": "INVALIDA",
+   "trapped_t": 9.034224663420806,
+   "throat_t": 15.07413885835562,
+   "I_t": 17.189549681358603,
+   "I_reason": "L1 constraint 1.02e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 16.778084223957254,
+     "dtauB_over_sqrt_al": 2.4134538938169428,
+     "diss_at_B": 4.498058020670451e-05,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 13.290928233668579,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 4,
+   "delta_m": 0.6,
+   "rhoH_over_V0": 10.0,
+   "lqt": 2000.0,
+   "label": "INVALIDA",
+   "trapped_t": 18.733254758625957,
+   "throat_t": 26.451698316535563,
+   "I_t": 27.755982580381396,
+   "I_reason": "L1 constraint 1.12e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 22.661364647602923,
+     "dtauB_over_sqrt_al": 3.0176507121064278,
+     "diss_at_B": 4.475237113456766e-05,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "CRUCE",
+     "X_t": 22.50167022692808,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 22.669203170766714,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 4,
+   "delta_m": 0.65,
+   "rhoH_over_V0": 1.0,
+   "lqt": 1000.0,
+   "label": "INDECIDIBLE",
+   "trapped_t": 4.76536563973681,
+   "throat_t": 10.1516833098532,
+   "I_t": null,
+   "I_reason": null,
+   "regions": {
+    "R1": {
+     "label": "INDECIDIBLE",
+     "X_t": 10.34750971926241,
+     "B_t": 10.315472393427534,
+     "dtauB_over_sqrt_al": 3.8753157846076354,
+     "diss_at_B": 6.867253978638777e-05,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INDECIDIBLE",
+     "X_t": 10.33690813835991,
+     "B_t": 10.332638122873453,
+     "dtauB_over_sqrt_al": 17.60303307822044,
+     "diss_at_B": 0.0062047366815327345,
+     "f_loc": 0.0
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 10.077740377514264,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 4,
+   "delta_m": 0.65,
+   "rhoH_over_V0": 1.0,
+   "lqt": 2000.0,
+   "label": "INVALIDA",
+   "trapped_t": 4.788776225579972,
+   "throat_t": 10.209861432749081,
+   "I_t": 10.578941580315158,
+   "I_reason": "L1 constraint 1.00e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 10.498789065320704,
+     "dtauB_over_sqrt_al": 1.955772834928037,
+     "diss_at_B": 2.1318457507950898e-05,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INDECIDIBLE",
+     "X_t": 10.55552647759442,
+     "B_t": 10.521123275012236,
+     "dtauB_over_sqrt_al": 8.896047432543156,
+     "diss_at_B": 0.0016685549166519517,
+     "f_loc": 0.0
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 10.072010307566568,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 4,
+   "delta_m": 0.65,
+   "rhoH_over_V0": 10.0,
+   "lqt": 1000.0,
+   "label": "INVALIDA",
+   "trapped_t": 4.927695716033237,
+   "throat_t": 10.438909881794094,
+   "I_t": 10.944667515598217,
+   "I_reason": "L1 constraint 1.00e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 10.872029280874589,
+     "dtauB_over_sqrt_al": 1.2687214539105918,
+     "diss_at_B": 1.0128058215368046e-05,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 10.907745357843583,
+     "dtauB_over_sqrt_al": 5.7891221591051725,
+     "diss_at_B": 0.0007428898181027348,
+     "f_loc": 0.0
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 10.148556121134447,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 4,
+   "delta_m": 0.65,
+   "rhoH_over_V0": 10.0,
+   "lqt": 2000.0,
+   "label": "INVALIDA",
+   "trapped_t": 7.417535346039644,
+   "throat_t": 14.088877396814778,
+   "I_t": 16.7506774372937,
+   "I_reason": "L1 constraint 1.00e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 14.957207798858292,
+     "dtauB_over_sqrt_al": 0.9539847311717167,
+     "diss_at_B": 6.847136674850565e-06,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 12.152112095273178,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 8,
+   "delta_m": 0.635,
+   "rhoH_over_V0": 1.0,
+   "lqt": 1000.0,
+   "label": "INVALIDA",
+   "trapped_t": 7.383615437031552,
+   "throat_t": 12.197043608266648,
+   "I_t": 12.841025444866863,
+   "I_reason": "L1 constraint 1.02e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 12.829274281324643,
+     "dtauB_over_sqrt_al": 5.087384908152744,
+     "diss_at_B": 0.00027531138608512484,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "CRUCE",
+     "X_t": 12.53392473460769,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 11.542733220293476,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 8,
+   "delta_m": 0.635,
+   "rhoH_over_V0": 1.0,
+   "lqt": 2000.0,
+   "label": "INVALIDA",
+   "trapped_t": 7.422812008755838,
+   "throat_t": 12.618113271942748,
+   "I_t": 13.51293985768985,
+   "I_reason": "L1 constraint 1.00e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 13.30821938955373,
+     "dtauB_over_sqrt_al": 2.5762331048552296,
+     "diss_at_B": 7.79857333740205e-05,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INDECIDIBLE",
+     "X_t": 13.436837607566407,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 11.625237891350972,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 8,
+   "delta_m": 0.635,
+   "rhoH_over_V0": 10.0,
+   "lqt": 1000.0,
+   "label": "INVALIDA",
+   "trapped_t": 7.633853273465557,
+   "throat_t": 13.37181485097662,
+   "I_t": 15.062520506654176,
+   "I_reason": "L1 constraint 1.01e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 14.735601797974999,
+     "dtauB_over_sqrt_al": 1.7067206643755053,
+     "diss_at_B": 3.619640554514001e-05,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 11.822461512519599,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 8,
+   "delta_m": 0.635,
+   "rhoH_over_V0": 10.0,
+   "lqt": 2000.0,
+   "label": "INVALIDA",
+   "trapped_t": 14.787443028653389,
+   "throat_t": 22.262435900168118,
+   "I_t": 23.986001335450485,
+   "I_reason": "L1 constraint 1.01e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 18.324532858187673,
+     "dtauB_over_sqrt_al": 2.502775441240745,
+     "diss_at_B": 5.3759573313575404e-05,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "CRUCE",
+     "X_t": 18.241834196449613,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 18.390503023154146,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 8,
+   "delta_m": 0.65,
+   "rhoH_over_V0": 1.0,
+   "lqt": 1000.0,
+   "label": "INVALIDA",
+   "trapped_t": 5.838205817779008,
+   "throat_t": 10.8910673332125,
+   "I_t": 11.287466667743928,
+   "I_reason": "L1 constraint 1.01e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 11.274857594079924,
+     "dtauB_over_sqrt_al": 3.6891103551196283,
+     "diss_at_B": 0.00010458770202169835,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 10.678725383760101,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 8,
+   "delta_m": 0.65,
+   "rhoH_over_V0": 1.0,
+   "lqt": 2000.0,
+   "label": "INVALIDA",
+   "trapped_t": 5.87761270122487,
+   "throat_t": 11.104685326480402,
+   "I_t": 11.586315129393702,
+   "I_reason": "L1 constraint 1.01e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 11.549479842660677,
+     "dtauB_over_sqrt_al": 1.868929396874446,
+     "diss_at_B": 3.139985282561053e-05,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 10.699466538227068,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 8,
+   "delta_m": 0.65,
+   "rhoH_over_V0": 10.0,
+   "lqt": 1000.0,
+   "label": "INDECIDIBLE",
+   "trapped_t": 6.080837361515137,
+   "throat_t": 11.508740554643508,
+   "I_t": null,
+   "I_reason": null,
+   "regions": {
+    "R1": {
+     "label": "INDECIDIBLE",
+     "X_t": 12.408953096754704,
+     "B_t": 12.229810671056118,
+     "dtauB_over_sqrt_al": 1.2351366384332358,
+     "diss_at_B": 1.521717192622552e-05,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INDECIDIBLE",
+     "X_t": 12.34906336937474,
+     "B_t": 12.297308954550772,
+     "dtauB_over_sqrt_al": 5.823394672940238,
+     "diss_at_B": 0.001381837886170304,
+     "f_loc": 0.0
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 10.82634699115329,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  },
+  {
+   "alpha": 8,
+   "delta_m": 0.65,
+   "rhoH_over_V0": 10.0,
+   "lqt": 2000.0,
+   "label": "INVALIDA",
+   "trapped_t": 10.111219629019663,
+   "throat_t": 17.298320051970816,
+   "I_t": 21.055470057795205,
+   "I_reason": "L1 constraint 1.00e-02",
+   "regions": {
+    "R1": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 14.164679671997018,
+     "dtauB_over_sqrt_al": 1.3627589713452326,
+     "diss_at_B": 2.268774270622458e-05,
+     "f_loc": 0.0
+    },
+    "R2": {
+     "label": "INVALIDA",
+     "X_t": null,
+     "B_t": 18.50322533866384,
+     "dtauB_over_sqrt_al": 7.154170917005598,
+     "diss_at_B": 0.00671251471278626,
+     "f_loc": 0.0
+    },
+    "R3": {
+     "label": "CRUCE",
+     "X_t": 14.017033557512244,
+     "B_t": null,
+     "dtauB_over_sqrt_al": null,
+     "diss_at_B": null,
+     "f_loc": null
+    }
+   },
+   "n_shells": {
+    "R1": 42,
+    "R2": 82,
+    "R3": 150
+   }
+  }
+ ]
+}

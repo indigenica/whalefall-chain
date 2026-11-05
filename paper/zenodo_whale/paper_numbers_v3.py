@@ -4,7 +4,8 @@
 
 Each row computes a value from the stored results, formats it as the text does, and checks that the LaTeX fragment
 is in main-v3.tex (whitespace-insensitive). It covers the dark-sector results of version 2 (pocket inflation, the
-collapse, the band and the full likelihood) and the coherence of the birth added in version 3 (U27, U28); the network numbers are those of the companion paper, checked by
+collapse, the band and the full likelihood) the coherence of the birth added in version 3 (U27, U28) and the parent of pure radiation added in version 3.2 (U33--U42);
+the network numbers are those of the companion paper, checked by
 paper/prd_network/paper_numbers.py.  Unlike that script it does not search for unchecked numbers."""
 import json, math, re, sys
 from pathlib import Path
@@ -181,6 +182,46 @@ CHECKS += [
     ("U28 reasons flips", f"(${_pc('E-v', 'D'):.0f}\\%$ of the cells in both classes)" if round(_pc("E-v", "D")) == round(_pc("D-v", "E")) else "MISMATCH"),
     ("U28 reasons Planck", f"(${_pc('E-v', 'super_planck'):.0f}\\%$ for eternal and ${_pc('D-v', 'super_planck'):.0f}\\%$ for direct children)"),
     ("U28 reasons frequency", f"(${ms['E-v']['n_runs']}$ of their ${_inc['E-v']}$ incoherent runs, against ${ms['D-v']['n_runs']}$ of ${_inc['D-v']}$)"),
+]
+
+# version 3.2: the parent of pure radiation (U33-A, the audit of U36, U37) and the radiation seeds that do not form it (U40-U42).
+# Only these result files are exported for it; codes, preregistrations and reports stay in the working repository.
+U33 = J("results", "u33_grid.json"); pr = U33["primary"]; amax = U33["AH_max_with_children"]
+AU = J("audit", "u36_coherencia", "resultados.json"); aD, aE = AU["branches"]["D"], AU["branches"]["E"]
+U37 = J("results", "u37_bianchi.json"); b37 = U37["branches"]["D"]["P2"]; es = b37["eps_star_viable"]
+U40, U41, U42 = J("results", "u40_choque.json"), J("results", "u41_nucleo_plano.json"), J("results", "u42_dominio_causal.json")
+_nums = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
+_nch = pr["n_fertile"] - pr["n_fertile_superplanck"]
+_vAH = [float(a) for a, v in aD["by_AH"].items() if v["viable"] > 0]
+_r2 = lambda x: f"{float(f'{x:.2g}'):g}"
+_fs = [(r.get(n) or {}).get("f_s") for r in U42["rows"] if not r["control"] for n in ("N512", "N1024")]
+CHECKS += [
+    ("U33 abstract", f"gives ${_nch}$ children below the Planck density, and an independent audit finds ${pc(aD['f'])}$ of fertile births"
+     if (aD["n_viable"], AU["n_fertile"]) == (17, pr["n_fertile"]) else "MISMATCH"),
+    ("U33 abstract AH", "all from parents no larger than a plateau Hubble radius" if max(_vAH) <= 1 else "MISMATCH"),
+    ("U33 grid", f"parents of $AH={min(U33['grid']['AH']):.2f}$--${max(U33['grid']['AH']):g}$ with {_nums[len(U33['grid']['sigma'])]} velocities of $\\chi$"),
+    ("U33 births", f"give ${pr['n_fertile']}$ fertile births, of which ${pr['n_fertile_superplanck']}$ exceed the Planck density at their bounce; "
+     f"the other ${_nch}$ are children, ${pr['n_E']}$ eternal and ${pr['n_D']}$ direct, ${pr['n_band_10_50']}$ of them landing at $10$--$50\\,\\Mpl$"
+     if pr["n_E"] + pr["n_D"] == _nch and U33["verdict_A"] == "RADIACION_FERTIL" else "MISMATCH"),
+    ("U33 AH max", f"$AH\\le{amax['1000|1']:.1f}$ for $\\ell_{{\\rm QT}}=1000\\,\\ell_{{\\rm P}}$ and $AH\\le{amax['2000|1']:g}$ for $2000\\,\\ell_{{\\rm P}}$"),
+    ("U33 l_QT 300", "with $\\ell_{\\rm QT}=300\\,\\ell_{\\rm P}$ every fertile bounce exceeds the Planck density" if amax["300|1"] is None else "MISMATCH"),
+    ("audit gates", f"passed its own {_nums[len(AU['gates'])]} gates" if all((g.get("passed") if isinstance(g, dict) else g) is True for g in AU["gates"].values()) else "MISMATCH"),
+    ("audit direct", f"${aD['n_viable']}$ of the ${AU['n_fertile']}$ fertile births (${pc(aD['f'])}$) are direct children whose parent tolerates $\\zeta_0$, "
+     f"all from parents with $AH\\le{max(_vAH):g}$" if aD["verdict"] == "VIABLE" and AU["audit_verdict"] == "SEMILLA_RADIACION_VIABLE" else "MISMATCH"),
+    ("audit eternal", f"The eternal branch is inconclusive, because ${aE['n'] - aE['n_valid']}$ of its ${aE['n']}$ children give invalid runs"
+     if aE["verdict"] == "INCONCLUSA" else "MISMATCH"),
+    ("audit log", f"(direct branch, ${pc(aD['f'])}$; eternal inconclusive)"),
+    ("U37 range", f"the ${b37['n_robust']}$ viable children tolerate shape anisotropies of ${e(min(es), 0)}$--${e(max(es), 0)}$, "
+     f"${_r2(min(es) / U37['beta_ref'])}$--${_r2(max(es) / U37['beta_ref'])}$ times $\\zeta_0$" if b37["n_robust"] == b37["n_viable_audit"] == aD["n_viable"] else "MISMATCH"),
+    ("U37 verdicts", "(with the earlier rule it is inconclusive)" if (U37["verdict"], U37["verdict_literal_B2"]) == ("ANISOTROPIA_INOCUA", "INCONCLUSO") else "MISMATCH"),
+    ("U40 shock", f"in all ${U40['n_horizon']}$ preregistered configurations that form a horizon"
+     if U40["n_cruce_horizon"] == U40["n_horizon"] and U40["verdict"] == "PADRE_CALIENTE_NO_COHERENTE" else "MISMATCH"),
+    ("U40 log", f"(in all ${U40['n_horizon']}$ configurations that form a horizon)"),
+    ("U42 cone", "the past sound cone of every interior layer reaches the non-flat edge"
+     if all(f == 1.0 for f in _fs if f is not None) and any(_fs) else "MISMATCH"),
+    ("U41 U42 verdicts", "the two preregistered tests of the flat core ended inconclusive on numerical validity"
+     if (U41["verdict"], U42["verdict"]) == ("INCONCLUSO", "INCONCLUSO") else "MISMATCH"),
+    ("U33 log", f"(A) \\textsc{{radiacion\\_fertil}} (${_nch}$ children)"),
 ]
 
 fails = 0
