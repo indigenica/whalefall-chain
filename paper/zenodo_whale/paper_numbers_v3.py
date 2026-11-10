@@ -198,7 +198,6 @@ _fs = [(r.get(n) or {}).get("f_s") for r in U42["rows"] if not r["control"] for 
 CHECKS += [
     ("U33 abstract", f"gives ${_nch}$ children below the Planck density, and an independent audit finds ${pc(aD['f'])}$ of fertile births"
      if (aD["n_viable"], AU["n_fertile"]) == (17, pr["n_fertile"]) else "MISMATCH"),
-    ("U33 abstract AH", "all from parents no larger than a plateau Hubble radius" if max(_vAH) <= 1 else "MISMATCH"),
     ("U33 grid", f"parents of $AH={min(U33['grid']['AH']):.2f}$--${max(U33['grid']['AH']):g}$ with {_nums[len(U33['grid']['sigma'])]} velocities of $\\chi$"),
     ("U33 births", f"give ${pr['n_fertile']}$ fertile births, of which ${pr['n_fertile_superplanck']}$ exceed the Planck density at their bounce; "
      f"the other ${_nch}$ are children, ${pr['n_E']}$ eternal and ${pr['n_D']}$ direct, ${pr['n_band_10_50']}$ of them landing at $10$--$50\\,\\Mpl$"
