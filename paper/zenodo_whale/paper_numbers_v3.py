@@ -4,7 +4,7 @@
 
 Each row computes a value from the stored results, formats it as the text does, and checks that the LaTeX fragment
 is in main-v3.tex (whitespace-insensitive). It covers the dark-sector results of version 2 (pocket inflation, the
-collapse, the band and the full likelihood) the coherence of the birth added in version 3 (U27, U28) and the parent of pure radiation added in version 3.2 (U33--U42);
+collapse, the band and the full likelihood) the coherence of the birth added in version 3 (U27, U28), the parent of pure radiation added in version 3.2 (U33--U42) and the saturation check of version 3.3 (U43);
 the network numbers are those of the companion paper, checked by
 paper/prd_network/paper_numbers.py.  Unlike that script it does not search for unchecked numbers."""
 import json, math, re, sys
@@ -222,6 +222,70 @@ CHECKS += [
     ("U41 U42 verdicts", "the two preregistered tests of the flat core ended inconclusive on numerical validity"
      if (U41["verdict"], U42["verdict"]) == ("INCONCLUSO", "INCONCLUSO") else "MISMATCH"),
     ("U33 log", f"(A) \\textsc{{radiacion\\_fertil}} (${_nch}$ children)"),
+]
+
+# version 3.3 (8 November 2026): the NPQT saturation (U43, informative) and the sign of chi
+U43 = J("results", "u43_saturacion.json"); c43 = U43["control"]["stats"]; t43 = U43["tests"]
+_n64 = c43["n_children"]
+_same = all(v["stats"]["n_children"] == _n64 and v["frac_rows_same_class"] == 1.0 for v in t43.values())
+CHECKS += [
+    ("U43 saturation", "These parents bounce within a part in a million of the NPQT saturation" if c43["one_minus_zmax_children"][1] < 1e-6 else "MISMATCH"),
+    ("U43 children", f"both alternatives give the same ${_n64}$ children, birth by birth"
+     if _same and U43["verdict_U43"] == "INCONCLUSO" and U43.get("informative_label") == "COLA_IRRELEVANTE" and not U43["gates"]["G2"]["passed"] else "MISMATCH"),
+    ("U43 log", f"informative: the same ${_n64}$ children with both alternatives" if _same else "MISMATCH"),
+    ("U33 = U43 control", "MISMATCH" if _n64 != U33["primary"]["n_fertile"] - U33["primary"]["n_fertile_superplanck"] else "the same $64$ children"),
+]
+
+# version 3.3: field range of the viable direct children of the radiation parent (docs/informes/NOTA_MESETA_CIENAGA.md)
+_R33 = {f"lqt{r['lqt']:g}_AH{r['AH']:g}_sig{r['sigma']:g}": r for r in U33["rows"] if r["frac_rad"] == 1.0}
+_vl = sorted(_R33[k]["chi_land"] for k, c in AU["per_child"].items() if c.get("viable") and c["cls"] == "D")
+_pv = S2["pivot_rerun"]; _xs, _xf = _pv["chi_star"]["rerun"], _pv["chi_end"]["rerun"]
+_d2V = lambda x: Cp * (Cp * Cp - 2 * x * x) / (x * x + Cp * Cp) ** 2.5
+CHECKS += [
+    ("range viable count", f"${sum(x < 10 for x in _vl)}$ of the ${len(_vl)}$ viable direct children have the field below $10\\,\\Mpl$ sixty e-folds after landing, the lowest at ${_vl[0]:.1f}\\,\\Mpl$"
+     if len(_vl) == aD["n_viable"] else "MISMATCH"),
+    ("range flat", f"flat over about ${_vl[0] - _xf:.0f}\\,\\Mpl$, twice the ${_xs - _xf:.1f}\\,\\Mpl$ of the observable e-folds"
+     if 1.6 < (_vl[0] - _xf) / (_xs - _xf) < 2.4 else "MISMATCH"),
+    ("range dS", f"$|V'|/V\\simeq{_dV(_xs) / _V(_xs):.3f}$ and $|V''|/V\\simeq{abs(_d2V(_xs)) / _V(_xs):.3f}$ at the pivot"),
+    ("range no imprint", f"the lowest still inflates more than ${int(_N(_vl[0]) // 100 * 100)}$ e-folds after landing"),
+]
+
+# version 3.3: the O(3) triplet of degenerate Goldstones (docs/informes/NOTA_TRES_GOLDSTONES.md, chain/explora_tres_goldstones.py)
+TG = J("results", "explora_tres_goldstones.json"); _r3 = TG["gw_annihilation_ratio"]["3"]
+CHECKS.append(("triplet GW ratio", "would radiate on average $1/2$ of the gravitational-wave annihilation power of a single field"
+               if abs(_r3["formula"] - 0.5) < 1e-12 and abs(_r3["monte_carlo"] / _r3["formula"] - 1) < 0.01 and TG["quartic"]["ok"] and TG["time_average"]["ok"] else "MISMATCH"))
+
+# version 3.3: the predictions table
+CHECKS += [
+    ("table no imprint", f"more than ${int(_N(_vl[0]) // 100 * 100)}$ for the viable children of the radiation parent"),
+    ("table triplet", f"at $2m_G/h\\lesssim{TG['gw_frequency_Hz']['m_hi_eV']:.0f}$\\,Hz, starts at $1/2$ of the power of a single axion"
+     if abs(TG["gw_annihilation_ratio"]["3"]["formula"] - 0.5) < 1e-12 else "MISMATCH"),
+]
+
+_lk = TG["charge_locked"]
+CHECKS.append(("triplet locked", "on average $2/3$ of such a cloud is locked by its charge and never annihilates"
+               if abs(_lk["mean_Q_over_N"] - 2 / 3) < 0.005 and _lk["lagrange_max_err"] < 1e-12 else "MISMATCH"))
+CHECKS.append(("table locked", "leaving $2/3$ of the cloud locked by its ${\\rm O}(3)$ charge" if abs(_lk["mean_Q_over_N"] - 2 / 3) < 0.005 else "MISMATCH"))
+
+_tc = TG["toy_cloud"]
+CHECKS.append(("triplet exact and toy", "on average $2/3$ of such a cloud is locked by its charge and never annihilates"
+               if TG["exact"]["mean_Q_over_N"] == 2 / 3 and all(x["Q_drift_after_growth"] < 1e-8 and abs(x["N_end_over_Q"] - 1) < 1e-10 for x in _tc) else "MISMATCH"))
+
+# version 3.3 (10 November 2026): the eras of the network, recomputed here from exported results only (the internal assembler is
+# chain/receta_universo.py): averaged inflaton condensate decaying with the width of the benchmark; collapse at H = m_G/3
+from scipy.integrate import solve_ivp as _ivp
+sys.path.insert(0, str(ROOT / "chain")); import ucommon as _uc
+_Bp = _uc.benchmark("pole"); _pvr = S2["pivot_rerun"]
+_Hend = math.sqrt(1.5 * _pvr["V0"]["rerun"] * _V(_pvr["chi_end"]["rerun"]) / 3) * 2.435e18
+_evq = lambda N, y: y[0] - 0.5
+_evq.terminal = True
+_sq = _ivp(lambda N, y: [(1 - y[0]) * (_Bp["Gamma_GeV"] / math.exp(y[1]) - y[0]), -(3 + y[0]) / 2], (0, 40), [0.0, math.log(_Hend)], events=_evq, rtol=1e-10, atol=1e-14, dense_output=True)
+_Neq = float(_sq.t_events[0][0]); _Heq = math.exp(float(_sq.y_events[0][0][1]))
+_NQ = math.log(J("data", "cadena_cierre", "q_bridge.json")["background"]["linear"]["a_switch"])
+_dl = [math.log(_Heq / (r["m_G_eV"] / 3e9)) for r in (c3, c3l)]
+CHECKS += [
+    ("network eras", f"about ${_Neq - _NQ:.0f}$ e-folds in the inflaton era and then ${min(_dl):.0f}$--${max(_dl):.0f}$ units of $\\ell$ in radiation domination"),
+    ("network memory factor", f"by more than a factor of ${min(d['X_univ'] / d['X_lo'], d['X_hi'] / d['X_univ']):.1f}$"),
 ]
 
 fails = 0

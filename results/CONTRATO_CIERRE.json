@@ -50,6 +50,14 @@
   "U19d": "X_UNIV_INDECISO (entre 244 y 1367) (U19c con 12 redes por masa, semillas 91\u201396: X\u2080 = 6.5, 7.5, 8.2, 8.6 en \u2113\u2081 = 3.6\u20134.4; p = 1.35 \u00b1 0.31; X del universo seg\u00fan el modelo, informativo: X0_constante 56, X0_proporcional_a_l1 218, X0_lineal_en_l1 273, potencia_libre 556; los modelos que ajustan (\u03c7\u00b2/\u03bd \u2264 2) dan X \u2265 218; X > 320 queda fuera de las filas de U17f)",
   "U17g": "BORDE_BAJA_A_0.35 (borde superior sobre el intervalo de X de U19d, con la tuber\u00eda de U17f: X \u2248 405: 0.6 F\u2080, X \u2248 486: 0.6 F\u2080, X \u2248 556: 0.5 F\u2080, X \u2248 688: 0.5 F\u2080, X \u2248 891: 0.35 F\u2080, X \u2248 1367: 0.35 F\u2080; en el X central de U19d, 0.5 F\u2080; lo pone Ly\u03b1 en todas; borde inferior 0.03\u20130.0625 F\u2080 (superradiancia estelar))",
   "U10b": "RP3 ATRACTOR_ACOTADO, U1 ATRACTOR_ACOTADO",
+  "U27": "RAMA_DIRECTA_VIABLE; BANDA_10_50_POBLADA (modelo de polvo, meseta de polo)",
+  "U28": "D VIABLE, E MARGINAL (\u03c7 inhomog\u00e9neo, un rebote; tolerancia frente al polvo: IGUAL en D y IGUAL en E)",
+  "U33A": "RADIACION_FERTIL (semilla de radiaci\u00f3n, parte A; la parte B, la coherencia, qued\u00f3 INCONCLUSA y la cerr\u00f3 la auditor\u00eda de U36)",
+  "U36_auditoria": "SEMILLA_RADIACION_VIABLE (rama directa VIABLE, eterna INCONCLUSA)",
+  "U37": "ANISOTROPIA_INOCUA (con la enmienda 5; INCONCLUSO con la regla anterior)",
+  "U40": "PADRE_CALIENTE_NO_COHERENTE",
+  "U41": "INCONCLUSO",
+  "U42": "INCONCLUSO (informativo: desincron\u00eda externa)",
   "U9": "CRECIMIENTO_GENUINO (dentro de la ventana \u2113 \u2264 5.66)"
  },
  "decisive_open_link": "10e: banda combinada preregistrada (U17e + U20b + U23 + U17f): rama viva con F \u2248 0.09\u20130.7 F\u2080 en todo el intervalo del colapso (X del universo \u2248 170\u2013320); hasta 0.85 F\u2080 con X \u2272 275 y hasta F\u2080 con X \u2272 194, este solo por forma; la extrapolaci\u00f3n \u221d \u2113 (X \u2248 195) cae en la frontera. Con la cota secundaria de supermasivos, 0.09\u20130.5 F\u2080 (0.7 F\u2080 con X \u2272 220). Materia oscura fr\u00eda dominada por el colapso; LISA solo si F\u2080 y sin la cota de supermasivos. La verosimilitud completa de Ly\u03b1 (U15c) permite los bordes 0.35\u20130.5 F\u2080, indistinguibles de CDM; con la poblaci\u00f3n medida, U15d: F0_EXCLUIDO_LYA_COMPLETO; BORDE_0.7_SOSTENIDO (F\u2080 excluido tambi\u00e9n con X \u2248 193; con X \u2248 320, 0.85 F\u2080 excluido y 0.7 F\u2080 permitido); las filas que pasan la puerta de cribado solo por forma (\u03b4A \u2273 0.34) quedan dudosas, no el X central (0.5 F\u2080, \u03b4A 0.29). La extrapolaci\u00f3n del colapso a \u2113 \u2248 90 (U19d, cuatro masas con 12 redes cada una): X_UNIV_INDECISO (entre 244 y 1367); con X\u2080 \u221d \u2113\u2081, lineal o en potencia, X \u2248 218, 273 y 556, todos > 194: F\u2080 queda fuera; el borde superior es 0.85 F\u2080 (X \u2272 275), 0.7 F\u2080 (X \u2248 320); U17g: BORDE_BAJA_A_0.35, 0.6 F\u2080 con X \u2248 400\u2013490, 0.5 F\u2080 en el X central (556) y 0.35 F\u2080 con X \u2248 900\u20131370. Abiertos: C de la isocurvatura; la meseta es la inflaci\u00f3n de polo (U26)",
@@ -111,13 +119,13 @@
   {
    "link": "1 semilla cerrada en contracci\u00f3n",
    "status": "ASSUMED",
-   "evidence": "docs/evidencia/nacimiento_c45/NOTA_C45F_SEMILLAS.md; data/cadena_cierre/contract.json",
-   "open": "origen y probabilidad de la semilla (D1); tama\u00f1o A\u00b7H \u2248 0.5\u20131.4 requerido por C45j"
+   "evidence": "docs/evidencia/nacimiento_c45/NOTA_C45F_SEMILLAS.md; data/cadena_cierre/contract.json; sin polvo, U33-A: RADIACION_FERTIL (64 hijos por debajo de Planck, 19 E y 45 D, de un universo cerrado de pura radiaci\u00f3n con \u03c7 en su m\u00ednimo, solo con la acci\u00f3n com\u00fan)",
+   "open": "origen y probabilidad de la semilla (D1); tama\u00f1o A\u00b7H \u2248 0.5\u20131.4 requerido por C45j; formaci\u00f3n de la semilla de radiaci\u00f3n dentro de una era anterior: U40 PADRE_CALIENTE_NO_COHERENTE (el choque cruza el n\u00facleo en 46 de 46 configuraciones con horizonte), U41 INCONCLUSO, U42 INCONCLUSO (informativo: la desincron\u00eda del interior viene del borde no plano)"
   },
   {
    "link": "2 rebote(s) NPQT coherente(s) en el padre que se contrae",
-   "status": "PASS_TOY \u00b7 D11: RAMA DIRECTA VIABLE, ETERNA MARGINAL (U28, \u03c7 inhomog\u00e9neo)",
-   "evidence": "U26-S1 (meseta de polo): f_ES = 0.153 frente a 0.163 con la suma (R = 0.94) en las 1100 filas de C45h; 10 de los 20 hijos viables de C45j son eternos con el polo; el puerto C (suma, modo 0) reproduce bit a bit; el filtro \u03b6\u2080 de C45j (f_viable = 0.036) es de la suma; U27 (polvo, meseta de polo): 14.9% directos y 3.6% eternos viables de 556 f\u00e9rtiles (RAMA_DIRECTA_VIABLE); U28 (\u03c7 inhomog\u00e9neo, un rebote): IGUAL en D y IGUAL en E; directos 12.4%\u201318.0% (VIABLE), eternos 1.8%\u20132.9% (MARGINAL)",
+   "status": "PASS_TOY \u00b7 D11: RAMA DIRECTA VIABLE, ETERNA MARGINAL (U28, \u03c7 inhomog\u00e9neo) \u00b7 semilla de radiaci\u00f3n: SEMILLA_RADIACION_VIABLE (auditor\u00eda de U36)",
+   "evidence": "U26-S1 (meseta de polo): f_ES = 0.153 frente a 0.163 con la suma (R = 0.94) en las 1100 filas de C45h; 10 de los 20 hijos viables de C45j son eternos con el polo; el puerto C (suma, modo 0) reproduce bit a bit; el filtro \u03b6\u2080 de C45j (f_viable = 0.036) es de la suma; U27 (polvo, meseta de polo): 14.9% directos y 3.6% eternos viables de 556 f\u00e9rtiles (RAMA_DIRECTA_VIABLE); U28 (\u03c7 inhomog\u00e9neo, un rebote): IGUAL en D y IGUAL en E; directos 12.4%\u201318.0% (VIABLE), eternos 1.8%\u20132.9% (MARGINAL); semilla de radiaci\u00f3n: SEMILLA_RADIACION_VIABLE (auditor\u00eda independiente de U36: rama directa 17/162 = 10.5% de los f\u00e9rtiles, rama eterna INCONCLUSA); U37 (anisotrop\u00eda del padre de radiaci\u00f3n, Bianchi IX): ANISOTROPIA_INOCUA con la enmienda 5, posterior a ver parte de la producci\u00f3n (INCONCLUSO con la regla anterior)",
    "open": "U28: un solo rebote extrapolado a varios (\u03b5/n_rebotes), simetr\u00eda esf\u00e9rica y una escala (L\u00b7H = 1; con L\u00b7H = 0.3, INCONCLUSA por corridas inv\u00e1lidas); qu\u00e9 rama nos alberga es la medida (D9)"
   },
   {

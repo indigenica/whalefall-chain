@@ -46,14 +46,30 @@ def main():
     u15d = _j("lya", "results", "u15d", "U15D_RESULT.json"); u15d_final = bool(u15d and u15d.get("converged") and str(u15d.get("verdict_U15d", "")).startswith("F0_"))      # PENDIENTE: no ratios
     u24 = _j("network", "results", "u24", "U24_RESULT.json"); u25 = _j("network", "results", "u25", "U25_RESULT.json")
     u27 = _j("results", "u27_direct_children.json"); u28 = _j("results", "u28_c45k.json")
+    # the radiation seed (8 November 2026): only result files that whalefall-chain also carries (export/MANIFEST.txt, v3.2)
+    u33 = _j("results", "u33_grid.json"); a36 = _j("audit", "u36_coherencia", "resultados.json"); u37 = _j("results", "u37_bianchi.json")
+    u40 = _j("results", "u40_choque.json"); u41 = _j("results", "u41_nucleo_plano.json"); u42 = _j("results", "u42_dominio_causal.json")
+    rad_seed = (f"; sin polvo, U33-A: {u33['verdict_A']} ({u33['primary']['n_fertile'] - u33['primary']['n_fertile_superplanck']} hijos por debajo "
+                f"de Planck, {u33['primary']['n_E']} E y {u33['primary']['n_D']} D, de un universo cerrado de pura radiación con χ en su mínimo, "
+                "solo con la acción común)") if u33 else ""
+    rad_form = ("; formación de la semilla de radiación dentro de una era anterior: "
+                + ", ".join(x for x in (
+                    f"U40 {u40['verdict']} (el choque cruza el núcleo en {u40['n_cruce_horizon']} de {u40['n_horizon']} configuraciones con horizonte)" if u40 else "",
+                    f"U41 {u41['verdict']}" if u41 else "",
+                    f"U42 {u42['verdict']} (informativo: la desincronía del interior viene del borde no plano)" if u42 else "") if x)) if (u40 or u41 or u42) else ""
+    rad_coh = (f"; semilla de radiación: {a36['audit_verdict']} (auditoría independiente de U36: rama directa "
+               f"{a36['branches']['D']['n_viable']}/{a36['n_fertile']} = {a36['branches']['D']['f']:.1%} de los fértiles, "
+               f"rama eterna {a36['branches']['E']['verdict']})") if a36 else ""
     cc = {c["connection"]: c for c in load("cadena_cierre/contract.json")["connections"]}
     J = load("c45b/c45j_results.json")
     L = [
-        dict(link="1 semilla cerrada en contracción", status="ASSUMED", evidence="docs/evidencia/nacimiento_c45/NOTA_C45F_SEMILLAS.md; data/cadena_cierre/contract.json",
-             open="origen y probabilidad de la semilla (D1); tamaño A·H ≈ 0.5–1.4 requerido por C45j"),
+        dict(link="1 semilla cerrada en contracción", status="ASSUMED",
+             evidence="docs/evidencia/nacimiento_c45/NOTA_C45F_SEMILLAS.md; data/cadena_cierre/contract.json" + rad_seed,
+             open="origen y probabilidad de la semilla (D1); tamaño A·H ≈ 0.5–1.4 requerido por C45j" + rad_form),
         dict(link="2 rebote(s) NPQT coherente(s) en el padre que se contrae",
              status=("PASS_TOY · D11: RAMA DIRECTA VIABLE, ETERNA MARGINAL (U28, χ inhomogéneo)" if u28 and u28["viable"]["D"]["verdict_D11"] == "VIABLE"
-                     and u28["viable"]["E"]["verdict_D11"] == "MARGINAL" else "PASS_TOY / MARGINAL (D11)"),
+                     and u28["viable"]["E"]["verdict_D11"] == "MARGINAL" else "PASS_TOY / MARGINAL (D11)")
+                    + (f" · semilla de radiación: {a36['audit_verdict']} (auditoría de U36)" if a36 else ""),
              evidence=(f"C45d–C45j; U1-S1 reproduce los {s1['n_viable_C45j']} hijos viables bit a bit; f_viable = {J['frac_viable_LH1_over_fertile']:.3f}"
                        if PLATEAU == "sum" else
                        "U26-S1 (meseta de polo): S1 omitido sin gcc (el puerto C de C45 lo necesita)" if "f_ES_pole" not in s1 else
@@ -64,7 +80,10 @@ def main():
                 f"{u27['n_window_fertile_pole']} fértiles ({u27['verdict_U27']})" if u27 else "")
              + (f"; U28 (χ inhomogéneo, un rebote): {u28['class_LH1']['D-v']['verdict']} en D y {u28['class_LH1']['E-v']['verdict']} en E; "
                 f"directos {u28['viable']['D']['f_lo']:.1%}–{u28['viable']['D']['f_hi']:.1%} ({u28['viable']['D']['verdict_D11']}), "
-                f"eternos {u28['viable']['E']['f_lo']:.1%}–{u28['viable']['E']['f_hi']:.1%} ({u28['viable']['E']['verdict_D11']})" if u28 else ""),
+                f"eternos {u28['viable']['E']['f_lo']:.1%}–{u28['viable']['E']['f_hi']:.1%} ({u28['viable']['E']['verdict_D11']})" if u28 else "")
+             + rad_coh
+             + (f"; U37 (anisotropía del padre de radiación, Bianchi IX): {u37['verdict']} con la enmienda 5, posterior a ver parte de la producción "
+                f"({u37['verdict_literal_B2']} con la regla anterior)" if u37 else ""),
              open=("U28: un solo rebote extrapolado a varios (ε/n_rebotes), simetría esférica y una escala (L·H = 1; con L·H = 0.3, INCONCLUSA "
                    "por corridas inválidas); qué rama nos alberga es la medida (D9)" if u28 else "coherencia con χ inhomogéneo (C45k montado, sin ejecutar)")),
         dict(link="3 bomba χ + disparo por la garganta → aterrizaje χ_land", status="PASS_NUMERICS (homogéneo)",
@@ -245,6 +264,14 @@ def main():
                                         + f"{min(b['F_min_contiguous_over_F0'] for b in u17g['bands'].values()):g}–{max(b['F_min_contiguous_over_F0'] for b in u17g['bands'].values()):g} F₀ (superradiancia estelar))")
                                        if u17g and u17g.get("bands") and u17g.get("pipeline_ok") else (u17g.get("verdict_U17g") if u17g else None)),
                                  U10b=(f"RP3 {u10b['RP3']['verdict']}, U1 {u10b['U1']['verdict']}" if u10b else None),
+                                 U27=((u27["verdict_U27"] + f"; {u27['verdict_band']} (modelo de polvo, meseta de polo)") if u27 else None),
+                                 U28=((f"D {u28['viable']['D']['verdict_D11']}, E {u28['viable']['E']['verdict_D11']} (χ inhomogéneo, un rebote; "
+                                       f"tolerancia frente al polvo: {u28['class_LH1']['D-v']['verdict']} en D y {u28['class_LH1']['E-v']['verdict']} en E)") if u28 else None),
+                                 U33A=((u33["verdict_A"] + " (semilla de radiación, parte A; la parte B, la coherencia, quedó INCONCLUSA y la cerró la auditoría de U36)") if u33 else None),
+                                 U36_auditoria=((a36["audit_verdict"] + f" (rama directa {a36['branches']['D']['verdict']}, eterna {a36['branches']['E']['verdict']})") if a36 else None),
+                                 U37=((u37["verdict"] + f" (con la enmienda 5; {u37['verdict_literal_B2']} con la regla anterior)") if u37 else None),
+                                 U40=(u40["verdict"] if u40 else None), U41=(u41["verdict"] if u41 else None),
+                                 U42=((u42["verdict"] + " (informativo: desincronía externa)") if u42 else None),
                                  U9=(u9["classification"] + " (dentro de la ventana ℓ ≤ 5.66)" if u9 else None)),
                decisive_open_link=("10e: banda combinada preregistrada (U17e + U20b + U23 + U17f): rama viva con F ≈ 0.09–0.7 F₀ en todo el intervalo del colapso "
                                    "(X del universo ≈ 170–320); hasta 0.85 F₀ con X ≲ 275 y hasta F₀ con X ≲ 194, este solo por forma; la extrapolación ∝ ℓ (X ≈ 195) cae en la frontera. "
