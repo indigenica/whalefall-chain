@@ -1,0 +1,119 @@
+{
+ "note": "informative re-readings after the data (no verdict)",
+ "bounds": {
+  "Planck2018+BAO": -0.0031,
+  "DESI_DR2+CMB": 9.999999999999983e-05,
+  "DESI_DR2_LyaFS+CMB": -0.00010000000000000026
+ },
+ "curvature_bound": {
+  "Planck2018+BAO": {
+   "f_vis": 0.00038402457757296467,
+   "f_curv": 0.00038402457757296467,
+   "f_excl": 0.0055263846051817915
+  },
+  "DESI_DR2+CMB": {
+   "f_vis": 0.0,
+   "f_curv": 0.0,
+   "f_excl": 0.04036173211958054
+  },
+  "DESI_DR2_LyaFS+CMB": {
+   "f_vis": 0.0,
+   "f_curv": 0.0,
+   "f_excl": 0.007095440399228121
+  }
+ },
+ "pivot": {
+  "-2": {
+   "f_vis": 0.0,
+   "f_curv": 0.0,
+   "f_excl": 0.004590594965919881,
+   "n_band_short": 0,
+   "by_bound": {
+    "Planck2018+BAO": {
+     "f_vis": 0.0,
+     "f_curv": 0.0,
+     "f_excl": 0.004590594965919881
+    },
+    "DESI_DR2+CMB": {
+     "f_vis": 0.0,
+     "f_curv": 0.0,
+     "f_excl": 0.04058513336689305
+    },
+    "DESI_DR2_LyaFS+CMB": {
+     "f_vis": 0.0,
+     "f_curv": 0.0,
+     "f_excl": 0.005430408129255376
+    }
+   }
+  },
+  "-1": {
+   "f_vis": 0.0,
+   "f_curv": 0.0005110992685670833,
+   "f_excl": 0.004685904572451334,
+   "n_band_short": 1,
+   "by_bound": {
+    "Planck2018+BAO": {
+     "f_vis": 0.0,
+     "f_curv": 0.0005110992685670833,
+     "f_excl": 0.004685904572451334
+    },
+    "DESI_DR2+CMB": {
+     "f_vis": 0.0,
+     "f_curv": 0.0,
+     "f_excl": 0.04036173211958054
+    },
+    "DESI_DR2_LyaFS+CMB": {
+     "f_vis": 0.0,
+     "f_curv": 0.0,
+     "f_excl": 0.006220198526001347
+    }
+   }
+  },
+  "+1": {
+   "f_vis": 0.0,
+   "f_curv": 0.00023674242424242425,
+   "f_excl": 0.005985468077035772,
+   "n_band_short": 2,
+   "by_bound": {
+    "Planck2018+BAO": {
+     "f_vis": 0.0,
+     "f_curv": 0.00023674242424242425,
+     "f_excl": 0.005985468077035772
+    },
+    "DESI_DR2+CMB": {
+     "f_vis": 0.0,
+     "f_curv": 0.0,
+     "f_excl": 0.040137061546999205
+    },
+    "DESI_DR2_LyaFS+CMB": {
+     "f_vis": 0.0,
+     "f_curv": 0.0,
+     "f_excl": 0.007735476038492855
+    }
+   }
+  },
+  "+2": {
+   "f_vis": 0.0,
+   "f_curv": 0.00027056277056277056,
+   "f_excl": 0.006268534483639981,
+   "n_band_short": 5,
+   "by_bound": {
+    "Planck2018+BAO": {
+     "f_vis": 0.0,
+     "f_curv": 0.00027056277056277056,
+     "f_excl": 0.006268534483639981
+    },
+    "DESI_DR2+CMB": {
+     "f_vis": 0.0,
+     "f_curv": 0.0,
+     "f_excl": 0.039304674967590554
+    },
+    "DESI_DR2_LyaFS+CMB": {
+     "f_vis": 0.0,
+     "f_curv": 0.0,
+     "f_excl": 0.007116493891381995
+    }
+   }
+  }
+ }
+}

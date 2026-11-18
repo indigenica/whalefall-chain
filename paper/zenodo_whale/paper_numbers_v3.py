@@ -7,12 +7,13 @@ is in main-v3.tex (whitespace-insensitive). It covers the dark-sector results of
 collapse, the band and the full likelihood) the coherence of the birth added in version 3 (U27, U28), the parent of pure radiation added in version 3.2 (U33--U42) and the saturation check of version 3.3 (U43);
 the network numbers are those of the companion paper, checked by
 paper/prd_network/paper_numbers.py.  Unlike that script it does not search for unchecked numbers."""
-import json, math, re, sys
+import json, math, os, re, sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
-TEX = re.sub(r"\s+", " ", (HERE / "main-v3.tex").read_text())
+TEXNAME = os.environ.get("WHALEFALL_TEX", "main-v3.tex")      # main-arxiv.tex: see paper_numbers_arxiv.py
+TEX = re.sub(r"\s+", " ", (HERE / TEXNAME).read_text())
 
 
 def J(*p):
@@ -286,6 +287,54 @@ CHECKS += [
     ("network eras", f"about ${_Neq - _NQ:.0f}$ e-folds in the inflaton era and then ${min(_dl):.0f}$--${max(_dl):.0f}$ units of $\\ell$ in radiation domination"),
     ("network memory factor", f"by more than a factor of ${min(d['X_univ'] / d['X_lo'], d['X_hi'] / d['X_univ']):.1f}$"),
 ]
+
+# 14 November 2026: children that bounce once (chain/u28_un_rebote.py, informative re-reading of U28 and of the audit of U36)
+UR = J("results", "u28_un_rebote.json"); urD, urE, urR = UR["dust_U28"]["classes"]["D"], UR["dust_U28"]["classes"]["E"], UR["radiation_audit_U36"]
+_ab = [AU["per_child"][k] for k in AU["per_child"] if AU["per_child"][k]["cls"] == "D" and AU["per_child"][k].get("viable")]
+CHECKS += [
+    ("one bounce consistent", "ok" if (urD["n_viable_lo"], urD["n_viable_hi"]) == (vD["n_viable_lo"], vD["n_viable_hi"]) and urR["n_viable_D"] == aD["n_viable"]
+     and sum(c["n_b"] == 1 for c in _ab) == urR["one_bounce"] else "MISMATCH"),
+    ("one bounce abstract", f"Most of these direct children bounce once (${100 * urD['f_one_bounce_lo']:.0f}$--${100 * urD['f_one_bounce_hi']:.0f}\\%$ of fertile births)"),
+    ("one bounce abstract rad", f"parent bounces coherently, ${pc(urR['f_one_bounce'])}$ with a single bounce."),
+    ("one bounce dust", f"${urD['one_bounce_lo']}$--${urD['one_bounce_hi']}$ of them (${100 * urD['f_one_bounce_lo']:.1f}$--${pc(urD['f_one_bounce_hi'])}$ of fertile births) bounce once, against ${urE['one_bounce_lo']}$--${urE['one_bounce_hi']}$ eternal children (${100 * urE['f_one_bounce_lo']:.1f}$--${pc(urE['f_one_bounce_hi'])}$)"),
+    ("one bounce rad", f"{['Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine'][urR['one_bounce']]} of them (${pc(urR['f_one_bounce'])}$ of fertile births) bounce once"),
+    ("one bounce margin", f"the smallest margin among them is ${100 * (urR['one_bounce_margin_min'] - 1):.0f}\\%$"),
+    ("one bounce open", f"${100 * urD['f_one_bounce_lo']:.1f}$--${pc(urD['f_one_bounce_hi'])}$ of fertile births in the dust model with an inhomogeneous $\\chi$ (against ${100 * vD['f_lo']:.1f}$--${pc(vD['f_hi'])}$ in all), and ${pc(urR['f_one_bounce'])}$ for the parent of pure radiation (against ${pc(aD['f'])}$)"),
+]
+
+# 15 November 2026: the bounce imprint (U55b, preregistered; its DESI reading, informative) and the sign of the curvature
+B55 = J("results", "u55b_huella_rebote.json"); L55 = J("results", "u55b_lecturas.json")
+_om_pl = 0.0007 - 2 * 0.0019
+_orad = 2.469e-5 / 0.6736 ** 2 * (1 + 0.2271 * 3.046)
+_D = quad(lambda z: 1 / math.sqrt(0.3153 * (1 + z) ** 3 + _orad * (1 + z) ** 4 + 1 - 0.3153 - _orad), 0, 1089.9, limit=400)[0]
+_nvis = 2 / math.sin(_D * math.sqrt(-_om_pl))                    # n_mem needed for ell = 2 at the Planck bound
+_nm = {(p["lqt"], p["AH"]): max([x["n_mem"] for x in p["band"] if "n_mem" in x], default=None) for p in B55["per_parent"]}
+_ahv = {lq: min(AH for (l, AH), v in _nm.items() if l == lq and v and v > _nvis) for lq in (1000.0, 2000.0)}
+_dNdchi = _V(4.1) / _dV(4.1)                                       # e-folds per M_Pl at chi = 4.1 (slow roll)
+_win = max(math.log(v / _nvis) for v in _nm.values() if v and v > _nvis) / _dNdchi
+CHECKS += [
+    ("U55b verdict", "ok" if B55["verdict"] == "HUELLA_RARA" and all(B55["gates"].values()) else "MISMATCH"),
+    ("U55b f_vis table", f"it reaches $\\ell\\ge2$ with the curvature allowed by Planck for ${e(B55['f_vis'])}$ of them, and for none with the curvature of DESI DR2"
+     if L55["curvature_bound"]["DESI_DR2+CMB"]["f_vis"] == 0 else "MISMATCH"),
+    ("U55b f_vis open", f"in all but ${e(B55['f_vis'])}$ of the births that can host us"),
+    ("U55b log", f"\\textsc{{huella\\_rara}} (${e(B55['f_vis'])}$ of the hosts)"),
+    ("U55b AH threshold", f"an imprint needs a parent with $AH\\gtrsim{min(_ahv.values()):.0f}$--${max(_ahv.values()):.0f}$"),
+    ("U55b window", "a landing within $\\lesssim0.02\\,\\Mpl$ of $\\chi\\approx4.1\\,\\Mpl$" if _win < 0.02 else "MISMATCH"),
+    ("curvature 99.4", f"with $|\\Omega_K|<10^{{-3}}$ for ${100 * (1 - B55['f_excl'] - B55['f_curv']):.1f}\\%$ of the births"),
+]
+
+# the arXiv edition (main-arxiv.tex): its abstract is shorter and the sections of changes are left out, so six checks of
+# main-v3.tex have no fragment there; they are replaced by the same numbers as the arXiv abstract writes them
+if TEXNAME == "main-arxiv.tex":
+    _gone = {"f_viable", "U28 abstract", "U28 abstract direct", "U33 abstract", "one bounce abstract", "one bounce abstract rad"}
+    CHECKS = [c for c in CHECKS if c[0] not in _gone]
+    CHECKS += [
+        ("arXiv abstract dust", f"are ${100 * vD['f_lo']:.0f}$--${100 * vD['f_hi']:.0f}\\%$ of fertile births with dust and an inhomogeneous inflaton"),
+        ("arXiv abstract radiation", f"and ${pc(aD['f'])}$ for a parent of pure radiation"),
+        ("arXiv abstract one bounce", f"are ${100 * urD['f_one_bounce_lo']:.0f}$--${100 * urD['f_one_bounce_hi']:.0f}\\%$ and ${pc(urR['f_one_bounce'])}$"),
+        ("arXiv abstract imprint", f"in all but ${e(B55['f_vis'])}$ of the births that can host us, and its one observable consequence"),
+        ("arXiv abstract gone", "ok" if all(x not in TEX for x in ("What changed since the first version", "Compared with earlier versions")) else "MISMATCH"),
+    ]
 
 fails = 0
 for name, frag in CHECKS:

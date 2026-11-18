@@ -1,0 +1,77 @@
+{
+ "note": "informative re-reading, no verdict (chain/u28_un_rebote.py)",
+ "dust_U28": {
+  "n_fertile": 556,
+  "classes": {
+   "E": {
+    "n_viable_lo": 10,
+    "n_viable_hi": 16,
+    "one_bounce_lo": 5,
+    "one_bounce_hi": 9,
+    "f_one_bounce_lo": 0.008992805755395683,
+    "f_one_bounce_hi": 0.01618705035971223,
+    "by_n_bounces": {
+     "1": [
+      5,
+      9
+     ],
+     "2": [
+      5,
+      7
+     ],
+     "3": [
+      0,
+      0
+     ],
+     "4": [
+      0,
+      0
+     ]
+    }
+   },
+   "D": {
+    "n_viable_lo": 69,
+    "n_viable_hi": 100,
+    "one_bounce_lo": 61,
+    "one_bounce_hi": 87,
+    "f_one_bounce_lo": 0.10971223021582734,
+    "f_one_bounce_hi": 0.1564748201438849,
+    "by_n_bounces": {
+     "1": [
+      61,
+      87
+     ],
+     "2": [
+      8,
+      13
+     ],
+     "3": [
+      0,
+      0
+     ],
+     "4": [
+      0,
+      0
+     ],
+     "28": [
+      0,
+      0
+     ]
+    }
+   }
+  }
+ },
+ "radiation_audit_U36": {
+  "n_fertile": 162,
+  "n_viable_D": 17,
+  "by_n_bounces": {
+   "1": 7,
+   "2": 6,
+   "3": 3,
+   "4": 1
+  },
+  "one_bounce": 7,
+  "f_one_bounce": 0.043209876543209874,
+  "one_bounce_margin_min": 1.0124225435118996
+ }
+}
