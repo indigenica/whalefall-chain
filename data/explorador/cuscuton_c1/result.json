@@ -1,0 +1,128 @@
+{
+  "status": "EXPLORATORIO_HOMOGENEO_NO_CERTIFICA_4D",
+  "parameters": {
+    "Mpl": 1,
+    "mu": 0.3,
+    "m": 0.05,
+    "phi_inf": 0.25,
+    "V0": 1.71311981e-10,
+    "C": 0.3516,
+    "a_reference": 30000.0,
+    "radiation_comoving": 121502700000070.34,
+    "phi_initial": -0.249999,
+    "chi_initial": 0.0,
+    "chi_dot_initial": 4.3e-07
+  },
+  "initial": {
+    "a_initial": 2505795.0763833304,
+    "H_initial": -9.258277847017352e-07,
+    "rho_r_initial": 3.081794832238227e-12,
+    "Kchi_over_rho_r_initial": 0.029998752361089523,
+    "cuscuton_U_initial": -1.249911671349843e-13,
+    "aH_initial": 2.3199347044844942
+  },
+  "bounce": {
+    "a": 34686.30507882117,
+    "chi": 2.2406433440192655,
+    "chi_dot": 0.011494806253708575,
+    "rho_r": 8.393706331600857e-05,
+    "Kchi": 6.606528540514888e-05,
+    "Vchi": 1.4475481766304712e-10,
+    "U": -0.00015000000000008683,
+    "H": 0.0,
+    "Hdot": 8.533041710091411e-05,
+    "phidot": 0.004607842523513354,
+    "R": 0.0005119874895572914,
+    "Kretschmann": 8.73753609996816e-08,
+    "constraint": 1.5067456335581085e-17
+  },
+  "ratios": {
+    "radiation_fraction_positive_energy_at_bounce": 0.5595711202590922,
+    "pole_height_over_radiation_at_bounce": 2.0409575249855945e-06
+  },
+  "inflation_diagnostic": {
+    "criteria": "H>0, Hdot+H²>0, Vchi>10rho_r, Vchi>10Kchi, abs(chi)>1",
+    "e_folds": 78.96038995417294,
+    "start": {
+      "phi": 0.2499919871875,
+      "chi": 4.572701305183703,
+      "a": 1665778.9613451476
+    },
+    "end": {
+      "phi": 0.24999340375,
+      "chi": 1.0002958570851122,
+      "a": 3.263465446118358e+40
+    },
+    "max_abs_chi_in_run": 4.5727095892910485
+  },
+  "numerics": {
+    "min_D": 0.0071500000000694385,
+    "min_phidot": 7.623974409872866e-15,
+    "max_abs_constraint": 1.0412782484878007e-16,
+    "max_relative_constraint_on_positive_energy": 3.1593012100094606e-08,
+    "max_relative_constraint_geometric": 3.4665805303092167e-08,
+    "max_abs_R": 0.000511987487344912,
+    "max_Kretschmann": 8.73753588532864e-08,
+    "min_a": 34686.30521689985
+  },
+  "variants": [
+    {
+      "chi_dot_initial": 0.0,
+      "Kchi_over_rho_initial": 0.0,
+      "chi_bounce": 0.0,
+      "chi_max": 0.0,
+      "efolds_conservative": 0.0
+    },
+    {
+      "chi_dot_initial": 4e-07,
+      "Kchi_over_rho_initial": 0.02584572230505672,
+      "chi_bounce": 2.139032111087178,
+      "chi_max": 4.361763275752477,
+      "efolds_conservative": 68.26024810588277
+    },
+    {
+      "chi_dot_initial": 4.3e-07,
+      "Kchi_over_rho_initial": 0.029998752361089523,
+      "chi_bounce": 2.240643343987811,
+      "chi_max": 4.572709596346437,
+      "efolds_conservative": 78.96033278527216
+    },
+    {
+      "chi_dot_initial": 4.5e-07,
+      "Kchi_over_rho_initial": 0.032956251531020005,
+      "chi_bounce": 2.3054486267526983,
+      "chi_max": 4.707444838213493,
+      "efolds_conservative": 86.34680776649625
+    }
+  ],
+  "convergence": [
+    {
+      "integrator": "DOP853",
+      "rtol": 1e-09,
+      "chi_bounce": 2.2406433418618064,
+      "e_folds": 78.96008515610995,
+      "max_constraint_relative": 9.645093736260978e-06
+    },
+    {
+      "integrator": "DOP853",
+      "rtol": 1e-10,
+      "chi_bounce": 2.240643343987811,
+      "e_folds": 78.96033278527216,
+      "max_constraint_relative": 1.7845033609116626e-06
+    },
+    {
+      "integrator": "DOP853",
+      "rtol": 1e-11,
+      "chi_bounce": 2.2406433440192655,
+      "e_folds": 78.96038995417294,
+      "max_constraint_relative": 3.1593012100094606e-08
+    },
+    {
+      "integrator": "Radau",
+      "rtol": 1e-10,
+      "chi_bounce": 2.240643344138818,
+      "e_folds": 78.96013095751026,
+      "max_constraint_relative": 8.195357177619953e-06
+    }
+  ]
+}

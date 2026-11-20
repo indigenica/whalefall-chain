@@ -1,0 +1,413 @@
+"""The result numbers quoted in main-v4.tex, recomputed from the versioned result files and looked up in the text.
+
+    python3 -B paper/zenodo_whale/paper_numbers_v4.py      # exit 1 if anything does not match
+
+v4 starts from the arXiv edition of v3 (main-arxiv.tex, renamed main-v4.tex on 18 Nov 2026). This script is
+paper_numbers_v3.py with the checks of that edition (shorter abstract, no sections of changes) and the checks of the
+second realisation of the birth with a cuscuton (U57--U65), at the end.
+
+Each row computes a value from the stored results, formats it as the text does, and checks that the LaTeX fragment
+is in main-v4.tex (whitespace-insensitive). It covers the dark-sector results of version 2 (pocket inflation, the
+collapse, the band and the full likelihood) the coherence of the birth added in version 3 (U27, U28), the parent of pure radiation added in version 3.2 (U33--U42) and the saturation check of version 3.3 (U43);
+the network numbers are those of the companion paper, checked by
+paper/prd_network/paper_numbers.py.  Unlike that script it does not search for unchecked numbers."""
+import json, math, os, re, sys
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[1]
+TEXNAME = os.environ.get("WHALEFALL_TEX", "main-v4.tex")
+TEX = re.sub(r"\s+", " ", (HERE / TEXNAME).read_text())
+
+
+def J(*p):
+    return json.loads(ROOT.joinpath(*p).read_text())
+
+
+S1, S2 = J("results", "s1_birth.json"), J("results", "s2_pocket.json")
+U19B, U19D = J("network", "results", "u19b", "U19B_RESULT.json"), J("network", "results", "u19d", "U19D_RESULT.json")
+U17F, U17G = J("lya", "results", "u17f", "U17F_RESULT.json"), J("lya", "results", "u17g", "U17G_RESULT.json")
+U15B, U15C, U15D = (J("lya", "results", s, f) for s, f in (("u15b", "U15B_RESULT.json"), ("u15c", "U15C_RESULT.json"), ("u15d", "U15D_RESULT.json")))
+U22B = J("results", "u22b_births.json")
+
+ob = S2["observables"]; pv = S2["pole_vs_sum"]
+d = U19D["power_law"]; mods = U19D["models"]; ms = sorted(U19D["masses"], key=int)
+
+
+def row(res, fam, F):
+    return next(r for r in res["rows"] if r["kind"] == fam and abs(r["F_over_F0"] - F) < 1e-9)
+
+
+def e(x, d=1):
+    m, k = f"{x:.{d}e}".split("e")
+    return f"{m}\\times10^{{{int(k)}}}"
+
+
+def band_row(res, fam):
+    b = res["bands"][fam]; up = row(res, fam, b["F_max_over_F0"]); lo = row(res, fam, b["F_min_contiguous_over_F0"])
+    return f"{up['deltaA']:.3f}", e(up["m_G_eV"]), e(lo["m_G_eV"])
+
+
+CHECKS = [
+    ("n_s", f"n_s = {ob['n_s']:.4f}"),
+    ("r", f"r = {ob['r']:.4f}"),
+    ("Planck pull", f"$+{ob['pull_Planck18']:.1f}\\sigma$ from Planck 2018"),
+    ("ACT pull", f"${ob['pull_ACT_DR6']:.1f}\\sigma$ from ACT DR6"),
+    ("N_*", f"N_* = {S2['pivot_rerun']['N_star']['rerun']:.1f}"),
+    ("T_rh", f"T_{{\\rm rh}}\\approx{S2['pivot_rerun']['T_rh_GeV']['rerun'] / 1e9:.1f}\\times10^{{9}}"),
+    ("Delta n_s pole", f"\\Delta n_s={pv['dn_s']:.1e}".replace("e-04", "\\times10^{-4}")),
+    ("Delta r pole", f"\\Delta r/r={pv['dr_rel'] * 100:.1f}\\%"),
+    ("T_rh change", f"reheating temperature (${pv['rel_change']['T_rh_GeV'] * 100:+.0f}\\%$)"),
+    ("m_chi change", f"inflaton mass (${pv['rel_change']['m_chi_GeV'] * 100:+.0f}\\%$)"),
+    ("f_ES pole/sum", f"${S1['f_ES_pole']:.3f}$ with the pole against ${S1['f_ES_sum']:.3f}$"),
+    ("eternal children pole", f"({S1['viable_eternal_pole']} of {S1['n_viable_C45j']},"),
+    ("chi_et pole", f"\\chi_{{\\rm et}}\\simeq {S1['chi_et_pole']:.0f}\\,\\Mpl"),
+    ("chi_et sum", f"${S1['chi_et_sum']:.0f}\\,\\Mpl$ with the hierarchy"),
+    ("flatness ratio 1e3", f"by a factor $\\approx{1 / S2['eternal']['ratio_over_bound_at']['1e3']:.0f}$ at $\\chi=10^3\\Mpl$"),
+    ("f_viable", f"${S1['f_viable_C45j'] * 100:.1f}\\%$ of fertile children bounce coherently"),
+    ("U19b Y", f"$Y={U19B['blocks']['RP3_3.2']['Y']:.2f}\\pm{U19B['blocks']['RP3_3.2']['sigma']:.2f}$"),
+    ("U19b U(1) Y", f"$Y={U19B['blocks']['U1_3.2']['Y']:.2f}\\pm{U19B['blocks']['U1_3.2']['sigma']:.2f}$"),
+    ("X0 per mass", "X_0 = " + ",\\ ".join(f"{U19D['masses'][k]['affine']['X0']:.2f}\\pm{U19D['masses'][k]['affine']['X0_err']:.2f}" for k in ms)),
+    ("ell_1", "($\\ell_1=" + "$, $".join(f"{U19D['masses'][k]['ell_1']:.2f}" for k in ms) + "$;"),
+    ("p", f"p={d['p']:.2f}\\pm{d['sigma_p']:.2f}"),
+    ("X_univ", f"\\Xu \\simeq {d['X_univ']:.0f}\\qquad ({d['X_lo']:.0f}\\text{{--}}{d['X_hi']:.0f}"),
+    ("string term", f"least favourable string term (${d['strings_term']:.0f}$)"),
+    ("models", f"$\\Xu\\simeq{mods['X0_proporcional_a_l1']['X_univ']:.0f}$ ($X_0\\propto\\ell_1$) and ${mods['X0_lineal_en_l1']['X_univ']:.0f}$ (linear"),
+    ("constant model", f"a constant $X_0$ ($\\Xu\\simeq{mods['X0_constante']['X_univ']:.0f}$) is disfavoured by $\\Delta\\chi^2\\approx{mods['X0_constante']['chi2'] - mods['X0_proporcional_a_l1']['chi2']:.0f}$"),
+    ("validation", f"${U15B['validation']['U15b_val_thermal_1keV']['f_95']:.2f}$ (1\\,keV) and ${U15B['validation']['U15b_val_thermal_2keV']['f_95']:.2f}$ (2\\,keV)"),
+]
+for k in ("U15c_B2_F0.5_r1", "U15c_B2_F0.35_r3"):
+    CHECKS.append((f"{k} p1", f"{U15C['cases'][k]['p1_over_pmax']:.2f}"))
+for k, t in U15D["tables"].items():
+    c = U15D["cases"][k]; b = c["p1_over_pmax_bins"]; jk = c["p1_over_pmax_jackknife"]
+    F = "$F_0$" if t["F_over_F0"] == 1 else f"${t['F_over_F0']:g}F_0$"
+    lab = "excluded" if c["status"] == "EXCLUIDA" else "allowed"
+    CHECKS.append((f"{k} row", f"{F} & {t['X_univ']:.0f} & {t['T2_at_s1_k10']:.3f} & ${c['p1_over_pmax']:.3f}$ & ${b['20']:.3f}$ / ${b['45']:.3f}$ & "
+                   f"${min(jk):.3f}$--${max(jk):.3f}$ & {lab}"))
+for fam, X in (("Y1.36", "217"), ("Y1.70", "272"), ("Y1.98", "315")):
+    dA, mu, ml = band_row(U17F, fam); CHECKS.append((f"band {fam}", f"$\\simeq{X}$ & ${U17F['bands'][fam]['F_max_over_F0']:g}F_0$ & ${dA}$"))
+    CHECKS.append((f"band {fam} masses", f"${mu}$ & ${U17F['bands'][fam]['F_min_contiguous_over_F0']:g}F_0$ & ${ml}$ & ${U17F['bands_with_SMBH'][fam]['F_max_over_F0']:g}F_0$"))
+for fam, X in (("Y2.50", "396"), ("Y3.00", "477"), ("Y3.43", "541"), ("Y4.25", "674"), ("Y5.50", "859"), ("Y8.44", "1333")):
+    dA, mu, ml = band_row(U17G, fam); Fm = U17G["bands"][fam]["F_max_over_F0"]
+    Ftxt = f"\\mathbf{{{Fm:g}F_0}}" if fam == "Y3.43" else f"{Fm:g}F_0"
+    CHECKS.append((f"band {fam}", f"$\\simeq{X}$ & ${Ftxt}$ & ${dA}$"))
+    CHECKS.append((f"band {fam} masses", f"${mu}$ & ${U17G['bands'][fam]['F_min_contiguous_over_F0']:g}F_0$ & ${ml}$ & ${U17G['bands_with_SMBH'][fam]['F_max_over_F0']:g}F_0$"))
+c3 = row(U17G, "Y3.43", 0.5); c3l = row(U17G, "Y3.43", 0.0625)
+# reply to the review of 24 October: pole coordinate, l of the collapse, miniclusters (literature scaling of C35b), Lambda_H, Z_N order
+Cp, ce = 0.3516, S1["chi_et_pole"]
+CHECKS.append(("pole phi range", f"$\\phi\\simeq{Cp / 1e3 * 1e4:.1f}$--${Cp / ce * 1e4:.1f}\\times10^{{-4}}$"))
+CHECKS.append(("pole c2 slope", f"$2c_2C^2/\\chi^3\\simeq{2 * Cp ** 2 / ce ** 3 * 1e9:.1f}\\times10^{{-9}}\\,c_2$"))
+CHECKS.append(("ell at F0 and lower edge", f"from $\\simeq{row(U17G, 'Y3.43', 1.0)['ell_osc']:.0f}$ at $F_0$ to $\\simeq{c3l['ell_osc']:.0f}$ at the lower edge"))
+CHECKS.append(("exponent effect", f"at most ${math.ceil((1 - (c3l['ell_osc'] / row(U17G, 'Y3.43', 1.0)['ell_osc']) ** (d['p'] - 1)) * 100):.0f}\\%$ lower"))
+Mmc = lambda m: 2.3e-7 * (m / 1e-10) ** -1.5
+CHECKS.append(("minicluster central", f"(${Mmc(c3['m_G_eV']) / 10 ** math.floor(math.log10(Mmc(c3['m_G_eV']))):.0f}\\times10^{math.floor(math.log10(Mmc(c3['m_G_eV'])))}$ to ${e(Mmc(c3l['m_G_eV']), 0)}\\,M_\\odot$ at the central $\\Xu$)"))
+lam = lambda r: (r["m_G_eV"] * r["f_a_GeV"] * 1e9) ** 0.5 / 1e3
+CHECKS.append(("Lambda_H", f"\\approx{lam(c3):.0f}$--${lam(c3l):.0f}$\\,keV"))
+nZ = lambda r: math.log((r["m_G_eV"] * r["f_a_GeV"] * 1e9) ** 2 / 2.435e27 ** 4) / math.log(r["F_GeV"] / 2.435e18)
+H45 = J("data", "c45b", "c45h_results.json")
+fw = [r for r in H45["rows"] if r["frac_rad"] == 0.0 and r["fertile"] and r["sep"] in (1e-4, 1e-5, 1e-6)]
+# chi_land in the archived grid is the field after ~60 e-folds; the post-bounce landing is chi_abs_max (Codex, PR 34)
+fr = lambda hi: sum(1 for r in fw if r["chi_abs_max"] < hi) / len(fw)
+CHECKS.append(("direct births", f"${S1['f_ES_window_common_V0'] * 100:.0f}\\%$ of fertile births land above $\\chi_{{\\rm et}}$ below the Planck density, while for ${fr(50) * 100:.0f}\\%$ the field reaches at most $50\\,\\Mpl$ after the bounce and for ${fr(10) * 100:.0f}\\%$ at most $10\\,\\Mpl$"))
+from scipy.integrate import quad
+from scipy.optimize import brentq
+_V = lambda x: 1 - Cp / math.sqrt(x * x + Cp * Cp); _dV = lambda x: Cp * x / (x * x + Cp * Cp) ** 1.5
+_xe = brentq(lambda x: 0.5 * (_dV(x) / _V(x)) ** 2 - 1, 1e-3, 50); _N = lambda x0: quad(lambda y: _V(y) / _dV(y), _xe, x0)[0]
+assert min(r["chi_abs_max"] for r in fw) > 5
+CHECKS.append(("observable bounce", f"a landing below $\\approx{brentq(lambda x: _N(x) - 60, 3, 10):.1f}\\,\\Mpl$, with at most $\\approx60$ e-folds"))
+CHECKS.append(("fertility e-folds", f"exceed $5\\,\\Mpl$ after the bounce, which already gives $\\approx{_N(5.0):.0f}$ e-folds"))
+al = S1["viable_ranges"]["alpha_phys"]; psi = S2["pivot_rerun"]["V0"]["rerun"] / 3
+CHECKS.append(("NPQT during inflation", f"$\\alpha\\psi=\\alpha V_0/3\\lesssim{al[1] * psi * 1e4:.0f}\\times10^{{-4}}$ for the viable children, so the background is that of general relativity to $\\alpha^2\\psi^2\\lesssim{(al[1] * psi) ** 2 * 1e7:.0f}\\times10^{{-7}}$"))
+CHECKS.append(("R_rho string term", f"(${d['strings_term']:.0f}$ of the central ${d['X_univ']:.0f}$)"))
+# informative reading of the collapse (review of 25 October): c_p and r_W in the sparse networks of the four lattice sizes
+sys.path.insert(0, str(ROOT / "network"))
+import numpy as np
+import u19d_analyze as U19DA
+_sp = {N: [r for r in U19DA.runs(N, U19D["seeds"]) if r["protocol"] == "sparse"] for N in (256, 384, 512, 576)}
+_cp = [float(np.mean([r["c_p"] for r in v])) for v in _sp.values()]; _rw = [float(np.mean([r["r_W"] for r in v])) for v in _sp.values()]
+_l1 = [U19D["masses"][str(N)]["ell_1"] for N in _sp]
+CHECKS.append(("c_p sparse", f"$c_p\\simeq{min(_cp):.2f}$--${max(_cp):.2f}$"))
+CHECKS.append(("r_W slope", f"$r_W\\propto\\ell_1^{{{np.polyfit(np.log(_l1), np.log(_rw), 1)[0]:.2f}}}$"))
+CHECKS.append(("energy budget r", f"if $r(90)\\gtrsim{d['X_univ'] / 162:.1f}$"))
+CHECKS.append(("Z_N order", f"$n\\approx{nZ(c3l):.0f}$--${nZ(c3):.0f}$"))
+CHECKS.append(("central m_G range", f"m_G\\approx{e(c3['m_G_eV'])}$--${e(c3l['m_G_eV'], 0)}"))
+CHECKS.append(("central T_osc", f"T\\approx{c3['T_osc_MeV']:.1f}$--${c3l['T_osc_MeV']:.0f}$\\,MeV"))
+
+# version 3: coherence of the birth (U27 dust model, U28 inhomogeneous chi)
+U27, U28 = J("results", "u27_direct_children.json"), J("results", "u28_c45k.json")
+pc = lambda x: f"{100 * x:.1f}\\%"
+E1, D1, B1 = (U27[k]["LH1"] for k in ("R1_pole_E", "R2_pole_D", "R3_pole_D10_50"))
+vE, vD = U28["viable"]["E"], U28["viable"]["D"]; cE, cD = U28["class_LH1"]["E-v"], U28["class_LH1"]["D-v"]
+CHECKS += [
+    ("U27 fertile", f"of the ${U27['n_window_fertile_pole']}$ fertile births of the grid"),
+    ("U27 eternal", f"${pc(E1['f_v'])}$ of the ${U27['n_window_fertile_pole']}$ fertile births of the grid are eternal children"),
+    ("U27 direct", f"${pc(D1['f_v'])}$ are direct children that do"),
+    ("U27 band", f"${pc(B1['f_v'])}$ are direct children that also land"),
+    ("U27 LH0.3", f"leaves ${pc(U27['R2_pole_D']['LH0.3']['f_v'])}$ direct and ${pc(U27['R1_pole_E']['LH0.3']['f_v'])}$ eternal children"),
+    ("U28 table direct", f"Direct & ${pc(D1['f_v'])}$ & ${100 * vD['f_lo']:.1f}$--${pc(vD['f_hi'])}$ & viable"),
+    ("U28 table band", f"& ${pc(B1['f_v'])}$ & $\\ge{pc(vD['band_f_lo'])}$"),
+    ("U28 table eternal", f"Eternal & ${pc(E1['f_v'])}$ & ${100 * vE['f_lo']:.1f}$--${pc(vE['f_hi'])}$ & marginal"),
+    ("U28 abstract", f"$1.8$--$2.9\\%$ for eternal children" if (round(100 * vE["f_lo"], 1), round(100 * vE["f_hi"], 1)) == (1.8, 2.9) else "MISMATCH"),
+    ("U28 abstract direct", f"${100 * vD['f_lo']:.0f}$--${100 * vD['f_hi']:.0f}\\%$ of fertile births are direct"),
+    ("U28 median D", f"lies between ${cD['median_rho_lo']:.2f}$ and ${cD['median_rho_hi']:.2f}$, compatible with one"),
+    ("U28 median E", f"lies between ${cE['median_rho_lo']:.2f}$ and ${cE['median_rho_hi']:.2f}$: lower"),
+    ("U28 verdicts", "\\textsc{igual} in both classes; direct branch \\textsc{viable}" if (cE["verdict"], cD["verdict"], vD["verdict_D11"], vE["verdict_D11"]) == ("IGUAL", "IGUAL", "VIABLE", "MARGINAL") else "MISMATCH"),
+    ("U28 runs", f"in ${U28['n_runs']}$ runs"),
+    ("U28 measure", f"(${100 * vD['f_lo']:.1f}$--${pc(vD['f_hi'])}$ of fertile births against ${100 * vE['f_lo']:.1f}$--${pc(vE['f_hi'])}$"),
+    ("U28 field range", f"$10$--$50\\,\\Mpl$ for at least ${pc(vD['band_f_lo'])}$ of fertile births, still"),
+]
+_g = J("results", "u28_runs", "gates.json")
+CHECKS += [
+    ("U28 V1", f"homogeneous bounce to ${e(max(x['tB_rel'] for x in _g['V1']))}$ in the bounce time"),
+    ("U28 V2", f"shell by shell to ${e(max(x['max_rel'] for x in _g['V2']))}$"),
+    ("U28 V3", f"by at most ${100 * max(x['rel_change'] for x in _g['V3']):.1f}\\%$ when the resolution"),
+    ("U28 V4", f"collapse to ${e(max(x['rel'] for x in _g['V4']), 0)}$"),
+]
+
+# version 3.1: open assumptions "Seed" (docs/informes/NOTA_SEMILLAS_AGUJEROS_NEGROS.md) and "Late-time acceleration".
+# The check of the quantum shortfall (10^2.4--10^11) was dropped on 29 October 2026 with the sentence that quoted it:
+# it held only for the grid of parents (correction of 29 October in that note)
+SB = J("results", "explora_semillas_bh.json"); sm = SB["summary"]
+CHECKS += [
+    ("seed AH", f"($AH\\simeq{sm['AH_range'][0]:.1f}$--${sm['AH_range'][1]:.0f}$)"),
+    ("seed chi0", "with $\\chi$ at rest at its minimum" if sm["chi0_max"] == 0 else "MISMATCH"),
+    ("seed kinetic", f"kinetic energy of ${e(sm['f_kin_range'][0], 0)}$--${e(sm['f_kin_range'][1], 0)}$ of the dust"),
+]
+_H0 = 67.4e3 / 3.0857e22 * 6.582e-16; _rhoL = 0.685 * 3 * _H0 ** 2 * (2.435e27) ** 2       # eV, eV^4 (8 pi G = 1/M_Pl^2)
+CHECKS.append(("Lambda shortfall", f"about {['zero','one','two','three','four','five','six','seven','eight','nine'][round(math.log10(_rhoL / (_H0 ** 2 * (2.7e23) ** 2)))]} orders of magnitude below the dark energy"))
+
+# version 3.1: reasons of the lost cells in U28 (chain/u28_motivos.py, informative)
+MO = J("results", "u28_motivos.json"); ms = MO["summary"]
+_pc = lambda g, k: 100 * ms[g]["reasons"].get(k, 0) / sum(ms[g]["reasons"].values())
+_runs = [json.loads(f.read_text()) for f in ROOT.joinpath("results", "u28_runs").glob("sep*.json")]
+_sel = json.loads(ROOT.joinpath("results", "u28_runs", "selection.json").read_text()); _grp = {x["tag"]: g for g, v in _sel.items() for x in v}
+_inc = {g: sum(1 for o in _runs if _grp[o["child"]] == g and o["LH"] == 1.0 and o.get("valid") and not o["coherent"]) for g in ("E-v", "D-v")}
+CHECKS += [
+    ("U28 reasons runs", f"Repeating the ${MO['n_runs']}$ runs that pass the bounce-time test" if MO["labels_mismatches"] == 0 else "MISMATCH"),
+    ("U28 reasons flips", f"(${_pc('E-v', 'D'):.0f}\\%$ of the cells in both classes)" if round(_pc("E-v", "D")) == round(_pc("D-v", "E")) else "MISMATCH"),
+    ("U28 reasons Planck", f"(${_pc('E-v', 'super_planck'):.0f}\\%$ for eternal and ${_pc('D-v', 'super_planck'):.0f}\\%$ for direct children)"),
+    ("U28 reasons frequency", f"(${ms['E-v']['n_runs']}$ of their ${_inc['E-v']}$ incoherent runs, against ${ms['D-v']['n_runs']}$ of ${_inc['D-v']}$)"),
+]
+
+# version 3.2: the parent of pure radiation (U33-A, the audit of U36, U37) and the radiation seeds that do not form it (U40-U42).
+# Only these result files are exported for it; codes, preregistrations and reports stay in the working repository.
+U33 = J("results", "u33_grid.json"); pr = U33["primary"]; amax = U33["AH_max_with_children"]
+AU = J("audit", "u36_coherencia", "resultados.json"); aD, aE = AU["branches"]["D"], AU["branches"]["E"]
+U37 = J("results", "u37_bianchi.json"); b37 = U37["branches"]["D"]["P2"]; es = b37["eps_star_viable"]
+U40, U41, U42 = J("results", "u40_choque.json"), J("results", "u41_nucleo_plano.json"), J("results", "u42_dominio_causal.json")
+_nums = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
+_nch = pr["n_fertile"] - pr["n_fertile_superplanck"]
+_vAH = [float(a) for a, v in aD["by_AH"].items() if v["viable"] > 0]
+_r2 = lambda x: f"{float(f'{x:.2g}'):g}"
+_fs = [(r.get(n) or {}).get("f_s") for r in U42["rows"] if not r["control"] for n in ("N512", "N1024")]
+CHECKS += [
+    ("U33 abstract", f"gives ${_nch}$ children below the Planck density, and an independent audit finds ${pc(aD['f'])}$ of fertile births"
+     if (aD["n_viable"], AU["n_fertile"]) == (17, pr["n_fertile"]) else "MISMATCH"),
+    ("U33 grid", f"parents of $AH={min(U33['grid']['AH']):.2f}$--${max(U33['grid']['AH']):g}$ with {_nums[len(U33['grid']['sigma'])]} velocities of $\\chi$"),
+    ("U33 births", f"give ${pr['n_fertile']}$ fertile births, of which ${pr['n_fertile_superplanck']}$ exceed the Planck density at their bounce; "
+     f"the other ${_nch}$ are children, ${pr['n_E']}$ eternal and ${pr['n_D']}$ direct, ${pr['n_band_10_50']}$ of them landing at $10$--$50\\,\\Mpl$"
+     if pr["n_E"] + pr["n_D"] == _nch and U33["verdict_A"] == "RADIACION_FERTIL" else "MISMATCH"),
+    ("U33 AH max", f"$AH\\le{amax['1000|1']:.1f}$ for $\\ell_{{\\rm QT}}=1000\\,\\ell_{{\\rm P}}$ and $AH\\le{amax['2000|1']:g}$ for $2000\\,\\ell_{{\\rm P}}$"),
+    ("U33 l_QT 300", "with $\\ell_{\\rm QT}=300\\,\\ell_{\\rm P}$ every fertile bounce exceeds the Planck density" if amax["300|1"] is None else "MISMATCH"),
+    ("audit gates", f"passed its own {_nums[len(AU['gates'])]} gates" if all((g.get("passed") if isinstance(g, dict) else g) is True for g in AU["gates"].values()) else "MISMATCH"),
+    ("audit direct", f"${aD['n_viable']}$ of the ${AU['n_fertile']}$ fertile births (${pc(aD['f'])}$) are direct children whose parent tolerates $\\zeta_0$, "
+     f"all from parents with $AH\\le{max(_vAH):g}$" if aD["verdict"] == "VIABLE" and AU["audit_verdict"] == "SEMILLA_RADIACION_VIABLE" else "MISMATCH"),
+    ("audit eternal", f"The eternal branch is inconclusive, because ${aE['n'] - aE['n_valid']}$ of its ${aE['n']}$ children give invalid runs"
+     if aE["verdict"] == "INCONCLUSA" else "MISMATCH"),
+    ("audit log", f"(direct branch, ${pc(aD['f'])}$; eternal inconclusive)"),
+    ("U37 range", f"the ${b37['n_robust']}$ viable children tolerate shape anisotropies of ${e(min(es), 0)}$--${e(max(es), 0)}$, "
+     f"${_r2(min(es) / U37['beta_ref'])}$--${_r2(max(es) / U37['beta_ref'])}$ times $\\zeta_0$" if b37["n_robust"] == b37["n_viable_audit"] == aD["n_viable"] else "MISMATCH"),
+    ("U37 verdicts", "(with the earlier rule it is inconclusive)" if (U37["verdict"], U37["verdict_literal_B2"]) == ("ANISOTROPIA_INOCUA", "INCONCLUSO") else "MISMATCH"),
+    ("U40 shock", f"in all ${U40['n_horizon']}$ preregistered configurations that form a horizon"
+     if U40["n_cruce_horizon"] == U40["n_horizon"] and U40["verdict"] == "PADRE_CALIENTE_NO_COHERENTE" else "MISMATCH"),
+    ("U40 log", f"(in all ${U40['n_horizon']}$ configurations that form a horizon)"),
+    ("U42 cone", "the past sound cone of every interior layer reaches the non-flat edge"
+     if all(f == 1.0 for f in _fs if f is not None) and any(_fs) else "MISMATCH"),
+    ("U41 U42 verdicts", "the two preregistered tests of the flat core ended inconclusive on numerical validity"
+     if (U41["verdict"], U42["verdict"]) == ("INCONCLUSO", "INCONCLUSO") else "MISMATCH"),
+    ("U33 log", f"(A) \\textsc{{radiacion\\_fertil}} (${_nch}$ children)"),
+]
+
+# version 3.3 (8 November 2026): the NPQT saturation (U43, informative) and the sign of chi
+U43 = J("results", "u43_saturacion.json"); c43 = U43["control"]["stats"]; t43 = U43["tests"]
+_n64 = c43["n_children"]
+_same = all(v["stats"]["n_children"] == _n64 and v["frac_rows_same_class"] == 1.0 for v in t43.values())
+CHECKS += [
+    ("U43 saturation", "These parents bounce within a part in a million of the NPQT saturation" if c43["one_minus_zmax_children"][1] < 1e-6 else "MISMATCH"),
+    ("U43 children", f"both alternatives give the same ${_n64}$ children, birth by birth"
+     if _same and U43["verdict_U43"] == "INCONCLUSO" and U43.get("informative_label") == "COLA_IRRELEVANTE" and not U43["gates"]["G2"]["passed"] else "MISMATCH"),
+    ("U43 log", f"informative: the same ${_n64}$ children with both alternatives" if _same else "MISMATCH"),
+    ("U33 = U43 control", "MISMATCH" if _n64 != U33["primary"]["n_fertile"] - U33["primary"]["n_fertile_superplanck"] else "the same $64$ children"),
+]
+
+# version 3.3: field range of the viable direct children of the radiation parent (docs/informes/NOTA_MESETA_CIENAGA.md)
+_R33 = {f"lqt{r['lqt']:g}_AH{r['AH']:g}_sig{r['sigma']:g}": r for r in U33["rows"] if r["frac_rad"] == 1.0}
+_vl = sorted(_R33[k]["chi_land"] for k, c in AU["per_child"].items() if c.get("viable") and c["cls"] == "D")
+_pv = S2["pivot_rerun"]; _xs, _xf = _pv["chi_star"]["rerun"], _pv["chi_end"]["rerun"]
+_d2V = lambda x: Cp * (Cp * Cp - 2 * x * x) / (x * x + Cp * Cp) ** 2.5
+CHECKS += [
+    ("range viable count", f"${sum(x < 10 for x in _vl)}$ of the ${len(_vl)}$ viable direct children have the field below $10\\,\\Mpl$ sixty e-folds after landing, the lowest at ${_vl[0]:.1f}\\,\\Mpl$"
+     if len(_vl) == aD["n_viable"] else "MISMATCH"),
+    ("range flat", f"flat over about ${_vl[0] - _xf:.0f}\\,\\Mpl$, twice the ${_xs - _xf:.1f}\\,\\Mpl$ of the observable e-folds"
+     if 1.6 < (_vl[0] - _xf) / (_xs - _xf) < 2.4 else "MISMATCH"),
+    ("range dS", f"$|V'|/V\\simeq{_dV(_xs) / _V(_xs):.3f}$ and $|V''|/V\\simeq{abs(_d2V(_xs)) / _V(_xs):.3f}$ at the pivot"),
+    ("range no imprint", f"the lowest still inflates more than ${int(_N(_vl[0]) // 100 * 100)}$ e-folds after landing"),
+]
+
+# version 3.3: the O(3) triplet of degenerate Goldstones (docs/informes/NOTA_TRES_GOLDSTONES.md, chain/explora_tres_goldstones.py)
+TG = J("results", "explora_tres_goldstones.json"); _r3 = TG["gw_annihilation_ratio"]["3"]
+CHECKS.append(("triplet GW ratio", "would radiate on average $1/2$ of the gravitational-wave annihilation power of a single field"
+               if abs(_r3["formula"] - 0.5) < 1e-12 and abs(_r3["monte_carlo"] / _r3["formula"] - 1) < 0.01 and TG["quartic"]["ok"] and TG["time_average"]["ok"] else "MISMATCH"))
+
+# version 3.3: the predictions table
+CHECKS += [
+    ("table no imprint", f"more than ${int(_N(_vl[0]) // 100 * 100)}$ for the viable children of the radiation parent"),
+    ("table triplet", f"at $2m_G/h\\lesssim{TG['gw_frequency_Hz']['m_hi_eV']:.0f}$\\,Hz, starts at $1/2$ of the power of a single axion"
+     if abs(TG["gw_annihilation_ratio"]["3"]["formula"] - 0.5) < 1e-12 else "MISMATCH"),
+]
+
+_lk = TG["charge_locked"]
+CHECKS.append(("triplet locked", "on average $2/3$ of such a cloud is locked by its charge and never annihilates"
+               if abs(_lk["mean_Q_over_N"] - 2 / 3) < 0.005 and _lk["lagrange_max_err"] < 1e-12 else "MISMATCH"))
+CHECKS.append(("table locked", "leaving $2/3$ of the cloud locked by its ${\\rm O}(3)$ charge" if abs(_lk["mean_Q_over_N"] - 2 / 3) < 0.005 else "MISMATCH"))
+
+_tc = TG["toy_cloud"]
+CHECKS.append(("triplet exact and toy", "on average $2/3$ of such a cloud is locked by its charge and never annihilates"
+               if TG["exact"]["mean_Q_over_N"] == 2 / 3 and all(x["Q_drift_after_growth"] < 1e-8 and abs(x["N_end_over_Q"] - 1) < 1e-10 for x in _tc) else "MISMATCH"))
+
+# version 3.3 (10 November 2026): the eras of the network, recomputed here from exported results only (the internal assembler is
+# chain/receta_universo.py): averaged inflaton condensate decaying with the width of the benchmark; collapse at H = m_G/3
+from scipy.integrate import solve_ivp as _ivp
+sys.path.insert(0, str(ROOT / "chain")); import ucommon as _uc
+_Bp = _uc.benchmark("pole"); _pvr = S2["pivot_rerun"]
+_Hend = math.sqrt(1.5 * _pvr["V0"]["rerun"] * _V(_pvr["chi_end"]["rerun"]) / 3) * 2.435e18
+_evq = lambda N, y: y[0] - 0.5
+_evq.terminal = True
+_sq = _ivp(lambda N, y: [(1 - y[0]) * (_Bp["Gamma_GeV"] / math.exp(y[1]) - y[0]), -(3 + y[0]) / 2], (0, 40), [0.0, math.log(_Hend)], events=_evq, rtol=1e-10, atol=1e-14, dense_output=True)
+_Neq = float(_sq.t_events[0][0]); _Heq = math.exp(float(_sq.y_events[0][0][1]))
+_NQ = math.log(J("data", "cadena_cierre", "q_bridge.json")["background"]["linear"]["a_switch"])
+_dl = [math.log(_Heq / (r["m_G_eV"] / 3e9)) for r in (c3, c3l)]
+CHECKS += [
+    ("network eras", f"about ${_Neq - _NQ:.0f}$ e-folds in the inflaton era and then ${min(_dl):.0f}$--${max(_dl):.0f}$ units of $\\ell$ in radiation domination"),
+    ("network memory factor", f"by more than a factor of ${min(d['X_univ'] / d['X_lo'], d['X_hi'] / d['X_univ']):.1f}$"),
+]
+
+# 14 November 2026: children that bounce once (chain/u28_un_rebote.py, informative re-reading of U28 and of the audit of U36)
+UR = J("results", "u28_un_rebote.json"); urD, urE, urR = UR["dust_U28"]["classes"]["D"], UR["dust_U28"]["classes"]["E"], UR["radiation_audit_U36"]
+_ab = [AU["per_child"][k] for k in AU["per_child"] if AU["per_child"][k]["cls"] == "D" and AU["per_child"][k].get("viable")]
+CHECKS += [
+    ("one bounce consistent", "ok" if (urD["n_viable_lo"], urD["n_viable_hi"]) == (vD["n_viable_lo"], vD["n_viable_hi"]) and urR["n_viable_D"] == aD["n_viable"]
+     and sum(c["n_b"] == 1 for c in _ab) == urR["one_bounce"] else "MISMATCH"),
+    ("one bounce abstract", f"Most of these direct children bounce once (${100 * urD['f_one_bounce_lo']:.0f}$--${100 * urD['f_one_bounce_hi']:.0f}\\%$ of fertile births)"),
+    ("one bounce abstract rad", f"parent bounces coherently, ${pc(urR['f_one_bounce'])}$ with a single bounce."),
+    ("one bounce dust", f"${urD['one_bounce_lo']}$--${urD['one_bounce_hi']}$ of them (${100 * urD['f_one_bounce_lo']:.1f}$--${pc(urD['f_one_bounce_hi'])}$ of fertile births) bounce once, against ${urE['one_bounce_lo']}$--${urE['one_bounce_hi']}$ eternal children (${100 * urE['f_one_bounce_lo']:.1f}$--${pc(urE['f_one_bounce_hi'])}$)"),
+    ("one bounce rad", f"{['Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine'][urR['one_bounce']]} of them (${pc(urR['f_one_bounce'])}$ of fertile births) bounce once"),
+    ("one bounce margin", f"the smallest margin among them is ${100 * (urR['one_bounce_margin_min'] - 1):.0f}\\%$"),
+    ("one bounce open", f"${100 * urD['f_one_bounce_lo']:.1f}$--${pc(urD['f_one_bounce_hi'])}$ of fertile births in the dust model with an inhomogeneous $\\chi$ (against ${100 * vD['f_lo']:.1f}$--${pc(vD['f_hi'])}$ in all), and ${pc(urR['f_one_bounce'])}$ for the parent of pure radiation (against ${pc(aD['f'])}$)"),
+]
+
+# 15 November 2026: the bounce imprint (U55b, preregistered; its DESI reading, informative) and the sign of the curvature
+B55 = J("results", "u55b_huella_rebote.json"); L55 = J("results", "u55b_lecturas.json")
+_om_pl = 0.0007 - 2 * 0.0019
+_orad = 2.469e-5 / 0.6736 ** 2 * (1 + 0.2271 * 3.046)
+_D = quad(lambda z: 1 / math.sqrt(0.3153 * (1 + z) ** 3 + _orad * (1 + z) ** 4 + 1 - 0.3153 - _orad), 0, 1089.9, limit=400)[0]
+_nvis = 2 / math.sin(_D * math.sqrt(-_om_pl))                    # n_mem needed for ell = 2 at the Planck bound
+_nm = {(p["lqt"], p["AH"]): max([x["n_mem"] for x in p["band"] if "n_mem" in x], default=None) for p in B55["per_parent"]}
+_ahv = {lq: min(AH for (l, AH), v in _nm.items() if l == lq and v and v > _nvis) for lq in (1000.0, 2000.0)}
+_dNdchi = _V(4.1) / _dV(4.1)                                       # e-folds per M_Pl at chi = 4.1 (slow roll)
+_win = max(math.log(v / _nvis) for v in _nm.values() if v and v > _nvis) / _dNdchi
+CHECKS += [
+    ("U55b verdict", "ok" if B55["verdict"] == "HUELLA_RARA" and all(B55["gates"].values()) else "MISMATCH"),
+    ("U55b f_vis table", f"it reaches $\\ell\\ge2$ with the curvature allowed by Planck for ${e(B55['f_vis'])}$ of them, and for none with the curvature of DESI DR2"
+     if L55["curvature_bound"]["DESI_DR2+CMB"]["f_vis"] == 0 else "MISMATCH"),
+    ("U55b f_vis open", f"in all but ${e(B55['f_vis'])}$ of the births that can host us"),
+    ("U55b log", f"\\textsc{{huella\\_rara}} (${e(B55['f_vis'])}$ of the hosts)"),
+    ("U55b AH threshold", f"an imprint needs a parent with $AH\\gtrsim{min(_ahv.values()):.0f}$--${max(_ahv.values()):.0f}$"),
+    ("U55b window", "a landing within $\\lesssim0.02\\,\\Mpl$ of $\\chi\\approx4.1\\,\\Mpl$" if _win < 0.02 else "MISMATCH"),
+    ("curvature 99.4", f"with $|\\Omega_K|<10^{{-3}}$ for ${100 * (1 - B55['f_excl'] - B55['f_curv']):.1f}\\%$ of the births"),
+]
+
+# the arXiv edition of v3, from which v4 starts: its abstract is shorter and the sections of changes are left out, so six
+# checks of main-v3.tex have no fragment there; they are replaced by the numbers as the v4 abstract writes them
+_gone = {"f_viable", "U28 abstract", "U28 abstract direct", "U33 abstract", "one bounce abstract", "one bounce abstract rad"}
+CHECKS = [c for c in CHECKS if c[0] not in _gone]
+CHECKS += [
+    ("v4 abstract one bounce", f"are ${100 * urD['f_one_bounce_lo']:.0f}$--${100 * urD['f_one_bounce_hi']:.0f}\\%$ of fertile births with dust and an inhomogeneous inflaton and ${pc(urR['f_one_bounce'])}$ for a parent of pure radiation"),
+    ("v4 abstract collapse exponent", f"$X_0\\propto\\ell_1^{{{d['p']:.2f}\\pm{d['sigma_p']:.2f}}}$"),
+    ("v4 no sections of changes", "ok" if all(x not in TEX for x in ("What changed since the first version", "Compared with earlier versions", "Relation to the Zenodo versions", "whale_zenodo")) else "MISMATCH"),
+]
+
+# 18 November 2026: the birth with a cuscuton (U57--U65)
+C57, C58, C59 = J("results", "u57b_cuscuton_fondo.json"), J("results", "u58b_cuscuton_inflacion.json"), J("results", "u59b_escalares_rebote.json")
+C58a = J("results", "u58_cuscuton_inflacion.json")
+C60, C61 = J("results", "u60_bianchi_cuscuton.json"), J("results", "u61b_cuscuton_huella.json")
+C62, C62b, C62e = J("results", "u62_bogoliubov_rebote.json"), J("results", "u62b_bogoliubov_fisico.json"), J("results", "u62e_cl_class.json")
+C63b, C64 = J("results", "u63b_gauge_unitario.json"), J("results", "u64_cubico_unitario.json")   # U63 stopped before writing a result file (INFORME_U63.md)
+C65 = J("results", "u65_tensores_vectores.json")
+_ad = C58["adopted"]; _mu, _m, _pi = _ad["mu"], _ad["m"], _ad["pinf"]
+_epsG = 3 * _mu ** 4 / (8 * _pi ** 2)
+_U0 = abs(_m ** 2 * (-_pi ** 2) - _m ** 4 * (math.exp(-_pi ** 2 / _m ** 2) - 1))
+_V0 = S2["pivot_rerun"]["V0"]["rerun"]
+_kids = [(float(k), v) for k, v in C57["table"]["eps_pequeno"].items()]
+_N = [x for _, v in _kids if v["n_kids"] for x in v["N"]]; _X = [x for _, v in _kids if v["n_kids"] for x in v["chi_land"]]
+_E = {int(k): v for k, v in C59["E"].items()}
+_dec = [max(v for n, v in _E.items() if lo <= n < 10 * lo) for lo in (1e3, 1e4, 1e5)]
+_def = [o for o in C62b["obs"] if o["status"] == "DEFINIDO"]
+_A2 = [(h["par"]["AH"], h["states"]["A2"]) for h in C62e["hosts"]]
+_dc = lambda AH: [s["dchi2_planck"] for a, s in _A2 if a == AH]
+_c2 = lambda AHs: [s["ratio"][0] for a, s in _A2 if a in AHs]
+_eps = [c["eps_star"] for c in C60["children"]]
+_r3 = max(p["rho3"] for h in C64["hosts"] for p in h["per_n"] if p["n"] <= 1e4)
+_Ft = {}
+for h in C65["hosts"]:
+    _Ft.setdefault(h["par"]["AH"] >= 1000, []).append(max(max(r["F_A1"], r["F_A2"]) for r in h["rows"] if r["ell"] <= 5))
+_lo, _hi = _Ft[False], _Ft[True]
+_nv = sum(v["vis"] for v in C61["per_AH"].values()); _nh = sum(v["n"] for v in C61["per_AH"].values())
+_r = lambda x, d=1: f"{x:.{d}f}"
+CHECKS += [
+    ("cus verdicts", "ok" if (C57["verdict"], C58["verdict"], C59["verdict"], C60["verdict"], C61["verdict"], C62["verdict"], C62b["verdict"], C62e["verdict"], C63b["verdict"], C64["verdict"], C65["verdict"])
+     == ("CUSCUTON_FERTIL", "CUSCUTON_COMPATIBLE", "ESCALARES_SANOS", "ANISOTROPIA_INOCUA", "HUELLA_POSIBLE", "REBOTE_EXCITA", "INCONCLUSO", "MIXTO", "INCONCLUSO", "INCONCLUSO", "TENSORES_CON_RASGOS") else "MISMATCH"),
+    ("cus params", f"$\\mu={_mu:.2f}$, $m={_m:.2f}$, $\\varphi_\\infty={_pi:.2f}$"),
+    ("cus U0", f"$|U(0)|={e(_U0)}$".replace("2.5\\times", "2.5\\times") if f"{_U0:.1e}" == "2.5e-05" else "MISMATCH"),
+    ("cus U0/V0", f"$|U(0)|\\approx{e(_U0 / _V0)}V_0$"),
+    ("cus AH min", f"parents with $AH\\ge{min(a for a, v in _kids if v['n_kids']):.0f}$ give children" if max(a for a, v in _kids if not v["n_kids"]) == 20 else "MISMATCH"),
+    ("cus N range", f"children of ${min(_N):.0f}$--${max(_N):.0f}$ e-folds that land at $\\chi={min(_X):.1f}$--${max(_X):.1f}\\,\\Mpl$"),
+    ("cus AH none", "and parents with $AH\\le20$ give none" if all(not v["n_kids"] for a, v in _kids if a <= 20) else "MISMATCH"),
+    ("cus epsG", f"\\varepsilon_G=3\\mu^4/(8\\varphi_\\infty^2)={_epsG:.4f}$" if abs(_epsG - C58["eps_G"]) < 1e-12 else "MISMATCH"),
+    ("cus G ratio", f"$G_{{\\rm cos}}/G_N=1/(1+\\varepsilon_G)={1 / (1 + _epsG):.3f}$"),
+    ("cus lambda", f"$\\lambda-1=-\\tfrac23\\varepsilon_G={C58['lambda_minus_1']:.4f}$"),
+    ("cus C1 eps", f"with $\\varepsilon_G={C58a['sets']['C1']['eps_G']:.3f}$, used in an exploratory run, is excluded" if "eps_G" in C58a["sets"]["C1"] else f"with $\\varepsilon_G={J('results', 'u57_cuscuton_fondo.json')['eps_G']['C1']:.3f}$, used in an exploratory run, is excluded"),
+    ("cus dn_s", f"$\\Delta n_s={e(C58['dn_s'])}$ and $\\Delta r/r=+{100 * C58['dr_rel']:.2f}\\%$ (\\textsc{{cuscuton\\_compatible}})"),
+    ("exact GR control", f"gives $n_s={C58['GR']['n_s']:.4f}$ and $r={C58['GR']['r']:.4f}$, ${e(C58['GR']['n_s'] - C58a['chain']['n_s'])}$ higher in $n_s$ ($+{(C58['GR']['n_s'] - 0.9649) / 0.0042:.1f}\\sigma$ and ${(C58['GR']['n_s'] - 0.9743) / 0.0034:.1f}\\sigma$) and ${100 * (1 - C58['GR']['r'] / C58a['chain']['r']):.1f}\\%$ lower in $r$"
+     if abs(C58a['chain']['n_s'] - ob['n_s']) < 1e-9 and abs(C58a['chain']['r'] - ob['r']) < 1e-9 else "MISMATCH"),
+    ("cus shift pivot", f"the cuscuton shifts $n_s$ by ${e(C58['dn_s'])}$ and $r$ by $+{100 * C58['dr_rel']:.2f}\\%$ relative to general relativity"),
+    ("cus dn_s pocket", f"they move by $\\Delta n_s={e(C58['dn_s'])}$ and $\\Delta r/r=+{100 * C58['dr_rel']:.2f}\\%$"),
+    ("cus H rescale", f"rescaled by ${100 * (1 - (1 + _epsG) ** -0.5):.1f}\\%$"),
+    ("cus U59b decades", f"Its maximum per decade is ${_dec[0]:.1f}$, ${_dec[1]:.1f}$ and ${_dec[2]:.1f}$ up to $n=3\\times10^5$" if max(_E) == 300000 and C59["min_K_ratio"] > 0 else "MISMATCH"),
+    ("cus n_mem", f"$n_{{\\rm mem}}={C61['n_mem_range'][0]:.0f}$--${C61['n_mem_range'][1]:.0f}$"),
+    ("cus f_vis", f"falls at $\\ell\\ge2$ for ${_nv}$ of the ${_nh}$ hosts of our observable universe in the grid (${100 * C61['fractions']['vis']:.0f}\\%$ with each parent size weighted equally" if C61["fractions"]["vis_desi"] == 0 and C61["fractions"]["excl_desi"] == 1 and _nh == C61["n_hosts"] else "MISMATCH"),
+    ("cus f_vis table", f"its scale reaches $\\ell\\ge2$ in ${_nv}$ of ${_nh}$ hosts with Planck's curvature"),
+    ("cus f_vis log", f"\\textsc{{huella\\_posible}} (${_nv}$ of ${_nh}$ hosts, ${100 * C61['fractions']['vis']:.0f}\\%$ with equal weight per parent size"),
+    ("cus N defined", f"at most ${max(o['N_chi'] for o in _def):.2f}$ quanta of $\\chi$ and ${max(o['N_rad'] for o in _def):.2f}$ of radiation"),
+    ("cus dchi2 low", f"($\\Delta\\chi^2={_r(_dc(30.0)[0])}$ and ${_r(_dc(100.0)[0])}$ relative to the same spectrum"),
+    ("cus C2 low", f"$C_2$ is ${_r(min(_c2((30.0, 100.0))))}$--${_r(max(_c2((30.0, 100.0))))}$ times the reference)"),
+    ("cus dchi2 high", f"($\\Delta\\chi^2={_r(_dc(1000.0)[0])}$ and ${_r(_dc(1000.0)[1])}$, $C_2$ is ${_r(min(_c2((1000.0,))))}$--${_r(max(_c2((1000.0,))))}$ times the reference)"),
+    ("cus dchi2 table", f"compatible with Planck in the tested cases $AH=30$ and $100$ ($\\Delta\\chi^2\\le{_r(max(_dc(30.0) + _dc(100.0)))}$)"),
+    ("cus C2 table", f"a quadrupole ${_r(min(_c2((1000.0,))))}$--${_r(max(_c2((1000.0,))))}$ times the reference ($AH=1000$)"),
+    ("cus U62e flags", "ok" if [h["compatible"] for h in C62e["hosts"]] == [True, True, False, False] and not any(h["excluded"] or h["preferred"] for h in C62e["hosts"]) else "MISMATCH"),
+    ("cus tensors", f"$P_t$ higher by ${_r(min(_lo))}$--${_r(max(_lo))}$ at $\\ell\\le5$ for $AH=30$--$100$ and by ${_r(min(_hi))}$--${max(_hi):.0f}$ for $AH=1000$"),
+    ("cus anisotropy hosts", f"All ${len(C60['children'])}$ hosts tolerate" if C60["f_rob"] == 1.0 else "MISMATCH"),
+    ("cus anisotropy table", f"all ${len(C60['children'])}$ hosts tolerate anisotropies above $\\zeta_0$"),
+    ("cus eps*", "$\\varepsilon_*=10^{-4}$--$3\\times10^{-3}$" if f"{min(_eps):.0e}" == "1e-04" and f"{max(_eps):.0e}" == "3e-03" else "MISMATCH"),
+    ("cus vorticity", f"$(a_t/a_b)^2={e(min(v['growth'] for v in C65['vectors']), 0)}$--${e(max(v['growth'] for v in C65['vectors']))}$, so the initial vorticity must be small, with a potential below ${e(min(v['max_initial_PhiV'] for v in C65['vectors']), 0)}$--${e(max(v['max_initial_PhiV'] for v in C65['vectors']))}$"),
+    ("cus rho3", f"by a ratio of at most ${_r3:.2f}$ for $n\\le10^4$" if max(p["n"] for h in C64["hosts"] for p in h["per_n"]) == 10000 else "MISMATCH"),
+]
+fails = 0
+for name, frag in CHECKS:
+    if frag == "SKIP":
+        print(f"SKIP {name}"); continue
+    ok = re.sub(r"\s+", " ", frag) in TEX
+    fails += not ok
+    print(("ok   " if ok else "FAIL ") + name + ("" if ok else f"   expected: {frag}"))
+print(f"{len(CHECKS)} checks, {fails} failures")
+sys.exit(1 if fails else 0)

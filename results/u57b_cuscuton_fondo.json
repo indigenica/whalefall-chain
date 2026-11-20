@@ -1,0 +1,305 @@
+{
+ "spec": "docs/preregistros/ESPEC_U57b.md",
+ "gates": {
+  "G0": true,
+  "G1": true,
+  "G2": true,
+  "G3": true
+ },
+ "G0_rel": {
+  "a": 2.0843993198127464e-11,
+  "chi": 7.328204709722286e-11,
+  "chi_dot": 5.137001934940599e-11
+ },
+ "G2_changed": [],
+ "valid_fraction": {
+  "C1": 0.787109375,
+  "eps_pequeno": 0.681640625
+ },
+ "n_kids": 57,
+ "n_edge": 0,
+ "AH_min_with_kids": {
+  "C1": 30.0,
+  "eps_pequeno": 30.0
+ },
+ "verdict": "CUSCUTON_FERTIL",
+ "table": {
+  "C1": {
+   "3": {
+    "classes": {
+     "SIN_INFLACION": 26,
+     "INFLACION_CORTA": 10,
+     "RAMA_ROTA": 28
+    },
+    "n_kids": 0,
+    "n_edge": 0,
+    "f_span_dex": 0.0,
+    "interval": false,
+    "chi_land": null,
+    "N": null
+   },
+   "10": {
+    "classes": {
+     "SIN_INFLACION": 6,
+     "INFLACION_CORTA": 28,
+     "RAMA_ROTA": 30
+    },
+    "n_kids": 0,
+    "n_edge": 0,
+    "f_span_dex": 0.0,
+    "interval": false,
+    "chi_land": null,
+    "N": null
+   },
+   "20": {
+    "classes": {
+     "SIN_INFLACION": 4,
+     "INFLACION_CORTA": 35,
+     "RAMA_ROTA": 25
+    },
+    "n_kids": 0,
+    "n_edge": 0,
+    "f_span_dex": 0.0,
+    "interval": false,
+    "chi_land": null,
+    "N": null
+   },
+   "30": {
+    "classes": {
+     "SIN_INFLACION": 3,
+     "INFLACION_CORTA": 44,
+     "HIJO": 2,
+     "RAMA_ROTA": 15
+    },
+    "n_kids": 2,
+    "n_edge": 0,
+    "f_span_dex": 0.06250000000000003,
+    "interval": false,
+    "chi_land": [
+     4.207142902609577,
+     4.234694357237887
+    ],
+    "N": [
+     62.619499534498594,
+     63.86207569189135
+    ]
+   },
+   "48": {
+    "classes": {
+     "SIN_INFLACION": 8,
+     "INFLACION_CORTA": 40,
+     "HIJO": 6,
+     "RAMA_ROTA": 10
+    },
+    "n_kids": 6,
+    "n_edge": 0,
+    "f_span_dex": 0.9375,
+    "interval": true,
+    "chi_land": [
+     4.193528652267505,
+     5.372200300605214
+    ],
+    "N": [
+     62.035005673124864,
+     131.12111698651555
+    ]
+   },
+   "100": {
+    "classes": {
+     "SIN_INFLACION": 7,
+     "INFLACION_CORTA": 40,
+     "HIJO": 15,
+     "RAMA_ROTA": 2
+    },
+    "n_kids": 15,
+    "n_edge": 0,
+    "f_span_dex": 1.0,
+    "interval": true,
+    "chi_land": [
+     4.211496463868247,
+     7.358537853983826
+    ],
+    "N": [
+     62.817045689915616,
+     340.7218815662336
+    ]
+   },
+   "300": {
+    "classes": {
+     "SIN_INFLACION": 20,
+     "INFLACION_CORTA": 34,
+     "HIJO": 10
+    },
+    "n_kids": 10,
+    "n_edge": 0,
+    "f_span_dex": 1.0625,
+    "interval": true,
+    "chi_land": [
+     4.212950677400116,
+     8.029813964640114
+    ],
+    "N": [
+     62.89063500919775,
+     444.1503691453282
+    ]
+   },
+   "1000": {
+    "classes": {
+     "SIN_INFLACION": 17,
+     "INFLACION_CORTA": 42,
+     "HIJO": 5
+    },
+    "n_kids": 5,
+    "n_edge": 0,
+    "f_span_dex": 0.8125,
+    "interval": true,
+    "chi_land": [
+     4.153371577761984,
+     7.00395040605753
+    ],
+    "N": [
+     60.246296049711475,
+     293.2503319277526
+    ]
+   }
+  },
+  "eps_pequeno": {
+   "3": {
+    "classes": {
+     "SIN_INFLACION": 18,
+     "INFLACION_CORTA": 15,
+     "RAMA_ROTA": 31
+    },
+    "n_kids": 0,
+    "n_edge": 0,
+    "f_span_dex": 0.0,
+    "interval": false,
+    "chi_land": null,
+    "N": null
+   },
+   "10": {
+    "classes": {
+     "SIN_INFLACION": 20,
+     "INFLACION_CORTA": 29,
+     "RAMA_ROTA": 15
+    },
+    "n_kids": 0,
+    "n_edge": 0,
+    "f_span_dex": 0.0,
+    "interval": false,
+    "chi_land": null,
+    "N": null
+   },
+   "20": {
+    "classes": {
+     "SIN_INFLACION": 9,
+     "INFLACION_CORTA": 41,
+     "RAMA_ROTA": 14
+    },
+    "n_kids": 0,
+    "n_edge": 0,
+    "f_span_dex": 0.0,
+    "interval": false,
+    "chi_land": null,
+    "N": null
+   },
+   "30": {
+    "classes": {
+     "SIN_INFLACION": 14,
+     "INFLACION_CORTA": 38,
+     "HIJO": 3,
+     "RAMA_ROTA": 9
+    },
+    "n_kids": 3,
+    "n_edge": 0,
+    "f_span_dex": 0.5000000000000001,
+    "interval": true,
+    "chi_land": [
+     4.1145351278536495,
+     4.401548424151315
+    ],
+    "N": [
+     61.275273215381304,
+     75.08807651845999
+    ]
+   },
+   "48": {
+    "classes": {
+     "SIN_INFLACION": 10,
+     "INFLACION_CORTA": 47,
+     "HIJO": 4,
+     "RAMA_ROTA": 3
+    },
+    "n_kids": 4,
+    "n_edge": 0,
+    "f_span_dex": 0.37500000000000006,
+    "interval": true,
+    "chi_land": [
+     4.327726934398738,
+     5.079956767939359
+    ],
+    "N": [
+     71.35311697854117,
+     115.77561924189631
+    ]
+   },
+   "100": {
+    "classes": {
+     "SIN_INFLACION": 15,
+     "INFLACION_CORTA": 42,
+     "HIJO": 7
+    },
+    "n_kids": 7,
+    "n_edge": 0,
+    "f_span_dex": 0.5,
+    "interval": true,
+    "chi_land": [
+     4.836093086510174,
+     6.505246460971039
+    ],
+    "N": [
+     99.77991158458434,
+     244.91522398500973
+    ]
+   },
+   "300": {
+    "classes": {
+     "SIN_INFLACION": 14,
+     "INFLACION_CORTA": 47,
+     "HIJO": 3
+    },
+    "n_kids": 3,
+    "n_edge": 0,
+    "f_span_dex": 0.18749999999999997,
+    "interval": true,
+    "chi_land": [
+     4.712481954011556,
+     5.519141787603731
+    ],
+    "N": [
+     92.27041543665497,
+     148.78750326274974
+    ]
+   },
+   "1000": {
+    "classes": {
+     "SIN_INFLACION": 20,
+     "INFLACION_CORTA": 42,
+     "HIJO": 2
+    },
+    "n_kids": 2,
+    "n_edge": 0,
+    "f_span_dex": 0.06250000000000003,
+    "interval": false,
+    "chi_land": [
+     4.218706761606912,
+     4.374527828113224
+    ],
+    "N": [
+     66.08732799203331,
+     73.7161358860828
+    ]
+   }
+  }
+ }
+}

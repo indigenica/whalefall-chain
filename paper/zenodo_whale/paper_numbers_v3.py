@@ -12,7 +12,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
-TEXNAME = os.environ.get("WHALEFALL_TEX", "main-v3.tex")      # main-arxiv.tex: see paper_numbers_arxiv.py
+TEXNAME = os.environ.get("WHALEFALL_TEX", "main-v3.tex")      # the checks of main-v4.tex are in paper_numbers_v4.py
 TEX = re.sub(r"\s+", " ", (HERE / TEXNAME).read_text())
 
 
@@ -322,19 +322,6 @@ CHECKS += [
     ("U55b window", "a landing within $\\lesssim0.02\\,\\Mpl$ of $\\chi\\approx4.1\\,\\Mpl$" if _win < 0.02 else "MISMATCH"),
     ("curvature 99.4", f"with $|\\Omega_K|<10^{{-3}}$ for ${100 * (1 - B55['f_excl'] - B55['f_curv']):.1f}\\%$ of the births"),
 ]
-
-# the arXiv edition (main-arxiv.tex): its abstract is shorter and the sections of changes are left out, so six checks of
-# main-v3.tex have no fragment there; they are replaced by the same numbers as the arXiv abstract writes them
-if TEXNAME == "main-arxiv.tex":
-    _gone = {"f_viable", "U28 abstract", "U28 abstract direct", "U33 abstract", "one bounce abstract", "one bounce abstract rad"}
-    CHECKS = [c for c in CHECKS if c[0] not in _gone]
-    CHECKS += [
-        ("arXiv abstract dust", f"are ${100 * vD['f_lo']:.0f}$--${100 * vD['f_hi']:.0f}\\%$ of fertile births with dust and an inhomogeneous inflaton"),
-        ("arXiv abstract radiation", f"and ${pc(aD['f'])}$ for a parent of pure radiation"),
-        ("arXiv abstract one bounce", f"are ${100 * urD['f_one_bounce_lo']:.0f}$--${100 * urD['f_one_bounce_hi']:.0f}\\%$ and ${pc(urR['f_one_bounce'])}$"),
-        ("arXiv abstract imprint", f"in all but ${e(B55['f_vis'])}$ of the births that can host us, and its one observable consequence"),
-        ("arXiv abstract gone", "ok" if all(x not in TEX for x in ("What changed since the first version", "Compared with earlier versions")) else "MISMATCH"),
-    ]
 
 fails = 0
 for name, frag in CHECKS:

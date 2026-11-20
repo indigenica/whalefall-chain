@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.2.0 — November 2026 (unreleased)
+
+Accompanies version 4 of the WHALEFALL preprint (`paper/zenodo_whale/main-v4.tex`), which adds a second realisation of
+the birth with Einstein gravity and a cuscuton and narrows the wording of several statements, without changing any
+result of version 3.
+
+- U57–U65: the cuscuton birth (background, inflation, linear scalars, anisotropy, curvature and imprint, Bogoliubov
+  coefficients, the CMB against Planck 2018, cubic order, tensors and vectors), with the specification, code, result
+  file and report of each test; `chain/explora_cuscuton.py`, the background integrator they import; the reference
+  result of the exploratory run C1 (`data/explorador/cuscuton_c1/`) and the Planck 2018 TT spectrum
+  (`data/planck2018/`). The intermediate rows of the long runs are not exported.
+- `paper_numbers_v4.py` and `figures/make_figures_v4.py` (fig_cuscuton); `make numbers` checks v4 and v3, and
+  `make paper` builds v4. Version 3 (`main-v3.tex`) stays.
+
 ## 1.1.0 — 26 October 2026
 
 Accompanies version 3 of the WHALEFALL preprint (`paper/zenodo_whale/main-v3.tex`), which adds the coherence of the birth.
