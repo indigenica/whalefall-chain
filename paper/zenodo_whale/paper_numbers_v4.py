@@ -402,6 +402,43 @@ CHECKS += [
     ("cus vorticity", f"$(a_t/a_b)^2={e(min(v['growth'] for v in C65['vectors']), 0)}$--${e(max(v['growth'] for v in C65['vectors']))}$, so the initial vorticity must be small, with a potential below ${e(min(v['max_initial_PhiV'] for v in C65['vectors']), 0)}$--${e(max(v['max_initial_PhiV'] for v in C65['vectors']))}$"),
     ("cus rho3", f"by a ratio of at most ${_r3:.2f}$ for $n\\le10^4$" if max(p["n"] for h in C64["hosts"] for p in h["per_n"]) == 10000 else "MISMATCH"),
 ]
+# v4.1 (22 Nov 2026): the exit of the cuscuton children (U66, U66b), the network before radiation domination (U67, U67b)
+# and the non-degenerate breaking (U68, U68b)
+C66, C66b = J("results", "u66_salida_caliente.json"), J("results", "u66b_salida_caliente.json")
+C67c, C67b = J("network", "results", "u67", "U67_CHECKS.json"), J("network", "results", "u67b", "U67B_RESULT.json")
+C67 = J("network", "results", "u67", "U67_RESULT.json"); C68 = J("network", "results", "u68", "U68_RESULT.json")
+_s1, _s01 = C66b["summary"]["1"]["eps_pequeno"], C66b["summary"]["0.1"]["eps_pequeno"]
+_fl = lambda x: f"{math.floor(x * 10) / 10:.1f}"
+_D67 = [-C67b["D"][k] for k in ("MDA2", "MDA3")]
+_sc67 = [1.1 / math.log(C67b["D_of_ell"][k]["3"] / C67b["D_of_ell"][k]["4.1"]) for k in ("MDA2", "MDA3")]
+_g68 = C68["informative"]["GEN"]
+CHECKS += [
+    ("U66 verdicts", "ok" if C66["verdict"] == "INCONCLUSO" and C66b["verdict"] == "SALIDA_CALIENTE" and _s1["n_hot"] == _s1["n"] and _s01["n_hot"] == _s01["n"] else "MISMATCH"),
+    ("U66b exit", f"Following the ${_s1['n']}$ children of the background grid through $25$ exact turns of $\\chi$"),
+    ("U66b margin", f"$(2/3)\\rho_ra^2\\ge10^{{{_fl(_s1['M_turn1_min'])}}}$ ($\\ge10^{{{_fl(_s01['M_turn1_min'])}}}$ with a friction ten times smaller"),
+    ("U66b margin log", f"\\textsc{{salida\\_caliente}} (margin $\\ge10^{{{_fl(_s01['M_turn1_min'])}}}$)"),
+    ("U66b margin open", f"hot by more than ${math.floor(_s01['M_turn1_min'])}$ orders of magnitude"),
+    ("U66b dN", f"by at most ${e(_s1['dN_max'], 0)}$"),
+    ("U66 future", f"no sooner than ${math.floor(C66['summary']['eps_pequeno']['future_efolds_min'])}$ e-folds from today"),
+    ("U67 verdicts", "ok" if C67["verdict"] == "INCONCLUSO" and C67b["verdict"] == "RECUERDA" else "MISMATCH"),
+    ("U67b deficit", f"with ${round(100 * _D67[0])}$--${round(100 * _D67[1])}\\%$ fewer strings than a radiation-era network at $\\ell={C67b['ell_c']:.1f}$"),
+    ("U67b scale", f"closes on a scale of $\\approx{round(_sc67[0])}$--${round(_sc67[1])}$ units of $\\ell$"),
+    ("U67b log", f"${round(100 * _D67[0])}$--${round(100 * _D67[1])}\\%$ fewer strings at $\\ell={C67b['ell_c']:.1f}$, closing over $\\approx{round(_sc67[0])}$--${round(_sc67[1])}$ units"),
+    ("U67 tachyon", f"($m^2={max(C67c['m2_traceless']):.3f}$ against $m_r^2=0.24$)"),
+    ("U67b Xu", f"a deficit of $50\\%$ in the string density moves $\\Xu$ by $\\approx{round(100 * d['strings_term'] * 0.5 / d['X_univ'])}\\%$" if round(100 * _D67[1]) == 50 else "MISMATCH"),
+    ("U68 verdicts", "ok" if C68["verdict"] == "IGUAL" and all(C68["gates"].values()) and _g68["f_light"][0] > _g68["f_light_IND"] else "MISMATCH"),
+    ("U68b D", f"leaves the soft quanta of the collapse ${round(-100 * C68['D'])}\\pm{round(100 * C68['sigma'])}\\%$ slower"),
+    ("U68b f_light", f"puts ${round(100 * _g68['f_light'][0])}\\%$ of them in the lightest Goldstone, against ${round(100 * _g68['f_light_IND'])}\\%$ for independent species"),
+    ("U68b log", f"soft quanta ${round(-100 * C68['D'])}\\pm{round(100 * C68['sigma'])}\\%$ slower; ${round(100 * _g68['f_light'][0])}\\%$ in the lightest Goldstone"),
+]
+# v4.1: the ultraviolet constraints on m_G (exploratory, chain/explora_uv_mg_modelo.py)
+CUV = J("results", "explora_uv_mg_modelo.json")
+_ndw = [v["N_DW"] for k, v in CUV["P2"].items() if v["N_DW"] is not None]
+CHECKS += [
+    ("UV discrete degree", f"already allows an ${{\\rm O}}(4)$-breaking invariant of degree at most ${CUV['P1']['lowest_Q_degree_per_pair_max']}$ in $Q$ (${CUV['P1']['bound_with_improper_elements_Q_degree']}$ if it contains reflections)"),
+    ("UV vacua", f"(at least ${min(v['vacua_on_RP3'] for v in CUV['P2'].values())}$ vacua on $\\RP$ in the cases we computed)"),
+    ("UV N_DW=1 generic", "ok" if CUV["P3"]["unique_minimum_on_RP3"] else "MISMATCH"),
+]
 fails = 0
 for name, frag in CHECKS:
     if frag == "SKIP":

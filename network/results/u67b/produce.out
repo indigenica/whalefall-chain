@@ -1,0 +1,11 @@
+START 2026-11-21 15:48:17 threads=4
+DONE RP3_N192_MDA2_s101.json 202s xi_end=0.564 gap_end=0.989 plaq_end=4520
+DONE RP3_N192_MDA3_s101.json 208s xi_end=0.394 gap_end=0.989 plaq_end=4492
+DONE RP3_N192_MDO2_s101.json 216s xi_end=0.862 gap_end=0.984 plaq_end=6906
+DONE RP3_N192_MDA2_s102.json 199s xi_end=0.553 gap_end=0.989 plaq_end=4430
+DONE RP3_N192_MDA3_s102.json 205s xi_end=0.384 gap_end=0.990 plaq_end=4384
+DONE RP3_N192_MDO2_s102.json 234s xi_end=0.866 gap_end=0.983 plaq_end=6940
+DONE RP3_N192_MDA2_s103.json 194s xi_end=0.449 gap_end=0.991 plaq_end=3598
+DONE RP3_N192_MDA3_s103.json 195s xi_end=0.338 gap_end=0.991 plaq_end=3854
+DONE RP3_N192_MDO2_s103.json 215s xi_end=0.817 gap_end=0.984 plaq_end=6546
+END 2026-11-21 16:20:45

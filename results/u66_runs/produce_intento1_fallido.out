@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/user/whalefall/chain/u66_salida_caliente.py", line 203, in <module>
+    main()
+    ~~~~^^
+  File "/home/user/whalefall/chain/u66_salida_caliente.py", line 198, in main
+    (ROOT / "results" / "u66_salida_caliente.json").write_text(json.dumps(out, indent=1))
+                                                               ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/json/__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "/usr/local/lib/python3.13/json/encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.13/json/encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.13/json/encoder.py", line 182, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type int64 is not JSON serializable

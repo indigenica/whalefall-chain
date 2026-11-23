@@ -1,0 +1,306 @@
+{
+ "note": "docs/informes/NOTA_UV_MG_MODELO.md",
+ "P1": {
+  "groups": {
+   "C2": {
+    "order": 2,
+    "spins_with_invariants": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "lowest_j": 1
+   },
+   "C3": {
+    "order": 3,
+    "spins_with_invariants": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "lowest_j": 1
+   },
+   "C4": {
+    "order": 4,
+    "spins_with_invariants": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "lowest_j": 1
+   },
+   "C6": {
+    "order": 6,
+    "spins_with_invariants": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "lowest_j": 1
+   },
+   "C12": {
+    "order": 12,
+    "spins_with_invariants": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "lowest_j": 1
+   },
+   "D2": {
+    "order": 4,
+    "spins_with_invariants": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "lowest_j": 2
+   },
+   "D3": {
+    "order": 6,
+    "spins_with_invariants": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "lowest_j": 2
+   },
+   "D4": {
+    "order": 8,
+    "spins_with_invariants": [
+     2,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "lowest_j": 2
+   },
+   "D6": {
+    "order": 12,
+    "spins_with_invariants": [
+     2,
+     4,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    "lowest_j": 2
+   },
+   "D12": {
+    "order": 24,
+    "spins_with_invariants": [
+     2,
+     4,
+     6,
+     8,
+     10,
+     12,
+     13,
+     14
+    ],
+    "lowest_j": 2
+   },
+   "T": {
+    "order": 12,
+    "spins_with_invariants": [
+     3,
+     4,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    "lowest_j": 3
+   },
+   "O": {
+    "order": 24,
+    "spins_with_invariants": [
+     4,
+     6,
+     8,
+     9,
+     10,
+     12,
+     13,
+     14
+    ],
+    "lowest_j": 4
+   },
+   "I": {
+    "order": 60,
+    "spins_with_invariants": [
+     6,
+     10,
+     12,
+     15,
+     16,
+     18,
+     20,
+     21
+    ],
+    "lowest_j": 6
+   }
+  },
+  "lowest_Q_degree_per_pair_max": 6,
+  "pair_achieving_max": [
+   "C2xI",
+   "C3xI",
+   "C4xI",
+   "C6xI",
+   "C12xI",
+   "D2xI",
+   "D3xI",
+   "D4xI",
+   "D6xI",
+   "D12xI",
+   "TxI",
+   "OxI",
+   "IxI"
+  ],
+  "note": "Q-degree of the lowest O(4)-breaking invariant = lowest common j; n-degree is twice that",
+  "bound_with_improper_elements_Q_degree": 12,
+  "dimension_if_Q_elementary": 6,
+  "dimension_if_improper_kills_degree12": 12
+ },
+ "P2": {
+  "2T_deg6_+P": {
+   "group_order": 24,
+   "degenerate_minima_on_S3": 24,
+   "vacua_on_RP3": 12,
+   "nearest_angle_deg": 59.999999999999375,
+   "N_DW": 3
+  },
+  "2T_deg6_-P": {
+   "group_order": 24,
+   "degenerate_minima_on_S3": 24,
+   "vacua_on_RP3": 12,
+   "nearest_angle_deg": 59.9999999999993,
+   "N_DW": 3
+  },
+  "2O_deg8_+P": {
+   "group_order": 48,
+   "degenerate_minima_on_S3": 192,
+   "vacua_on_RP3": 96,
+   "nearest_angle_deg": 19.471220634384306,
+   "N_DW": 12
+  },
+  "2O_deg8_-P": {
+   "group_order": 48,
+   "degenerate_minima_on_S3": 48,
+   "vacua_on_RP3": 24,
+   "nearest_angle_deg": 44.99999999999923,
+   "N_DW": 4
+  },
+  "2I_deg12_+P": {
+   "group_order": 120,
+   "degenerate_minima_on_S3": 599,
+   "vacua_on_RP3": 299,
+   "nearest_angle_deg": 15.307120917202266,
+   "N_DW": 15
+  },
+  "2I_deg12_-P": {
+   "group_order": 120,
+   "degenerate_minima_on_S3": 120,
+   "vacua_on_RP3": 60,
+   "nearest_angle_deg": 35.99999972120588,
+   "N_DW": 5
+  }
+ },
+ "P3": {
+  "samples": 200000,
+  "ensemble": "GOE 4x4 (traceless part irrelevant)",
+  "ratio_median": 1.7308759598752177,
+  "ratio_quantiles": {
+   "0.1": 1.3476760001998747,
+   "0.25": 1.4929234932109963,
+   "0.5": 1.7308759598752177,
+   "0.75": 2.104574207359549,
+   "0.9": 2.648870954380923
+  },
+  "frac_ratio_le_2": 0.69763,
+  "frac_ratio_le_3": 0.939385,
+  "frac_ratio_ge_10": 0.000415,
+  "unique_minimum_on_RP3": true
+ },
+ "P4": {
+  "baryon_like": {
+   "N_c=12": 18.0,
+   "N_c=13": 19.5,
+   "N_c=14": 21.0,
+   "N_c=15": 22.5,
+   "N_c=16": 24.0,
+   "N_c=17": 25.5,
+   "N_c=18": 27.0
+  },
+  "conformal_Q": {
+   "Delta_Q=2": {
+    "k=1": 2,
+    "k=2": 4,
+    "k=6": 12
+   },
+   "Delta_Q=3": {
+    "k=1": 3,
+    "k=2": 6,
+    "k=6": 18
+   },
+   "Delta_Q=4": {
+    "k=1": 4,
+    "k=2": 8,
+    "k=6": 24
+   },
+   "Delta_Q=5": {
+    "k=1": 5,
+    "k=2": 10,
+    "k=6": 30
+   }
+  },
+  "window": [
+   19.8,
+   26.3
+  ]
+ }
+}
