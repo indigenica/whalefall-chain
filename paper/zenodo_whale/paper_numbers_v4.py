@@ -267,12 +267,12 @@ CHECKS += [
 ]
 
 _lk = TG["charge_locked"]
-CHECKS.append(("triplet locked", "on average $2/3$ of such a cloud is locked by its charge and never annihilates"
+CHECKS.append(("triplet locked", "on average $2/3$ of such a cloud is locked by its charge and cannot annihilate into gravitons"
                if abs(_lk["mean_Q_over_N"] - 2 / 3) < 0.005 and _lk["lagrange_max_err"] < 1e-12 else "MISMATCH"))
 CHECKS.append(("table locked", "leaving $2/3$ of the cloud locked by its ${\\rm O}(3)$ charge" if abs(_lk["mean_Q_over_N"] - 2 / 3) < 0.005 else "MISMATCH"))
 
 _tc = TG["toy_cloud"]
-CHECKS.append(("triplet exact and toy", "on average $2/3$ of such a cloud is locked by its charge and never annihilates"
+CHECKS.append(("triplet exact and toy", "on average $2/3$ of such a cloud is locked by its charge and cannot annihilate into gravitons"
                if TG["exact"]["mean_Q_over_N"] == 2 / 3 and all(x["Q_drift_after_growth"] < 1e-8 and abs(x["N_end_over_Q"] - 1) < 1e-10 for x in _tc) else "MISMATCH"))
 
 # version 3.3 (10 November 2026): the eras of the network, recomputed here from exported results only (the internal assembler is
@@ -332,7 +332,7 @@ CHECKS += [
 _gone = {"f_viable", "U28 abstract", "U28 abstract direct", "U33 abstract", "one bounce abstract", "one bounce abstract rad"}
 CHECKS = [c for c in CHECKS if c[0] not in _gone]
 CHECKS += [
-    ("v4 abstract one bounce", f"are ${100 * urD['f_one_bounce_lo']:.0f}$--${100 * urD['f_one_bounce_hi']:.0f}\\%$ of fertile births with dust and an inhomogeneous inflaton and ${pc(urR['f_one_bounce'])}$ for a parent of pure radiation"),
+    ("v4 abstract one bounce", f"are ${100 * urD['f_one_bounce_lo']:.0f}$--${100 * urD['f_one_bounce_hi']:.0f}\\%$ of fertile births with dust and an inhomogeneous inflaton and, in an independent linear re-implementation after four inconclusive tests, ${pc(urR['f_one_bounce'])}$ for a parent of pure radiation"),
     ("v4 abstract collapse exponent", f"$X_0\\propto\\ell_1^{{{d['p']:.2f}\\pm{d['sigma_p']:.2f}}}$"),
     ("v4 no sections of changes", "ok" if all(x not in TEX for x in ("What changed since the first version", "Compared with earlier versions", "Relation to the Zenodo versions", "whale_zenodo")) else "MISMATCH"),
 ]
@@ -435,9 +435,23 @@ CHECKS += [
 CUV = J("results", "explora_uv_mg_modelo.json")
 _ndw = [v["N_DW"] for k, v in CUV["P2"].items() if v["N_DW"] is not None]
 CHECKS += [
-    ("UV discrete degree", f"already allows an ${{\\rm O}}(4)$-breaking invariant of degree at most ${CUV['P1']['lowest_Q_degree_per_pair_max']}$ in $Q$ (${CUV['P1']['bound_with_improper_elements_Q_degree']}$ if it contains reflections)"),
+    ("UV discrete degree", f"already allows, by the invariants of the finite subgroups of ${{\\rm SU}}(2)$~\\cite{{ConwaySmith2003}}, an ${{\\rm O}}(4)$-breaking invariant of degree at most ${CUV['P1']['lowest_Q_degree_per_pair_max']}$ in $Q$ (${CUV['P1']['bound_with_improper_elements_Q_degree']}$ if it contains reflections)"),
     ("UV vacua", f"(at least ${min(v['vacua_on_RP3'] for v in CUV['P2'].values())}$ vacua on $\\RP$ in the cases we computed)"),
     ("UV N_DW=1 generic", "ok" if CUV["P3"]["unique_minimum_on_RP3"] else "MISMATCH"),
+]
+# v4.1 (25 Nov 2026): a sparse network closes its deficit (U67c) and the wormholes of Q in the NPQT realisation (U70)
+C67cc = J("network", "results", "u67c", "U67C_RESULT.json"); C70 = J("results", "u70", "U70_RESULT.json")
+_f67c, _x67c = C67cc["fit"], C67cc["extrapolation"]
+_s70 = C70["S_min"]["300"]; _sr70 = sorted(C70["S_required"].values())
+_gr70 = C70["informative"]["0_D"]["S_min"]
+CHECKS += [
+    ("U67c verdict", "ok" if C67cc["verdict"] == "OLVIDA" and all(g["passed"] for g in C67cc["gates"].values()) else "MISMATCH"),
+    ("U67c rate", f"closes its deficit with a scale of ${_f67c['tau_ell']:.1f}\\pm{_f67c['sigma_tau_ell']:.1f}$ units of $\\ell$, which, extrapolated, leaves at most ${math.ceil(100 * max(_x67c['D80_pot_pess'], _x67c['D80_exp_pess']))}\\%$ at the collapse"),
+    ("U67c log", f"deficit closing on ${_f67c['tau_ell']:.1f}\\pm{_f67c['sigma_tau_ell']:.1f}$ units of $\\ell$; at most ${math.ceil(100 * max(_x67c['D80_pot_pess'], _x67c['D80_exp_pess']))}\\%$ left at the collapse"),
+    ("U70 no dynamical NPQT", "ok" if all(C70["informative"][f"{l}_D"]["n_rows_with_throat"] == 0 for l in ("300", "1000", "2000")) else "MISMATCH"),
+    ("U70 verdict", "ok" if C70["verdict"] == "PROTEGE" and all(g["passed"] for g in C70["gates"].values()) else "MISMATCH"),
+    ("U70 text", f"finds no charged solution with a dynamical radial mode, and the frozen-radial ones have $S\\ge{math.floor(_s70 / 1e6)}\\times10^{{6}}$ for $\\ell_{{\\rm QT}}\\ge300\\,\\ell_{{\\rm P}}$, against $S\\approx{round(_sr70[0], -1):.0f}$--${round(_sr70[-1], -1):.0f}$ needed"),
+    ("U70 log", f"$S_{{\\min}}={_s70 / 1e6:.1f}\\times10^{{6}}$ at $\\ell_{{\\rm QT}}=300\\,\\ell_{{\\rm P}}$, against $\\approx{round(_sr70[-1], -1):.0f}$ needed; in Einstein gravity $S\\approx{_gr70:.1f}\\,n$"),
 ]
 fails = 0
 for name, frag in CHECKS:
